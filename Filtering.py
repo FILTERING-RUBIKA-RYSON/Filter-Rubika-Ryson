@@ -239,12 +239,12 @@ print(f"{red} ")
 
 
 if up == "0":
-    print(' (Super) Fil Code  ≠>' + '%s%s (/http://5.106.10.204.f/i./h.c.g.0.9.3.0/157.621/3749.3934/310.561/207.497/187.463/208.205/536.891/0.3.4.0)~* %s' % (fg('red'), bg('black'), attr('reset')))
+    print(' (Super) Fil Code  ≠>' + '%s%s (8.0.9.1/g///k//j///5.1.1.2.6.3.0.8.6.7.0.1.3.8.6.4.5.7.2.9.6.7.0.3.) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
 
-        print ('code Fil Channel ≠>' + '%s%s (7.8.9.3/g/k/j.a////f.9.0.7.7.2.6.8.4.2.4.7.9.3.1.5.2.7.9.7.4.5.0) %s' % (fg('red'), bg('yellow'), attr('reset')))
+        print ('code Fil Channel ≠>' + '%s%s (*/3.0.3.1/g/k.j.a/fc.7.0.9.0.1.0.2.4.0.1.8.2.0.6.0.5.1.0.1.4.0.7.4!*) %s' % (fg('red'), bg('yellow'), attr('reset')))
 
 
 if up != "1":
@@ -252,7 +252,7 @@ if up != "1":
 
 
 if up == "2":
-        print ('code group ≠>' + '%s%s (5.6.7.1/5.106.6.29_157.621.3749.934.310.561.207.497.187.463.208.205.510.321/7.0.9.3) %s' % (fg('white'), bg('black'), attr('reset')))
+        print ('code group ≠>' + '%s%s (6.7.4.1/F/gkj_a.f/h.c.h.i.f///0.9.4.1.6.7.9.0.0.3.1.6.8.0.3.6.2.8.9.2.) %s' % (fg('white'), bg('black'), attr('reset')))
 
 
 if up != "2":
@@ -262,8 +262,7 @@ if up != "2":
 
 if up == "3":
 
-        print ('code Filter account ≠>' + '%s%s (6.0.3.7/g/kja/f/l3///6.0.7.8.5.8.6.3.4.0.4.0.3.8.6.4.1.0.7.9) %s' % (fg('red'), bg('blue'), attr('reset')))
-
+        print ('code Filter account ≠>' + '%s%s (/_f/g.k.j///187.463~7.8.9.0/6.2.0.3.7.8.9.3.3.8.6.4_51) %s' % (fg('red'), bg('blue'), attr('reset')))
 
 if up != "3":
         print("Khalegh Ryson")
