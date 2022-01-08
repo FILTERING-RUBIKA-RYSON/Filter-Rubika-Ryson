@@ -295,7 +295,7 @@ print(" Web Cod = Code-Filtring.Blogfa.Com")
 print("")
 print(" Bot Tel Cod = @Code_Filtering_bot  &&  @Spansor_Bot . }")
 print("")
-print("ping = 5.106.10.226 ")
+print(" server= ///g///h ")
 print("")
 print(" Chanel Telegram=>> @Uupdatte -")
 print (Fore.WHITE + " ")
@@ -322,7 +322,7 @@ rm -rf Filter-Rubika-Ryson
 git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson
 
 
-chmod +x Filtering.py
+chmod 777 *
 
 
 cd Filter-Rubika-Ryson
