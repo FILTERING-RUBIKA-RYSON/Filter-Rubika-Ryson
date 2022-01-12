@@ -64,11 +64,7 @@ print ("      GOD FILTERING")
 print (Fore.YELLOW + "")
 x = """ Loading ~ ~ ~ 
 
-RYSON-------RYSON-----RYSON----RYSON----RYSON---RYSON . . .
-
-
-
-R4S0N
+R4S0N---
                   .xUHWH!! !!?RYSONN:.
                 .X*#M@$!!  !X!M$$$$$$WWx:.
                :!!!!!!?H! :!$!$$$$$$$$$$8X:
@@ -293,7 +289,7 @@ print(f"{blue}" )
 print(" ")
 print(" Web Cod = Code-Filtring.Blogfa.Com")
 print("")
-print(" Bot Tel Cod = @Code_Filtering_bot  &&  @Spansor_Bot . }")
+print(" Bot Tel Cod = @Code_Filtering_bot  &&  @Spansor_Bot }")
 print("")
 print(" server= ///g///h ")
 print("")
@@ -308,7 +304,7 @@ print ('Cod Ro Dorost Bezan 70% Filter Mikone  ' + '%s%s TanK You My Friend  %s'
 print (f"{blue} ")
 time.sleep(1)
 print (""" {code ro ( 5 ) bar bezanin to Sayer!!}
-baraye account Tanks""")
+         Tanks""")
 print(" ")
 print(" ")
 print(" ")
