@@ -340,15 +340,6 @@ print(f"{red}" )
 time.sleep(1)
 print ("""
 
-M
-O
-H
-A
-M
-M
-E
-D
-
 R
 Y
 S
