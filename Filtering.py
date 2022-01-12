@@ -202,13 +202,13 @@ print ("")
 # 1 chanel 2 Group 3 acc
 up = input(""" 
 
-[Chanel  (1) ]
+[Chanel  (1) ] !
 
-[Grup    (2) ]
+[Grup    (2) ] !
                  
-[Account (3) ]
+[Account (3) ] !
                   
-[Super   (0) ]
+[Super   (0) ] !
 
 [Exit    (4) ]
 
