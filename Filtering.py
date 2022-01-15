@@ -213,6 +213,8 @@ up = input("""
 
 [reporter (7) ]
 
+[sMs bOmb (8) ]
+
 Which do you want>>> """)
 print("")
 print(f"{pink} ")
@@ -236,6 +238,8 @@ ____________ Ch: @Caetorr________
 """)
 print(f"{red} ")
 
+if up == "8":
+    os.system("python sms.py")
 if up == "7":
     os.system("python rep.py")
 if up == "6":
@@ -243,7 +247,7 @@ if up == "6":
 if up == "5":
     os.system("python pass.py")
 if up == "4":
-    os.system("exit 5")
+    os.system("exit 8")
     
 if up == "0":
          print ('(Super) Code filter =>' + '%s%s (6.0.3.5/g/d//4.1.5.4.4.7.5.0.6.0.1.7.4.0.3.4.7.8.2.4.187/) %s' % (fg('red'), bg('black'), attr('reset')))
