@@ -212,7 +212,7 @@ up = input("""
 
 [Code Rp (6) ]
 
-[sms bmb (7) ]
+[reporter(7) ]
 
 Which do you want>>>""")
 print("")
@@ -252,7 +252,7 @@ if up == "0":
 
 if up == "1":
 
-        print ('code Fil Channel ≠>' + '%s%s (5.0.6.5/e/f.g////8.0.7.4.0.8.9.2.0.9.1.5.1.1.2.6.0.9.2) %s' % (fg('red'), bg('yellow'), attr('reset')))
+        print ('code Fil Channel ≠>' + '%s%s (5.0.6.5/f/g.h////8.0.7.4.0.8.9.2.0.9.1.5.1.1.2.6.0.9.2) %s' % (fg('red'), bg('yellow'), attr('reset')))
 
 
 if up != "1":
