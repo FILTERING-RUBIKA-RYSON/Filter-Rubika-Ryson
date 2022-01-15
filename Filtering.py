@@ -72,8 +72,8 @@ R4S0N---
              :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
              ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
                !:~~~ .:!M"T#$$$$WX??#MRMMDM!
-               ~?WuxiW*   "#$$$$8!!!!??!!!                                   :X- M$$$$       "T#$T~!8$WUXU~
-            :%  ~#$$$m:        ~!~ ?$$$$$$
+                 ~?WuxiW*   "#$$$$8!!!!??!!!                                   :X- M$$$$       "T#$T~!8$WUXU~
+             :%  ~#$$$m:        ~!~ ?$$$$$$
           :!.-   ~T$$$$8xx.  .xWW- ~""##*"
 .....   -~~:< !    ~?T#$$@@W@*?$$      /
 W$@@M!!! .!~~ !!     .:XUW$W!~ "~:    :
@@ -107,7 +107,7 @@ Manufacturer- ryson
 
                             RYS0N
          GOD FILTERING RUBIKA MMD RYSON 
-/~MMD ~> ryson /-/-/-/-/
+/~MMD ~> ryson /-/-/
 
                     CODE FILTERI RUBIKA
              MOHAMD RYSON 💗
@@ -134,7 +134,7 @@ time.sleep(1.7)
 print ("                       RUBIKA Fil - @Conquest_Rayson IM MOHAMD")
 print("                      RUBIKA= off -- @Spansor")
 print ("                telegram on- @Creator_Ryson")
-print ("             WebLog ghavanin : Rules-rayson.Blogfa.com ")
+print ("             WebLog ghavanin : Law-Ryson.Blogfa.com ")
 print(f"{blue} ")
 time.sleep(1.0)
 print ("!!")
@@ -197,23 +197,23 @@ print ("")
 # 1 chanel 2 Group 3 acc
 up = input(""" 
 
-[Chanel  (1) ] !
+[Chanel   (1) ]  !
 
-[Grup    (2) ] !
+[Grup     (2) ]  !
                  
-[Account (3) ] !
+[Account  (3) ]  !
                   
-[Super   (0) ] !
+[Super    (0) ]  !
 
-[Exit    (4) ]
+[Exit     (4) ]
 
-[Code Pd (5) ]
+[Code Pd  (5) ]
 
-[Code Rp (6) ]
+[Code Rp  (6) ]
 
-[reporter(7) ]
+[reporter (7) ]
 
-Which do you want>>>""")
+Which do you want>>> """)
 print("")
 print(f"{pink} ")
 time.sleep(3.0)
@@ -230,9 +230,9 @@ Loading . . . .
 
                       🇴‌🇵‌🇪‌🇳‌ - 🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌
     
-|||||Web: law-ryson.Blogfa.Com||||
-|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|
-____________ Ch: @Caetorr___________
+||Web: creator-rayson.blogfa.com||
+|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|
+____________ Ch: @Caetorr________
 """)
 print(f"{red} ")
 
@@ -259,7 +259,7 @@ if up != "1":
 
 
 if up == "2":
-        print ('code Filter group ≠>' + '%s%s (3.6.5.8/f///g.h.5.6.0.1.5.9.0.1.5.8.0.1.4.7.5.0.6.2.9.0.4.7.5.5) %s' % (fg('white'), bg('black'), attr('reset')))
+        print ('code Filter group ≠>' + '%s%s (3.6.5.8///g///h.5.6.0.1.5.9.0.1.5.8.0.1.4.7.5.0.6.2.9.0.4.7.5.5) %s' % (fg('white'), bg('black'), attr('reset')))
 
 
 if up != "2":
@@ -328,13 +328,12 @@ python Filtering.py
 """)
 print("")
 print("")
-print("         < MMD RYSON /> ❤️❤️")
+print("         < MMD RYSON /> ❤️")
 print ("")
 time.sleep(0.3)
 print(f"{red}" )
 time.sleep(1)
 print ("""
-
 R
 Y
 S
