@@ -237,7 +237,7 @@ ____________ Ch: @Caetorr___________
 print(f"{red} ")
 
 if up == "7":
-    os.system("python sms.py")
+    os.system("python rep.py")
 if up == "6":
     os.system("python report.py")
 if up == "5":
