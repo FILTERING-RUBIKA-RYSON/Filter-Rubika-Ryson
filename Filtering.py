@@ -345,7 +345,7 @@ O
 N
 """)
 print("")
-print (Fore.GREEN + "")
-x = """ #666 Super Script 
-              Finished Code Bye """
-
+print (Fore.GREEN + """ 
+           #666 Super Script 
+                 Finished Code """)
+     
