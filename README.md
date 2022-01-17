@@ -15,15 +15,21 @@ Super Script
 
 `rm -rf Filter-Rubika-Ryson`
 
+
 `rm -rf Filtering.py`
+
 
 `git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson`
 
-  `cd Filter-Rubika-Ryson`
 
-   `chmod  777 *`
 
-   `python Filtering.py`
+`cd Filter-Rubika-Ryson`
+
+
+`chmod  777 *`
+
+
+`python Filtering.py`
 
 
 # ID rubika= rubika.ir/Spansor
