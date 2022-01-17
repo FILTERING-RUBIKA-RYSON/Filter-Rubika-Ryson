@@ -25,9 +25,9 @@ print()
 def random_string_genera_variable_size(min_size, max_size, allowed_chars):
   return ''.join(random.choice(allowed_chars) for x in range(randint(min_size, max_size)))
 chars = string.ascii_letters + string.punctuation
-print(Fore.GREEN+"    "+"{"+"_"*30+"}")
-print("     "+Fore.YELLOW+'Code Account >> ', random_string_genera_variable_size(12, 24, chars))
-print(Fore.GREEN+"    "+"{"+"_"*30+"}")
+print(Fore.GREEN+"    "+"\"+"_"*30+"\")
+print("     "+Fore.YELLOW+'Code Account >> ', random_string_genera_variable_size(6, 24, chars))
+print(Fore.GREEN+"    "+"|"+"_"*30+"|")
 print()
 sleep(1.0)
 print(Fore.GREEN+""" OK """)
