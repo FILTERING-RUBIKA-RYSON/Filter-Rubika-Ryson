@@ -72,7 +72,7 @@ R4S0N---
              :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
              ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
                !:~~~ .:!M"T#$$$$WX??#MRMMDM!
-                 ~?WuxiW*   "#$$$$8!!!!??!!!                                   :X- M$$$$       "T#$T~!8$WUXU~
+              ~?WuxiW*   "#$$$$8!!!!??!!!                                   :X- M$$$$       "T#$T~!8$WUXU~
              :%  ~#$$$m:        ~!~ ?$$$$$$
           :!.-   ~T$$$$8xx.  .xWW- ~""##*"
 .....   -~~:< !    ~?T#$$@@W@*?$$      /
@@ -345,4 +345,7 @@ O
 N
 """)
 print("")
-print (Fore.WHITE + "The End")
+print (Fore.GREEN + "")
+x = """ #666 Super Script 
+              Finished Code Bye """
+
