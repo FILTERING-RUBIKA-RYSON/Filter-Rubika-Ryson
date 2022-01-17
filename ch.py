@@ -32,7 +32,7 @@ def random_string_generator(str_size, allowed_chars):
   return ''.join(random.choice(allowed_chars) for x in range(str_size))
 chars = string.ascii_letters + string.punctuation
 size = 28
-print(Fore.GREEN+"    "+"["+"-_"*50+"]")
+print(Fore.GREEN+"    "+"["+"_"*50+"]")
 print(Fore.RED+'   Cod FIltering Chanel >> ',random_string_generator(size, chars))
 print(Fore.GREEN+"    "+"["+"_"*50+"]")
 input()
