@@ -13,7 +13,7 @@
 
 `rm -rf Filter-Rubika-Ryson`
 
-# rm -rf Filtering.py
+rm -rf Filtering.py
 
 # git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson
 
