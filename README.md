@@ -7,7 +7,7 @@
 # برای آپ کردن اسکریپت لازمه حذفش کنید و دوباره نصب کنین
 # بخش 7 اسکریپت گزارش زن خودکاره
 # بخش 8 اسکریپت اسمس بمبر
-# Super Script
+Super Script
 
 # Update Script:
 
@@ -15,7 +15,7 @@
 
 `rm -rf Filtering.py`
 
-# git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson
+`git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson`
 
   `cd Filter-Rubika-Ryson`
 
@@ -24,9 +24,10 @@
    `python Filtering.py`
 
 
-* ID rubika= @Spansor*
-__ Chanel =@Caetorr__
+# ID rubika= rubika.ir/Spansor
+# Chanel= rubika.ir/Caetorr
 
-~ Telegram = @Creator_Ryson~
+# Telegram= T.me/Creator_Ryson
 
- Chanel telgram = @Uupdatte
+
+# Chanel telgram= T.me/Uupdatte
