@@ -61,7 +61,7 @@ print("started " + (x))
 
 print(f"{blue} ")
 print ("      GOD FILTERING")
-print (Fore.ORANGE + "")
+print (Fore.GREEN + "")
 x = """ Loading ~ ~ ~ 
 
 R4S0N---
