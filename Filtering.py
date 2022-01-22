@@ -134,7 +134,7 @@ for d in d:
 
 # Chaker * _ *  Hal Kardi?
 
-time.sleep(4.3)
+time.sleep(2)
 print(f"{green} ")
 print ("Play - - - ! ")
 print (Fore.BLUE + "")
