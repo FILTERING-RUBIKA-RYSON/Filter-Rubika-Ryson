@@ -53,7 +53,7 @@ os.system("clear")
 print(f"{green} ")
 
 print (Fore.WHITE + "")
-
+print (" Start Code Filter Rubika ~CrEaToR_rAySoN")
 #date
 x = str(datetime.datetime.now())
 
@@ -61,7 +61,7 @@ print("started " + (x))
 
 print(f"{blue} ")
 print ("      GOD FILTERING")
-print (Fore.YELLOW + "")
+print (Fore.ORANGE + "")
 x = """ Loading ~ ~ ~ 
 
 R4S0N---
@@ -85,7 +85,6 @@ Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
 $R@i.~~ !     :   ~$$$$$B$$en:`            
 ?MXT@Wx.~    :     ~"##*$$$$M~                
                                      
-__ __ __ __
 """
 for c in x:
     sys.stdout.write(c)
@@ -219,7 +218,7 @@ up = input("""
 
 [reporter (7) ]
 
-[sMs bOmb (8) ]
+[sms bomb (8) ]
 
 Which do you want>>> """)
 print("")
@@ -230,7 +229,7 @@ _____________
 
 Loading _  _
  
-💣 💣 💣 💣 💣 💣 💣 💣
+💣 💣 💣 💣 💣 
 
                       🇴‌🇵‌🇪‌🇳‌ - 🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌
     
