@@ -2,7 +2,8 @@
 # Khasteh Az Hameh
 print("")
 print("")
-print("""▄▄▄  ▄▄▄
+print("""
+ ▄▄▄  ▄▄▄
  ███  ███
  ████████
  ██ ██ ██
@@ -10,7 +11,8 @@ print("""▄▄▄  ▄▄▄
  ██    ██
  ▀▀    ▀▀""")
 print(" ")
-print("""▄▄▄  ▄▄▄
+print("""
+ ▄▄▄  ▄▄▄
  ███  ███
  ████████
  ██ ██ ██
@@ -18,7 +20,8 @@ print("""▄▄▄  ▄▄▄
  ██    ██
  ▀▀    ▀▀""")
 print(" ")
-print("""▄▄▄▄▄
+print("""
+ ▄▄▄▄▄
  ██▀▀▀██
  ██    ██
  ██    ██
@@ -53,18 +56,23 @@ os.system("clear")
 print(f"{green} ")
 
 print (Fore.WHITE + "")
-print (" Start Code Filter Rubika ~CrEaToR_rAySoN")
+print (" Start Code Filter Rubika ~CrEaToR_rYsOn")
+print (" ")
 #date
 x = str(datetime.datetime.now())
 
-print("started " + (x))
+print("Beginning " + (x))
 
 print(f"{blue} ")
-print ("      GOD FILTERING")
+print ("         GOD FILTERING")
+print ("   They are the only creators of (Ryson) Mammad")
+print ("""The best filtering rule in virtual: (law-ryson.blogfa.com There are Ryson! rules.""")
+print (Fore.YELLOW + "")
+print (""" Supermarket code reporter in virtual by mmd """)
 print (Fore.GREEN + "")
 x = """ Loading ~ ~ ~ 
 
-R4S0N---
+R4S0N---STARTED
                   .xUHWH!! !!?RYSONN:.
                 .X*#M@$!!  !X!M$$$$$$WWx:.
                :!!!!!!?H! :!$!$$$$$$$$$$8X:
@@ -227,15 +235,15 @@ time.sleep(3.0)
 print(""" in the name of God 
 _____________
 
-Loading _  _
+ _  _
  
-💣 💣 💣 💣 💣 
+💣 - 💣
 
                       🇴‌🇵‌🇪‌🇳‌ - 🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌
     
 ||Web: creator-rayson.blogfa.com||
-|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|
-____________ Ch: @Caetorr________
+|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
+________rubika.ir/Caetorr________
 """)
 print(f"{red} ")
 
@@ -251,12 +259,12 @@ if up == "4":
     os.system("exit 8")
     
 if up == "0":
-         print ('(Super) Code filter =>' + '%s%s (9.0.4.5/f//d/5.2.7.9.4.0.3.2.8.0.1.2.5.6.8.9.4.8.6.5.205/) %s' % (fg('red'), bg('black'), attr('reset')))
+         print ('(Super) Code {filter} =>' + '%s%s (9.0.4.5/f//d/5.2.7.9.4.0.3.2.8.0.1.2.5.6.8.9.4.8.6.5.205/) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
 
-        print ('code Filter Channel ≠>' + '%s%s (7.0.3.5/f//a/y.5.2.5.7.2.6.8.4.2.4.7.9.3.1.5.2.7.9.6.7.8.5) %s' % (fg('red'), bg('yellow'), attr('reset')))
+        print ('code {Filter} (Channel) ≠>' + '%s%s (7.0.3.5/f//a/y.5.2.5.7.2.6.8.4.2.4.7.9.3.1.5.2.7.9.6.7.8.5) %s' % (fg('red'), bg('yellow'), attr('reset')))
 
 
 if up != "1":
@@ -264,7 +272,7 @@ if up != "1":
 
 
 if up == "2":
-        print ('code Filter group ≠>' + '%s%s (4.0.5.7/e/f.g////7.2.7.9.8.0.9.1.4.5.9.0.4.9.0.1.6.2.9.3) %s' % (fg('white'), bg('black'), attr('reset')))
+        print ('code {Filter} (group) ≠>' + '%s%s (4.0.5.7/e/f.g////7.2.7.9.8.0.9.1.4.5.9.0.4.9.0.1.6.2.9.3) %s' % (fg('white'), bg('black'), attr('reset')))
 
 
 if up != "2":
@@ -273,7 +281,7 @@ if up != "2":
 
 if up == "3":
 
-        print ('code Filter account ≠>' + '%s%s (3.2.7.9/d//f/h/5.9.3.1.5.7.0.1.4.0.7.5.6.2.9.0.3.8.6.4.5.1.6.0/) %s' % (fg('red'), bg('blue'), attr('reset')))
+        print ('code {Filter} (account) ≠>' + '%s%s (3.2.7.9/d//f/h/5.9.3.1.5.7.0.1.4.0.7.5.6.2.9.0.3.8.6.4.5.1.6.0/) %s' % (fg('red'), bg('blue'), attr('reset')))
 
 
 if up != "3":
@@ -316,6 +324,8 @@ print ("          THE END!")
 print("")
 print(""" (Update Kardan Script) 👇:
 
+cd
+
 rm -rf Filter-Rubika-Ryson 
 
 
@@ -333,19 +343,10 @@ python Filtering.py
 """)
 print("")
 print("")
-print("         < MMD RYSON /> ❤️")
-print ("")
 time.sleep(0.3)
 print(f"{red}" )
 time.sleep(1)
-print ("""
-R
-Y
-S
-O
-N
-""")
-print("")
+print("<♥️/>")
 print (Fore.GREEN + """ 
            #666 Super Script 
                  Finished Code """)
