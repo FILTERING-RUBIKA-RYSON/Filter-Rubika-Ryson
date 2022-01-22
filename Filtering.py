@@ -97,7 +97,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
 for c in x:
     sys.stdout.write(c)
     sys.stdout.flush()
-    time.sleep(0.02)
+    time.sleep(0.01)
 
 print(f"{red} ")
 d = """
