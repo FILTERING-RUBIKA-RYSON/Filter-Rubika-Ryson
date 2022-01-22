@@ -259,12 +259,12 @@ if up == "4":
     os.system("exit 8")
     
 if up == "0":
-         print ('(Super) Code {filter} =>' + '%s%s (9.0.4.5/f//d/5.2.7.9.4.0.3.2.8.0.1.2.5.6.8.9.4.8.6.5.205/) %s' % (fg('red'), bg('black'), attr('reset')))
+         print ('(Super) Code {filter} =>' + '%s%s (4.0.4.5/y//d/f/4.0.8.9.4.0.1.5.7.8.0.1.3.0.1.5.6.0.1.3) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
 
-        print ('code {Filter} (Channel) ≠>' + '%s%s (7.0.3.5/f//a/y.5.2.5.7.2.6.8.4.2.4.7.9.3.1.5.2.7.9.6.7.8.5) %s' % (fg('red'), bg('yellow'), attr('reset')))
+        print ('code {Filter} (channel) ≠>' + '%s%s (7.0.6.4/f//d.5.2.7.9.0.9.1.3.5.0.3.1.7.8.9.2.6.0.3.8.4.3.0.2) %s' % (fg('red'), bg('yellow'), attr('reset')))
 
 
 if up != "1":
@@ -272,7 +272,7 @@ if up != "1":
 
 
 if up == "2":
-        print ('code {Filter} (group) ≠>' + '%s%s (4.0.5.7/e/f.g////7.2.7.9.8.0.9.1.4.5.9.0.4.9.0.1.6.2.9.3) %s' % (fg('white'), bg('black'), attr('reset')))
+        print ('code {Filter} (group) ≠>' + '%s%s (9.0.3.7/f////g.h/5.2.7.9.5.0.1.2.6.0.8.1.7.0.7.3.3.8.6.4) %s' % (fg('white'), bg('black'), attr('reset')))
 
 
 if up != "2":
@@ -281,7 +281,7 @@ if up != "2":
 
 if up == "3":
 
-        print ('code {Filter} (account) ≠>' + '%s%s (3.2.7.9/d//f/h/5.9.3.1.5.7.0.1.4.0.7.5.6.2.9.0.3.8.6.4.5.1.6.0/) %s' % (fg('red'), bg('blue'), attr('reset')))
+        print ('code {Filter} (user) ≠>' + '%s%s (4.0.7.5/f//a/y/7.0.9.3.6.0.3.2.5.3.6.8.5.0.4.9.4.0.3.6.09/) %s' % (fg('red'), bg('blue'), attr('reset')))
 
 
 if up != "3":
