@@ -264,7 +264,7 @@ if up == "0":
 
 if up == "1":
 
-        print ('code {Filter} (channel) ≠>' + '%s%s (7.0.6.4/f//d.5.2.7.9.0.9.1.3.5.0.3.1.7.8.9.2.6.0.3.8.4.3.0.2) %s' % (fg('red'), bg('yellow'), attr('reset')))
+        print ('code {Filter} (channel) ≠>' + '%s%s (7.0.6.4/f//d.5.2.7.9.0.9.1.3.5.0.3.1.7.8.9.2.6.0.3.8.4.3.0.2) %s' % (fg('red'), bg('green'), attr('reset')))
 
 
 if up != "1":
@@ -272,7 +272,7 @@ if up != "1":
 
 
 if up == "2":
-        print ('code {Filter} (group) ≠>' + '%s%s (9.0.3.7/f////g.h/5.2.7.9.5.0.1.2.6.0.8.1.7.0.7.3.3.8.6.4) %s' % (fg('white'), bg('black'), attr('reset')))
+        print ('code {Filter} (group) ≠>' + '%s%s (9.0.3.7/f////g.h/5.2.7.9.5.0.1.2.6.0.8.1.7.0.7.3.3.8.6.4) %s' % (fg('white'), bg('yellow'), attr('reset')))
 
 
 if up != "2":
@@ -296,7 +296,7 @@ Kanal rubika MMD RYSON =
 
 @Caetorr
  """)
-print (" Kanal rubikam =>> https://rubika.ir/joinc/JDDGCJF0YETLWSRZLYDCJWIOBMCANFKJ ")
+print (" Kanal rubika =>> https://rubika.ir/joinc/JDDGCJF0YETLWSRZLYDCJWIOBMCANFKJ ")
 print(f"{blue}" )
 print(" ")
 print(" Web Cod = Code-Filtring.Blogfa.Com")
@@ -345,8 +345,8 @@ print("")
 print("")
 time.sleep(0.3)
 print(f"{red}" )
-time.sleep(1)
-print("<♥️/>")
+time.sleep(0.5)
+print("                                <♥️/>")
 print (Fore.GREEN + """ 
            #666 Super Script 
                  Finished Code """)
