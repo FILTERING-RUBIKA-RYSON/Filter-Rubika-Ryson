@@ -34,8 +34,6 @@ Super Script
 `rm -rf Filter-Rubika-Ryson`
 
 
-`rm -rf Filtering.py`
-
 
 `git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson`
 
@@ -49,6 +47,16 @@ Super Script
 
 `python Filtering.py`
 
+# پیش نیاز ها
+`pkg install git -y`
+
+`pkg install python -y`
+
+`pip install colorama`
+
+`pip install colored`
+
+`pip install datetime`
 
 # ID rubika= rubika.ir/Spansor
 # Chanel= rubika.ir/Caetorr
@@ -61,4 +69,4 @@ Super Script
 
 Hidden but mythical 
 
-M▄R▄mmd
+For ≈ M-R Ryson 
