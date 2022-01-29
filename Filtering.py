@@ -107,7 +107,7 @@ d = """
 
 I Love all
 
-▄▄▄▄▄▄   ▄▄▄    ▄▄▄   ▄▄▄▄      ▄▄▄▄    ▄▄▄   ▄▄
+ ▄▄▄▄▄▄   ▄▄▄    ▄▄▄   ▄▄▄▄      ▄▄▄▄    ▄▄▄   ▄▄
  ██▀▀▀▀██  ██▄  ▄██  ▄█▀▀▀▀█    ██▀▀██   ███   ██
  ██    ██   ██▄▄██   ██▄       ██    ██  ██▀█  ██
  ███████     ▀██▀     ▀████▄   ██    ██  ██ ██ ██
@@ -116,7 +116,7 @@ I Love all
  ▀▀    ▀▀▀    ▀▀      ▀▀▀▀▀      ▀▀▀▀    ▀▀   ▀▀▀
 
                             
-            GOD FILTERING RUBIKA MMD RYSON 
+            god filtering rubika mmd R-yson
                       /MMD ~> ryson /-
 
                     CODE FILTERI RUBIKA
@@ -290,7 +290,7 @@ if up != "2":
 
 if up == "3":
 
-        print ('code Filter (user) ≠>' + '%s%s (7.0.9.8/y//d/6.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.4.0.7.5) %s' % (fg('red'), bg('blue'), attr('reset')))
+        print ('code Filter (account) ≠>' + '%s%s (7.0.9.8/y//d/6.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.4.0.7.5) %s' % (fg('red'), bg('blue'), attr('reset')))
 
 
 if up != "3":
@@ -305,14 +305,14 @@ Chanel rubika=
 
 rubika.ir/Caetorr
  """)
-print (" mmd: Dark Cold _ Scary  _ ryson")
+print ("        S'cary")
 print(f"{blue}" )
 print(" ")
-print(" Web Cod = Code-Filtring.Blogfa.Com")
+print("     Web Cod=                      code-filtring.blogfa.com ")
 print("")
-print(" Bot Tel Cod= t.me/code_filtering_bot -vs- t.me/Spansor_Bot ")
+print("     Bot Cod= t.me/code_filtering_bot -vs- t.me/spansor_bot ")
 print("")
-print(" server= ///g///h ")
+print(" server: ///g///h ")
 print("")
 print(" Chanel Telegram=> t.me/Uupdatte ")
 print (Fore.WHITE + " ")
