@@ -102,8 +102,7 @@ for c in x:
 print(f"{red} ")
 d = """
 
-I Lobe You-
-Manufacturer- ryson
+I Love all
 
 ▄▄▄▄▄▄   ▄▄▄    ▄▄▄   ▄▄▄▄      ▄▄▄▄    ▄▄▄   ▄▄
  ██▀▀▀▀██  ██▄  ▄██  ▄█▀▀▀▀█    ██▀▀██   ███   ██
@@ -113,18 +112,18 @@ Manufacturer- ryson
  ██    ██     ██     █▄▄▄▄▄█▀   ██▄▄██   ██   ███
  ▀▀    ▀▀▀    ▀▀      ▀▀▀▀▀      ▀▀▀▀    ▀▀   ▀▀▀
 
-                            RYS0N
+                            
          GOD FILTERING RUBIKA MMD RYSON 
-/~MMD ~> ryson /-/-/
+/MMD ~> ryson /-
 
                     CODE FILTERI RUBIKA
-             MOHAMD RYSON 💗
-     WEBLOG GHAVANIN ~> Law-Ryson.Blogfa.Com
+            i am (peter) 
+     WEBLOG GHAVANIN ~> law-ryson.blogfa.com
           
-          Search Google "MMD RYSON" Please!
+     
 
 
-FILTER RUBIKA ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||_ _ _ _ _
+starting |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| _ _ _ _
 """
 for d in d:
         sys.stdout.write(d)
@@ -141,7 +140,7 @@ print (Fore.BLUE + "")
 time.sleep(1.7)
 print ("                     off rubika.ir/Spansor")
 print("                  Fil rubika.ir/Conquest_Rayson")
-print ("                telegram off t.me/Creator_Ryson")
+print ("                telegram on  t.me/Creator_Ryson")
 print ("             WebLog ghavanin : Law-Ryson.Blogfa.com ")
 print ("")
 print(f"{blue} ")
@@ -297,23 +296,23 @@ if up != "3":
 time.sleep(0.6)
 print(f"{green}" )
 print ("""
-Kanal rubika MMD RYSON =
+Chanel rubika=
 
-@Caetorr
+rubika.ir/Caetorr
  """)
-print (" Kanal rubika =>> https://rubika.ir/joinc/JDDGCJF0YETLWSRZLYDCJWIOBMCANFKJ ")
+print (" mmd: Dark Cold _ Scary _ mr _ ryson")
 print(f"{blue}" )
 print(" ")
 print(" Web Cod = Code-Filtring.Blogfa.Com")
 print("")
-print(" Bot Tel Cod = @Code_Filtering_bot  &&  @Spansor_Bot }")
+print(" Bot Tel Cod= t.me/code_filtering_bot -vs- t.me/Spansor_Bot ")
 print("")
 print(" server= ///g///h ")
 print("")
-print(" Chanel Telegram=>> @Uupdatte -")
+print(" Chanel Telegram=> t.me/Uupdatte ")
 print (Fore.WHITE + " ")
-time.sleep(3.0)
-print (" Ostoreh Filtering All Mmd Ryson")
+time.sleep(2.0)
+print ("user shad= shad.ir/creator_ryson")
 time.sleep(3.0)
 print (f"{red} ")
 time.sleep(1)
@@ -351,7 +350,7 @@ print("")
 time.sleep(0.3)
 print(f"{red}" )
 time.sleep(0.5)
-print("                                <♥️/>")
+print("                                <💔/>")
 print (Fore.GREEN + """ 
            #666 Super Script 
                  Finished Code """)
