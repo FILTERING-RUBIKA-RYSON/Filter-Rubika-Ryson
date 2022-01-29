@@ -210,25 +210,29 @@ print ("")
 # 1 chanel 2 Group 3 acc
 up = input(""" 
 
-[Chanel   (1) ]
+ [Chanel   (1) ]
 
-[Grup     (2) ]
+ [Grup     (2) ]
                  
-[Account  (3) ]
+ [Account  (3) ]
                   
-[Super    (0) ]
+ [Super    (0) ]
 
-[Exit     (4) ]
+ [Exit     (4) ]
 
-[Code Pd  (5) ]
+ [Code Pd  (5) ]
 
-[Code Rp  (6) ]
+ [Code Rp  (6) ]
 
-[reporter (7) ]
+ [Reporter (7) ]
 
-[sms bomb (8) ]
+ [Sms Bomb (8) ]
 
-Which do you want>>> """)
+ [Hack_Rubk(9) ]
+
+
+
+        [Which do you want]->>> """)
 print("")
 print(f"{pink} ")
 time.sleep(3.0)
@@ -246,7 +250,8 @@ _____________
 ________rubika.ir/Caetorr________
 """)
 print(f"{red} ")
-
+if up == "9":
+    os.system("cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && chmod 777 * && python rubika.py")
 if up == "8":
     os.system("python sms.py")
 if up == "7":
