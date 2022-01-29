@@ -284,7 +284,7 @@ if up != "1":
 
 
 if up == "2":
-        print ('Code Filter (GROUP) ≠>>>' + '%s%s (3.0.2.5/g/d//3.0.9.1.5.1.7.2.0.8.3.1.7.0.9.8.4.7.3.1/) %s' % (fg('white'), bg('yellow'), attr('reset')))
+        print ('Code Filter (GROUP) ≠>>>' + '%s%s (3.0.2.5/g/d//3.0.9.1.5.1.7.2.0.8.3.1.7.0.9.8.4.7.3.1/) %s' % (fg('red'), bg('pink'), attr('reset')))
 
 
 if up != "2":
@@ -295,7 +295,7 @@ if up != "2":
 
 if up == "3":
 
-        print ('Code Filter (ACCOUNT) ≠>>>' + '%s%s (7.0.9.8/y//d/6.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.4.0.7.5) %s' % (fg('red'), bg('blue'), attr('reset')))
+        print ('Code Filter (ACCOUNT) ≠>>>' + '%s%s (7.0.9.8/y//d/6.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.4.0.7.5) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "3":
