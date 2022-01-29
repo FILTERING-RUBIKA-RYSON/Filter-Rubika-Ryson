@@ -140,7 +140,7 @@ for d in d:
 # Chaker * _ *  Hal Kardi?
 
 time.sleep(2)
-print(f"{red} ")
+print(f"{pink} ")
 print ("Play - - - ")
 print (Fore.BLUE + "")
 time.sleep(1.7)
