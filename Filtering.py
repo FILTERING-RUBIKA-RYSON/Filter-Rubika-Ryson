@@ -31,7 +31,7 @@ print("""
 print (" ")
 print("Load . . .")                 
 import os
-#What do you have in the source?
+#__
 os.system("pip install colored")
 os.system("pip install colorama")
 os.system("pip install datetime")
@@ -62,15 +62,18 @@ print (" ")
 x = str(datetime.datetime.now())
 
 print("Beginning " + (x))
-
+print (" ")
 print(f"{blue} ")
-print ("         GOD FILTERING")
-print ("   They are the only creators of (Ryson) Mammad")
-print ("""The best filtering rule in virtual: (law-ryson.blogfa.com There are Ryson! rules.""")
+print ("         GOD MAJAZI ")
+print (" ")
+print ("   They are the only creators of (ryson) mammad")
+print (" ")
+print ("""The best filtering rule in virtual There are ryson! rules.""")
+print (" ")
 print (Fore.YELLOW + "")
 print (""" Supermarket code reporter in virtual by mmd """)
 print (Fore.GREEN + "")
-x = """ Loading ~ ~ ~ 
+x = """ Loading Code..
 
 R4S0N---STARTED
                   .xUHWH!! !!?RYSONN:.
@@ -113,12 +116,14 @@ I Love all
  ▀▀    ▀▀▀    ▀▀      ▀▀▀▀▀      ▀▀▀▀    ▀▀   ▀▀▀
 
                             
-         GOD FILTERING RUBIKA MMD RYSON 
-/MMD ~> ryson /-
+            GOD FILTERING RUBIKA MMD RYSON 
+                      /MMD ~> ryson /-
 
                     CODE FILTERI RUBIKA
-            i am (peter) 
-     WEBLOG GHAVANIN ~> law-ryson.blogfa.com
+
+                        i am (peter) 
+
+       WEBLOG GHAVANIN ~> law-ryson.blogfa.com
           
      
 
@@ -235,18 +240,17 @@ up = input("""
 print("")
 print(f"{pink} ")
 time.sleep(3.0)
-print(""" in the name of God 
-_____________
+print("""
 
- _  _
+                         -in name of god-
  
-💣 - 💣
-
+                             -💣 - 💣-
+ 
                       🇴‌🇵‌🇪‌🇳‌ - 🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌
-    
-||Web: creator-rayson.blogfa.com||
-|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
-________rubika.ir/Caetorr________
+         |--------------------------------|
+         |>Web= creator-rayson.blogfa.com<|
+         |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
+         |_______[rubika.ir/Caetorr]______|
 """)
 print(f"{red} ")
 if up == "9":
@@ -300,7 +304,7 @@ Chanel rubika=
 
 rubika.ir/Caetorr
  """)
-print (" mmd: Dark Cold _ Scary _ mr _ ryson")
+print (" mmd: Dark Cold _ Scary  _ ryson")
 print(f"{blue}" )
 print(" ")
 print(" Web Cod = Code-Filtring.Blogfa.Com")
