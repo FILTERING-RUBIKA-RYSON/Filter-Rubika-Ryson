@@ -211,28 +211,28 @@ time.sleep(0.2)
 print ("")
 print (" ")
 print ("")
-# 1 chanel 2 Group 3 acc
+# input
 up = input(""" 
 
- [Chanel   (1) ]
+ [Chanel    (1) ]
 
- [Grup     (2) ]
+ [Grup      (2) ]
                  
- [Account  (3) ]
+ [Account   (3) ]
                   
- [Super    (0) ]
+ [Super     (0) ]
 
- [Exit     (4) ]
+ [Exit      (4) ]
 
- [Code Pd  (5) ]
+ [Code Pd   (5) ]
 
- [Code Rp  (6) ]
+ [Code Rp   (6) ]
 
- [Reporter (7) ]
+ [Reporter  (7) ]
 
- [Sms Bomb (8) ]
+ [Sms Bomb  (8) ]
 
- [Hack_Rubk(9) ]
+ [Hack_Rubk (9) ]
 
 
 
@@ -242,19 +242,20 @@ print(f"{pink} ")
 time.sleep(3.0)
 print("""
 
-                         -in name of god-
+                                   -in name of god-
  
-                             -💣 - 💣-
+                                       -💣 - 💣-
  
-                      🇴‌🇵‌🇪‌🇳‌ - 🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌
-         |--------------------------------|
-         |>Web= creator-rayson.blogfa.com<|
-         |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
-         |_______[rubika.ir/Caetorr]______|
+                               🇴‌🇵‌🇪‌🇳‌ - 🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌
+
+                        |--------------------------------|
+                        |>Web= creator-rayson.blogfa.com<|
+                        |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
+                        |_______[rubika.ir/Caetorr]______|
 """)
 print(f"{red} ")
 if up == "9":
-    os.system("cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && chmod 777 * && python rubika.py")
+    os.system("cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && cd Hack-Rubika && chmod 777 * && python rubika.py")
 if up == "8":
     os.system("python sms.py")
 if up == "7":
