@@ -117,6 +117,7 @@ I Love all
 
                             
             god filtering rubika mmd R-yson
+
                       /MMD ~> ryson /-
 
                     CODE FILTERI RUBIKA
@@ -139,8 +140,8 @@ for d in d:
 # Chaker * _ *  Hal Kardi?
 
 time.sleep(2)
-print(f"{green} ")
-print ("Play - - - ! ")
+print(f"{red} ")
+print ("Play - - - ")
 print (Fore.BLUE + "")
 time.sleep(1.7)
 print ("                     off rubika.ir/Spansor")
