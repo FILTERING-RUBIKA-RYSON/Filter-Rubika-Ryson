@@ -10,7 +10,7 @@ import sys
 print("")
 print(Fore.RED+" "+" Loading....")
 sleep(1.0)
-print("\n"*49)
+print("\n"*40)
 loo = """
  Open Ok """
 for i in loo:
