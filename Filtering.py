@@ -269,12 +269,12 @@ if up == "4":
     os.system("exit 8")
     
 if up == "0":
-         print ('Code filter (SUPER) ≈>>>' + '%s%s (5.9.8.2/f////g.h/187.208/6.0.1.3.8.9.0.1.3.9.0.1.4.0.7.5) %s' % (fg('red'), bg('black'), attr('reset')))
+         print ('Code filter (SUPER) ≈>>>' + '%s%s (8.5.3.0/f////g.h/17.180/6.0.1.3.8.9.0.1.3.9.0.1.4.0.7.0) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
 
-        print ('Code Filter (CHANEL) ≠>>>' + '%s%s (/9.4.5.0/d//f/h/6065/17.187/8.0.1.7.5.0.1.2.7.0.1.9.3.7.0.3.4.0.1.5) %s' % (fg('red'), bg('green'), attr('reset')))
+        print ('Code Filter (CHANEL) ≠>>>' + '%s%s (3.8.5.0/d//f/h/6060/9.1.3.0.8.0.1.7.5.0.1.2.7.0.1.9.3.7.0.3.4.0.1.8/) %s' % (fg('red'), bg('green'), attr('reset')))
 
 
 if up != "1":
@@ -284,7 +284,7 @@ if up != "1":
 
 
 if up == "2":
-        print ('Code Filter (GROUP) ≠>>>' + '%s%s (3.0.2.5/g/d//3.0.9.1.5.1.7.2.0.8.3.1.7.0.9.8.4.7.3.1/) %s' % (fg('red'), bg('pink'), attr('reset')))
+        print ('Code Filter (GROUP) ≠>>>' + '%s%s (5.0.2.5/g/d//9.0.9.1.5.1.7.2.0.8.3.1.7.0.9.8.4.7.3.2) %s' % (fg('red'), bg('pink'), attr('reset')))
 
 
 if up != "2":
@@ -295,7 +295,7 @@ if up != "2":
 
 if up == "3":
 
-        print ('Code Filter (ACCOUNT) ≠>>>' + '%s%s (7.0.9.8/y//d/6.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.4.0.7.5) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ('Code Filter (ACCOUNT) ≠>>>' + '%s%s (4.0.9.5/y//d/3.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.4.0.7.3/) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "3":
