@@ -239,6 +239,7 @@ up = input("""
 
         [Which do you want]->>> """)
 print("")
+print (" ")
 print(f"{pink} ")
 time.sleep(3.0)
 s = """
@@ -259,6 +260,8 @@ for c in s:
     sys.stdout.flush()
     time.sleep(0.007)
 
+print (" ")
+print ("")
 print(f"{red} ")
 if up == "9":
     os.system("cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && cd Hack-Rubika && chmod 777 * && python rubika.py")
