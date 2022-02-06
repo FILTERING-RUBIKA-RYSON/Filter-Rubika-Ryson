@@ -215,25 +215,25 @@ print ("")
 # input
 up = input(""" 
 
- [Chanel    (1) ]
+- [Chanel    (1) ] -
 
- [Grup      (2) ]
+- [Grup      (2) ] -
                  
- [Account   (3) ]
+- [Account   (3) ] -
                   
- [Super     (0) ]
+- [Super     (0) ] -
 
- [Exit      (4) ]
+- [Exit      (4) ] -
 
- [Code Pd   (5) ]
+- [Code Pd   (5) ] -
 
- [Code Rp   (6) ]
+- [Code Rp   (6) ] -
 
- [Reporter  (7) ]
+- [Reporter  (7) ] -
 
- [Sms Bomb  (8) ]
+- [Sms Bomb  (8) ] -
 
- [Hack_Rubk (9) ]
+- [Hack_Rubk (9) ] -
 
 
 
@@ -241,7 +241,7 @@ up = input("""
 print("")
 print(f"{pink} ")
 time.sleep(3.0)
-print("""
+s = """
  
                                         -in name of god-
  
@@ -253,7 +253,12 @@ print("""
                         |>Web= creator-rayson.blogfa.com<|
                         |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
                         |_______[rubika.ir/Caetorr]______|
-""")
+"""
+for c in s:
+    sys.stdout.write(c)
+    sys.stdout.flush()
+    time.sleep(0.007)
+
 print(f"{red} ")
 if up == "9":
     os.system("cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && cd Hack-Rubika && chmod 777 * && python rubika.py")
@@ -299,9 +304,9 @@ if up == "3":
 
 
 if up != "3":
-        print("""
+        print("""               anti filter , no filtering: (127.0.0.1:8080{r430n}) !For Channel Biography!
         
-             Khalegh Ryson""")
+          Khalegh Ryson""")
 
 time.sleep(0.6)
 print(f"{green}" )
