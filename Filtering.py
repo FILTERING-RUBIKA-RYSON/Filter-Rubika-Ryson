@@ -306,7 +306,8 @@ if up == "3":
 
 
 if up != "3":
-        print("""               anti filter , no filtering: (127.0.0.1:8080{r430n}) !For Channel Biography!
+        print("""             
+                               anti filter , no filtering: (127.0.0.1:8080{r430n}) !For Channel Biography!
         
           Khalegh Ryson""")
 
