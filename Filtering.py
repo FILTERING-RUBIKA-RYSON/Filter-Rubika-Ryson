@@ -30,7 +30,7 @@ print("""
  ██▄▄▄██
  ▀▀▀▀▀""")
 print (" ")
-print("       Load . ...")                 
+print("     Load ...")                 
 import os
 #__
 os.system("pip install colored")
