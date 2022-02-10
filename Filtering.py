@@ -255,8 +255,8 @@ s = """
                         |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
                         |_______[rubika.ir/Caetorr]______|
 """
-for c in s:
-    sys.stdout.write(c)
+for r in s:
+    sys.stdout.write(r)
     sys.stdout.flush()
     time.sleep(0.007)
 
@@ -368,7 +368,7 @@ print("")
 time.sleep(0.3)
 print(f"{red}" )
 time.sleep(0.5)
-print("                          ghalb mmd>  </💔>")
+print("""                        ghalb mmd>  </💔> """)
 print (Fore.GREEN + """ 
            #666 Super Script 
                  Finished Code.. """)
