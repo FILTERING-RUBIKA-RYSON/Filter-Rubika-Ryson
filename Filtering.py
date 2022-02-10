@@ -1,4 +1,5 @@
 # MAMAD RYSON *
+# python3
 # Khasteh Az Hameh
 print("")
 print("")
@@ -241,7 +242,7 @@ up = input("""
 print("")
 print (" ")
 print(f"{pink} ")
-time.sleep(3.0)
+time.sleep(2.0)
 s = """
  
                                         -in name of god-
@@ -360,7 +361,7 @@ chmod 777 *
 cd Filter-Rubika-Ryson
 
 
-python Filtering.py
+python3 Filtering.py
 
 """)
 print("")
