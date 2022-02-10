@@ -368,8 +368,10 @@ print("")
 time.sleep(0.3)
 print(f"{red}" )
 time.sleep(0.5)
-print("                                <💔/>")
+print("                          ghalb mmd>  </💔>")
 print (Fore.GREEN + """ 
            #666 Super Script 
-                 Finished Code """)
+                 Finished Code.. """)
+input()
+os.system("python Filtering.py")
      
