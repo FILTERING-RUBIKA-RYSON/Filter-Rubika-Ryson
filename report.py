@@ -8,7 +8,7 @@ from time import sleep
 from colorama import Fore
 import sys
 ###########
-print(Fore.BLUE+"")
+print(Fore.BLUE + "")
 m = """ 
 
 User Filtering Vs Reporter _ _ _ _
