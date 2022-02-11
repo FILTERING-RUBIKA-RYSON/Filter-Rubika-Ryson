@@ -8,7 +8,7 @@ from time import sleep
 from colorama import Fore
 import sys
 ###########
-print (""" User Filtering Vs Reporter _ _ _ _
+m = """ User Filtering Vs Reporter _ _ _ _
 
 
 .o oOOOOOOOo                                            OOOo
@@ -23,8 +23,13 @@ print (""" User Filtering Vs Reporter _ _ _ _
              :            .oO%OOOOOOOOOOo.OOOOOO.oOOOOOOOOOOOO?                                                                oOOP"%OOOOOOOOoOOOOOOO?oOOOOO?OOOO"OOo
                           '%o  OOOO"%OOOO%"%OOOOO"OOOOOO"OOO':                                                                      $"  OOOO' O"Y ' `OOOO'  o
                                       OP"          : o
-""")
-    
+"""
+for r in m:
+    sys.stdout.write(r)
+    sys.stdout.flush()
+    time.sleep(0.007)
+
+
 soheil = """
      \033[41m[1]\33[1;0m group ->_
      \033[41m[2]\33[1;0m account->_
