@@ -29,6 +29,7 @@ for r in m:
     sys.stdout.flush()
     time.sleep(0.007)
 
+print("\n"*29)
 
 soheil = """
      \033[41m[1]\33[1;0m group ->_
