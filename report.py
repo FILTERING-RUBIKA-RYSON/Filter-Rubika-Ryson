@@ -8,13 +8,28 @@ from time import sleep
 from colorama import Fore
 import sys
 ###########
-print (" User Filtering Vs Reporter _ _ _ _")
+print (""" User Filtering Vs Reporter _ _ _ _
+
+
+.o oOOOOOOOo                                            OOOo
+             Ob.OOOOOOOo  OOOo.      oOOo.                      .adOOOOOOO
+             OboO''''''''''''.OOo. .oOOOOOo.    OOOo.oOOOOOo..''''''''OO
+             OOP.oOOOOOOOOOOO "POOOOOOOOOOOo.   "OOOOOOOOOP,OOOOOOOOOOOB'
+             O'OOOO'     OOOOo"OOOOOOOOOOO .adOOOOOOOOO"oOOO'    OOOOo
+             .OOOO'            OOOOOOOOOOOOOOOOOOOOOOOOOO'            OO
+             OOOOO                 '"OOOOOOOOOOOOOOOO"                oOO                                       oOOOOOba.                .adOOOOOOOOOOba               .adOOOOo.
+           oOOOOOOOOOOOOOba.    .adOOOOOOOOOO@^OOOOOOOba.     .adOOOOOOOOOOOO                                  OOOOOOOOOOOOOOOOO.OOOOOOOOOOOOOO"  '"OOOOOOOOOOOOO.OOOOOOOOOOOOOO
+          "OOOO"       "YOoOOOOMOIONODOO"  .   '"OOROAOPOEOOOoOY"     "OOO"                                      Y           'OOOOOOOOOOOOOO: .oOOo. :OOOOOOOOOOO?'         :
+             :            .oO%OOOOOOOOOOo.OOOOOO.oOOOOOOOOOOOO?                                                                oOOP"%OOOOOOOOoOOOOOOO?oOOOOO?OOOO"OOo
+                          '%o  OOOO"%OOOO%"%OOOOO"OOOOOO"OOO':                                                                      $"  OOOO' O"Y ' `OOOO'  o
+                                      OP"          : o
+""")
     
 soheil = """
-     \033[41m[1]\33[1;0m GROUP-
-     \033[41m[2]\33[1;0m ACCOUNT-
-     \033[41m[3]\33[1;0m CHANEL-
-     \033[41m[4]\33[1;0m EXIT-
+     \033[41m[1]\33[1;0m group ->_
+     \033[41m[2]\33[1;0m account->_
+     \033[41m[3]\33[1;0m channelL->_
+     \033[41m[4]\33[1;0m bye bye  ->_
 """
 for i in soheil:
 	sleep(0.05)
