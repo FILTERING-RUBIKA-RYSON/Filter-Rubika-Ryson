@@ -1,6 +1,6 @@
-# MAMAD RYSON *
-# python3
-# Khasteh Az Hameh
+# MMD RYSON
+# py3
+# Khsteh Az Hameh
 print("")
 print("")
 print("""
@@ -30,7 +30,7 @@ print("""
  ██▄▄▄██
  ▀▀▀▀▀""")
 print (" ")
-print("     Load ...")                 
+print("updated Load ...")                 
 import os
 #__
 os.system("pip install colored")
@@ -294,7 +294,7 @@ s = """
 for r in s:
     sys.stdout.write(r)
     sys.stdout.flush()
-    time.sleep(0.007)
+    time.sleep(0.002)
 
 print (" ")
 print ("")
