@@ -239,7 +239,7 @@ up = input("""
 
 - [Hack_Rubk (9) ] -
 
-
+- [up ≠chanl (10)] -
 
         [Which do you want]->>> """)
 print("")
