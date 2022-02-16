@@ -128,7 +128,7 @@ I Love all
 
       hazrat  i am (peter) _ afshar _ neymar ≈ (ryson)
 
-       WEBLOG GHAVANIN ~> law-ryson.blogfa.com
+       WEBLOG GHAVANIN ~> conquest-law.blogfa.com
           
      
 
@@ -151,7 +151,8 @@ time.sleep(1.7)
 print ("                     off rubika.ir/Spansor")
 print("                  Fil rubika.ir/Conquest_Rayson")
 print ("                telegram on  t.me/Creator_Ryson")
-print ("             WebLog ghavanin : Law-Ryson.Blogfa.com ")
+print ("             WebLog rules fil : Law-ryson.Blogfa.com")
+print ("             Weblog ghavanin: conquest-law.blogfa.com")
 print ("")
 print(f"{blue} ")
 time.sleep(0.6)
