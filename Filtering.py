@@ -309,7 +309,7 @@ if mmd == "y":
 if mmd == "y":
     time.sleep(0.5)
 if mmd == "y":
-    webbrowser.open("https://rubika.ir/caetorr")
+    webbrowser.open("https://rubika.ir/caetorr/")
 if mmd == "n":
     print ("ok")
 if mmd == "n":
