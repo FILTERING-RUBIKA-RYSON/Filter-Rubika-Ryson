@@ -302,32 +302,7 @@ print ("")
 print(f"{red} ")
 
 if up == "10":
-    mmd = input("""
-Do you want to log in to the Rice Channel? (y/n) >_ """)
-if mmd == "y":
-    print ("ok")
-if mmd == "y":
-    time.sleep(0.5)
-if mmd == "y":
-    webbrowser.open("https://rubika.ir/caetorr/")
-if mmd == "n":
-    print ("ok")
-if mmd == "n":
-    time.sleep(0.5)
-if mmd == "n":
-    os.system("python Filtering.py")
-if mmd == "Y":
-    print ("ok")
-if mmd == "Y":
-    time.sleep(0.5)
-if mmd == "Y":
     webbrowser.open("https://rubika.ir/caetorr")
-if mmd == "N":
-    print ("ok")
-if mmd == "N":
-    time.sleep(0.5)
-if mmd == "N":
-    os.system("python Filtering.py")
 
 
 if up == "9":
