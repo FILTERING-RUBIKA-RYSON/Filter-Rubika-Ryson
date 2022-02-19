@@ -244,6 +244,7 @@ s = """
 
  
                >       off rubika.ir/Spansor             <
+               >     online shad.ir/creator_ryson        <
                >    Fil rubika.ir/Conquest_Rayson        <
                >   telegram on  t.me/Creator_Ryson       <
                > Weblog ghavanin: CONQUEST-LAW.blogfa.com<
@@ -354,11 +355,6 @@ if up != "3":
 
 time.sleep(0.6)
 print(f"{green}" )
-print ("""
-Chanel rubika=
-
-rubika.ir/Caetorr
- """)
 print ("        S'cary")
 print(f"{blue}" )
 print(" ")
@@ -368,7 +364,8 @@ print("     Bot Cod= t.me/code_filtering_bot -vs- t.me/spansor_bot ")
 print("")
 print(" server: ///g///h ")
 print("")
-print(" Chanel Telegram=> t.me/Uupdatte ")
+print("       channel telegram≈>> t.me/uupdatte ")
+print("""     channel rubika≈>> rubika.ir/caetorr""")
 print (Fore.WHITE + " ")
 time.sleep(2.0)
 print ("user shad= shad.ir/creator_ryson")
