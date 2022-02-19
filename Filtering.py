@@ -77,7 +77,7 @@ print (""" Supermarket code reporter in virtual by mmd """)
 print (Fore.GREEN + "")
 x = """ Loading Code..
 
-R4S0N---STARTED
+R4S0N---STARTED-12
                   .xUHWH!! !!?RYSONN:.
                 .X*#M@$!!  !X!M$$$$$$WWx:.
                :!!!!!!?H! :!$!$$$$$$$$$$8X:
@@ -99,7 +99,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
 ?MXT@Wx.~    :     ~"##*$$$$M~                
 
 
-version 3.0.0.1                                    
+version 3.0.1                                    
 """
 for c in x:
     sys.stdout.write(c)
@@ -151,8 +151,7 @@ time.sleep(1.7)
 print ("                     off rubika.ir/Spansor")
 print("                  Fil rubika.ir/Conquest_Rayson")
 print ("                telegram on  t.me/Creator_Ryson")
-print ("             WebLog rules fil : Law-ryson.Blogfa.com")
-print ("             Weblog ghavanin: conquest-law.blogfa.com")
+print ("           Weblog ghavanin: conquest-law.blogfa.com")
 print ("")
 print(f"{blue} ")
 time.sleep(0.6)
@@ -345,12 +344,12 @@ if up == "4":
     os.system("exit 8")
     
 if up == "0":
-         print ('Code filter (SUPER) ≈>>>' + '%s%s (3.0.3.4/e////f.h/7.0.1.3.8.9.0.1.3.9.0.1.4.0.7.0.6.0.9.7/) %s' % (fg('red'), bg('black'), attr('reset')))
+         print ('Code filter (SUPER) ≈>>>' + '%s%s (7.6.3.9/e///f//h/9.0.1.3.8.9.0.1.3.9.0.1.3.0.7.0.6.0.9.5) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
 
-        print ('Code Filter (CHANEL) ≠>>>' + '%s%s (8.4.5.0/y//f/h/6065/0.1.3.0.8.0.1.7.5.0.1.2.7.0.1.9.3.7.0.3.9.0.1.3) %s' % (fg('red'), bg('green'), attr('reset')))
+        print ('Code Filter (CHANEL) ≠>>>' + '%s%s (9.8.5.8/y//f/h/8084/7.1.3.0.8.0.1.7.5.0.1.2.7.0.1.9.3.7.0.3.01/) %s' % (fg('red'), bg('green'), attr('reset')))
 
 
 if up != "1":
@@ -359,7 +358,7 @@ if up != "1":
  """)
 
 if up == "2":
-        print ('Code Filter (GROUP) ≠>>>' + '%s%s (9.0.8.7/g//d/6070/5.0.9.1.5.1.7.2.0.8.3.1.7.0.5.1/) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ('Code Filter (GROUP) ≠>>>' + '%s%s (6.3.0.2/g//d/17.180/2.0.9.1.5.1.7.2.0.8.3.1.7.0.5.4/) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "2":
@@ -369,7 +368,7 @@ if up != "2":
 
 
 if up == "3":
-        print ('Code Filter (ACCOUNT) ≠>>>' + '%s%s (7.0.4.6/y//d/7.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.3.0.4.0) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ('Code Filter (ACCOUNT) ≠>>>' + '%s%s (4.0.4.6/y//d/6.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.3.0.4.1!) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "3":
