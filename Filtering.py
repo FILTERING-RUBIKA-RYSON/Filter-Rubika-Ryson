@@ -126,7 +126,7 @@ I Love all
 
                     CODE FILTERI RUBIKA
 
-      hazrat  i am (peter) _ afshar _ neymar ≈ (ryson)
+      hazrat  i am (peter) _ afshar  ≈ (ryson)
 
        WEBLOG GHAVANIN ~> conquest-law.blogfa.com
           
