@@ -253,12 +253,12 @@ s = """
  
                                
  
-                              🇴‌🇵‌🇪‌🇳‌  🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌‌‌‌
+                       🇴‌🇵‌🇪‌🇳‌  🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌‌‌‌
 
-                        |--------------------------------|
-                        |>Web= creator-rayson.blogfa.com<|
-                        |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
-                        |_______[rubika.ir/Caetorr]______|
+                 |--------------------------------|
+                 |>Web= creator-rayson.blogfa.com<|
+                 |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
+                 |_____[telegram.me/spansor]______|
 
 
 
@@ -368,7 +368,7 @@ print("       channel telegram≈>> t.me/uupdatte ")
 print("""     channel rubika≈>> rubika.ir/caetorr""")
 print (Fore.WHITE + " ")
 time.sleep(2.0)
-print ("user shad= shad.ir/creator_ryson")
+print ("      offline")
 time.sleep(3.0)
 print (f"{red} ")
 time.sleep(1)
