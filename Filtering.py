@@ -147,12 +147,6 @@ time.sleep(2)
 print(f"{pink} ")
 print ("Play - - - ")
 print (Fore.BLUE + "")
-time.sleep(1.7)
-print ("                     off rubika.ir/Spansor")
-print("                  Fil rubika.ir/Conquest_Rayson")
-print ("                telegram on  t.me/Creator_Ryson")
-print ("           Weblog ghavanin: conquest-law.blogfa.com")
-print ("")
 print(f"{blue} ")
 time.sleep(0.6)
 print ("               !")
@@ -247,10 +241,16 @@ print (" ")
 print(f"{pink} ")
 time.sleep(2.0)
 s = """
+
  
+               >       off rubika.ir/Spansor             <
+               >    Fil rubika.ir/Conquest_Rayson        <
+               >   telegram on  t.me/Creator_Ryson       <
+               > Weblog ghavanin: CONQUEST-LAW.blogfa.com<
+
                                        
  
-                                      update    
+                               
  
                               🇴‌🇵‌🇪‌🇳‌  🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌‌‌‌
 
