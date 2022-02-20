@@ -4,7 +4,7 @@ import requests
 from threading import Thread
 from colorama import Fore
 from time import sleep
-proxy = {"https": "127.0.0.1.9050"}
+proxy = {"http": "127.0.0.1.8000"}
 os.system("pkg install tor")
 print(Fore.GREEN)
 print("""                   Play Reporters
@@ -26,22 +26,6 @@ print("""
 """)
 print ("")
 print ("Number User reported")
-
-def shad(phone):
-    #Rubika api
-    rubikaH = {"Host": "messengerg2c17.iranlms.ir","content-length": "96","accept": "application/json, text/plain, */*","user-agent": "Mozilla/5.0 (Linux; Android 7; SM-A510F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36","content-type": "text/plain","origin": "https://web.rubika.ir/","sec-fetch-site": "same-site","sec-fetch-mode": "cors","sec-fetch-dest": "empty","referer": "messengerg2c17.iranlms.ir/","accept-encoding": "gzip, deflate, br","accept-language": "fa-IR,fa;q\u003d0.9,en-GB;q\u003d0.8,en;q\u003d0.7,en-US;q\u003d0.6"}
-    shadD = {"api_version":"5","method":"sendCode","data":{"phone_number":phone.split("+")[1],"send_type":"SMS"}}
-    try:
-        rubikaR = requests.post("messengerg2c17.iranlms.ir/", headers=rubikaH, json=rubikaD, proxies=proxy)
-        if "OK" in rubikaR.text:
-            print ("Ok Reporter :))")
-        else:
-            print ("REPORT")
-    except:
-        print ("No")
-
-
-#Nemed
 
 
 def rubika(phone):
