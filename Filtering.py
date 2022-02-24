@@ -321,13 +321,11 @@ if up == "4":
     os.system("exit")
     
 if up == "0":
-         print ('Code filter (SUPER) ≈>>>' + '%s%s (9.1.0.4/f///f/h/8.0.1.3.8.9.0.1.3.9.0.1.3.0.7.0.6.0.9.1/) %s' % (fg('red'), bg('black'), attr('reset')))
+         print ('!Code filter (SUPER) ≈>>>' + '%s%s (9.1.0.4/f///f/h/8.0.1.3.8.9.0.1.3.9.0.1.3.0.7.0.6.0.9.1/) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
-
-        print ('!Code Filter (CHANEL) ≠>>>' + '%s%s (6.0.5.4/y//f/h/7.1.3.0.8.0.1.7.5.0.1.2.7.0.1.9.3.7.0.3.f') %s' % (fg('red'), bg('green'), attr('reset')))
-
+        print ('!Code filter (CHANNEL) ≈>>>' + '%s%s (6.0.5.4/y//f/h/7.1.3.0.8.0.1.7.5.0.1.2.7.0.1.9.3.7.0.3.f!) %s' % (fg('red'), bg('green'), attr('reset')))
 
 if up != "1":
         print("""    
