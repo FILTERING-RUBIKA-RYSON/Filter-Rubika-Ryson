@@ -248,6 +248,7 @@ s = """
                >    Fil rubika.ir/Conquest_Rayson        <
                >   telegram on  t.me/Creator_Ryson       <
                > Weblog ghavanin: CONQUEST-LAW.blogfa.com<
+               >           creatar.blogfa.com            <
 
                                        
  
@@ -320,12 +321,12 @@ if up == "4":
     os.system("exit")
     
 if up == "0":
-         print ('Code filter (SUPER) ≈>>>' + '%s%s (7.6.3.9/e///f//h/9.0.1.3.8.9.0.1.3.9.0.1.3.0.7.0.6.0.9.5) %s' % (fg('red'), bg('black'), attr('reset')))
+         print ('Code filter (SUPER) ≈>>>' + '%s%s (9.1.0.4/f///f/h/8.0.1.3.8.9.0.1.3.9.0.1.3.0.7.0.6.0.9.1/) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
 
-        print ('!Code Filter (CHANEL) ≠>>>' + '%s%s (9.8.5.8/y//f/h/8084/7.1.3.0.8.0.1.7.5.0.1.2.7.0.1.9.3.7.0.3.01/) %s' % (fg('red'), bg('green'), attr('reset')))
+        print ('!Code Filter (CHANEL) ≠>>>' + '%s%s (6.0.5.4/y//f/h/7.1.3.0.8.0.1.7.5.0.1.2.7.0.1.9.3.7.0.3.f') %s' % (fg('red'), bg('green'), attr('reset')))
 
 
 if up != "1":
@@ -334,7 +335,7 @@ if up != "1":
  """)
 
 if up == "2":
-        print ('!Code Filter (GROUP) ≠>>>' + '%s%s (6.3.0.2/g//d/17.180/2.0.9.1.5.1.7.2.0.8.3.1.7.0.5.4/) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ('!Code Filter (GROUP) ≠>>>' + '%s%s (4.5.0.0/f//h/r430n/2.0.9.1.5.1.7.2.0.8.3.1.7.0.5.4.7.0.2.4/) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "2":
@@ -344,7 +345,7 @@ if up != "2":
 
 
 if up == "3":
-        print ('!Code Filter (ACCOUNT) ≠>>>' + '%s%s (4.0.4.6/y//d/6.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.3.0.4.1!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ('!Code Filter (ACCOUNT) ≠>>>' + '%s%s (3.0.3.8/f//a/y/2.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.3.0.4.6!) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "3":
