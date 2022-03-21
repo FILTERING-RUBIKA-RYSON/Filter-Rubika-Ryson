@@ -122,7 +122,7 @@ for i in s:
 print(f"{red} ")
 d = """
 
-I Love all
+
 
  ▄▄▄▄▄▄   ▄▄▄    ▄▄▄   ▄▄▄▄      ▄▄▄▄    ▄▄▄   ▄▄
  ██▀▀▀▀██  ██▄  ▄██  ▄█▀▀▀▀█    ██▀▀██   ███   ██
@@ -151,7 +151,7 @@ starting |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 for d in d:
         sys.stdout.write(d)
         sys.stdout.flush()
-        time.sleep(0.03)
+        time.sleep(0.01)
 
 
 # Chaker * _ *  Hal Kardi?
