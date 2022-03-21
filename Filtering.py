@@ -43,6 +43,7 @@ import sys
 import colored                                                  
 import colorama                                                 
 import datetime
+import random
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
 # colors
@@ -314,7 +315,62 @@ for r in s:
 print (" ")
 print ("")
 print(f"{red} ")
-
+md = (random.randint(1, 9))
+mmmd = (random.randint(1, 9))
+mmmd1 = (random.randint(1, 9))
+mmmd3 = (random.randint(1, 9))
+mmmd4 = (random.randint(1, 9))
+mmmd5 = (random.randint(1, 9))
+mmmd6 = (random.randint(1, 9))
+mmmd7 = (random.randint(1, 9))
+mmmd8 = (random.randint(1, 9))
+mmmd9 = (random.randint(1, 9))
+mmmd9 = (random.randint(1, 9))
+mmmd10 = (random.randint(1, 9))
+mmmd11 = (random.randint(1, 9))
+mmmd12 = (random.randint(1, 9))
+mmmd13 = (random.randint(1, 9))
+mmmd14 = (random.randint(1, 9))
+mmmd15 = (random.randint(1, 9))
+mmmd16 = (random.randint(1, 9))
+mmmd17 = (random.randint(1, 9))
+mmmd18 = (random.randint(1, 9))
+mmmd19 = (random.randint(1, 9))
+mmmd20 = (random.randint(1, 9))
+mmmd21 = (random.randint(1, 9))
+mmmd22 = (random.randint(1, 9))
+mmmd23 = (random.randint(1, 9))
+mmmd24 = (random.randint(1, 9))
+mmd1 = str(mmmd)
+mmd2 = str(md)
+mmd3 = str(mmmd3)
+mmd4 = str(mmmd4)
+mmd5 = str(mmmd5)
+mmd6 = str(mmmd6)
+mmd7 = str(mmmd7)
+mmd8 = str(mmmd8)
+mmd9 = str(mmmd9)
+mmd10 = str(mmmd10)
+mmd11 = str(mmmd11)
+mmd12 = str(mmmd12)
+mmd13 = str(mmmd13)
+mmd14 = str(mmmd14)
+mmd15 = str(mmmd15)
+mmd16 = str(mmmd16) 
+mmd17 = str(mmmd17)
+mmd18 = str(mmmd18)
+mmd19 = str(mmmd19)
+mmd20 = str(mmmd20)
+mmd21 = str(mmmd21)
+mmd22 = str(mmmd22)
+mmd23 = str(mmmd23)
+mmd24 = str(mmmd24)
+h = ["f","g","h","e"]
+h2 = ["e","v","g","h","f"]
+h3 = ("h")
+hh = (random.choice(h))
+hh2 = (random.choice(h2))
+hh3 = (random.choice(h3)) 
 if up == "10":
     webbrowser.open("https://rubika.ir/caetorr")
 
@@ -333,11 +389,11 @@ if up == "4":
     os.system("exit")
     
 if up == "0":
-         print ('!Code filter (SUPER) ≈>>>' + '%s%s (7.0.3.2/e///f.h/8.0.1.3.8.9.0.1.3.9.0.1.3.0.7.0.6.0.9.5!/) %s' % (fg('red'), bg('black'), attr('reset')))
+         print ('!Code filter (SUPER) ≈>>>' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/e///f.h/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
-        print ('!Code filter (CHANNEL) ≈>>>' + '%s%s (4.0.6.8/y//f/h/4.1.3.0.8.0.1.7.5.0.1.2.7.0.1.9.3.7.0.0.5!/) %s' % (fg('red'), bg('green'), attr('reset')))
+        print ('!Code filter (CHANNEL) ≈>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/y//f/h/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('green'), attr('reset')))
 
 if up != "1":
         print("""    
@@ -345,7 +401,7 @@ if up != "1":
  """)
 
 if up == "2":
-        print ('!Code Filter (GROUP) ≠>>>' + '%s%s (2.0.7.7//f/h////4.0.9.1.5.1.7.2.0.8.6.1.7.0.5.4.7.0.0.4!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ('!Code Filter (GROUP) ≠>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/k//f/h/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "2":
@@ -355,7 +411,7 @@ if up != "2":
 
 
 if up == "3":
-        print ('!Code Filter (ACCOUNT) ≠>>>' + '%s%s (7.2.0.5/f//a/y/3.0.8.1.3.0.1.7.6.0.7.4.8.9.1.0.3.8.6.0.2.4.3.6!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ('!Code Filter (ACCOUNT) ≠>>>' + '%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "3":
