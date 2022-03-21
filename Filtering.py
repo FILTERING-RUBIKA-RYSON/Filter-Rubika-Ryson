@@ -117,7 +117,7 @@ version 3.0.1
 for i in s:
     sys.stdout.write(i)
     sys.stdout.flush()
-    time.sleep(0.01)
+    time.sleep(0.009)
 
 print(f"{red} ")
 d = """
@@ -226,29 +226,29 @@ print ("")
 # input
 up = input(""" 
 
-- [Channel    (1) ] -
+      - [Channel   (1) ] -
 
-- [Grup      (2) ] -
+      - [Grup      (2) ] -
                  
-- [Account   (3) ] -
+      - [Account   (3) ] -
                   
-- [Super     (0) ] -
+      - [Super     (0) ] -
 
-- [Exit      (4) ] -
+      - [Exit      (4) ] -
 
-- [Code Pd   (5) ] -
+      - [Code Pd   (5) ] -
 
-- [Code Rp   (6) ] -
+      - [Code Rp   (6) ] -
 
-- [Reporter  (7) ] -
+      - [Reporter  (7) ] -
 
-- [Sms Bomb  (8) ] -
+      - [Sms Bomb  (8) ] -
 
-- [Hack_Rubk (9) ] -
+      - [Hack_Rubk (9) ] -
 
-- [up ≠chanl (10)] -
+      - [up ≠chanl (10)] -
 
-        [Which do you want]->>> """)
+       ||type numbers here|| >>>_ """)
 print("")
 print (" ")
 print(f"{pink} ")
@@ -365,8 +365,8 @@ mmd21 = str(mmmd21)
 mmd22 = str(mmmd22)
 mmd23 = str(mmmd23)
 mmd24 = str(mmmd24)
-h = ["f","g","h","e"]
-h2 = ["e","v","g","h","f"]
+h = ["f","k","y","e"]
+h2 = ["d","k","g","j","r"]
 h3 = ("h")
 hh = (random.choice(h))
 hh2 = (random.choice(h2))
@@ -389,11 +389,11 @@ if up == "4":
     os.system("exit")
     
 if up == "0":
-         print ('!Code filter (SUPER) ≈>>>' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/e///f.h/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('black'), attr('reset')))
+         print ('!Code filter (SUPER) ≈>>>' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}///{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
-        print ('!Code filter (CHANNEL) ≈>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/y//f/h/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('green'), attr('reset')))
+        print ('!Code filter (CHANNEL) ≈>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('green'), attr('reset')))
 
 if up != "1":
         print("""    
@@ -401,7 +401,7 @@ if up != "1":
  """)
 
 if up == "2":
-        print ('!Code Filter (GROUP) ≠>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/k//f/h/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ('!Code Filter (GROUP) ≠>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "2":
