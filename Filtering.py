@@ -75,7 +75,7 @@ print (" ")
 print (Fore.YELLOW + "")
 print (""" Supermarket code reporter in virtual by mmd """)
 print (Fore.GREEN + "")
-x = """ Loading Code..
+s = [""" Loading Code..
 
 R4S0N---STARTED-12
                   .xUHWH!! !!?RYSONN:.
@@ -100,9 +100,21 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
 
 
 version 3.0.1                                    
-"""
-for c in x:
-    sys.stdout.write(c)
+""" , """
+
+||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||                             ||||||||||||
+||||||||||       ||         ||        ||||||||||||
+||||||||||||||                     |||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||
+|||  |  |           Artist - Scary       |  |  |||
+|||  |  |                                |  |  |||
+||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||
+
+"""]
+for i in s:
+    sys.stdout.write(i)
     sys.stdout.flush()
     time.sleep(0.01)
 
