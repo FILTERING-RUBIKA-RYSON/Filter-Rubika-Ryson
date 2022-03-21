@@ -75,7 +75,7 @@ print (" ")
 print (Fore.YELLOW + "")
 print (""" Supermarket code reporter in virtual by mmd """)
 print (Fore.GREEN + "")
-s = [""" Loading Code..
+s = """ Loading Code..
 
 R4S0N---STARTED-12
                   .xUHWH!! !!?RYSONN:.
@@ -100,7 +100,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
 
 
 version 3.0.1                                    
-""" , '''
+
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 |||||||||                             ||||||||||||
@@ -112,7 +112,7 @@ version 3.0.1
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 
-''']
+"""
 for i in s:
     sys.stdout.write(i)
     sys.stdout.flush()
