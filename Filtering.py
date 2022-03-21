@@ -69,12 +69,8 @@ print (" ")
 print(f"{blue} ")
 print ("         GOD MAJAZI ")
 print (" ")
-print ("   They are the only creators of (ryson) mammad")
 print (" ")
-print ("""The best filtering rule in virtual There are ryson! rules.""")
 print (" ")
-print (Fore.YELLOW + "")
-print (""" Supermarket code reporter in virtual by mmd """)
 print (Fore.GREEN + "")
 s = """ Loading Code..
 
@@ -133,20 +129,16 @@ d = """
  ▀▀    ▀▀▀    ▀▀      ▀▀▀▀▀      ▀▀▀▀    ▀▀   ▀▀▀
 
                             
-            god filtering rubika mmd R-yson
 
-                      /MMD ~> ryson /-
+                     
 
-                    CODE FILTERI RUBIKA
+                    CODE REPORT RUBIKA
 
-      hazrat  i am (peter) _ afshar  ≈ (ryson)
-
-       WEBLOG GHAVANIN ~> conquest-law.blogfa.com
           
      
 
 
-starting |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| _ _ _ _
+starting |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
 """
 for d in d:
         sys.stdout.write(d)
@@ -154,11 +146,11 @@ for d in d:
         time.sleep(0.01)
 
 
-# Chaker * _ *  Hal Kardi?
+# Chaker hameh :/  Hal Kardi?
 
 time.sleep(2)
 print(f"{pink} ")
-print ("Play - - - ")
+print ("running")
 print (Fore.BLUE + "")
 print(f"{blue} ")
 time.sleep(0.6)
@@ -254,18 +246,20 @@ print (" ")
 print(f"{pink} ")
 time.sleep(2.0)
 s = """
-
- 
+                                |||INFO|||
+               ------------------------------------------
                >       off rubika.ir/Spansor             <
                >     online shad.ir/creator_ryson        <
                >    Fil rubika.ir/Conquest_Rayson        <
                >   telegram on  t.me/Creator_Ryson       <
-               > Weblog ghavanin: CONQUEST-LAW.blogfa.com<
-               >           creatar.blogfa.com            <
-
-                                       
- 
-                               
+               -------------------------------------------
+               -------------------------------------------
+               >             rules - all                 <
+               >       conquest-law.blogfa.com           <
+               >       creatar-rules.blogfa.com          <
+               >        rules-magic.blogfa.com           <
+               >       tme.uupdatte -- t.me/spansor      <
+               -------------------------------------------                
  
                        🇴‌🇵‌🇪‌🇳‌  🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌‌‌‌
 
@@ -416,40 +410,32 @@ if up == "3":
 
 if up != "3":
         print("""             
-                               anti filter , no filtering: (127.0.0.1:8080{r430n}) !For Channel Biography!
-        
-          Khalegh Ryson""")
+                               anti filter , no filtering: (127.0.0.1:8080{r430n}) !For Channel Biography!""")
 
 time.sleep(0.6)
 print(f"{green}" )
 print ("        S'cary")
 print(f"{blue}" )
 print(" ")
-print("     Web Cod=                      code-filtring.blogfa.com ")
 print("")
-print("     Bot Cod= t.me/code_filtering_bot -vs- t.me/spansor_bot ")
 print("")
-print(" server: ///g///h ")
+print("    server: ///g///h ")
 print("")
-print("       channel telegram≈>> t.me/uupdatte ")
-print("""     channel rubika≈>> rubika.ir/caetorr""")
 print (Fore.WHITE + " ")
 time.sleep(2.0)
-print ("      offline")
+print ("               offline")
 time.sleep(3.0)
 print (f"{red} ")
 time.sleep(1)
-print ('Cod Ro Dorost Bezan 70% Filter Mikone  ' + '%s%s TanK You My Friend  %s'  % (fg('red'), bg('white'), attr('reset')))
+print ('Code Ro Dorost Bezan 70% Filter Mikone  ' + '%s%s TanK You My Friend  %s'  % (fg('red'), bg('white'), attr('reset')))
 print (f"{blue} ")
 time.sleep(1)
 print (""" {code ro ( 5 ) bar bezanin to Sayer!!}
          Tanks""")
 print(" ")
 print(" ")
-print(" ")
-print ("          THE END!")
 print("")
-print(""" (Update Kardan Script) 👇:
+print(""" - |Update Kardan Script|: -
 
 cd
 
@@ -471,13 +457,10 @@ python3 Filtering.py
 print("")
 print("")
 time.sleep(0.3)
-print(f"{red}" )
-time.sleep(0.5)
-print("""                        ghalb mmd>  </💔> """)
 print (Fore.GREEN + """ 
-           #666 Super Script 
-                 Finished Code..
-                  24 Hours to update version """)
+           #666 Super ...
+             Finished Code
+              Restart....""")
 input()
 os.system("python Filtering.py")
      
