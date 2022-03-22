@@ -459,7 +459,8 @@ python3 Filtering.py
 print("")
 print("")
 time.sleep(0.3)
-print (Fore.GREEN + """ 
+print (Fore.GREEN + "") 
+mr = input("""
           
            finished code #666-super
 
@@ -469,7 +470,7 @@ print (Fore.GREEN + """
                3-exit the script (n)
                  
                   type the option>>>_""")
-mr = input()
+
 if mr == "y":
         os.system("cd && rm -rf Filter-Rubika-Ryson && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
 if mr == "u":
