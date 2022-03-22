@@ -96,7 +96,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
 ?MXT@Wx.~    :     ~"##*$$$$M~                
 
 
-version 3.0.1                                    
+version 4.0.0                                   
 
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -248,6 +248,7 @@ time.sleep(2.0)
 s = """
                                 |||INFO|||
                ------------------------------------------
+               >      online rubika.ir/serverer          <
                >       off rubika.ir/Spansor             <
                >     online shad.ir/creator_ryson        <
                >    Fil rubika.ir/Conquest_Rayson        <
@@ -260,14 +261,14 @@ s = """
                >        rules-magic.blogfa.com           <
                >       tme.uupdatte -- t.me/spansor      <
                -------------------------------------------                
- 
-                       🇴‌🇵‌🇪‌🇳‌  🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌‌‌‌
+               >  |--------------------------------|     <
+               >  |>Web= creator-rayson.blogfa.com<|     <
+               >  |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||     <
+               >  |_____[telegram.me/spansor]______|     <
 
-                 |--------------------------------|
-                 |>Web= creator-rayson.blogfa.com<|
-                 |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||
-                 |_____[telegram.me/spansor]______|
+                          🇴‌🇵‌🇪‌🇳‌  🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌‌‌‌
 
+               
 
 
                        ###############
@@ -423,7 +424,7 @@ print("    server: ///g///h ")
 print("")
 print (Fore.WHITE + " ")
 time.sleep(0.5)
-print ("               offline")
+print ("    super script filtering-reporter")
 print (" ")
 print (f"{red} ")
 print (" ")
@@ -459,9 +460,21 @@ print("")
 print("")
 time.sleep(0.3)
 print (Fore.GREEN + """ 
-           #666 Super ...
-             Finished Code
-              Restart....""")
-input()
-os.system("python Filtering.py")
+          
+           finished code #666-super
+
+
+               1-update script (y)
+               2-restart script (u)
+               3-exit the script (n)
+                 
+                  type the option>>>_""")
+mr = input()
+if mr == "y":
+        os.system("cd && rm -rf Filter-Rubika-Ryson && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
+if mr == "u":
+        os.system("python Filtering.py")
+if mr == "n":
+        print ("the end")
+        main()
      
