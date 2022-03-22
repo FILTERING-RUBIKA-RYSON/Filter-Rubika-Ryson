@@ -465,9 +465,9 @@ mr = input("""
            finished code #666-super
 
 
-               1-update script (y)
-               2-restart script (u)
-               3-exit the script (n)
+               1-update script ((y))
+               2-restart script ((u))
+               3-exit the script ((n))
                  
                   type the option>>>_""")
 
