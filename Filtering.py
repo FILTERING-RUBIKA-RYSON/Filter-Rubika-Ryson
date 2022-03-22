@@ -406,7 +406,7 @@ if up != "2":
 
 
 if up == "3":
-        print ('!Code Filter (ACCOUNT) ≠>>>' + '%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ('!Code Filter (ACCOUNT) ≠>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "3":
