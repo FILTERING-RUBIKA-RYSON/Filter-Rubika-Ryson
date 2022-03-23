@@ -477,5 +477,6 @@ if mr == "u":
         os.system("python Filtering.py")
 if mr == "n":
         print ("the end")
-        main()
+        os.system("exit")
      
+sys.exit()
