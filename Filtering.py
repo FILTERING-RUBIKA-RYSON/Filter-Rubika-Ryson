@@ -192,6 +192,7 @@ print(Fore.GREEN +"")
 print ("")
 print ("")
 import requests
+uu = ("testing server....." "....." ".....")
 ms = requests.get("https://web.rubika.ir/#/login").text
 if ms == "" or '' or " " or ' ':
     print ("support rubika online--")
@@ -204,7 +205,10 @@ for e in o:
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.1)
-
+for q in uu:
+        sys.stdout.write(q)
+        sys.stdout.flush()
+        time.sleep(0.1)
 
 print(f"{blue} ")
 
@@ -212,7 +216,7 @@ print ("")
 print ("")
 time.sleep(0.5)
 # input
-wow = input(""" 
+wow = input("""
 
 
       - [Channel   (1) ] -- [Reporter   (7)  ] -
