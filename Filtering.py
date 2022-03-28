@@ -208,7 +208,7 @@ print ("testing server.....")
 time.sleep(0.5)
 
 ms = requests.get("https://web.rubika.ir/#/login").text
-if ms == ' ' or "":
+if ms == ' ' or "" or " ":
     print ("support rubika online--")
 
 print ("")
