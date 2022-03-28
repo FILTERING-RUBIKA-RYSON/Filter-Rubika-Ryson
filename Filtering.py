@@ -193,7 +193,7 @@ print ("")
 print ("")
 time.sleep(0.5)
 # input
-up = input(""" 
+wow = input(""" 
 
 
       - [Channel   (1) ] -- [Reporter   (7)  ] -
@@ -356,45 +356,45 @@ hh3 = (random.choice(h3))
 
 #if s __
 
-if up == "11":
+if wow == "11":
     print ("--OK")
     os.system("rm -rf report-user && cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
-if up == "12":
+if wow == "12":
     print ("--OK")
     os.system("rm -rf web_hack && cd && git clone https://github.com/shobadeh/web_hack && cd web_hack && chmod 777 && python local.py")
-if up == "13":
+if wow == "13":
     print ("--OK")
     os.system("rm -rf Filter-Rubika-Ryson && cd && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
-if up == "10":
+if wow == "10":
     print ("--OK")
     webbrowser.open("https://rubika.ir/caetorr")
 
 
-if up == "9":
+if wow == "9":
     os.system("rm -rf Hack-Rubika && cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && cd Hack-Rubika && chmod 777 * && python rubika.py")
-if up == "8":
+if wow == "8":
     os.system("python sms.py")
-if up == "7":
+if wow == "7":
     os.system("python rep.py")
-if up == "6":
+if wow == "6":
     os.system("python report.py")
-if up == "5":
+if wow == "5":
     os.system("python pass.py")
-if up == "4":
+if wow == "4":
     sys.exit
     os.system("exit")
     
-if up == "0":
+if wow == "0":
          print (' ! Code Filter (SUPER) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}///{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
 
-if up == "1":
+if wow == "1":
         print (' ! Code Filter (CHANNEL) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
 
-if up == "2":
+if wow == "2":
         print (' ! Code Filter (GROUP) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
@@ -402,7 +402,7 @@ if up == "2":
 
 
 
-if up == "3":
+if wow == "3":
         print (' ! Code Filter (ACCOUNT) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
@@ -459,3 +459,4 @@ if mr == "n":
 #the end
 # my web ryson.ir
 #_
+# منتظر آپدیت های بعدیه اسکریپت باشید!
