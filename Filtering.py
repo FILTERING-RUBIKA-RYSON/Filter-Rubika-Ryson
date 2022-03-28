@@ -189,6 +189,7 @@ print(f"{pink} ")
 print ("running")
 print(Fore.GREEN +"")
 print ("")
+import requests
 q = requests.post("https://rubika.ir").text
 if "OK" in (q):
     print ("")
