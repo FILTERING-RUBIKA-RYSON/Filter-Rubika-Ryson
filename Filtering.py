@@ -187,6 +187,14 @@ for d in d:
 time.sleep(2)
 print(f"{pink} ")
 print ("running")
+print(Fore.GREEN +"")
+print ("")
+o = "[online server the report]"
+for e in o:
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.1)
+
 print(f"{blue} ")
 
 print ("")
@@ -411,7 +419,9 @@ print ("")
 time.sleep(0.6)
 print(f"{green}")
 print ("")
-print (" {server code create}")
+ls [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code"]
+cc = (random.choice(ls))
+print (cc)
 print(f"{blue}" )
 print(" ")
 time.sleep(0.5)
