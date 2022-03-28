@@ -2,7 +2,7 @@
 # py3
 # Khsteh Az Hameh
 print("")
-print("\n"*50)
+print("\n"*80)
 print("""
  ▄▄▄  ▄▄▄
  ███  ███
@@ -220,27 +220,26 @@ s = """
 
 
 
-               ------------||INFO-MANUFACTURER||----------
-               >-----------------------------------------<
-               >      online rubika.ir/serverer          <
-               >       off rubika.ir/Spansor             <
-               >     online shad.ir/creator_ryson        <
-               >    Fil rubika.ir/Conquest_Rayson        <
-               >   telegram on  t.me/Creator_Ryson       <
-               >-----------------------------------------<
-               >-----------------------------------------<
-               >             rules - all                 <
-               >       conquest-law.blogfa.com           <
-               >       creatar-rules.blogfa.com          <
-               >        rules-magic.blogfa.com           <
-               >       tme.uupdatte -- t.me/spansor      <
-               -------------------------------------------                
-               >  |--------------------------------|     <
-               >  |>Web= creator-rayson.blogfa.com<|     <
-               >  |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||     <
-               >  |_____[telegram.me/spansor]______|     <
-               >  |            mmd ryson           |     <
-               -------------------------------------------
+ [-----------{INFO-MANUFACTURER}-----------]
+ >-----------------------------------------<
+ >      online rubika.ir/serverer          <
+ >       off rubika.ir/Spansor             <
+ >     online shad.ir/creator_ryson        <
+ >   telegram on  t.me/Creator_Ryson       <
+ >-----------------------------------------<
+ >-----------------------------------------<
+ >             rules - all                 <
+ >       conquest-law.blogfa.com           <
+ >       creatar-rules.blogfa.com          <
+ >        rules-magic.blogfa.com           <
+ >       tme.uupdatte -- t.me/spansor      <
+ >-----------------------------------------<               
+ >  |--------------------------------|     <
+ >  |>Web= creator-rayson.blogfa.com<|     <
+ >  |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||     <
+ >  |_____[telegram.me/spansor]______|     <
+ >  |            mmd ryson           |     <
+ [-----------------------------------------]
 
 
 
