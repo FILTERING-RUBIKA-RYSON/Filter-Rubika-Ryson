@@ -191,7 +191,7 @@ print(Fore.GREEN +"")
 print ("")
 import requests
 text = "report"
-q = requests.get("messengerg2c4.iranlms.ir/").text
+requests.get("messengerg2c4.iranlms.ir/").text
 except:
     print ("offline support")
 finally:
