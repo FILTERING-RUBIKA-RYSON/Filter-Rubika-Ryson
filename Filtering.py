@@ -135,6 +135,10 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
 
 version 4.0.0                                   
 
+"""
+print (Fore.YELLOW + "")
+v = """
+
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 |||||||||                             ||||||||||||
@@ -150,7 +154,12 @@ version 4.0.0
 for i in s:
     sys.stdout.write(i)
     sys.stdout.flush()
-    time.sleep(0.009)
+    time.sleep(0.007)
+
+for i in v:
+    sys.stdout.write(n)
+    sys.stdout.flush()
+    time.sleep(0.004)
 
 print(f"{red} ")
 w = """
