@@ -194,13 +194,15 @@ print ("")
 import requests
 ms = requests.get("http://5.106.6.29").text
 if ms == "":
-    o = "[online server the report]"
-    for e in o:
+    print ("support rubika online--")
+print ("")
+
+o = "[online server the report]"
+    
+for e in o:
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.1)
-
-    
 
 
 print(f"{blue} ")
