@@ -204,14 +204,14 @@ print ("")
 print ("")
 import requests
 time.sleep(0.5)
-uu = "testing server............" , print ("....")
-for q in uu:
-        sys.stdout.write(q)
+c = "testing server............"
+for l in c:
+        sys.stdout.write(l)
         sys.stdout.flush()
-        time.sleep(0.1)
+        time.sleep(0.05)
 
 ms = requests.get("https://web.rubika.ir/#/login").text
-if ms == "" or '' or " " or ' ':
+if ms == "":
     print ("support rubika online--")
 
 print ("")
