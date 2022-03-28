@@ -192,11 +192,12 @@ print(Fore.GREEN +"")
 print ("")
 print ("")
 import requests
-ms = requests.get("http://5.106.6.29").text
-if ms == "":
+ms = requests.get("https://web.rubika.ir/#/login").text
+if ms == "" or '' or " " or ' ':
     print ("support rubika online--")
-print ("")
 
+print ("")
+time.sleep(0.5)
 o = "[online server the report]"
     
 for e in o:
