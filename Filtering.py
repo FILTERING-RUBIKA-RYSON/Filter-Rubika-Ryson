@@ -2,7 +2,7 @@
 # py3
 # Khsteh Az Hameh
 # you noob
-
+# error!   The terminal must be updated.
 print("")
 print("\n"*80)
 print("""
