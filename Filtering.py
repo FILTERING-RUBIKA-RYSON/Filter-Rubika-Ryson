@@ -189,12 +189,13 @@ print(f"{pink} ")
 print ("running")
 print(Fore.GREEN +"")
 print ("")
-requests.post("https://rubika.ir/").text
-try:
-    else:
-     print ("online support report")
-elife:
-     print ("offline support report")
+q = requests.post("https://rubika.ir").text
+if "OK" in (q):
+            print ("Report")
+        else:
+            print ("online support report")
+    except:
+        print ("offline support report")
 print ("")
 o = "[online server the report]"
 for e in o:
