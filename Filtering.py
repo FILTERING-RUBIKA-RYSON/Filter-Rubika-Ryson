@@ -30,7 +30,7 @@ print("""
  ██▄▄▄██
  ▀▀▀▀▀""")
 print (" ")
-print("updated Load ...")                 
+print("Load ...")                 
 import os
 #__
 os.system("pip install colored")
@@ -55,6 +55,7 @@ rang='\033[34m'
 
 
 os.system("clear")
+print ("\n*30")
 
 print(f"{green} ")
 
@@ -74,7 +75,7 @@ print (" ")
 print (Fore.GREEN + "")
 s = """ Loading Code..
 
-R4S0N---STARTED-12
+
                   .xUHWH!! !!?RYSONN:.
                 .X*#M@$!!  !X!M$$$$$$WWx:.
                :!!!!!!?H! :!$!$$$$$$$$$$8X:
@@ -176,7 +177,7 @@ up = input("""
        ||type numbers here|| >>>_ """)
 print("")
 print (" ")
-print(f"{rang} ")
+print(f"{red} ")
 time.sleep(2.0)
 s = """
                               --|||INFO|||--
@@ -362,7 +363,7 @@ if up == "3":
 
 
 if up != "3":
-        print("""             anti filter , no filtering: '(127.0.0.1:8080{r430n})' !For Channel Biography!""")
+        print("""anti filter , no filtering: '(127.0.0.1:8080{r430n})' !For Channel Biography!""")
 
 time.sleep(0.6)
 print(f"{green}")
@@ -380,12 +381,12 @@ print ("    super script filtering-reporter")
 print (" ")
 print (f"{red} ")
 print (" ")
-print ('Code Ro Dorost Bezan 70% Filter Mikone' + '%s%sTanK You My Friend%s'  % (fg('red'), bg('white'), attr('reset')))
+print ('Code Ro Dorost Bezan 70% Filter Mikoneh ' + '%s%sthank you my friend%s'  % (fg('red'), bg('blue'), attr('reset')))
 print (f"{blue} ")
 print (" ")
 time.sleep(0.5)
-print (""" {code ro ( 5 ) bar bezanin to Sayer!}
-       Tanks""")
+print (""" - 'correct the code |5| times' -
+   Thanks""")
 print(" ")
 print(" ")
 print("")
@@ -398,9 +399,9 @@ mr = input("""
            finished code #666-super
 
 
-               1-update script ((y))
-               2-restart script ((u))
-               3-exit the script ((n))
+               --update script (y) --
+               --restart script (u) --
+               --exit the script (n) --
                  
                   type the option>>>_""")
 
