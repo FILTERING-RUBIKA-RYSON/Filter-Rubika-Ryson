@@ -206,11 +206,15 @@ print ("")
 # time.sleep(0.5)
 print ("testing server.....")
 time.sleep(0.5)
-
+print(Fore.YELLOW +"")
 ms = requests.get("https://web.rubika.ir/#/login").text
 if ms == ' ' or "" or " ":
+    print("")
+    print("")
     print ("support rubika online--")
-
+print(Fore.GREEN +"")
+print ("")
+print ("")
 print ("")
 time.sleep(0.5)
 o = "[online server the report]"
