@@ -385,53 +385,49 @@ if up == "4":
     
 if up == "0":
          print (' ! Code Filter (SUPER) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}///{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('black'), attr('reset')))
-
+         print ("")
+         print ("")
 
 if up == "1":
         print (' ! Code Filter (CHANNEL) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('green'), attr('reset')))
-
-if up != "1":
-        print("""    
-                 COD 
- """)
+        print ("")
+        print ("")
 
 if up == "2":
         print (' ! Code Filter (GROUP) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ("")
+        print ("")
+        print ("              cσ∂s мү яερσят")
 
-
-if up != "2":
-        print("""
-                        cσ∂s мү яερσят
-  """)
 
 
 if up == "3":
         print (' ! Code Filter (ACCOUNT) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print ("")
+        print ("")
 
-
-if up != "3":
-        print("""anti filter , no filtering: '(127.0.0.1:8080{r430n})' !For Channel Biography!""")
-
+print ("")
 time.sleep(0.6)
 print(f"{green}")
+print ("")
 print (" {server code create}")
 print(f"{blue}" )
 print(" ")
-print("")
+time.sleep(0.5)
+print("anti filter , no filtering: '(127.0.0.1:8080{r430n})' For Channel Biography!")
 print("")
 print("")
 print (Fore.WHITE + " ")
 time.sleep(0.5)
-print ("    super script filtering-reporter")
+print ("if your account is not spam and you enter the code correctly, it will filter 70% !")
 print (" ")
 print (f"{red} ")
 print (" ")
-print ('Code Ro Dorost Bezan 70% Filter Mikoneh ' + '%s%sthank you my friend%s'  % (fg('red'), bg('blue'), attr('reset')))
+print (' super script reporter-filtering ' + '%s%sthank you my friend%s'  % (fg('red'), bg('blue'), attr('reset')))
 print (f"{blue} ")
 print (" ")
 time.sleep(0.5)
-print (""" - 'correct the code |5| times' -
-   Thanks""")
+print (""" - 'correct the code |5| times' -""")
 print(" ")
 print(" ")
 print("")
