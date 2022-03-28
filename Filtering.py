@@ -191,10 +191,11 @@ print(Fore.GREEN +"")
 print ("")
 import requests
 text = "report"
-q = requests.post("https://rubika.ir").text
-if "OK" in (q):
-    print ("")
-    print ("online support report")
+q = requests.post("messengerg2c4.iranlms.ir/").text
+if q == "OK":
+    print ("online support")
+if q == "NO":
+    print ("offline support")
 print ("")
 o = "[online server the report]"
 for e in o:
