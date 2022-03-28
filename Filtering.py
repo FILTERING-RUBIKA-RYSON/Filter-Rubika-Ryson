@@ -152,7 +152,7 @@ for i in s:
     time.sleep(0.009)
 
 print(f"{red} ")
-d = """
+w = """
 
 
 
@@ -176,10 +176,10 @@ d = """
 
 starting |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
 """
-for d in d:
-        sys.stdout.write(d)
+for p in w:
+        sys.stdout.write(p)
         sys.stdout.flush()
-        time.sleep(0.01)
+        time.sleep(0.006)
 
 
 # Chaker hameh :/  Hal Kardi?
@@ -190,6 +190,7 @@ print ("running")
 print(Fore.GREEN +"")
 print ("")
 import requests
+text = "report"
 q = requests.post("https://rubika.ir").text
 if "OK" in (q):
     print ("")
