@@ -81,7 +81,14 @@ print ("\n")
 print ("\n")
 print ("\n")
 print ("\n")
-
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
 print(f"{green} ")
 
 print (Fore.WHITE + "")
@@ -336,20 +343,20 @@ hh3 = (random.choice(h3))
 
 if up == "11":
     print ("--OK")
-    os.system("cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
+    os.system("rm -rf report-user && cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
 if up == "12":
     print ("--OK")
-    os.system("cd && git clone https://github.com/shobadeh/web_hack && cd web_hack && chmod 777 && python local.py")
+    os.system("rm -rf web_hack && cd && git clone https://github.com/shobadeh/web_hack && cd web_hack && chmod 777 && python local.py")
 if up == "13":
     print ("--OK")
-    os.system("cd && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
+    os.system("rm -rf Filter-Rubika-Ryson && cd && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
 if up == "10":
     print ("--OK")
     webbrowser.open("https://rubika.ir/caetorr")
 
 
 if up == "9":
-    os.system("cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && cd Hack-Rubika && chmod 777 * && python rubika.py")
+    os.system("rm -rf Hack-Rubika && cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && cd Hack-Rubika && chmod 777 * && python rubika.py")
 if up == "8":
     os.system("python sms.py")
 if up == "7":
