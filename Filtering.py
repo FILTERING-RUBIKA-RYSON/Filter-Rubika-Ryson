@@ -1,6 +1,8 @@
 # mmð řŷšŏň
 # py3
 # Khsteh Az Hameh
+# you noob
+
 print("")
 print("\n"*80)
 print("""
@@ -32,7 +34,7 @@ print("""
 print (" ")
 print("Load ...")                 
 import os
-#__
+#__ Library
 os.system("pip install colored")
 os.system("pip install colorama")
 os.system("pip install datetime")
