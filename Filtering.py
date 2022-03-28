@@ -436,14 +436,14 @@ time.sleep(0.3)
 print (Fore.GREEN + "") 
 mr = input("""
           
-           finished code #666-super
+           
 
 
                --update script (y) --
                --restart script (u) --
                --exit the script (n) --
                  
-                  type the option>>>_""")
+               [?] type the option>>>_""")
 
 if mr == "y":
         os.system("cd && rm -rf Filter-Rubika-Ryson && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
@@ -452,5 +452,8 @@ if mr == "u":
 if mr == "n":
         print ("the end")
         os.system("exit")
-     
-sys.exit()
+        sys.exit
+
+#the end
+# my web ryson.ir
+#_
