@@ -204,7 +204,7 @@ print ("")
 print ("")
 import requests
 time.sleep(0.5)
-uu = "testing server............") , print ("....")
+uu = "testing server............" , print ("....")
 for q in uu:
         sys.stdout.write(q)
         sys.stdout.flush()
