@@ -191,10 +191,10 @@ starting |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 for p in w:
         sys.stdout.write(p)
         sys.stdout.flush()
-        time.sleep(0.006)
+        time.sleep(0.004)
 
 
-# Chaker hameh :/  Hal Kardi?
+# :/
 
 time.sleep(2)
 print(f"{pink} ")
@@ -203,7 +203,13 @@ print(Fore.GREEN +"")
 print ("")
 print ("")
 import requests
-uu = ("testing server....." , '....' , ".....")
+time.sleep(0.5)
+uu = "testing server............") , print ("....")
+for q in uu:
+        sys.stdout.write(q)
+        sys.stdout.flush()
+        time.sleep(0.1)
+
 ms = requests.get("https://web.rubika.ir/#/login").text
 if ms == "" or '' or " " or ' ':
     print ("support rubika online--")
@@ -216,10 +222,7 @@ for e in o:
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.1)
-for q in uu:
-        sys.stdout.write(q)
-        sys.stdout.flush()
-        time.sleep(0.1)
+
 
 print(f"{blue} ")
 
