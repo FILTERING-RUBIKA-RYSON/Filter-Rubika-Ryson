@@ -151,102 +151,35 @@ for d in d:
 time.sleep(2)
 print(f"{pink} ")
 print ("running")
-print (Fore.BLUE + "")
 print(f"{blue} ")
-time.sleep(0.6)
-print ("               !")
-time.sleep(0.2)
-print ("               !!")
-time.sleep(1.0)
-print ("              !!!!")
-time.sleep(0.6)
-print ("             I!!!!I")
-time.sleep(0.2)
-print ("            M!!!!!!M")
-time.sleep(0.6)
-print ("           M!!!!!!!!!M")
-time.sleep(0.4)
-print ("          D!!!!!!!!!!!D")
-time.sleep(0.4)
-print ("         R!!!!!!!!!!!!!!R")
-time.sleep(0.3)
-print ("        Y!!!!!!!!!!!!!!!!Y")
-time.sleep(0.2)
-print ("       S!!!!!!!!!!!!!!!!!!S")
-time.sleep(0.1)
-print ("      O!!!!!!!!!!!!!!!!!!!!O")
-time.sleep(0.5)
-print ("     N!!!!!!!!!!!!!!!!!!!!!!N")
-time.sleep(0.4)
-print ("    A!!!!!!!!!!!!!!!!!!!!!!!!A")
-time.sleep(0.3)
-print ("   M!!!!!!!!!!!!!!!!!!!!!!!!!!M")
-time.sleep(0.2)
-print ("   M!!!!!!!!!!!!!!!!!!!!!!!!!!M")
-time.sleep(0.1)
-print ("    A!!!!!!!!!!!!!!!!!!!!!!!!!A")
-time.sleep(0.1)
-print ("      M!!!!!!!!!!!!!!!!!!!!!!M")
-time.sleep(0.3)
-print ("       A!!!!!!!!!!!!!!!!!!!!A")
-time.sleep(0.2)
-print ("        D!!!!!!!!!!!!!!!!!!D")
-time.sleep(0.2)
-print ("         R!!!!!!!!!!!!!!!!R")
-time.sleep(0.1)
-print ("          Y!!!!!!!!!!!!!!Y")
-time.sleep(0.3)
-print ("           S!!!!!!!!!!!!S")
-time.sleep(0.4)
-print ("            O!!!!!!!!!!O")
-time.sleep(0.3)
-print ("             N!!!!!!!!N")
-time.sleep(0.2)
-print ("              A!!!!!!A")
-time.sleep(0.1)
-print ("               M!!!!M")
-time.sleep(1.0)
-print ("                B!!B")
-time.sleep(0.3)
-print ("                 YY")
-time.sleep(0.3)
-print ("                 E")
-time.sleep(0.2)
-print ("")
+
 print (" ")
 print ("")
 # input
 up = input(""" 
 
-      - [Channel   (1) ] -
+      - [Channel   (1) ] -- [Reporter   (7)  ] -
 
-      - [Grup      (2) ] -
+      - [Group     (2) ] -- [sms bomb   (8)  ] -
                  
-      - [Account   (3) ] -
+      - [Account   (3) ] -- [Hack-Rubk  (9)  ] -
                   
-      - [Super     (0) ] -
+      - [Super     (0) ] -- [up chanl  (10)  ] -
 
-      - [Exit      (4) ] -
+      - [Exit      (4) ] -- [Reporter-2 (11) ] -
 
-      - [Code Pd   (5) ] -
+      - [Code Pd   (5) ] -- [Hack-Web   (12) ] -
 
-      - [Code Rp   (6) ] -
+      - [Code Rp   (6) ] -- [updated    (13) ] -
 
-      - [Reporter  (7) ] -
-
-      - [Sms Bomb  (8) ] -
-
-      - [Hack_Rubk (9) ] -
-
-      - [up ≠chanl (10)] -
 
        ||type numbers here|| >>>_ """)
 print("")
 print (" ")
-print(f"{pink} ")
+print(f"{rang} ")
 time.sleep(2.0)
 s = """
-                                |||INFO|||
+                              --|||INFO|||--
                ------------------------------------------
                >      online rubika.ir/serverer          <
                >       off rubika.ir/Spansor             <
@@ -266,7 +199,7 @@ s = """
                >  |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||     <
                >  |_____[telegram.me/spansor]______|     <
 
-                          🇴‌🇵‌🇪‌🇳‌  🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌‌‌‌
+
 
                
 
@@ -301,6 +234,8 @@ s = """
                      ########################
                       ##     ##   ##     ##
 
+ 
+                     🇴‌🇵‌🇪‌🇳‌  🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌
 """
 for r in s:
     sys.stdout.write(r)
@@ -310,6 +245,9 @@ for r in s:
 print (" ")
 print ("")
 print(f"{red} ")
+
+# moteghayers random code __
+
 md = (random.randint(1, 9))
 mmmd = (random.randint(1, 9))
 mmmd1 = (random.randint(1, 9))
@@ -360,13 +298,26 @@ mmd21 = str(mmmd21)
 mmd22 = str(mmmd22)
 mmd23 = str(mmmd23)
 mmd24 = str(mmmd24)
-h = ["f","k","y","e"]
-h2 = ["d","k","g","j","r"]
+h = ["f","a","y","e"]
+h2 = ["d","g","j","r"]
 h3 = ("h")
 hh = (random.choice(h))
 hh2 = (random.choice(h2))
-hh3 = (random.choice(h3)) 
+hh3 = (random.choice(h3))
+
+#if s __
+
+if up == "11":
+    print ("--OK")
+    os.system("cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
+if up == "12":
+    print ("--OK")
+    os.system("cd && git clone https://github.com/shobadeh/web_hack && cd web_hack && chmod 777 && python local.py")
+if up == "13":
+    print ("--OK")
+    os.system("cd && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
 if up == "10":
+    print ("--OK")
     webbrowser.open("https://rubika.ir/caetorr")
 
 
@@ -381,14 +332,15 @@ if up == "6":
 if up == "5":
     os.system("python pass.py")
 if up == "4":
+    sys.exit
     os.system("exit")
     
 if up == "0":
-         print ('!Code filter (SUPER) ≈>>>' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}///{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('black'), attr('reset')))
+         print (' ! Code Filter (SUPER) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}///{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('black'), attr('reset')))
 
 
 if up == "1":
-        print ('!Code filter (CHANNEL) ≈>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('green'), attr('reset')))
+        print (' ! Code Filter (CHANNEL) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('green'), attr('reset')))
 
 if up != "1":
         print("""    
@@ -396,7 +348,7 @@ if up != "1":
  """)
 
 if up == "2":
-        print ('!Code Filter (GROUP) ≠>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (' ! Code Filter (GROUP) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "2":
@@ -406,15 +358,15 @@ if up != "2":
 
 
 if up == "3":
-        print ('!Code Filter (ACCOUNT) ≠>>>' + f'%s%s ({mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}!/) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (' ! Code Filter (ACCOUNT) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('white'), attr('reset')))
 
 
 if up != "3":
-        print("""             
-            anti filter , no filtering: (127.0.0.1:8080{r430n}) !For Channel Biography!""")
+        print("""             anti filter , no filtering: '(127.0.0.1:8080{r430n})' !For Channel Biography!""")
 
 time.sleep(0.6)
-print(f"{green}" )
+print(f"{green}")
+print ("")
 print ("        S'cary")
 print(f"{blue}" )
 print(" ")
@@ -437,25 +389,6 @@ print (""" {code ro ( 5 ) bar bezanin to Sayer!}
 print(" ")
 print(" ")
 print("")
-print(""" - |Update Kardan Script|: -
-
-cd
-
-rm -rf Filter-Rubika-Ryson 
-
-
-git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson
-
-
-chmod 777 *
-
-
-cd Filter-Rubika-Ryson
-
-
-python3 Filtering.py
-
-""")
 print("")
 print("")
 time.sleep(0.3)
