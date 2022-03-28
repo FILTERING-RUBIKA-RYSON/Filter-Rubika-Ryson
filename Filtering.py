@@ -46,6 +46,7 @@ import colored
 import colorama                                                 
 import datetime
 import random
+import requests
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
 # colors
@@ -189,13 +190,6 @@ print(f"{pink} ")
 print ("running")
 print(Fore.GREEN +"")
 print ("")
-import requests
-text = "report"
-requests.get("messengerg2c4.iranlms.ir/").text
-except:
-    print ("offline support")
-finally:
-    print ("online support")
 print ("")
 o = "[online server the report]"
 for e in o:
