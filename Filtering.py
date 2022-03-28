@@ -136,7 +136,13 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
 version 4.0.0                                   
 
 """
+for i in s:
+    sys.stdout.write(i)
+    sys.stdout.flush()
+    time.sleep(0.007)
+
 print (Fore.YELLOW + "")
+
 v = """
 
 
@@ -151,12 +157,8 @@ v = """
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 
 """
-for i in s:
-    sys.stdout.write(i)
-    sys.stdout.flush()
-    time.sleep(0.007)
 
-for i in v:
+for n in v:
     sys.stdout.write(n)
     sys.stdout.flush()
     time.sleep(0.004)
