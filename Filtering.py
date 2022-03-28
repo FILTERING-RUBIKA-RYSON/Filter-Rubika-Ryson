@@ -189,6 +189,13 @@ print(f"{pink} ")
 print ("running")
 print(Fore.GREEN +"")
 print ("")
+requests.post("https://rubika.ir/").text
+try:
+    else:
+     print ("online support report")
+elife:
+     print ("offline support report")
+print ("")
 o = "[online server the report]"
 for e in o:
         sys.stdout.write(e)
@@ -419,7 +426,7 @@ print ("")
 time.sleep(0.6)
 print(f"{green}")
 print ("")
-ls [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code"]
+ls = [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code"]
 cc = (random.choice(ls))
 print (cc)
 print(f"{blue}" )
