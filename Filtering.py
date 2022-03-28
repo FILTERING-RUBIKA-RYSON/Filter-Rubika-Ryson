@@ -191,11 +191,8 @@ print(Fore.GREEN +"")
 print ("")
 q = requests.post("https://rubika.ir").text
 if "OK" in (q):
-    print ("Report")
-    else:
-        print ("online support report")
-    except:
-        print ("offline support report")
+    print ("")
+    print ("online support report")
 print ("")
 o = "[online server the report]"
 for e in o:
