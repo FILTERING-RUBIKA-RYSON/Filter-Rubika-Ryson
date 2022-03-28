@@ -202,13 +202,9 @@ print ("running")
 print(Fore.GREEN +"")
 print ("")
 print ("")
-import requests
 time.sleep(0.5)
-c = "testing server............"
-for l in c:
-        sys.stdout.write(l)
-        sys.stdout.flush()
-        time.sleep(0.05)
+print ("testing server............")
+time.sleep(0.5)
 
 ms = requests.get("https://web.rubika.ir/#/login").text
 if ms == "":
