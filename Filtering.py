@@ -1,4 +1,4 @@
-# MMD RYSON
+# mmð řŷšŏň
 # py3
 # Khsteh Az Hameh
 print("")
@@ -89,6 +89,7 @@ print ("\n")
 print ("\n")
 print ("\n")
 print ("\n")
+print("\n"*30)
 print(f"{green} ")
 
 print (Fore.WHITE + "")
@@ -186,10 +187,12 @@ print(f"{pink} ")
 print ("running")
 print(f"{blue} ")
 
-print (" ")
 print ("")
+print ("")
+time.sleep(0.5)
 # input
 up = input(""" 
+
 
       - [Channel   (1) ] -- [Reporter   (7)  ] -
 
@@ -206,12 +209,17 @@ up = input("""
       - [Code Rp   (6) ] -- [updated    (13) ] -
 
 
+
        ||type numbers here|| >>>_ """)
 print("")
 print (" ")
 print(f"{red} ")
 time.sleep(2.0)
 s = """
+
+
+
+
                ------------||INFO-MANUFACTURER||----------
                >-----------------------------------------<
                >      online rubika.ir/serverer          <
@@ -233,6 +241,10 @@ s = """
                >  |_____[telegram.me/spansor]______|     <
                >  |            mmd ryson           |     <
                -------------------------------------------
+
+
+
+
 
 
                
@@ -269,6 +281,8 @@ s = """
                       ##     ##   ##     ##
 
  
+
+
 
 """
 for r in s:
