@@ -202,13 +202,14 @@ print ("running")
 print(Fore.GREEN +"")
 print ("")
 print ("")
+# error in termux , But not in other terminals
 # time.sleep(0.5)
-# print ("testing server............")
-# time.sleep(0.5)
+print ("testing server.....")
+time.sleep(0.5)
 
-# ms = requests.get("https://web.rubika.ir/#/login").text
-# if ms == "":
-#    print ("support rubika online--")
+ms = requests.get("https://web.rubika.ir/#/login").text
+if ms == ' ' or "":
+    print ("support rubika online--")
 
 print ("")
 time.sleep(0.5)
