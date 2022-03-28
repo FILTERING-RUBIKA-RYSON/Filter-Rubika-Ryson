@@ -55,12 +55,37 @@ rang='\033[34m'
 
 
 os.system("clear")
-print ("\n*30")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+time.sleep(0.5)
+os.system("clear")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
+print ("\n")
 
 print(f"{green} ")
 
 print (Fore.WHITE + "")
-print (" Start Code Filter Rubika ~CrEaToR_rYsOn")
+print (" ~ Start Code Filter Rubika")
 print (" ")
 #date
 x = str(datetime.datetime.now())
@@ -68,7 +93,7 @@ x = str(datetime.datetime.now())
 print("Beginning " + (x))
 print (" ")
 print(f"{blue} ")
-print ("         GOD MAJAZI ")
+print ("         ryson script")
 print (" ")
 print (" ")
 print (" ")
@@ -180,15 +205,15 @@ print (" ")
 print(f"{red} ")
 time.sleep(2.0)
 s = """
-                              --|||INFO|||--
-               ------------------------------------------
+               ------------||INFO-MANUFACTURER||----------
+               >-----------------------------------------<
                >      online rubika.ir/serverer          <
                >       off rubika.ir/Spansor             <
                >     online shad.ir/creator_ryson        <
                >    Fil rubika.ir/Conquest_Rayson        <
                >   telegram on  t.me/Creator_Ryson       <
-               -------------------------------------------
-               -------------------------------------------
+               >-----------------------------------------<
+               >-----------------------------------------<
                >             rules - all                 <
                >       conquest-law.blogfa.com           <
                >       creatar-rules.blogfa.com          <
@@ -199,7 +224,8 @@ s = """
                >  |>Web= creator-rayson.blogfa.com<|     <
                >  |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||     <
                >  |_____[telegram.me/spansor]______|     <
-
+               >  |            mmd ryson           |     <
+               -------------------------------------------
 
 
                
@@ -236,7 +262,7 @@ s = """
                       ##     ##   ##     ##
 
  
-                     🇴‌🇵‌🇪‌🇳‌  🇷‌🇪‌🇵‌🇴‌🇷‌🇹‌‌
+
 """
 for r in s:
     sys.stdout.write(r)
@@ -367,13 +393,11 @@ if up != "3":
 
 time.sleep(0.6)
 print(f"{green}")
-print ("")
-print ("        S'cary")
+print (" {server code create}")
 print(f"{blue}" )
 print(" ")
 print("")
 print("")
-print("    server: ///g///h ")
 print("")
 print (Fore.WHITE + " ")
 time.sleep(0.5)
