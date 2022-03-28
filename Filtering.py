@@ -191,8 +191,10 @@ print ("running")
 print(Fore.GREEN +"")
 print ("")
 print ("")
+z = "...."
 import requests
-uu = ("testing server....." "....." ".....")
+uu = [f"testing server.....{z}" , "....." , "....."]
+uu = "..."
 ms = requests.get("https://web.rubika.ir/#/login").text
 if ms == "" or '' or " " or ' ':
     print ("support rubika online--")
