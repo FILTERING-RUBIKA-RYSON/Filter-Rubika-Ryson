@@ -194,7 +194,7 @@ for p in w:
         sys.stdout.write(p)
         sys.stdout.flush()
         time.sleep(0.004)
-print (ir) , print("..") , print("..") , print ("..")
+print(f"{ir} ....")
 
 # :/
 
@@ -208,9 +208,11 @@ py = input(""" test server online or offline_? (y/n)
  please enter your number _ >""")
 # error in termux , But not in other terminals
 # time.sleep(0.5)
-
+print (Fore.RED + "")
 if py == "y" or "Y":
-    print ("testing server % ")
+    print ()
+    print ()
+    print ("testing server ;-) ")
     time.sleep(0.5)
     print(Fore.YELLOW +"")
     ms = requests.get("https://web.rubika.ir/#/login").text
@@ -246,7 +248,7 @@ print ("")
 time.sleep(0.5)
 # input
 print (Fore.GREEN + "")
-sh = input (" [?] please enter your username filter in rubika _>")
+sh = input (" [?] please enter username that you want reporting rubika _> ")
 print (Fore.RED + "")
 print ("wait ..")
 time.sleep(1)
@@ -439,17 +441,17 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (f' [code] Fìĺŧĕř (SUPER) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('black'), attr('reset')))
+         print (f'{msh} \n \n [code] Fìĺŧĕř (SUPER) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
 
 if wow == "1":
-        print (f' [code] Fìĺŧĕř (CHANNEL) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/{mmd21}{mmd22}{mmd23}{mmd24}/!) %s' % (fg('red'), bg('green'), attr('reset')))
+        print (f'{msh} \n \n [code] Fìĺŧĕř (CHANNEL) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/{mmd21}{mmd22}{mmd23}{mmd24}/!) %s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
 
 if wow == "2":
-        print (f' [code] Fìĺŧĕř (GROUP) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f'{msh} \n \n [code] Fìĺŧĕř (GROUP) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print()
@@ -457,7 +459,7 @@ if wow == "2":
 
 
 if wow == "3":
-        print (f' [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f'{msh} \n \n [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
 
