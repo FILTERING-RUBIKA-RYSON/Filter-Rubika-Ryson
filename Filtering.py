@@ -35,9 +35,7 @@ print (" ")
 print("Load ...")                 
 import os
 #__ Library
-os.system("pip install colored")
-os.system("pip install colorama")
-os.system("pip install datetime")
+
 #importing
 import webbrowser
 import time                                                    
@@ -55,7 +53,14 @@ green='\033[32m'
 blue='\033[36m'
 pink='\033[35m'
 rang='\033[34m'
-
+print (Fore.WHAIT + '')
+print ("installings..")
+print ()
+print ()
+os.system("pip install colored")
+os.system("pip install colorama")
+os.system("pip install datetime")
+os.system("pip install requests")
 
 os.system("clear")
 print ("\n")
@@ -187,13 +192,12 @@ w = """
           
      
 """
-ir = """
-[starting] please wait 
-""" 
+ir = """[starting] please wait"""
 for p in w:
         sys.stdout.write(p)
         sys.stdout.flush()
         time.sleep(0.004)
+
 print(f"{ir} ....")
 
 # :/
@@ -205,14 +209,15 @@ print(Fore.GREEN +"")
 print ("")
 print ("")
 py = input(""" test server online or offline_? (y/n)
- please enter your number _ >""")
+ 
+  please enter letters _ >""")
 # error in termux , But not in other terminals
 # time.sleep(0.5)
 print (Fore.RED + "")
 if py == "y" or "Y":
     print ()
     print ()
-    print ("testing server ;-) ")
+    print (" 'testing server' ")
     time.sleep(0.5)
     print(Fore.YELLOW +"")
     ms = requests.get("https://web.rubika.ir/#/login").text
@@ -378,7 +383,7 @@ h3 = ("h")
 hh = (random.choice(h))
 hh2 = (random.choice(h2))
 hh3 = (random.choice(h3))
-print (Fore.BLACK + "")
+print (Fore.YELLOW + "")
 msh = """
 
                        ###############
@@ -472,7 +477,7 @@ print ("")
 ls = [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code"]
 cc = (random.choice(ls))
 print (cc)
-print(f"{blue}" )
+print(Fore.BLACK + '')
 print(" ")
 time.sleep(0.5)
 print("anti filter , no filtering: '(127.0.0.1:8080{r430n})' For Channel Biography!")
@@ -484,7 +489,7 @@ print ("if your account is not spam and you enter the code correctly, it will fi
 print (" ")
 print (f"{red} ")
 print (" ")
-print (' super script reporter-filtering ' + '%s%suser%s'  % (fg('red'), bg('blue'), attr('reset')))
+print ('super script reporter-filtering ' + '%s%suser%s'  % (fg('red'), bg('blue'), attr('reset')))
 print (f"{blue} ")
 print (" ")
 time.sleep(0.5)
