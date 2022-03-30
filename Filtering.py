@@ -109,7 +109,7 @@ print (" ")
 print (" ")
 print (" ")
 print (Fore.GREEN + "")
-s = """ Loadin&..
+s = """ Loading..
 
 
                   .xUHWH!! !!?RYSONN:.
@@ -224,6 +224,8 @@ if py == "y" or "Y":
         print("")
         print ("support rubika online -")
 if py == "n" or "N":
+    print()
+    print()
     print ("the ok load..")
 
 print ("")
@@ -376,7 +378,7 @@ h3 = ("h")
 hh = (random.choice(h))
 hh2 = (random.choice(h2))
 hh3 = (random.choice(h3))
-
+print (Fore.BLACK + "")
 msh = """
 
                        ###############
@@ -441,17 +443,17 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (f'{msh} \n \n [code] Fìĺŧĕř (SUPER) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('black'), attr('reset')))
+         print (f' \n [code] Fìĺŧĕř (SUPER) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
 
 if wow == "1":
-        print (f'{msh} \n \n [code] Fìĺŧĕř (CHANNEL) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/{mmd21}{mmd22}{mmd23}{mmd24}/!) %s' % (fg('red'), bg('green'), attr('reset')))
+        print (f' \n [code] Fìĺŧĕř (CHANNEL) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/{mmd21}{mmd22}{mmd23}{mmd24}/!) %s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
 
 if wow == "2":
-        print (f'{msh} \n \n [code] Fìĺŧĕř (GROUP) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f' \n [code] Fìĺŧĕř (GROUP) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print()
@@ -459,7 +461,7 @@ if wow == "2":
 
 
 if wow == "3":
-        print (f'{msh} \n \n [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f' \n [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
 
@@ -506,8 +508,19 @@ mr = input("""
                [?] type the option>>>_""")
 
 if mr == "y":
+        print ("ok")
+        print()
+        print ("wait")
+        time.sleep(0.5)
+        print (f"{msh}")
         os.system("cd && rm -rf Filter-Rubika-Ryson && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
 if mr == "u":
+        print ("ok")
+        print ()
+        time.sleep(0.5)
+        print (f"{msh}")
+        print ()
+        time.sleep(0.5)
         os.system("python Filtering.py")
 if mr == "n":
         print ("the end")
