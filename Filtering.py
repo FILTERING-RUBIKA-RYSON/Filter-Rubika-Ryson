@@ -32,13 +32,24 @@ print("""
  ██▄▄▄██
  ▀▀▀▀▀""")
 print (" ")
-print("Load ...")                 
+print("Load ...")
+import time
+
+print ()
+print ()
+time.sleep(0.5)
+print ("installings...")
+print ()                 
 import os
+time.sleep(0.3)
+os.system("pip install colored")
+os.system("pip install colorama")
+os.system("pip install datetime")
+os.system("pip install requests")
 #__ Library
 
 #importing
-import webbrowser
-import time                                                    
+import webbrowser                                               
 import sys                                                      
 import colored                                                  
 import colorama                                                 
@@ -53,16 +64,11 @@ green='\033[32m'
 blue='\033[36m'
 pink='\033[35m'
 rang='\033[34m'
-print (Fore.WHITE + '')
 
-print ("installings..")
-time.sleep(0.5)
+
+
 print ()
 print ()
-os.system("pip install colored")
-os.system("pip install colorama")
-os.system("pip install datetime")
-os.system("pip install requests")
 
 os.system("clear")
 print ("\n")
