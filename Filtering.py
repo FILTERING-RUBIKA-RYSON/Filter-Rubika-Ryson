@@ -96,7 +96,7 @@ print("\n"*30)
 print(f"{green} ")
 
 print (Fore.WHITE + "")
-print (" ~ Start Code Filter Rubika")
+print (" [~] štart code fìłŧêř rubika")
 print (" ")
 #date
 x = str(datetime.datetime.now())
@@ -109,7 +109,7 @@ print (" ")
 print (" ")
 print (" ")
 print (Fore.GREEN + "")
-s = """ Loading Code..
+s = """ Loadin&..
 
 
                   .xUHWH!! !!?RYSONN:.
@@ -132,15 +132,17 @@ Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
 $R@i.~~ !     :   ~$$$$$B$$en:`            
 ?MXT@Wx.~    :     ~"##*$$$$M~                
 
-
-version 4.0.0                                   
-
 """
+
+
 for i in s:
     sys.stdout.write(i)
     sys.stdout.flush()
     time.sleep(0.007)
-
+print (Fore.BLUE + "")
+time.sleep(0.5)
+print ("""
+version 4.0.0""")
 print (Fore.YELLOW + "")
 
 v = """
@@ -180,19 +182,19 @@ w = """
 
                      
 
-                    CODE REPORT RUBIKA
+                    
 
           
      
-
-
-starting |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
 """
+ir = """
+[starting] please wait 
+""" 
 for p in w:
         sys.stdout.write(p)
         sys.stdout.flush()
         time.sleep(0.004)
-
+print (ir) , print("..") , print("..") , print ("..")
 
 # :/
 
@@ -202,16 +204,28 @@ print ("running")
 print(Fore.GREEN +"")
 print ("")
 print ("")
+py = input(""" test server online or offline_? (y/n)
+ please enter your number _ >""")
 # error in termux , But not in other terminals
 # time.sleep(0.5)
-print ("testing server.....")
-time.sleep(0.5)
-print(Fore.YELLOW +"")
-ms = requests.get("https://web.rubika.ir/#/login").text
-if ms == ' ' or "" or " ":
-    print("")
-    print("")
-    print ("support rubika online--")
+
+if py == "y" or "Y":
+    print ("testing server % ")
+    time.sleep(0.5)
+    print(Fore.YELLOW +"")
+    ms = requests.get("https://web.rubika.ir/#/login").text
+    if ms == "":
+        print()
+        print ("support rubika offline -")
+    if ms == ' ' or "" or " ":
+        print("")
+        print("")
+        print ("support rubika online -")
+if py == "n" or "N":
+    print ("the ok load..")
+
+print ("")
+
 print(Fore.GREEN +"")
 print ("")
 print ("")
@@ -231,32 +245,40 @@ print ("")
 print ("")
 time.sleep(0.5)
 # input
-wow = input("""
+print (Fore.GREEN + "")
+sh = input (" [?] please enter your username filter in rubika _>")
+print (Fore.RED + "")
+print ("wait ..")
+time.sleep(1)
+print (Fore.GREEN + "")
+print (" accept user ")
+time.sleep(0.5)
+print (f"{blue ")
+wow = input(f"""
 
 
-      - [Channel   (1) ] -- [Reporter   (7)  ] -
+      - [code channel (1) ] - | - [reporter   (7)  ] -
 
-      - [Group     (2) ] -- [sms bomb   (8)  ] -
+      - [code group   (2) ] - | - [sms bomb   (8)  ] -
                  
-      - [Account   (3) ] -- [Hack-Rubk  (9)  ] -
+      - [code account (3) ] - | - [hack-rubk  (9)  ] -
                   
-      - [Super     (0) ] -- [up chanl  (10)  ] -
+      - [code super   (0) ] - | - [up chanl  (10)  ] -
 
-      - [Exit      (4) ] -- [Reporter-2 (11) ] -
+      - [exit script  (4) ] - | - [reporter-2 (11) ] -
 
-      - [Code Pd   (5) ] -- [Hack-Web   (12) ] -
+      - [code pd      (5) ] - | - [hack-web   (12) ] -
 
-      - [Code Rp   (6) ] -- [updated    (13) ] -
+      - [code rp      (6) ] - | - [updated    (13) ] -
 
 
 
-       ||type numbers here|| >>>_ """)
+       [type numbers here] user - {sh} >>>_ """)
 print("")
 print (" ")
 print(f"{red} ")
 time.sleep(2.0)
 s = """
-
 
 
 
@@ -268,58 +290,19 @@ s = """
  >   telegram on  t.me/Creator_Ryson       <
  >-----------------------------------------<
  >-----------------------------------------<
- >             rules - all                 <
+ >             (the rules)                 <
  >       conquest-law.blogfa.com           <
  >       creatar-rules.blogfa.com          <
  >        rules-magic.blogfa.com           <
- >       tme.uupdatte -- t.me/spansor      <
+ >       tme.uupdatte & t.me/spansor       <
  >-----------------------------------------<               
  >  |--------------------------------|     <
  >  |>Web= creator-rayson.blogfa.com<|     <
  >  |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||     <
- >  |_____[telegram.me/spansor]______|     <
- >  |            mmd ryson           |     <
+ >  |__________[mmd--ryson]__________|     <
+ >  |            the end             |     <
  [-----------------------------------------]
 
-
-
-
-
-
-               
-
-
-                       ###############
-                      #################            #
-                   ######################         #
-                  #########################      #
-                ############################
-               ##############################
-               ###############################
-              ###############################
-              ##############################
-                              #    ########   #
-                 ##        ###        ####   ##
-                                      ###   ###
-                                    ####   ###
-               ####          ##########   ####
-               #######################   ####
-                 ####################   ####
-                  ##################  ####
-                    ############      ##
-                       ########        ###
-                      #########        #####
-                    ############      ######
-                   ########      #########
-                     #####       ########
-                       ###       #########
-                      ######    ############
-                     #######################
-                     #   #   ###  #   #   ##
-                     ########################
-                      ##     ##   ##     ##
-
- 
 
 
 
@@ -392,6 +375,39 @@ hh = (random.choice(h))
 hh2 = (random.choice(h2))
 hh3 = (random.choice(h3))
 
+msh = 
+"""
+                       ###############
+                      #################            #
+                   ######################         #
+                  #########################      #
+                ############################
+               ##############################
+               ###############################
+              ###############################
+              ##############################
+                              #    ########   #
+                 ##        ###        ####   ##
+                                      ###   ###
+                                    ####   ###
+               ####          ##########   ####
+               #######################   ####
+                 ####################   ####
+                  ##################  ####
+                    ############      ##
+                       ########        ###
+                      #########        #####
+                    ############      ######
+                   ########      #########
+                     #####       ########
+                       ###       #########
+                      ######    ############
+                     #######################
+                     #   #   ###  #   #   ##
+                     ########################
+                      ##     ##   ##     ##
+"""
+
 #if s __
 
 if wow == "11":
@@ -423,25 +439,25 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (' ! Code Filter (SUPER) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}///{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('black'), attr('reset')))
+         print (f' [code] Fìĺŧĕř (SUPER) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
 
 if wow == "1":
-        print (' ! Code Filter (CHANNEL) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('green'), attr('reset')))
+        print (f' [code] Fìĺŧĕř (CHANNEL) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/{mmd21}{mmd22}{mmd23}{mmd24}/!) %s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
 
 if wow == "2":
-        print (' ! Code Filter (GROUP) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f' [code] Fìĺŧĕř (GROUP) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
-        print ("              cσ∂s мү яερσят")
+        print()
 
 
 
 if wow == "3":
-        print (' ! Code Filter (ACCOUNT) -->>> ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f' [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ > ' + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
 
@@ -464,11 +480,11 @@ print ("if your account is not spam and you enter the code correctly, it will fi
 print (" ")
 print (f"{red} ")
 print (" ")
-print (' super script reporter-filtering ' + '%s%sthank you my friend%s'  % (fg('red'), bg('blue'), attr('reset')))
+print (' super script reporter-filtering ' + '%s%suser%s'  % (fg('red'), bg('blue'), attr('reset')))
 print (f"{blue} ")
 print (" ")
 time.sleep(0.5)
-print (""" - 'correct the code |5| times' -""")
+print (f"""  'correct the code |5| times' <> ({sh}) """)
 print(" ")
 print(" ")
 print("")
