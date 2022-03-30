@@ -178,10 +178,9 @@ for n in v:
     sys.stdout.flush()
     time.sleep(0.004)
 print ()
-print ("loading server")
+print ("loading server wait")
 print ()
 time.sleep(0.5)
-print ("wait")
 print(f"{red} ")
 w = """
 
@@ -220,7 +219,7 @@ print (f"running  {x}")
 print(Fore.GREEN +"")
 print ("")
 print ("")
-py = input(""" test server online or offline_? (y/n)
+py = input(""" test server online or offline? (y/n)
  
   please enter _ > """)
 # error in termux , But not in other terminals
