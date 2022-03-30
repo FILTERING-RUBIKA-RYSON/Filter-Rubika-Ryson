@@ -253,7 +253,7 @@ time.sleep(1)
 print (Fore.GREEN + "")
 print (" accept user ")
 time.sleep(0.5)
-print (f"{blue ")
+print (f"{blue} ")
 wow = input(f"""
 
 
