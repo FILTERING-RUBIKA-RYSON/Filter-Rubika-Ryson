@@ -418,7 +418,7 @@ msh = """
                      ########################
                       ##     ##   ##     ##
 """
-z = tap (5) order
+z = "tap (5) order"
 #if s __
 
 if wow == "11":
@@ -495,7 +495,7 @@ print ('super script reporter-filtering ' + '%s%suser%s'  % (fg('red'), bg('blue
 print (f"{blue} ")
 print (" ")
 time.sleep(0.5)
-print (f"""  'correct the code |5| times' <> ({sh}) """)
+print (f"""  'correct the code |5| degree' <> ({sh}) """)
 print(" ")
 print(" ")
 print("")
