@@ -375,8 +375,8 @@ hh = (random.choice(h))
 hh2 = (random.choice(h2))
 hh3 = (random.choice(h3))
 
-msh = 
-"""
+msh = """
+
                        ###############
                       #################            #
                    ######################         #
