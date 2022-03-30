@@ -53,8 +53,10 @@ green='\033[32m'
 blue='\033[36m'
 pink='\033[35m'
 rang='\033[34m'
-print (Fore.WHAIT + '')
+print (Fore.WHITE + '')
+
 print ("installings..")
+time.sleep(0.5)
 print ()
 print ()
 os.system("pip install colored")
