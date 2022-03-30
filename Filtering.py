@@ -212,11 +212,11 @@ print ("")
 print ("")
 py = input(""" test server online or offline_? (y/n)
  
-  please enter letters _ >""")
+  please enter _ > """)
 # error in termux , But not in other terminals
 # time.sleep(0.5)
 print (Fore.RED + "")
-if py == "y" or "Y":
+if py == "y":
     print ()
     print ()
     print (" 'testing server' ")
@@ -233,7 +233,7 @@ if py == "y" or "Y":
 if py == "n" or "N":
     print()
     print()
-    print ("the ok load..")
+    print ("okay buddy")
 
 print ("")
 
@@ -385,6 +385,8 @@ h3 = ("h")
 hh = (random.choice(h))
 hh2 = (random.choice(h2))
 hh3 = (random.choice(h3))
+lf = ["g","d"]
+lf1 = (random.choice(lf))
 print (Fore.YELLOW + "")
 msh = """
 
@@ -450,17 +452,17 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (f" {x} \n '{z}' [code] Fìĺŧĕř (SUPER) [{sh}] _ > " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('black'), attr('reset')))
+         print (f" {x} \n '{z}' \n [code] Fìĺŧĕř (SUPER) [{sh}] _ > " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
 
 if wow == "1":
-        print (f" {x} \n '{z}' [code] Fìĺŧĕř (CHANNEL) [{sh}] _ >> " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/{mmd21}{mmd22}{mmd23}{mmd24}/!) %s' % (fg('red'), bg('green'), attr('reset')))
+        print (f" {x} \n '{z}' \n [code] Fìĺŧĕř (CHANNEL) [{sh}] _ >> " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
 
 if wow == "2":
-        print (f" {x} \n '{z}' [code] Fìĺŧĕř (GROUP) [{sh}] _ >> " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n '{z}' \n [code] Fìĺŧĕř (GROUP) [{sh}] _ >> " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{lf1}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print()
@@ -468,7 +470,7 @@ if wow == "2":
 
 
 if wow == "3":
-        print (f" {x} \n {z} [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ >> " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n '{z}' \n [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ >> " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
 
@@ -485,7 +487,6 @@ time.sleep(0.5)
 print("anti filter , no filtering: '(127.0.0.1:8080{r430n})' For Channel Biography!")
 print("")
 print("")
-print (Fore.WHITE + " ")
 time.sleep(0.5)
 print ("if your account is not spam and you enter the code correctly, it will filter 70% !")
 print (" ")
