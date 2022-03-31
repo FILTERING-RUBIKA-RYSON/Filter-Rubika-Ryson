@@ -64,6 +64,8 @@ green='\033[32m'
 blue='\033[36m'
 pink='\033[35m'
 rang='\033[34m'
+black='\033[37m'
+orange='\033[38m'
 
 
 
@@ -176,7 +178,7 @@ v = """
 for n in v:
     sys.stdout.write(n)
     sys.stdout.flush()
-    time.sleep(0.004)
+    time.sleep(0.001)
 print ()
 print ("loading server wait")
 print ()
@@ -296,7 +298,7 @@ wow = input(f"""
        [type numbers here] user - {sh} >>>_ """)
 print("")
 print (" ")
-print(f"{red} ")
+print(f"{orange} ")
 time.sleep(2.0)
 s = """
 
