@@ -11,7 +11,7 @@ import sys
 print(Fore.BLUE + "")
 m = """ 
 
-User Filtering Vs Reporter _ _ _ _
+
 
 
              .o oOOOOOOOo                                            OOOo
@@ -35,10 +35,10 @@ for r in m:
 print("\n"*29)
 
 soheil = """
-     \033[41m[1]\33[1;0m group ->_
-     \033[41m[2]\33[1;0m account->_
-     \033[41m[3]\33[1;0m channel->_
-     \033[41m[4]\33[1;0m bye bye  ->_
+     \033[41m[1]\33[1;0m   group ->_
+     \033[41m[2]\33[1;0m   account->_
+     \033[41m[3]\33[1;0m   channel->_
+     \033[41m[4]\33[1;0m   bye bye  ->_
 """
 for i in soheil:
 	sleep(0.05)
