@@ -64,8 +64,6 @@ green='\033[32m'
 blue='\033[36m'
 pink='\033[35m'
 rang='\033[34m'
-black='\033[37m'
-orange='\033[38m'
 
 
 
@@ -114,7 +112,7 @@ print (Fore.WHITE + "")
 print (" [~] štart code fìłŧêř rubika")
 print (" ")
 #date
-x = str(datetime.datetime.now())
+x = (f'{green}') + str(datetime.datetime.now())
 
 
 print (" ")
@@ -298,7 +296,7 @@ wow = input(f"""
        [type numbers here] user - {sh} >>>_ """)
 print("")
 print (" ")
-print(f"{orange} ")
+print(f"{red} ")
 time.sleep(2.0)
 s = """
 
@@ -431,7 +429,7 @@ msh = """
                      ########################
                       ##     ##   ##     ##
 """
-z = "tap (5) order"
+z = (f"{blue}tap (5) order")
 #if s __
 
 if wow == "11":
