@@ -156,9 +156,12 @@ print (Fore.BLUE + "")
 time.sleep(0.5)
 print ("""
 version 4.0.0""")
-print (Fore.YELLOW + "")
 
-v = """
+user = input (f'{blue} [~] enter your identity majazi >>— ')
+
+time.sleep(0.7)
+print (Fore.YELLOW + "")
+v = (f"""
 
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -171,7 +174,8 @@ v = """
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 
-"""
+-hi '{user}' welcome to ryson filtering script-
+""")
 
 for n in v:
     sys.stdout.write(n)
@@ -219,7 +223,7 @@ print (f"running  {x}")
 print(Fore.GREEN +"")
 print ("")
 print ("")
-py = input(""" test server online or offline? (y/n)
+py = input(f""" {user} test server online or offline? (y/n)
  
   please enter _ > """)
 # error in termux , But not in other terminals
@@ -266,7 +270,7 @@ print ("")
 time.sleep(0.5)
 # input
 print (Fore.GREEN + "")
-sh = input (" [?] please enter username that you want reporting rubika _> ")
+sh = input (" [?] {user} please enter username that you want reporting rubika _> ")
 print (Fore.RED + "")
 print ("wait ..")
 time.sleep(1)
@@ -276,6 +280,7 @@ time.sleep(0.5)
 print (f"{blue} ")
 wow = input(f"""
 
+                        >> {user} <<
 
       - [code channel (1) ] - | - [reporter   (7)  ] -
 
@@ -430,6 +435,7 @@ msh = """
                       ##     ##   ##     ##
 """
 z = (f"{blue}tap (5) order")
+print (Fore.YELLOW +"")
 #if s __
 
 if wow == "11":
@@ -461,17 +467,17 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (f" {x} \n '{z}' \n  \n [code] Fìĺŧĕř (SUPER) [{sh}] _ > " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('black'), attr('reset')))
+         print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (SUPER) [{sh}] _ > " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
 
 if wow == "1":
-        print (f" {x} \n '{z}' \n  \n [code] Fìĺŧĕř (CHANNEL) [{sh}] _ >> " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('green'), attr('reset')))
+        print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (CHANNEL) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
 
 if wow == "2":
-        print (f" {x} \n '{z}' \n  \n [code] Fìĺŧĕř (GROUP) [{sh}] _ >> " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{lf1}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (GROUP) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{lf1}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!)%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print()
@@ -479,7 +485,7 @@ if wow == "2":
 
 
 if wow == "3":
-        print (f" {x} \n '{z}' \n  \n [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ >> " + f'%s%s (/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!) %s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
 
@@ -487,7 +493,7 @@ print ("")
 time.sleep(0.6)
 print(f"{green}")
 print ("")
-ls = [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code"]
+ls = [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code" , "creating code server" ]
 cc = (random.choice(ls))
 print (cc)
 print(Fore.WHITE + '')
@@ -497,7 +503,7 @@ print("anti filter , no filtering: '(127.0.0.1:8080{r430n})' For Channel Biograp
 print("")
 print("")
 time.sleep(0.5)
-print ("if your account is not spam and you enter the code correctly, it will filter 70% !")
+print ("oh {user} if your account is not spam and you enter the code correctly, it will filter 70% !")
 print (" ")
 print (f"{red} ")
 print (" ")
