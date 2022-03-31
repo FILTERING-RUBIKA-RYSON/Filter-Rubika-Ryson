@@ -156,6 +156,8 @@ print (Fore.BLUE + "")
 time.sleep(0.5)
 print ("""
 version 4.0.0""")
+print ()
+print ()
 
 user = input (f'{blue} [~] enter your identity majazi >>— ')
 
@@ -270,7 +272,7 @@ print ("")
 time.sleep(0.5)
 # input
 print (Fore.GREEN + "")
-sh = input (" [?] {user} please enter username that you want reporting rubika _> ")
+sh = input (f" [?] {user} please enter username that you want reporting rubika _> ")
 print (Fore.RED + "")
 print ("wait ..")
 time.sleep(1)
