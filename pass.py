@@ -11,7 +11,7 @@ def password(size=8, chars=string.ascii_letters + string.digits +
 
 print(password(int(input(""" 
 
-Code Filtering Acc >> """))))
+account report >> """))))
 print ("")
 import string
 import random
@@ -24,7 +24,7 @@ def password(size=8, chars=string.ascii_letters + string.digits +
 
 print(password(int(input(""" 
 
-Code Filter Chanel >> """))))
+channel report >> """))))
 print("")
 ascii_lowercase = 'abcdefghijklmnopqrstuvwxyz!5788¥€fh--_'
 ascii_uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -40,5 +40,5 @@ def password(size=8, chars=string.ascii_letters + string.digits +
 
 print(password(int(input(""" 
 
-Code Filtering Group>> """))))
+group report>> """))))
 print ("")
