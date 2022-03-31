@@ -505,7 +505,7 @@ print("anti filter , no filtering: '(127.0.0.1:8080{r430n})' For Channel Biograp
 print("")
 print("")
 time.sleep(0.5)
-print ("oh '{user}' if your account is not spam and you enter the code correctly, it will filter 70% !")
+print (f"oh '{user}' if your account is not spam and you enter the code correctly, it will filter 70% !")
 print (" ")
 print (f"{red} ")
 print (" ")
