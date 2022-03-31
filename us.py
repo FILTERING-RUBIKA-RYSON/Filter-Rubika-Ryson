@@ -8,11 +8,11 @@ from time import sleep
 from colorama import Fore
 import sys
 print("")
-print(Fore.RED+" "+" Filter")
+print(Fore.RED+" "+" report username")
 sleep(2.0)
 print("\n")
 sleep(2.0)
-print("\n"*49)
+print("\n"*80)
 Sdf = """
  Im Ostoreh """
 for i in Sdf:
@@ -25,9 +25,8 @@ print()
 def random_string_genera_variable_size(min_size, max_size, allowed_chars):
   return ''.join(random.choice(allowed_chars) for x in range(randint(min_size, max_size)))
 chars = string.ascii_letters + string.punctuation
-print(Fore.GREEN+"    "+"|"+"_"*40+"|")
-print("     "+Fore.YELLOW+'Code Account >> ', random_string_genera_variable_size(6, 24, chars))
-print(Fore.GREEN+"    "+"|"+"_"*40+"|")
+
+print("     "+Fore.YELLOW+'reporter account—>> ', random_string_genera_variable_size(6, 24, chars))
 print()
 sleep(1.0)
 print(Fore.GREEN+""" OK """)
