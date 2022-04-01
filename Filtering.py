@@ -213,11 +213,9 @@ if py == "y":
     time.sleep(1) 
     print("\r 'testing server' : ....",end="",flush=False) 
     time.sleep(1)
-    print (Fore.WHITE + "")
     print("\r 'testing server' : .....",end="",flush=False) 
     time.sleep(1)
-    print (Fore.RED + "")
-    print("\r 'testing server' : .....",end="",flush=False)
+    print("\r 'testing server' : ......",end="",flush=False)
     time.sleep(0.5)
     print(Fore.YELLOW +"")
     ms = requests.get("https://web.rubika.ir/#/login").text
