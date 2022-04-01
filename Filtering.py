@@ -388,8 +388,8 @@ mmd21 = str(mmmd21)
 mmd22 = str(mmmd22)
 mmd23 = str(mmmd23)
 mmd24 = str(mmmd24)
-h = ["f","a","y","e"]
-h2 = ["d","g","j","r"]
+h = ["/y//d/f/","/f//d/","/d//f/h/","/f//a/y/","/e////f.h/","/f/h.u//"]
+h2 = ["/f////g.h/","/g//d/","/f/h.g//","/r//g/h"]
 h3 = ("h")
 hh = (random.choice(h))
 hh2 = (random.choice(h2))
@@ -436,11 +436,12 @@ msh = """
                      ########################
                       ##     ##   ##     ##
 """
+y = (f"{blue}tap (1) order code")
 z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
 if wow == "14":
-    print (f"{x} \n '{z}' \n  \n '{user}' [code] storng —>>: " + f"{green}(((<<</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>>>)))")
+    print (f"{x} \n '{y}' \n  \n '{user}' [code] storng —>>: " + f"{green}(((<<</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>>>)))")
 if wow == "11":
     print ("--OK")
     os.system("rm -rf report-user && cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
@@ -470,17 +471,17 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (SUPER) [{sh}] _ > " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}////{hh2}.{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('black'), attr('reset')))
+         print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (super) [{sh}] _ > " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
 
 if wow == "1":
-        print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (CHANNEL) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{hh2}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('green'), attr('reset')))
+        print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (channel) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
 
 if wow == "2":
-        print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (GROUP) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}/{hh}//{lf1}/{hh3}/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!)%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (group) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!)%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print()
@@ -488,7 +489,7 @@ if wow == "2":
 
 
 if wow == "3":
-        print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (ACCOUNT) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}/f//a/y/{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (account) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
 
