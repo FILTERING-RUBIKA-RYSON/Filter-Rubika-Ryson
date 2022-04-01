@@ -443,7 +443,7 @@ if wow == "13":
     os.system("rm -rf Filter-Rubika-Ryson && cd && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
 if wow == "10":
     print ("--OK")
-    webbrowser.open("https://rubika.ir/caetorr")
+    webbrowser.open("https://in.rubika.ir/caetorr")
 
 
 if wow == "9":
