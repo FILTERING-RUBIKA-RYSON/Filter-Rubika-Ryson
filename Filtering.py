@@ -48,6 +48,7 @@ os.system("pip install colored --upgrade -y")
 os.system("pip install colorama")
 os.system("pip install datetime")
 os.system("pip install requests")
+os.system("pip install flags")
 #__ Library
 
 #importing
