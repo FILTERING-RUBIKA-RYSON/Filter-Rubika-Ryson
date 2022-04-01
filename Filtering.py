@@ -128,7 +128,7 @@ for i in s:
 print (Fore.BLUE + "")
 time.sleep(0.5)
 print ("""
-version 4.0.0""")
+version 4.1""")
 print ()
 print ()
 
@@ -439,7 +439,7 @@ msh = """
 z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
-if wow = "14":
+if wow == "14":
     print (f"{x} \n '{z}' \n  \n '{user}' [code] storng —>>: " + f"{green}(((<<</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>>>)))")
 if wow == "11":
     print ("--OK")
