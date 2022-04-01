@@ -279,6 +279,7 @@ wow = input(f"""
 
       - [code rp      (6) ] - | - [updated    (13) ] -
 
+                  - [storng code (14) ] -
 
 
        [type numbers here] user - {sh} >>>_ """)
@@ -395,6 +396,13 @@ hh2 = (random.choice(h2))
 hh3 = (random.choice(h3))
 lf = ["g","d"]
 lf1 = (random.choice(lf))
+pl = ["f","¥","€","$","£","¢","&"]
+pl1 = (random.choice(pl))
+pl2 = (random.choice(pl))
+pl3 = (random.choice(pl))
+pl4 = (random.choice(pl))
+pl5 = (random.choice(pl))
+pl6 = (random.choice(pl))
 print (Fore.YELLOW + "")
 msh = """
 
@@ -431,7 +439,8 @@ msh = """
 z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
-
+if wow = "14":
+    print (f"{x} \n '{z}' \n  \n '{user}' [code] storng —>>: " + f"{green}(((<<</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>>>)))")
 if wow == "11":
     print ("--OK")
     os.system("rm -rf report-user && cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
