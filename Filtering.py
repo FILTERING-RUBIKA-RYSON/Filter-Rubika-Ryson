@@ -58,6 +58,7 @@ import colorama
 import datetime
 import random
 import requests
+import flags
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
 # colors
@@ -272,6 +273,17 @@ wow = input(f"""
 
 
        [type numbers here] user - {sh} >>>_ """)
+
+print(f"\r{colorma.GREEN}[+] Alert : 5s",end="",flush=False) 
+time.sleep(1)
+print(f"\r{colorma.GREEN}[+] Alert : 4s",end="",flush=False)
+time.sleep(1) 
+print(f"\r{colorma.END}[+] Alert : 3s",end="",flush=False) 
+time.sleep(1)
+print(f"\r{colorma.RED}[+] Alert : 2s",end="",flush=False) 
+time.sleep(1)
+print(f"\r{colorma.RED}[+] Alert : 1s\r") 
+time.sleep(1)
 print("")
 print (" ")
 print(f"{red} ")
