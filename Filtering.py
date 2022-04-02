@@ -207,15 +207,27 @@ print (Fore.RED + "")
 if py == "y":
     print ()
     print ()
-    print("\r 'testing server' : ..",end="",flush=False) 
+    print("\r 'testing server'  ..",end="",flush=False) 
     time.sleep(1)
-    print("\r 'testing server' : ...",end="",flush=False)
+    print("\r 'testing server'  ...",end="",flush=False)
     time.sleep(1) 
-    print("\r 'testing server' : ....",end="",flush=False) 
+    print("\r 'testing server'  ....",end="",flush=False) 
     time.sleep(1)
-    print("\r 'testing server' : .....",end="",flush=False) 
+    print("\r 'testing server'  .....",end="",flush=False) 
     time.sleep(1)
-    print("\r 'testing server' : ......",end="",flush=False)
+    print("\r 'testing server'  ",end="",flush=False)
+    time.sleep(0.8)
+    print("\r 'testing server'  .",end="",flush=False)
+    time.sleep(0.9)
+    print("\r 'testing server'  .. ",end="",flush=False)
+    time.sleep(0.5)
+    print("\r 'testing server'  ...",end="",flush=False)
+    time.sleep(0.7)
+    print("\r 'testing server'  ....",end="",flush=False)
+    time.sleep(1)
+    print("\r 'testing server'  .....",end="",flush=False)
+    time.sleep(0.7)
+    print("\r 'create server'  ",end="",flush=False)
     time.sleep(0.5)
     print(Fore.YELLOW +"")
     ms = requests.get("https://web.rubika.ir/#/login").text
@@ -296,42 +308,6 @@ print("\r[~] alert : 1s",end="",flush=False)
 time.sleep(1)
 print("")
 print (" ")
-print(f"{red} ")
-time.sleep(2.0)
-s = """
-
-
-
- [-----------{INFO-MANUFACTURER}-----------]
- >-----------------------------------------<
- >      online rubika.ir/serverer          <
- >       off rubika.ir/Spansor             <
- >     online shad.ir/creator_ryson        <
- >   telegram on  t.me/Creator_Ryson       <
- >-----------------------------------------<
- >-----------------------------------------<
- >             (the rules)                 <
- >       conquest-law.blogfa.com           <
- >       creatar-rules.blogfa.com          <
- >        rules-magic.blogfa.com           <
- >       tme.uupdatte & t.me/spansor       <
- >-----------------------------------------<               
- >  |--------------------------------|     <
- >  |>Web= creator-rayson.blogfa.com<|     <
- >  |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||     <
- >  |__________[mmd--ryson]__________|     <
- >  |            the end             |     <
- [-----------------------------------------]
-
-
-
-
-"""
-for r in s:
-    sys.stdout.write(r)
-    sys.stdout.flush()
-    time.sleep(0.002)
-
 print (" ")
 print ("")
 print(f"{red} ")
@@ -492,6 +468,46 @@ if wow == "3":
         print (f" {x} \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (account) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
+
+print(f"{red} ")
+print ()
+time.sleep(1)
+s = """
+
+
+                / mmd ryson \
+ [-----------{INFO-MANUFACTURER}-----------]
+ >-----------------------------------------<
+ >      online: rubika.ir/serverer         <
+ >      online: rubika.ir/alerter          <
+ >     offline: rubika.ir/Spansor          <
+ >     online: shad.ir/creator_ryson       <
+ >   telegram on:  t.me/Creator_Ryson      <
+ >   channel rubika: rubika.ir/caetorr     <
+ >   channel telegram: t.me/uupdatte       <
+ >-----------------------------------------<
+ >-----------------------------------------<
+ >             (the rules)                 <
+ >       conquest-law.blogfa.com           <
+ >       creatar-rules.blogfa.com          <
+ >        rules-magic.blogfa.com           <
+ >                                         <
+ >-----------------------------------------<               
+ >  |--------------------------------|     <
+ >  |>Web= creator-rayson.blogfa.com<|     <
+ >  |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||     <
+ >  |__________[mmd-ryson]___________|     <
+ >  |            the end             |     <
+ [-----------------------------------------]
+
+
+
+
+"""
+for r in s:
+    sys.stdout.write(r)
+    sys.stdout.flush()
+    time.sleep(0.002)
 
 print ("")
 time.sleep(0.6)
