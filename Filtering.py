@@ -417,7 +417,7 @@ z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
 if wow == "14":
-    print (f"{x} \n '{y}' \n  \n '{user}' [code] storng —>>: " + f"{green}(((<<</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>>>)))")
+    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>: " + f"{green}(</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>)")
 if wow == "11":
     print ("--OK")
     os.system("rm -rf report-user && cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
@@ -475,7 +475,7 @@ time.sleep(1)
 s = """
 
 
-                / mmd ryson \
+                  [mmd ryson]
  [-----------{INFO-MANUFACTURER}-----------]
  >-----------------------------------------<
  >      online: rubika.ir/serverer         <
