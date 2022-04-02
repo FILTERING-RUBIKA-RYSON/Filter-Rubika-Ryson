@@ -42,7 +42,6 @@ print ("installings please wait ...")
 print ()                 
 import os
 time.sleep(0.3)
-os.system("termux-change-repo && ")
 os.system("apt update -y && apt upgrade -y")
 os.system("pip install colored --upgrade")
 os.system("pip install colorama")
@@ -292,6 +291,7 @@ wow = input(f"""
       - [code rp      (6) ] - | - [updated    (13) ] -
 
                   - [storng code (14) ] -
+
                   - [anti filter (15) ] -
 
 
@@ -421,7 +421,8 @@ z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
 if wow == "15":
-    sir = input ("username for anti report _> ")
+    sir = input ("username for anti report _> ") , (Fore.WHITE + '')
+    print ()
     print (f"{x} \n \n {port} {sir} \n \n anti report or filter [for channel biography] ——>>>:" + f"{ping}")
 if wow == "14":
     print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>: " + f"{red}(</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>)")
@@ -482,7 +483,7 @@ time.sleep(1)
 s = """
 
 
-                  [mmd ryson]
+                  
  [-----------{INFO-MANUFACTURER}-----------]
  >-----------------------------------------<
  >      online: rubika.ir/serverer         <
@@ -530,7 +531,7 @@ print (f"oh '{user}' if your account is not spam and you enter the code correctl
 print ()
 print ()
 print ()
-print ('super script reporter-filtering ' + f'%s%s "telesm"  <{x}> ({sh}) !%s'  % (fg('blue'), bg('green'), attr('reset')))
+print ('super script reporter-filtering ' + f'%s%s "telesm"  <{x}> ({sh}) !%s'  % (fg('blue'), bg('red'), attr('reset')))
 print("")
 print("")
 print("")
