@@ -275,27 +275,27 @@ wow = input(f"""
 
                         >> {user} <<
 
-      - [code channel (1) ] - | - [reporter   (7)  ] -
+pro!>  - [code channel (1) ] - | - [reporter   (7)  ] -
 
-      - [code group   (2) ] - | - [sms bomb   (8)  ] -
+pro!>  - [code group   (2) ] - | - [sms bomb   (8)  ] -
                  
-      - [code account (3) ] - | - [hack-rubk  (9)  ] -
+pro!>  - [code account (3) ] - | - [hack-rubk  (9)  ] -
                   
-      - [code super   (0) ] - | - [up chanl  (10)  ] -
+pro!>  - [code super   (0) ] - | - [up chanl  (10)  ] -
 
-      - [exit script  (4) ] - | - [reporter-2 (11) ] -
+       - [exit script  (4) ] - | - [reporter-2 (11) ] -
 
-      - [code pd      (5) ] - | - [hack-web   (12) ] -
+       - [code pd      (5) ] - | - [hack-web   (12) ] -
 
-      - [code rp      (6) ] - | - [updated    (13) ] -
+       - [code rp      (6) ] - | - [updated    (13) ] -
 
-                  - [storng code (14) ] -
+            pro!>  - [storng code (14) ] -
 
-                  - [anti filter (15) ] -
+            pro!>  - [anti filter (15) ] -
 
 
 
-       [type numbers here] user - {sh} >>>_ """)
+        [type numbers here] user - {sh} >>>_ """)
 print (Fore.GREEN +"")
 print("\r[~] alert : 5s",end="",flush=False) 
 time.sleep(1)
