@@ -10,7 +10,7 @@ import sys
 print("")
 print(Fore.RED+" "+" Loading....")
 sleep(1.0)
-print("\n"*40)
+print("\n"*10)
 loo = """
  Open Ok """
 for i in loo:
@@ -18,9 +18,8 @@ for i in loo:
   print(i,end='',flush=True)
 print()
 sleep(0.9)
-print(Fore.GREEN+"_________________")
-print("   "+Fore.YELLOW+'reporter group>> ',uuid.uuid1())
-print("   "+Fore.YELLOW+'reporter group>> ',uuid.uuid4())
-print(Fore.GREEN+"_________________")
+print(Fore.GREEN+"#  #  #  #")
+print("   "+Fore.BLUE+'reporter group>> ',uuid.uuid1())
+print("   "+Fore.BLUE+'reporter group>> ',uuid.uuid4())
+print(Fore.GREEN+"#  #  #  #")
 print()
-input()
