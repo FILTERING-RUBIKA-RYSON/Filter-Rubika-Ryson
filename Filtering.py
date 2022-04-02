@@ -421,9 +421,9 @@ z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
 if wow == "15":
-    sir = input ("username for anti report _> ") , (Fore.WHITE + '')
+    sir = input (" username for anti report _> ")
     print ()
-    print (f"{x} \n \n {port} {sir} \n \n anti report or filter [for channel biography] ——>>>:" + f"{ping}")
+    print (f"{x} \n \n {port} {sir} \n \n anti report or filter [for username biography] ——>>>:" + f"{ping}")
 if wow == "14":
     print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>: " + f"{red}(</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>)")
 if wow == "11":
