@@ -12,7 +12,7 @@ print(Fore.RED+" "+" Loading....")
 sleep(1.0)
 print("\n"*10)
 loo = """
- Open Ok """
+ create uid code  """
 for i in loo:
   sleep(0.02)
   print(i,end='',flush=True)
@@ -20,6 +20,5 @@ print()
 sleep(0.9)
 print(Fore.GREEN+"#  #  #  #")
 print("   "+Fore.BLUE+'reporter group>> ',uuid.uuid1())
-print("   "+Fore.BLUE+'reporter group>> ',uuid.uuid4())
 print(Fore.GREEN+"#  #  #  #")
 print()
