@@ -15,7 +15,7 @@ print(Fore.GREEN+"""
     coder..
   """)
 sleep(2.0)
-print("\n"*49)
+print("\n"*90)
 print("""
   Load . . .
   """)
@@ -32,7 +32,8 @@ def random_string_generator(str_size, allowed_chars):
   return ''.join(random.choice(allowed_chars) for x in range(str_size))
 chars = string.ascii_letters + string.punctuation
 size = 28
-print("_____________")
+print("#  #  #  #")
 print(Fore.RED+'   reporter channel >> ',random_string_generator(size, chars))
-print("_____________")
-input()
+print("#  #  #  #")
+time.sleep(1)
+print ()
