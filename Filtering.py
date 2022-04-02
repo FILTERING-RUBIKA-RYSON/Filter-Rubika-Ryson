@@ -196,7 +196,7 @@ print (f"running  {x}")
 print(Fore.GREEN +"")
 print ("")
 print ("")
-py = input(f""" [{user}] >> test server online or offline? (y/n)
+py = input(f""" [{user}] >> test server rubika online or offline? (y/n)
  
   please enter _ > """)
 # error in termux , But not in other terminals
@@ -262,7 +262,7 @@ print ("")
 print ("")
 time.sleep(0.5)
 # input
-print (Fore.GREEN + "")
+print (Fore.BLUE + "")
 sh = input (f" [?] [{user}] >> please enter username that you want reporting rubika _> ")
 print (Fore.RED + "")
 print ("wait ..")
@@ -413,7 +413,7 @@ msh = """
                      ########################
                       ##     ##   ##     ##
 """
-oh = (Fore.WHITE + f"oh '{user}' if your account is not spam and you enter the code correctly, it will filter 70% !")
+oh = (Fore.WHITE + f"oh '{user}' if your account is not spam and you to hit the code correctly, it will filter 70% !")
 port = (f"{blue}no report")
 ping = (Fore.WHITE + " '(127.0.0.1:8080{r430n})'")
 y = (f"{blue}tap (1) order code")
