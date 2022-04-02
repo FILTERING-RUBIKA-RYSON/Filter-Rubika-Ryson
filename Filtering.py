@@ -292,6 +292,8 @@ wow = input(f"""
       - [code rp      (6) ] - | - [updated    (13) ] -
 
                   - [storng code (14) ] -
+                  - [anti filter (15) ] -
+
 
 
        [type numbers here] user - {sh} >>>_ """)
@@ -412,12 +414,17 @@ msh = """
                      ########################
                       ##     ##   ##     ##
 """
+port = (f"{blue}no report")
+ping = (Fore.WHITE + " '(127.0.0.1:8080{r430n})'")
 y = (f"{blue}tap (1) order code")
 z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
+if wow == "15":
+    sir = input ("username for anti report _> ")
+    print (f"{x} \n \n {port} {sir} \n \n anti report or filter [for channel biography] ——>>>:" + f"{ping}")
 if wow == "14":
-    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>: " + f"{green}(</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>)")
+    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>: " + f"{red}(</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>)")
 if wow == "11":
     print ("--OK")
     os.system("rm -rf report-user && cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
@@ -517,23 +524,15 @@ ls = [" {server code create}" , 'server report code' , "create code server rubik
 cc = (random.choice(ls))
 print (cc)
 print(Fore.WHITE + '')
-print(" ")
-time.sleep(0.5)
-print("anti filter , no filtering: '(127.0.0.1:8080{r430n})' For Channel Biography!")
-print("")
 print("")
 time.sleep(0.5)
 print (f"oh '{user}' if your account is not spam and you enter the code correctly, it will filter 70% !")
-print (" ")
-print (f"{red} ")
-print (" ")
-print ('super script reporter-filtering ' + '%s%suser%s'  % (fg('red'), bg('blue'), attr('reset')))
-print (f"{blue} ")
-print (" ")
-time.sleep(0.5)
-print (f"""  'correct the code |5| degree' <> ({sh}) """)
-print(" ")
-print(" ")
+print ()
+print ()
+print ()
+print ('super script reporter-filtering ' + f'%s%s "telesm"  <{x}> ({sh}) !%s'  % (fg('blue'), bg('green'), attr('reset')))
+print("")
+print("")
 print("")
 print("")
 print("")
