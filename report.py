@@ -8,31 +8,9 @@ from time import sleep
 from colorama import Fore
 import sys
 ###########
-print(Fore.BLUE + "")
-m = """ 
 
 
-
-
-             .o oOOOOOOOo                                            OOOo
-             Ob.OOOOOOOo  OOOo.      oOOo.                      .adOOOOOOO
-             OboO''''''''''''.OOo. .oOOOOOo.    OOOo.oOOOOOo..''''''''OO
-             OOP.oOOOOOOOOOOO "POOOOOOOOOOOo.   "OOOOOOOOOP,OOOOOOOOOOOB'
-             O'OOOO'     OOOOo"OOOOOOOOOOO .adOOOOOOOOO"oOOO'    OOOOo
-             .OOOO'            OOOOOOOOOOOOOOOOOOOOOOOOOO'            OO
-             OOOOO                 '"OOOOOOOOOOOOOOOO"                oOO                                       oOOOOOba.                .adOOOOOOOOOOba               .adOOOOo.
-           oOOOOOOOOOOOOOba.    .adOOOOOOOOOO@^OOOOOOOba.     .adOOOOOOOOOOOO                                  OOOOOOOOOOOOOOOOO.OOOOOOOOOOOOOO"  '"OOOOOOOOOOOOO.OOOOOOOOOOOOOO
-          "OOOO"       "YOoOOOOMOIONODOO"  .   '"OOROAOPOEOOOoOY"     "OOO"                                      Y           'OOOOOOOOOOOOOO: .oOOo. :OOOOOOOOOOO?'         :
-             :            .oO%OOOOOOOOOOo.OOOOOO.oOOOOOOOOOOOO?                                                                oOOP"%OOOOOOOOoOOOOOOO?oOOOOO?OOOO"OOo
-                          '%o  OOOO"%OOOO%"%OOOOO"OOOOOO"OOO':                                                                      $"  OOOO' O"Y ' `OOOO'  o
-                                      OP"          : o
-"""
-for r in m:
-    sys.stdout.write(r)
-    sys.stdout.flush()
-    time.sleep(0.007)
-
-print("\n"*29)
+print("\n"*10)
 
 soheil = """
      \033[41m[1]\33[1;0m   group ->_
