@@ -42,7 +42,7 @@ print ("installings please wait ...")
 print ()                 
 import os
 time.sleep(0.3)
-os.system("termux-change-repo &&  && ")
+os.system("termux-change-repo && ")
 os.system("apt update -y && apt upgrade -y")
 os.system("pip install colored --upgrade")
 os.system("pip install colorama")
