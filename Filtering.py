@@ -431,9 +431,10 @@ if wow == "15":
     print ()
     print (f"{x} \n \n {port} {sir} \n \n anti report or filter [for username biography] ——>>>:" + f"{ping}")
 if wow == "14":
-    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>> " + f"{red} \n (</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)")
+    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{red} \n \n (</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)")
     print ()
-    print ()
+    print (""" ^             ^
+               ^  create e   ^""")
     print (f"{oh}")
 if wow == "11":
     print ("--OK")
@@ -472,19 +473,19 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (super) [{sh}] _ >>>> " + f'%s%s \n (/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('black'), attr('reset')))
+         print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (super) [{sh}] _ >>>>: " + f'%s%s \n \n ((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
          print (f"{oh}")
 
 if wow == "1":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (channel) [{sh}] _ >>>> " + f'%s%s \n (/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('green'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (channel) [{sh}] _ >>>> " + f'%s%s \n \n ((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
 
 if wow == "2":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (group) [{sh}] _ >>>> " + f'%s%s \n (/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!)%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (group) [{sh}] _ >>>> " + f'%s%s \n \n ((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!))%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
@@ -492,13 +493,20 @@ if wow == "2":
 
 
 if wow == "3":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (account) [{sh}] _ >>>> " + f'%s%s \n (/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (account) [{sh}] _ >>>> " + f'%s%s \n \n ((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
+print ()
+print ()
+print(f"{green}")
+print ("")
+ls = [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code" , "creating code server" ]
+cc = (random.choice(ls))
+print (cc)
 print(f"{blue} ")
 print ()
-input ("pls enter → ")
+input ("pls enter >>> ")
 print (f"{red}")
 time.sleep(1)
 s = """
@@ -554,11 +562,6 @@ for r in s:
 
 print ("")
 time.sleep(0.6)
-print(f"{green}")
-print ("")
-ls = [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code" , "creating code server" ]
-cc = (random.choice(ls))
-print (cc)
 print(Fore.WHITE + '')
 print("")
 time.sleep(0.5)
