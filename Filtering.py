@@ -427,14 +427,22 @@ z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
 if wow == "15":
-    sir = input ("   username for anti report _> ")
+    sir = input (Fore.YELLOW + "   username channel for anti report" + Fore.GREEN + "do not" + Fore.RED+" '@' , 'rubika.ir' _>> " )
     print ()
+    rys = requests.get(f"https://rubika.ir/{sir}")
+    if sir.status_code == 200:
+        print ("channel found*")
+    elif sir.status_code == 404:
+        print ("not found channel!")
+    elif sir.status_code == 302:
+        print ("not found channel!")
+    else:
+        pass
     print (f"{x} \n \n {port} {sir} \n \n anti report or filter [for username biography] ——>>>:" + f"{ping}")
 if wow == "14":
     print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{red} \n \n (</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)")
     print ()
-    print (""" ^             ^
-               ^  create e   ^""")
+    print ()
     print (f"{oh}")
 if wow == "11":
     print ("--OK")
