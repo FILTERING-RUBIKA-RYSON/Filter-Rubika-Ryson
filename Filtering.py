@@ -427,7 +427,7 @@ z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
 if wow == "15":
-    sir = input (Fore.YELLOW + "   username channel for anti report" + Fore.GREEN + "do not" + Fore.RED+" '@' , 'rubika.ir' _>> " )
+    sir = input (Fore.YELLOW + "   username channel for anti report" + Fore.GREEN + " do not" + Fore.RED+" '@' , 'rubika.ir' _>> " )
     print ()
     rys = requests.get(f"https://rubika.ir/{sir}")
     if sir.status_code == 200:
