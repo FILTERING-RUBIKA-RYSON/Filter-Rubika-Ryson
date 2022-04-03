@@ -1,7 +1,6 @@
 # mmð řŷšŏň
 # py3
-# Khsteh Az Hameh
-# you noob
+# khsteh (tired) az (from) (all) or hameh
 # error!   The terminal must be updated.
 print("")
 print("\n"*80)
@@ -430,11 +429,11 @@ if wow == "15":
     sir = input (Fore.YELLOW + "   username channel for anti report" + Fore.GREEN + " do not" + Fore.RED+" '@' , 'rubika.ir' _>> " )
     print ()
     rys = requests.get(f"https://rubika.ir/{sir}")
-    if sir.status_code == 200:
+    if rys.status_code == 200:
         print ("channel found*")
-    elif sir.status_code == 404:
+    elif rys.status_code == 404:
         print ("not found channel!")
-    elif sir.status_code == 302:
+    elif rys.status_code == 302:
         print ("not found channel!")
     else:
         pass
