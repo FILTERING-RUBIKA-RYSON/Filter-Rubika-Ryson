@@ -374,12 +374,18 @@ hh3 = (random.choice(h3))
 lf = ["g","d"]
 lf1 = (random.choice(lf))
 pl = ["f","¥","€","$","£","¢","&"]
+po = ["f","¥","€","$","£","¢","&"]
+pi = ["f","¥","€","$","£","¢","&"]
+pu = ["f","¥","€","$","£","¢","&","ß","ę","€","$","£","¢","&","₹","₱","†"]
+pe = ["ß","ę","€","$","£","¢","&","₹","₱","†"]
 pl1 = (random.choice(pl))
 pl2 = (random.choice(pl))
 pl3 = (random.choice(pl))
 pl4 = (random.choice(pl))
-pl5 = (random.choice(pl))
-pl6 = (random.choice(pl))
+pl5 = (random.choice(pi))
+pl6 = (random.choice(po))
+pl7 = (random.choice(pe))
+pl8 = (random.choice(pu))
 print (Fore.YELLOW + "")
 msh = """
 
@@ -425,7 +431,7 @@ if wow == "15":
     print ()
     print (f"{x} \n \n {port} {sir} \n \n anti report or filter [for username biography] ——>>>:" + f"{ping}")
 if wow == "14":
-    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>: " + f"{red}(</*<<f<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>h>>*/>)")
+    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>> " + f"{red} \n (</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)")
     print ()
     print ()
     print (f"{oh}")
@@ -466,19 +472,19 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (super) [{sh}] _ >>>> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('black'), attr('reset')))
+         print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (super) [{sh}] _ >>>> " + f'%s%s \n (/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
          print (f"{oh}")
 
 if wow == "1":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (channel) [{sh}] _ >>>> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('green'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (channel) [{sh}] _ >>>> " + f'%s%s \n (/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
 
 if wow == "2":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (group) [{sh}] _ >>>> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!)%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (group) [{sh}] _ >>>> " + f'%s%s \n (/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!)%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
@@ -486,7 +492,7 @@ if wow == "2":
 
 
 if wow == "3":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (account) [{sh}] _ >>>> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (account) [{sh}] _ >>>> " + f'%s%s \n (/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
@@ -523,7 +529,7 @@ s = """
  >>>    |                                 |  <<<
  >>>    |github.com/filtering-rubika-ryson|  <<<
  >>>    |    github.com/shobadeh          |  <<<
- >>>    |_________________________________|  <<<                              |  << 
+ >>>    |_________________________________|  <<<
  >>>                                         <<<
  >>>-----------------------------------------<<<
  >>>-----------------------------------------<<<  
