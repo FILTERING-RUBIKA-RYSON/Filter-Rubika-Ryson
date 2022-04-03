@@ -466,19 +466,19 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (super) [{sh}] _ > " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('black'), attr('reset')))
+         print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (super) [{sh}] _ >>>> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
          print (f"{oh}")
 
 if wow == "1":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (channel) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('green'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (channel) [{sh}] _ >>>> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
 
 if wow == "2":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (group) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!)%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (group) [{sh}] _ >>>> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!)%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
@@ -486,7 +486,7 @@ if wow == "2":
 
 
 if wow == "3":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (account) [{sh}] _ >> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (account) [{sh}] _ >>>> " + f'%s%s(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!)%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
@@ -499,29 +499,43 @@ s = """
 
 
                   
- [-----------{INFO-MANUFACTURER}-----------]
- >-----------------------------------------<
- >      online: rubika.ir/serverer         <
- >      online: rubika.ir/alerter          <
- >     offline: rubika.ir/Spansor          <
- >     online: shad.ir/creator_ryson       <
- >   telegram on:  t.me/Creator_Ryson      <
- >   channel rubika: rubika.ir/caetorr     <
- >   channel telegram: t.me/uupdatte       <
- >-----------------------------------------<
- >-----------------------------------------<
- >             (the rules)                 <
- >       conquest-law.blogfa.com           <
- >       creatar-rules.blogfa.com          <
- >        rules-magic.blogfa.com           <
- >                                         <
- >-----------------------------------------<               
- >  |--------------------------------|     <
- >  |>Web= creator-rayson.blogfa.com<|     <
- >  |>|>|>|>|>|>|>|>|>|>|>|>|>|>|>|>||     <
- >  |__________[mmd-ryson]___________|     <
- >  |            the end             |     <
- [-----------------------------------------]
+ >>>-----------[INFO|MANUFACTURER]-----------<<<
+ >>>-----------------------------------------<<<
+ >>>              [accounts]                 <<<
+ >>>                                         <<<
+ >>>     _______________________________     <<<
+ >>>     |                             |     <<<
+ >>>     |online: rubika.ir/serverer   |     <<<
+ >>>     |online: rubika.ir/alerter    |     <<<
+ >>>     |offline: rubika.ir/Spansor   |     <<<
+ >>>     |online: shad.ir/creator_ryson|     <<<
+ >>>     |online: t.me/creator_ryson   |     <<<
+ >>>     |channel: rubika.ir/caetorr   |     <<<
+ >>>     |channel: t.me/uupdatte       |     <<<
+ >>>     |channel: t.me/antiweak.      |     <<<
+ >>>     |_____________________________|     <<<
+ >>>                                         <<<
+ >>>-----------------------------------------<<<
+ >>>-----------------------------------------<<<
+ >>>              [githubs]                  <<<
+ >>>                                         <<<
+ >>>    __________________________________   <<<
+ >>>    |                                 |  <<<
+ >>>    |github.com/filtering-rubika-ryson|  <<<
+ >>>    |    github.com/shobadeh          |  <<<
+ >>>    |_________________________________|  <<<                              |  << 
+ >>>                                         <<<
+ >>>-----------------------------------------<<<
+ >>>-----------------------------------------<<<  
+ >>>              [spcial]                   <<<
+ >>>                                         <<<
+ >>>  ___________________________________    <<<
+ >>>  |                                 |    <<<
+ >>>  |mmd ryson bozorg + mr shobadehgar|    <<<
+ >>>  |_________________________________|    <<<
+ >>>                                         <<<
+ >>>-----------------------------------------<<<
+ >>>-----------------------------------------<<<
 
 
 
@@ -545,7 +559,7 @@ time.sleep(0.5)
 print ()
 print ()
 print ()
-print ('super script reporter-filtering ' + f'%s%s"telesm" <{x}> ({sh}) !%s'  % (fg('blue'), bg('red'), attr('reset')))
+print ('super script reporter-filtering ' + f'%s%s"telesm" <{x}> [{sh}]%s'  % (fg('blue'), bg('red'), attr('reset')))
 print("")
 print("")
 print("")
