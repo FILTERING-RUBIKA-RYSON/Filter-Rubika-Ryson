@@ -433,7 +433,7 @@ if wow == "15":
         print ()
         print ()
         time.sleep(0.5)
-        print (f"{blue}channel found @{sit} *")
+        print (f"{blue}channel found @{sir} *")
         print ()
     elif rys.status_code == 404:
         print ()
