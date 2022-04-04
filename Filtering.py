@@ -435,6 +435,7 @@ if wow == "15":
         time.sleep(0.5)
         print (f"{blue}channel found @{sir} *")
         print ()
+        print ("pls wait..")
     elif rys.status_code == 404:
         print ()
         print (f"{blue}not found channel! @{sir}")
@@ -445,6 +446,7 @@ if wow == "15":
         print ()
     else:
         pass
+    time.sleep(1)
     print (f"{x} \n \n {port} {sir} \n \n anti report or filter [for username biography] ——>>>:" + f"{ping}")
 
 if wow == "14":
