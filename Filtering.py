@@ -293,34 +293,34 @@ time.sleep(0.5)
 print (f"{blue} ")
 wow = input(f"""
 
-                          >>> '{user}' <<<
+                       >>> '{user}' <<<
 
-        __________________________________________________
-<pro!>  |- [super code   (0) ] - | - [reporter     (8) ] -|
-        |                        |                        |
-<pro!>  |- [code channel (1) ] - | - [hack-rubk    (9) ] -|
-        |                        |                        |
-<pro!>  |- [code group   (2) ] - | - [up chanl    (10) ] -|
-        |                        |                        |
-<pro!>  |- [code account (3) ] - | - [sms bomb    (11) ] -|
-        |                        |                        |
-<pro!>  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
-        |                        |                        |
-        |- [code pd      (5) ] - | - [update      (13) ] -|
-        |                        |                        |
-        |- [code rp      (6) ] - | - [anti filter (14) ] -|
-        |                        |                        |
-        |- [anti report  (7) ] - | - [exit script (15) ] -|
-        ———————————————————————————————————————————————————
+       __________________________________________________
+Pro>  |- [super code   (0) ] - | - [reporter     (8) ] -|
+      |                        |                        |
+Pro>  |- [code channel (1) ] - | - [hack-rubk    (9) ] -|
+      |                        |                        |
+Pro>  |- [code group   (2) ] - | - [up chanl    (10) ] -|
+      |                        |                        |
+Pro>  |- [code account (3) ] - | - [sms bomb    (11) ] -|
+      |                        |                        |
+Pro>  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
+      |                        |                        |
+      |- [code pd      (5) ] - | - [update      (13) ] -|
+      |                        |                        |
+      |- [code rp      (6) ] - | - [anti filter (14) ] -|
+      |                        |                        |
+      |- [anti report  (7) ] - | - [exit script (15) ] -|
+      ———————————————————————————————————————————————————
             
 
 
 
-         [type numbers here] user - '{sh}' >>>_ """)
+       [type numbers here] user - '{sh}' >>>_ """)
 print ()
 print (Fore.YELLOW + '')
 time.sleep(0.5)
-print("\r [new] = '<pro!>' price: $10 = ($0) -! ",end="",flush=False)
+print("\r [new] = '<Pro>' price: $10 = ($0) -! ",end="",flush=False)
 time.sleep(2.5)
 print("\r [*]                                         ",end="",flush=False)
 print ()
