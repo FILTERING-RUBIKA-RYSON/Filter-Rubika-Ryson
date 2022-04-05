@@ -521,19 +521,19 @@ if wow == "4":
     os.system("exit")
     
 if wow == "0":
-         print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (super) [{sh}] _ >>>>: " + f'%s%s \n \n ((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('black'), attr('reset')))
+         print (f" {x} \n \n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (super) [code:] ~>>>>: " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
          print (f"{oh}")
 
 if wow == "1":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (channel) [{sh}] _ >>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('green'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (channel) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
 
 if wow == "2":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (group) [{sh}] _ >>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!))%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (group) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!))%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
@@ -541,7 +541,7 @@ if wow == "2":
 
 
 if wow == "3":
-        print (f" {x} \n \n '{z}' \n  \n '{user}' [code] Fìĺŧĕř (account) [{sh}] _ >>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('white'), attr('reset')))
+        print (f" {x} \n \n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (account) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
