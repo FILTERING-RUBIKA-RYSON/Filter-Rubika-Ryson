@@ -7,25 +7,22 @@ from time import sleep
 proxy = {"http": "127.0.0.1.8000"}
 os.system("pkg install tor")
 print(Fore.GREEN)
-print("""                   Play Reporters
-""")
+print("""       play anti report no filter
 print(Fore.RED)
 print("""
 
 
-(Script By mmd ryson reporter)
 
 
 /////////////////////
-//////////RUBIKA_REPORTS
+//////////ANTI-FILTER-RUBIKA
 ///////////////////
 /////////ON REPORT OR REPORT
 ||||||||||||||||||||||||||||
 //////////////////
-////USER CREATOR= T.ME/CREATOR_RYSON
+////creator: t.me/creator_ryson
 """)
-print ("")
-print ("Number User reported")
+print ()
 
 
 def rubika(phone):
@@ -37,25 +34,27 @@ def rubika(phone):
         if "OK" in ruR.text:
             print ("Report")
         else:
-            print ("REPORTER")
+            print ("ANTI REPORT")
     except:
-        print ("  spam report")
+        print ("ANTI FILTERING")
 
 def main():
     phone = str(input("""
+
 ~~~~~~~~~~~~~~~~~~~
 |||||||||||||||||||
 |||====||★||====|||
 |||====||★||====|||
-||Report___Rubika||
+||||ANTI___REPORT||
 |||||||||||||||||||
 |||||||||||||||||||
 |||||||||||||||||||
 ~~~~~~~~~~~~~~~~~~~
 
-#666
-             
-Number-Report (+98xxx) >> """))
+#no_filtering_new
+  
+           
+    number-anti (+98xxx) >>> """))
     while True:
         Thread(target=rubika, args=[phone]).start()
         os.system("killall -HUP tor")
