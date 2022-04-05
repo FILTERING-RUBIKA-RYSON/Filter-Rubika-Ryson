@@ -296,21 +296,21 @@ wow = input(f"""
                           >>> '{user}' <<<
 
         __________________________________________________
-<pro!>  |- [code channel (1) ] - | - [sms bomb     (8) ] -|
+<pro!>  |- [super code   (0) ] - | - [reporter     (8) ] -|
         |                        |                        |
-<pro!>  |- [code group   (2) ] - | - [hack-rubk    (9) ] -|
+<pro!>  |- [code channel (1) ] - | - [hack-rubk    (9) ] -|
         |                        |                        |
-<pro!>  |- [code account (3) ] - | - [up chanl    (10) ] -|
+<pro!>  |- [code group   (2) ] - | - [up chanl    (10) ] -|
         |                        |                        |
-<pro!>  |- [code super   (0) ] - | - [reporter-2  (11) ] -|
+<pro!>  |- [code account (3) ] - | - [sms bomb    (11) ] -|
         |                        |                        |
-        |- [exit script  (4) ] - | - [hack-web    (12) ] -|
+<pro!>  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
         |                        |                        |
-        |- [code pd      (5) ] - | - [updater     (13) ] -|
+        |- [code pd      (5) ] - | - [update      (13) ] -|
         |                        |                        |
-        |- [code rp      (6) ] - | - [storng code (14) ] -|  <pro!>
+        |- [code rp      (6) ] - | - [anti filter (14) ] -|
         |                        |                        |
-        |- [reporter     (7) ] - | - [anti filter (15) ] -|  <pro!>
+        |- [anti report  (7) ] - | - [exit script (15) ] -|
         ———————————————————————————————————————————————————
             
 
@@ -455,7 +455,7 @@ y = (f"{blue}tap (1) order code")
 z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
-if wow == "15":
+if wow == "14":
     sir = input (Fore.YELLOW + "   username channel for anti report" + Fore.GREEN + " do not" + Fore.RED+" '@' , 'rubika.ir' _>> " )
     print ()
     rys = requests.get(f"https://rubika.ir/{sir}")
@@ -479,12 +479,12 @@ if wow == "15":
     time.sleep(1)
     print (f"{x} \n \n {port} '@{sir}' \n \n anti report or filter [for username biography] ——>>>:" + f"{ping}")
 
-if wow == "14":
+if wow == "4":
     print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{red}\n \n ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>))")
     print ()
     print ()
     print (f"{oh}")
-if wow == "11":
+if wow == "8":
     print ("--OK")
     os.system("rm -rf report-user && cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
 if wow == "12":
@@ -501,7 +501,7 @@ if wow == "10":
 
 if wow == "9":
     os.system("rm -rf Hack-Rubika && cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && cd Hack-Rubika && chmod 777 * && python rubika.py")
-if wow == "8":
+if wow == "11":
     os.system("python sms.py")
 if wow == "7":
     os.system("python rep.py")
@@ -517,7 +517,7 @@ if wow == "5":
     print ("pls wait..")
     time.sleep(1)
     os.system("python pass.py")
-if wow == "4":
+if wow == "15":
     sys.exit
     os.system("exit")
     
