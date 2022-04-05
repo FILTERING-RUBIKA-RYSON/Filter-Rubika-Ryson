@@ -2,6 +2,8 @@
 # py3
 # khsteh (tired) az (from) (all) or hameh
 # error!   The terminal must be updated.
+#
+## ! happy new version ! ##
 print("")
 print("\n"*80)
 print("""
@@ -30,8 +32,10 @@ print("""
  ██    ██
  ██▄▄▄██
  ▀▀▀▀▀""")
-print (" ")
-print("Load ...")
+print ()
+print ("new")
+print ()
+print("Load ... ")
 import time
 
 print ()
@@ -41,11 +45,29 @@ print ("installings please wait ...")
 print ()                 
 import os
 os.system("apt update -y && apt upgrade -y")
+print ()
+print ("updated")
+print ()
 os.system("pip install colored --upgrade")
+print ()
+print ("colored installed")
+print ()
 os.system("pip install colorama")
+print ()
+print ("colorama installed")
+print ()
 os.system("pip install datetime")
+print ()
+print ("datetime installed")
+print ()
 os.system("pip install requests")
+print ()
+print ("requests installed")
+print ()
 os.system("pip install flags")
+print ()
+print ("flags installed")
+print ()
 #__ Library
 
 #importing
@@ -92,7 +114,7 @@ print (" ")
 print (" ")
 print (" ")
 print (Fore.GREEN + "")
-s = """ Loading..
+s = """ 
 
 
                   .xUHWH!! !!?RYSONN:.
@@ -264,7 +286,7 @@ time.sleep(0.5)
 print (Fore.BLUE + "")
 sh = input (f" [?] [{user}] >> please enter username that you want reporting rubika _> ")
 print (Fore.RED + "")
-print ("wait ..")
+print ("loading...")
 time.sleep(1)
 print (Fore.GREEN + "")
 print (" accept user ")
@@ -295,6 +317,14 @@ wow = input(f"""
 
 
          [type numbers here] user - {sh} >>>_ """)
+print ()
+print (Fore.YELLOW + '')
+time.sleep(0.5)
+print("\r [new] = '<pro!>' price: $100 = ($0) -! ",end="",flush=False)
+time.sleep(1)
+print("\r * ",end="",flush=False)
+print ()
+print ()
 print (Fore.GREEN +"")
 print("\r[~] alert : 5s",end="",flush=False) 
 time.sleep(1)
@@ -564,7 +594,8 @@ s = """
  >>>  ___________________________________    <<<
  >>>  |                                 |    <<<
  >>>  |mmd ryson bozorg + mr shobadehgar|    <<<
- >>>  |_________________________________|    <<<
+ >>>  |         [creatar.blog.ir]       |    <<<
+ >>>  |_________________________________|    <<<                                      <<<
  >>>                                         <<<
  >>>-----------------------------------------<<<
  >>>-----------------------------------------<<<
