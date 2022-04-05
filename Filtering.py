@@ -595,7 +595,7 @@ s = """
  >>>  |                                 |    <<<
  >>>  |mmd ryson bozorg + mr shobadehgar|    <<<
  >>>  |         [creatar.blog.ir]       |    <<<
- >>>  |_________________________________|    <<<                                      <<<
+ >>>  |_________________________________|    <<<                              
  >>>                                         <<<
  >>>-----------------------------------------<<<
  >>>-----------------------------------------<<<
@@ -617,7 +617,7 @@ time.sleep(0.5)
 print ()
 print ()
 print ()
-print ('super script reporter-filtering ' + f'%s%s"telesm" <{x}> [{sh}]%s'  % (fg('blue'), bg('red'), attr('reset')))
+print (' "super" script reporter-filtering ' + f'%s%s"telesm" <{x}> -[{sh}]-%s'  % (fg('blue'), bg('red'), attr('reset')))
 print("")
 print("")
 print("")
