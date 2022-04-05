@@ -2,7 +2,6 @@
 # py3
 # khsteh (tired) az (from) (all) or hameh
 # error!   The terminal must be updated.
-#
 ## ! happy new version ! ##
 print("")
 print("\n"*80)
@@ -294,33 +293,34 @@ time.sleep(0.5)
 print (f"{blue} ")
 wow = input(f"""
 
-                         >> {user} <<
+                          >>> '{user}' <<<
 
-<pro!>  - [code channel (1) ] - | - [reporter   (7)  ] -
+        __________________________________________________
+<pro!>  |- [code channel (1) ] - | - [sms bomb     (8) ] -|
+        |                        |                        |
+<pro!>  |- [code group   (2) ] - | - [hack-rubk    (9) ] -|
+        |                        |                        |
+<pro!>  |- [code account (3) ] - | - [up chanl    (10) ] -|
+        |                        |                        |
+<pro!>  |- [code super   (0) ] - | - [reporter-2  (11) ] -|
+        |                        |                        |
+        |- [exit script  (4) ] - | - [hack-web    (12) ] -|
+        |                        |                        |
+        |- [code pd      (5) ] - | - [updater     (13) ] -|
+        |                        |                        |
+        |- [code rp      (6) ] - | - [storng code (14) ] -|  <pro!>
+        |                        |                        |
+        |- [reporter     (7) ] - | - [anti filter (15) ] -|  <pro!>
+        ———————————————————————————————————————————————————
+            
 
-<pro!>  - [code group   (2) ] - | - [sms bomb   (8)  ] -
-                 
-<pro!>  - [code account (3) ] - | - [hack-rubk  (9)  ] -
-                  
-<pro!>  - [code super   (0) ] - | - [up chanl  (10)  ] -
-
-        - [exit script  (4) ] - | - [reporter-2 (11) ] -
-
-        - [code pd      (5) ] - | - [hack-web   (12) ] -
-
-        - [code rp      (6) ] - | - [updated    (13) ] -
-
-            <pro!>  - [storng code (14) ] -
-
-            <pro!>  - [anti filter (15) ] -
 
 
-
-         [type numbers here] user - {sh} >>>_ """)
+         [type numbers here] user - '{sh}' >>>_ """)
 print ()
 print (Fore.YELLOW + '')
 time.sleep(0.5)
-print("\r [new] = '<pro!>' price: $100 = ($0) -! ",end="",flush=False)
+print("\r [new] = '<pro!>' price: $10 = ($0) -! ",end="",flush=False)
 time.sleep(2.5)
 print("\r [*]                                         ",end="",flush=False)
 print ()
