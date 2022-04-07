@@ -578,7 +578,7 @@ s = """
  |>>>     |online: t.me/creator_ryson   |     <<<|
  |>>>     |channel: rubika.ir/caetorr   |     <<<|
  |>>>     |channel: t.me/uupdatte       |     <<<|
- |>>>     |channel: t.me/antiweak.      |     <<<|
+ |>>>     |channel: t.me/antiweak       |     <<<|
  |>>>     |_____________________________|     <<<|
  |>>>                                         <<<|
  |>>>-----------------------------------------<<<|
