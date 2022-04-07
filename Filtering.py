@@ -88,7 +88,6 @@ pink='\033[35m'
 rang='\033[34m'
 
 
-
 print ()
 print ()
 
@@ -153,6 +152,7 @@ print ()
 user = input (f'{blue} [~] enter your identity majazi >>— ')
 
 time.sleep(0.7)
+print ("\n"*10)
 print (Fore.YELLOW + "")
 v = (f"""
 
@@ -167,6 +167,7 @@ v = (f"""
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 
+
 -hi '{user}' welcome to ryson filtering script-
 """)
 
@@ -175,10 +176,11 @@ for n in v:
     sys.stdout.flush()
     time.sleep(0.001)
 print ()
+time.sleep(0.5)
 print ("loading server wait")
 print ()
 time.sleep(0.5)
-print(f"{red} ")
+print(f"{blue} ")
 w = """
 
 
@@ -195,10 +197,6 @@ w = """
 
                      
 
-                    
-
-          
-     
 """
 ir = """[starting] please wait"""
 for p in w:
@@ -251,12 +249,12 @@ if py == "y":
     ms = requests.get("https://web.rubika.ir/#/login").text
     if ms == "":
         print()
-        print (f"support rubika offline {x} -")
+        print (f"support offline {x} -")
     if ms == ' ' or "" or " ":
         print("")
         print("")
-        print (f"support rubika online {x} -")
-if py == "n" or "N":
+        print (f"support online {x} -")
+if py == "n":
     print()
     print()
     print ("okay buddy")
@@ -273,7 +271,7 @@ o = "[online server the report]"
 for e in o:
         sys.stdout.write(e)
         sys.stdout.flush()
-        time.sleep(0.1)
+        time.sleep(0.09)
 
 
 print(f"{blue} ")
