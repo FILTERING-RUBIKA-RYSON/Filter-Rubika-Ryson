@@ -108,8 +108,8 @@ x = (f'{green}') + str(datetime.datetime.now())
 #
 #
 print (" ")
-print(f"{blue} ")
-print ("         ryson script")
+print(Fore.WHITE + '')
+print ("             ryson script")
 print (" ")
 print (" ")
 print (" ")
@@ -477,7 +477,7 @@ if wow == "14":
     else:
         pass
     time.sleep(1)
-    print (f"{x} \n \n {port} '@{sir}' \n \n anti report or filter [for username biography] ——>>>:" + f"{ping}")
+    print (f"{x} \n \n {port} '@{sir}' \n \n anti report or filter [for username biography] ——>>>:" + f"\n \n{ping}")
 #
 if wow == "4":
     print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{red}\n \n ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>))")
