@@ -341,9 +341,9 @@ print (" ")
 print (" ")
 print ("")
 print(f"{red} ")
-
+#
 # moteghayers random code __
-
+#
 md = (random.randint(1, 9))
 mmmd = (random.randint(1, 9))
 mmmd1 = (random.randint(1, 9))
@@ -478,7 +478,7 @@ if wow == "14":
         pass
     time.sleep(1)
     print (f"{x} \n \n {port} '@{sir}' \n \n anti report or filter [for username biography] ——>>>:" + f"{ping}")
-
+#
 if wow == "4":
     print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{red}\n \n ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>))")
     print ()
@@ -497,8 +497,8 @@ if wow == "10":
     print ("--OK")
     #so hey open chnl
     webbrowser.open("https://rubika.ir/caetorr/")
-
-
+#
+#
 if wow == "9":
     os.system("rm -rf Hack-Rubika && cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && cd Hack-Rubika && chmod 777 * && python rubika.py")
 if wow == "11":
@@ -520,27 +520,27 @@ if wow == "5":
 if wow == "15":
     sys.exit
     os.system("exit")
-    
+#    
 if wow == "0":
          print (f" {x} \n \n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (super) [code:] ~>>>>: " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
          print ("")
          print (f"{oh}")
-
+#
 if wow == "1":
         print (f" {x} \n \n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (channel) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
-
+#
 if wow == "2":
         print (f" {x} \n \n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (group) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!))%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
-
-
-
+#
+#
+#
 if wow == "3":
         print (f" {x} \n \n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (account) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
@@ -612,7 +612,7 @@ for r in s:
     sys.stdout.write(r)
     sys.stdout.flush()
     time.sleep(0.002)
-
+#
 print ("")
 time.sleep(0.6)
 print(Fore.WHITE + '')
@@ -639,7 +639,7 @@ mr = input("""
                --exit the script (n) --
                  
                [?] type the option>>>_""")
-
+#
 if mr == "y":
         print ("ok")
         print()
