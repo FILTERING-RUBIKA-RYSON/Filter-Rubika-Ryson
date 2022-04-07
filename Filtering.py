@@ -36,7 +36,7 @@ print ("new")
 print ()
 print("Load ... ")
 import time
-
+#
 print ()
 print ()
 time.sleep(0.5)
@@ -68,7 +68,7 @@ print ()
 print ("flags installed")
 print ()
 #__ Library
-
+#
 #importing
 import webbrowser                                               
 import sys                                                      
@@ -86,25 +86,27 @@ green='\033[32m'
 blue='\033[36m'
 pink='\033[35m'
 rang='\033[34m'
-
-
+#
+#
 print ()
 print ()
-
+#
 os.system("clear")
 print ("\n"*30)
 time.sleep(0.5)
 os.system("clear")
 print("\n"*60)
 print(f"{green} ")
-
+#
 print (Fore.WHITE + "")
 print (" [~] štart code fìłŧêř rubika")
 print (" ")
 #date
 x = (f'{green}') + str(datetime.datetime.now())
-
-
+#
+#
+#
+#
 print (" ")
 print(f"{blue} ")
 print ("         ryson script")
@@ -136,8 +138,8 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
 ?MXT@Wx.~    :     ~"##*$$$$M~                
 
 """
-
-
+#
+#
 for i in s:
     sys.stdout.write(i)
     sys.stdout.flush()
@@ -148,9 +150,9 @@ print ("""
 version 4.1""")
 print ()
 print ()
-
+#
 user = input (f'{blue} [~] enter your identity majazi >>— ')
-
+#
 time.sleep(0.7)
 print ("\n"*10)
 print (Fore.YELLOW + "")
@@ -170,7 +172,7 @@ v = (f"""
 
 -hi '{user}' welcome to ryson filtering script-
 """)
-
+#
 for n in v:
     sys.stdout.write(n)
     sys.stdout.flush()
@@ -203,11 +205,11 @@ for p in w:
         sys.stdout.write(p)
         sys.stdout.flush()
         time.sleep(0.004)
-
+#
 print(f"{ir} ....")
-
+#
 # :/
-
+#
 time.sleep(2)
 print(f"{pink} ")
 print (f"running  {x}")
@@ -258,24 +260,24 @@ if py == "n":
     print()
     print()
     print ("okay buddy")
-
+#
 print ("")
-
+#
 print(Fore.GREEN +"")
 print ("")
 print ("")
 print ("")
 time.sleep(0.5)
 o = "[online server the report]"
-    
+ #   
 for e in o:
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.09)
-
-
+#
+#
 print(f"{blue} ")
-
+#
 print ("")
 print ("")
 time.sleep(0.5)
