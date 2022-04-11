@@ -311,10 +311,10 @@ if py == "y":
     print ()
     print ()
     print (Fore.BLUE + '')
-    okay = "url messenger (https://x.xx)"
+    okay = "please enter url messenger (https://x.xx) >>_ "
     print (okay)
     print (Fore.YELLOW + '')
-    okey = input("please enter >>_ ")
+    okey = input()
     print (Fore.RED + '')
     time.sleep(0.5)
     print("\r 'testing server'  ..",end="",flush=False) 
@@ -383,9 +383,9 @@ print (f"{blue} ")
 os.system("clear")
 wow = input(f"""
 
-                ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
-                ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
-                ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
+                  ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
+                  ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
+                  ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
 
 
                        >>> '{user}' <<<
@@ -575,7 +575,7 @@ if wow == "14":
     print (f"{x} \n \n {port} '@{sir}' \n \n anti report or filter [for username biography] ——>>>:" + f"\n \n{ping}")
 #
 if wow == "4":
-    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{blue}\n \n  _______________________ \n \n {red} ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)) \n {blue} _______________________ \n")
+    print (f"{x} \n \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{blue}\n \n  _______________________ \n \n {red} ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)) \n {blue} _______________________ \n")
     print ()
     print ()
     print (f"{oh}")
