@@ -1,5 +1,6 @@
 # mmð řŷšŏň 
 # py3
+# termux , Linux , windows
 print("")
 print("\n"*80)
 print("""
@@ -97,7 +98,7 @@ x = (f'{green}') + str(datetime.datetime.now())
 #
 print (" ")
 print(Fore.WHITE + '')
-print ("             ryson script")
+print("  ryson script")
 print (" ")
 print (" ")
 print (" ")
