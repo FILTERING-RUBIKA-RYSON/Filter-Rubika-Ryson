@@ -64,7 +64,7 @@ import datetime
 import random
 import requests
 import flags
-import Pyfiglet
+import pyfiglet
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
 # colors
@@ -254,7 +254,7 @@ print ("\n"*5)
 print (Fore.YELLOW + "")
 ur = pyfiglet.figlet_format(f"{user}")
 v = (f"""
--hi \n '{ur}' \n welcome to ryson filtering script-
+hi \n  {ur}  \n welcome to ryson filtering script-
 """)
 
 
