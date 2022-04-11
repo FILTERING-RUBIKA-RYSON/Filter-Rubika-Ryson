@@ -281,12 +281,14 @@ w = """
                     
 
 """
+print ()
 ir = """[starting] please wait"""
 for p in w:
         sys.stdout.write(p)
         sys.stdout.flush()
         time.sleep(0.004)
 #
+print (Fore.YELLOW +'')
 print(f"{ir} ....")
 #
 # :/
@@ -302,11 +304,15 @@ py = input(f""" [{user}] >> test server support messenger online or offline? (y/
   please enter _ > """)
 # error in termux , But not in other terminals
 # time.sleep(0.5)
-print (Fore.RED + "")
+
 if py == "y":
     print ()
     print ()
+    print (Fore.BLUE + '')
     okey = input ("please enter url messenger (https://x.xx) >_")
+    print ()
+    print ()
+    print (Fore.RED + '')
     time.sleep(0.5)
     print("\r 'testing server'  ..",end="",flush=False) 
     time.sleep(1)
@@ -334,11 +340,11 @@ if py == "y":
     ms = requests.get(f"{okey}").text
     if ms == "":
         print()
-        print (f"support {okey} offline {x} -")
+        print (f"support offline {x} -")
     if ms == ' ' or "" or " ":
         print("")
         print("")
-        print (f"support {okey} online {x} -")
+        print (f"support online {x} -")
 if py == "n":
     print()
     print()
