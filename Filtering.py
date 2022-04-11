@@ -579,6 +579,7 @@ s = """
  |>>>     |channel: rubika.ir/caetorr   |     <<<|
  |>>>     |channel: t.me/uupdatte       |     <<<|
  |>>>     |channel: t.me/antiweak       |     <<<|
+ |>>>     |im:Instagram.com/hazrat_ryson|     <<<|
  |>>>     |_____________________________|     <<<|
  |>>>                                         <<<|
  |>>>-----------------------------------------<<<|
