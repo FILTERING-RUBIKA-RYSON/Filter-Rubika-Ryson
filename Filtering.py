@@ -2,6 +2,8 @@
 # py3
 # termux , Linux , windows
 # coded by ryson mmd or mr shobadehgar
+# The copier of this script will be dealt with according to Iranian laws!
+# happy new year and mew script
 print("")
 print("\n"*80)
 print("""
