@@ -555,7 +555,8 @@ print (cc)
 print(f"{blue} ")
 print ()
 time.sleep(3)
-input ("pls enter >>> ")
+ok = input ("plz enter information maker>>")
+if ok == "y":
 print (f"{red}")
 time.sleep(1)
 s = """
@@ -599,6 +600,7 @@ s = """
  |>>>  |                                 |    <<<|
  |>>>  |mmd ryson bozorg + mr shobadehgar|    <<<|
  |>>>  |         [creatar.blog.ir]       |    <<<|
+ |>>>  |         [creater.blog.ir]       |
  |>>>  |_________________________________|    <<<|
  |>>>                                         <<<|
  |>>>-----------------------------------------<<<|
