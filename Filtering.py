@@ -4,6 +4,8 @@
 # coded by ryson mmd or mr shobadehgar
 # The copier of this script will be dealt with according to Iranian laws!
 # happy new year and mew script
+# my bro ♥️ and friend artin
+# storng reporter
 print("")
 print("\n"*80)
 print("""
