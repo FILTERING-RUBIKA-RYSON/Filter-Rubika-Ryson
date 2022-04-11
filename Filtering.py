@@ -39,7 +39,7 @@ if soal == "y":
     print ()
     print ("installing load..")
     print ()
-    os.system("apt update && apt upgrade && pip install colorama && pip install colored --upgrade && pip install datetime && pip install flags && pip install requests && pip install webbrowser")
+    os.system("apt update && apt upgrade && pip install colorama && pip install colored --upgrade && pip install datetime && pip install flags && pip install requests && pip install webbrowser && pip install Pyfiglet")
     print ()
     print ("installed library ok")
     print ()
@@ -64,6 +64,7 @@ import datetime
 import random
 import requests
 import flags
+import Pyfiglet
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
 # colors
@@ -208,6 +209,29 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
 88__   88 88       88   88__   88__dP 88 88Yb88 dP   `" 
 88""   88 88  .o   88   88""   88"Yb  88 88 Y88 Yb  "88 
 88     88 88ood8   88   888888 88  Yb 88 88  Y8  YboodP 
+""" , """
+                                          **                 
+                ******                   /**                 
+ ******  ***** /**///**  ******  ****** ******  *****  ******
+//**//* **///**/**  /** **////**//**//*///**/  **///**//**//*
+ /** / /*******/****** /**   /** /** /   /**  /******* /** / 
+ /**   /**//// /**///  /**   /** /**     /**  /**////  /**   
+/***   //******/**     //****** /***     //** //******/***   
+///     ////// //       //////  ///       //   ////// ///    
+""" , """
+_____________ ________ ______ __________  /______ ________
+__  ___/_  _ \___  __ \_  __ \__  ___/_  __/_  _ \__  ___/
+_  /    /  __/__  /_/ // /_/ /_  /    / /_  /  __/_  /    
+/_/     \___/ _  .___/ \____/ /_/     \__/  \___/ /_/     
+              /_/                                         
+""" , """
+                           _            
+ _ __ ___ _ __   ___  _ __| |_ ___ _ __ 
+| '__/ _ \ '_ \ / _ \| '__| __/ _ \ '__|
+| | |  __/ |_) | (_) | |  | ||  __/ |   
+|_|  \___| .__/ \___/|_|   \__\___|_|   
+         |_|                            
+
 """]
 banner = (random.choice(s))
 #
@@ -228,9 +252,12 @@ user = input (f'{blue} [~] enter your identity majazi >>— ')
 time.sleep(0.7)
 print ("\n"*5)
 print (Fore.YELLOW + "")
+ur = pyfiglet.figlet_format(f"{user}")
 v = (f"""
--hi '{user}' welcome to ryson filtering script-
+-hi \n '{ur}' \n welcome to ryson filtering script-
 """)
+
+
 #
 for n in v:
     sys.stdout.write(n)
