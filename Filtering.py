@@ -553,8 +553,8 @@ print (cc)
 print(f"{blue} ")
 print ()
 time.sleep(3)
-ok = input ("plz enter information maker>>")
-if ok == "y":
+input ("plz enter information maker>>")
+#
 print (f"{red}")
 time.sleep(1)
 s = """
