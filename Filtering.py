@@ -166,7 +166,7 @@ for n in v:
     time.sleep(0.001)
 print ()
 time.sleep(0.5)
-print ("loading server wait")
+print ("\n"*10)
 print ()
 time.sleep(0.5)
 print(f"{blue} ")
@@ -246,7 +246,6 @@ if py == "y":
 if py == "n":
     print()
     print()
-    print ("okay buddy")
 #
 print ("")
 #
@@ -467,7 +466,7 @@ if wow == "14":
     print (f"{x} \n \n {port} '@{sir}' \n \n anti report or filter [for username biography] ——>>>:" + f"\n \n{ping}")
 #
 if wow == "4":
-    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{red}\n \n ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>))")
+    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{blue}\n \n _______________________ \n {red} ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)) \n {blue} _______________________ \n")
     print ()
     print ()
     print (f"{oh}")
@@ -588,7 +587,7 @@ s = """
  |>>>  |                                 |    <<<|
  |>>>  |mmd ryson bozorg + mr shobadehgar|    <<<|
  |>>>  |         [creatar.blog.ir]       |    <<<|
- |>>>  |         [creater.blog.ir]       |
+ |>>>  |         [creater.blog.ir]       |    <<<|
  |>>>  |_________________________________|    <<<|
  |>>>                                         <<<|
  |>>>-----------------------------------------<<<|
