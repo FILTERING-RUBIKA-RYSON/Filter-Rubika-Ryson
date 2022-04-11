@@ -29,41 +29,32 @@ print("""
  ██▄▄▄██
  ▀▀▀▀▀""")
 print ()
-print ("new")
 print ()
-print("Load ... ")
+print ()
+print ()
+print ()
 import time
+import os
+soal = input("library installation (y/n) >>")
 #
+if soal == "y":
+    print ("installing load..")
+    print ()
+    os.system("apt update && apt upgrade && pip install colorama && pip install colored --upgrade && pip install datetime && pip install flags && pip install requests && pip install webbrowser")
+    print ()
+    print ("installed library ok")
+    print ()
+    time.sleep(0.5)
+    print ("loading")
+    time.sleep(0.5)
+if soal == "n":
+    print ()
+    print ("load..")
+
 print ()
 print ()
 time.sleep(0.5)
-print ("installings please wait ...")
-print ()                 
-import os
-os.system("apt update -y && apt upgrade -y")
-print ()
-print ("updated")
-print ()
-os.system("pip install colored --upgrade")
-print ()
-print ("colored installed")
-print ()
-os.system("pip install colorama")
-print ()
-print ("colorama installed")
-print ()
-os.system("pip install datetime")
-print ()
-print ("datetime installed")
-print ()
-os.system("pip install requests")
-print ()
-print ("requests installed")
-print ()
-os.system("pip install flags")
-print ()
-print ("flags installed")
-print ()
+
 #__ Library
 #
 #importing
