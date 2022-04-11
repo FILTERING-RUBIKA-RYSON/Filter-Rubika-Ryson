@@ -30,16 +30,13 @@ print("""
  ██    ██
  ██▄▄▄██
  ▀▀▀▀▀""")
-print ()
-print ()
-print ()
-print ()
-print ()
+print ("\n"*3)
 import time
 import os
 soal = input("library installation (y/n) ⟩⟩– ")
 #
 if soal == "y":
+    print ()
     print ("installing load..")
     print ()
     os.system("apt update && apt upgrade && pip install colorama && pip install colored --upgrade && pip install datetime && pip install flags && pip install requests && pip install webbrowser")
@@ -49,11 +46,10 @@ if soal == "y":
     time.sleep(0.5)
     print ("loading")
     time.sleep(0.5)
+
 if soal == "n":
     print ()
-    print ("load..")
 
-print ()
 print ()
 time.sleep(0.5)
 
@@ -172,8 +168,6 @@ time.sleep(0.5)
 print(f"{blue} ")
 w = """
 
-
-
  ▄▄▄▄▄▄   ▄▄▄    ▄▄▄   ▄▄▄▄      ▄▄▄▄    ▄▄▄   ▄▄
  ██▀▀▀▀██  ██▄  ▄██  ▄█▀▀▀▀█    ██▀▀██   ███   ██
  ██    ██   ██▄▄██   ██▄       ██    ██  ██▀█  ██
@@ -181,10 +175,7 @@ w = """
  ██  ▀██▄     ██          ▀██  ██    ██  ██  █▄██
  ██    ██     ██     █▄▄▄▄▄█▀   ██▄▄██   ██   ███
  ▀▀    ▀▀▀    ▀▀      ▀▀▀▀▀      ▀▀▀▀    ▀▀   ▀▀▀
-
-                            
-
-                     
+                    
 
 """
 ir = """[starting] please wait"""
@@ -254,7 +245,7 @@ print ("")
 print ("")
 print ("")
 time.sleep(0.5)
-o = "[online server the report]"
+o = " [online server the report]"
  #   
 for e in o:
         sys.stdout.write(e)
@@ -466,7 +457,7 @@ if wow == "14":
     print (f"{x} \n \n {port} '@{sir}' \n \n anti report or filter [for username biography] ——>>>:" + f"\n \n{ping}")
 #
 if wow == "4":
-    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{blue}\n \n _______________________ \n {red} ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)) \n {blue} _______________________ \n")
+    print (f"{x} \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{blue}\n \n  _______________________ \n \n {red} ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)) \n {blue} _______________________ \n")
     print ()
     print ()
     print (f"{oh}")
