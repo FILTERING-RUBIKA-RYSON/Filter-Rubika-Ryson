@@ -1,6 +1,7 @@
-# mmð řŷšŏň 
+# mmð řŷšŏň - @creator_ryson
 # py3
 # termux , Linux , windows
+# coded by ryson mmd or mr shobadehgar
 print("")
 print("\n"*80)
 print("""
@@ -36,7 +37,7 @@ print ()
 print ()
 import time
 import os
-soal = input("library installation (y/n) >>")
+soal = input("library installation (y/n) ⟩⟩– ")
 #
 if soal == "y":
     print ("installing load..")
@@ -88,17 +89,14 @@ print("\n"*60)
 print(f"{green} ")
 #
 print (Fore.WHITE + "")
-print (" [~] štart code fìłŧêř rubika")
-print (" ")
+print (" [~] štart code fìłŧêř ryson script")
+print ()
 #date
 x = (f'{green}') + str(datetime.datetime.now())
 #
 #
 #
 #
-print (" ")
-print(Fore.WHITE + '')
-print("  ryson script")
 print (" ")
 print (" ")
 print (" ")
@@ -656,3 +654,4 @@ if mr == "n":
 # my web ryson.ir
 #_
 # منتظر آپدیت های بعدیه اسکریپت باشید!
+# ryson mmd bozorg
