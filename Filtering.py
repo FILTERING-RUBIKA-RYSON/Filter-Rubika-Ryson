@@ -1,7 +1,5 @@
-# mmð řŷšŏň
+# mmð řŷšŏň 
 # py3
-# khsteh (tired) az (from) (all) or hameh
-## ! happy new version ! ##
 print("")
 print("\n"*80)
 print("""
