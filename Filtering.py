@@ -254,7 +254,7 @@ print ("\n"*5)
 print (Fore.YELLOW + "")
 ur = pyfiglet.figlet_format(f"{user}")
 v = (f"""
-hi \n  {ur}  \n welcome to ryson filtering script-
+hi \n  {ur}  \n welcome to ryson filtering script messenger’s
 """)
 
 
@@ -297,7 +297,7 @@ print (f"running  {x}")
 print(Fore.GREEN +"")
 print ("")
 print ("")
-py = input(f""" [{user}] >> test server rubika online or offline? (y/n)
+py = input(f""" [{user}] >> test server support messenger online or offline? (y/n)
  
   please enter _ > """)
 # error in termux , But not in other terminals
@@ -306,6 +306,8 @@ print (Fore.RED + "")
 if py == "y":
     print ()
     print ()
+    okey = input ("please enter url messenger (https://x.xx) >_")
+    time.sleep(0.5)
     print("\r 'testing server'  ..",end="",flush=False) 
     time.sleep(1)
     print("\r 'testing server'  ...",end="",flush=False)
@@ -329,14 +331,14 @@ if py == "y":
     print("\r 'create server'           ",end="",flush=False)
     time.sleep(0.5)
     print(Fore.YELLOW +"")
-    ms = requests.get("https://web.rubika.ir/#/login").text
+    ms = requests.get(f"{okey}").text
     if ms == "":
         print()
-        print (f"support offline {x} -")
+        print (f"support {okey} offline {x} -")
     if ms == ' ' or "" or " ":
         print("")
         print("")
-        print (f"support online {x} -")
+        print (f"support {okey} online {x} -")
 if py == "n":
     print()
     print()
@@ -348,7 +350,7 @@ print ("")
 print ("")
 print ("")
 time.sleep(0.5)
-o = " [online server the report]"
+o = " [online server for report]"
  #   
 for e in o:
         sys.stdout.write(e)
@@ -372,9 +374,9 @@ print (f"{blue} ")
 os.system("clear")
 wow = input(f"""
 
-              ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
-              ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
-              ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
+                ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
+                ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
+                ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
 
 
                        >>> '{user}' <<<
