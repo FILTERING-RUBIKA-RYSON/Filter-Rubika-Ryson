@@ -1,7 +1,7 @@
 # mmð řŷšŏň - @creator_ryson
 # py3
 # termux , Linux , windows
-# coded by ryson mmd or mr shobadehgar
+# coded by ryson mmd or mr shobadehgar - rapper - hip hopper
 # The copier of this script will be dealt with according to Iranian laws!
 # happy new year and mew script
 # my bro ♥️ and friend artin
