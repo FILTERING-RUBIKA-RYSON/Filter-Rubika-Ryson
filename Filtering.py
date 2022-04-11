@@ -1,7 +1,6 @@
 # mmð řŷšŏň
 # py3
 # khsteh (tired) az (from) (all) or hameh
-# error!   The terminal must be updated.
 ## ! happy new version ! ##
 print("")
 print("\n"*80)
