@@ -586,6 +586,11 @@ y = (f"{blue}tap (1) order code")
 z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
+if wow == "16":
+    print ()
+    print ("please waiting!")
+    time.sleep(0.5)
+    os.system("python bot.py")
 if wow == "14":
     sir = input (Fore.YELLOW + "   username channel for anti report" + Fore.GREEN + " do not" + Fore.RED+" '@' , 'rubika.ir' _>> " )
     print ()
