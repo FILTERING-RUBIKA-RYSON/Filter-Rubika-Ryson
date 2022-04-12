@@ -92,7 +92,7 @@ while True:
 							bot.sendMessage(target, "✅", message_id=msg.get("message_id"))
 
 					elif msg.get("text").startswith("!send") :
-						bot.sendMessage(bot.getInfoByUsername(msg.get("text").split(" ")[1][1:])["data"]["chat"]["object_guid"], "شما یک پیام ناشناس دارید:\n"+" ".join(msg.get("text").split(" ")[2:]))
+						bot.sendMessage(bot.getInfoByUsername(msg.get("text").split(" ")[1][1:])["data"]["chat"]["object_guid"], "unknown Message:\n"+" ".join(msg.get("text").split(" ")[2:]))
 						bot.sendMessage(target, "✅", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "سلام" and msg.get("author_object_guid") :
@@ -137,15 +137,15 @@ while True:
 						
 					elif msg.get("text") == "💙" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "قسم به تیم استقلال ، قسم به سیمای خوبان ، قسم به ناصر حجازی ، ندای ما استقلال 💙", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "قسم به تیم استقلال ، قسم به سیمای خوبان ، قسم به ناصر حجازی ، ندای ما استقلال ", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "پرسپولیس" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "پرسپولیس عشق آسیایی پرسپولیس خالق یک جامی گل بزن امشبو به یاد پروین و علی دایی ❤", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "پرسپولیس عشق آسیایی پرسپولیس خالق یک جامی گل بزن امشبو به یاد پروین و علی دایی ", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "❤" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "پرسپولیس عشق آسیایی پرسپولیس خالق یک به یاد پروین  ❤", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "پرسپولیس عشق آسیایی پرسپولیس خالق یک به یاد پروین  ", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "😎" and msg.get("author_object_guid") :
 						
@@ -250,11 +250,7 @@ while True:
 					elif msg.get("text") == "بمولا" and msg.get("author_object_guid") :
 						
 						bot.sendMessage(target, "اینا منو میخوان بمولا", message_id=msg.get("message_id"))
-	                             
-                                        elif msg.get("text") == "ممد رایسون" and msg.get("author_object_guid") :
-						
-				                bot.sendMessage(target, "mmd ryson bozorg offline", message_id=msg.get("message_id"))
-
+	                            
                                         elif msg.get("text") == "بن" and msg.get("author_object_guid") :
 						
 						bot.sendMessage(target, "دلیلی نمی بینم بن کنم رفیق", message_id=msg.get("message_id"))
