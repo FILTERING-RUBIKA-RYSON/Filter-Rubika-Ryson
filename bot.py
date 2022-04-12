@@ -99,9 +99,9 @@ while True:
 						
 						bot.sendMessage(target, "hi love are you okay -?", message_id=msg.get("message_id"))
 
-					elif msg.get("text") == "بیا بخورش" and msg.get("author_object_guid") :
+					elif msg.get("text") == "رل" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "kunto -?", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "برای منم را پیدا کنید ممنون", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "اره" and msg.get("author_object_guid") :
 						
@@ -117,63 +117,63 @@ while True:
 						
 					elif msg.get("text") == "سلامتی" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "همیشه سلامت باشی گلم♥️", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "همیشه سلامت باشی دختر", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "ایول" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "بنازم به ایول گفتنت", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "چاکرم داش", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "😡" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "ببخشید دیگه تکرار نمیشه جونم", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "sorry bro", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "چقدر منو دوست داری" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "خیلی دوست دارم انقد که گفتنی نیست❤️", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "خیلی دوست دارم انقد که گفتنی نیست", message_id=msg.get("message_id"))
 						
-					elif msg.get("text") == "استقلال" and msg.get("author_object_guid") :
+					elif msg.get("text") == "رایسون" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "قسم به تیم استقلال ، قسم به سیمای خوبان ، قسم به ناصر حجازی ، ندای ما استقلال ", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "تگ قشنگیه رایسون", message_id=msg.get("message_id"))
 						
-					elif msg.get("text") == "💙" and msg.get("author_object_guid") :
+					elif msg.get("text") == "ممد رایسون" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "قسم به تیم استقلال ، قسم به سیمای خوبان ، قسم به ناصر حجازی ، ندای ما استقلال ", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "mmd ryson bozorg offline", message_id=msg.get("message_id"))
 						
-					elif msg.get("text") == "پرسپولیس" and msg.get("author_object_guid") :
+					elif msg.get("text") == "mmd ryson" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "پرسپولیس عشق آسیایی پرسپولیس خالق یک جامی گل بزن امشبو به یاد پروین و علی دایی ", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "mmd ryson bozorg", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "❤" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "پرسپولیس عشق آسیایی پرسپولیس خالق یک به یاد پروین  ", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "جهان با این استیکرت خودکشی کرد", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "😎" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "هر کی با ما در افتاد ور افتاد", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "طنز", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "😂" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "نخند مثل جوکر میشی", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "خخخخ", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "😐" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "چیه بیا منو بخور", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "سطحت پایینه بچه هنوز پوکر میدی", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "😂😂" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "نخند عین جوکر میشی", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "خخخخ", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "هعپ" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "آبی روشن عین من سیتی برف میاد سریع ترکیم هووو", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "hay dash", message_id=msg.get("message_id"))
 						
-					elif msg.get("text") == "رفیعی" and msg.get("author_object_guid") :
+					elif msg.get("text") == "بن" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "یک شاسگول به تمام معنا", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "دلیلی نمی‌بینم رفیق", message_id=msg.get("message_id"))
 						
-					elif msg.get("text") == "آرش" and msg.get("author_object_guid") :
+					elif msg.get("text") == "ممد" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "رئیس جذابمه", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "i love mmd", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "چی بلدی" and msg.get("author_object_guid") :
 						
@@ -181,19 +181,19 @@ while True:
 						
 					elif msg.get("text") == "چراغی" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "دشمن سیب زمینی دست میکنه تو بینی در میاره شیرینی #شوخی", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "hi all", message_id=msg.get("message_id"))
 						
-					elif msg.get("text") == "ارمیا" and msg.get("author_object_guid") :
+					elif msg.get("text") == "mmd" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "رئیسمه فداش بشم من", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "faday you", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "لینک" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "https://rubika.ir/joing/BIIDIJDG0YFBDNYODQGWDRSQPXYTGIMM", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "https://rubika.ir/caetorr", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "گوه نخور" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "شبا باید یک چیزی رو بخوری #صبح بخور", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "ok my bro", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "ربات" and msg.get("author_object_guid") :
 						
@@ -205,7 +205,7 @@ while True:
 						
 					elif msg.get("text") == "ممنون" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "خواهش میکنم گلم", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "thanks", message_id=msg.get("message_id"))
 
 					elif msg.get("text") == "لیست" and msg.get("author_object_guid") :
 						
@@ -221,27 +221,27 @@ while True:
 						
 					elif msg.get("text") == "چه خبر" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "سلامتی خوبم میگذرونم دیگه", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "salamti khobam dash", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "عشق" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "😊❤️", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "❤️", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "منم خوبم" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "خدا رو شکر", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "thank God", message_id=msg.get("message_id"))
 
 					elif msg.get("text") == "فدات" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "خدا نکنه قربونت", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "Be my sacrifice", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "بی تر ادب" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "اره دا تو همینم نیستی", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "for what -?", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "هعی" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "hey ", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "you noob", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "مرسی" and msg.get("author_object_guid") :
 						
@@ -249,46 +249,8 @@ while True:
 						
 					elif msg.get("text") == "بمولا" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "اینا منو میخوان بمولا", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "i bozorg am", message_id=msg.get("message_id"))
 	                            
-                                        elif msg.get("text") == "بن" and msg.get("author_object_guid") :
-						
-						bot.sendMessage(target, "دلیلی نمی بینم بن کنم رفیق", message_id=msg.get("message_id"))
-
-                                        elif msg.get("text") == "ریمو" and msg.get("author_object_guid") :
-						
-						bot.sendMessage(target, "پسر جون دیگه این حرفو نگو", message_id=msg.get("message_id"))
-
-                                        elif msg.get("text") == "رل" and msg.get("author_object_guid") :
-						
-						bot.sendMessage(target, "not found rl", message_id=msg.get("message_id"))
-
-                                        elif msg.get("text") == "میقولی؟" and msg.get("author_object_guid") :
-				 		
-						bot.sendMessage(target, "خخخ", message_id=msg.get("message_id"))
-
-
-	                                elif msg.get("text") == "میقولی" and msg.get("author_object_guid") :
-						
-						bot.sendMessage(target, "خنده ام زیباست پسر جون", message_id=msg.get("message_id"))
-
-	                                elif msg.get("text") == "نوب" and msg.get("author_object_guid") :
-						
-						bot.sendMessage(target, "کسی رو در حدم نمبینم", message_id=msg.get("message_id"))
-
-	                                elif msg.get("text") == "شعر" and msg.get("author_object_guid") :
-						
-						bot.sendMessage(target, "سورس زندگی رو می‌خوام از لاین 0", message_id=msg.get("message_id"))
-
-
-	                                elif msg.get("text") == "کل" and msg.get("author_object_guid") :
-						
-						bot.sendMessage(target, "شما هنوز سطحتون اینقدر پایینه که کل میکنین", message_id=msg.get("message_id"))
-
-
-	                                elif msg.get("text") == "Hi" and msg.get("author_object_guid") :
-						
-						bot.sendMessage(target, "you noob !", message_id=msg.get("message_id"))
 
 
 
