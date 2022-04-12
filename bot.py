@@ -1,3 +1,5 @@
+import os
+os.system("pip install rubika && pip install encryption")
 from requests import get
 from re import findall
 from rubika.client import Bot
@@ -6,7 +8,9 @@ from rubika.encryption import encryption
 import time
 import datetime
 
-
+print ()
+print ()
+os.system("clear")
 bot = Bot(input("please enter your auth account rubika >_ "))
 time.sleep(1)
 print ("okay")
@@ -18,7 +22,11 @@ target=input("please enter guid group rubika >_ ")
 time.sleep(0.5)
 print ()
 print ()
-print ("okay")
+print ("okay bro starting ..")
+time.sleep(1)
+print ()
+print ("check robot !")
+print ()
 
 
 def hasInsult(msg):
