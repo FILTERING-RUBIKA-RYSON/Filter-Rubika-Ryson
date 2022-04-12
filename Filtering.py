@@ -590,7 +590,7 @@ print (Fore.YELLOW +"")
 #if s __
 if wow == "16":
     print ()
-    print ("please waiting!")
+    print ()
     time.sleep(0.5)
     os.system("python bot.py")
 if wow == "14":
