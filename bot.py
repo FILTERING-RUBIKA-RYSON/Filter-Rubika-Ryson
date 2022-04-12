@@ -250,38 +250,26 @@ while True:
 					elif msg.get("text") == "بمولا" and msg.get("author_object_guid") :
 						
 						bot.sendMessage(target, "اینا منو میخوان بمولا", message_id=msg.get("message_id"))
-	                                
-
-
-
-
+	                             
                                         elif msg.get("text") == "ممد رایسون" and msg.get("author_object_guid") :
 						
-						bot.sendMessage(target, "mmd ryson bozorg offline", message_id=msg.get("message_id"))
+				                bot.sendMessage(target, "mmd ryson bozorg offline", message_id=msg.get("message_id"))
 
-
-	                                elif msg.get("text") == "بن" and msg.get("author_object_guid") :
+                                        elif msg.get("text") == "بن" and msg.get("author_object_guid") :
 						
 						bot.sendMessage(target, "دلیلی نمی بینم بن کنم رفیق", message_id=msg.get("message_id"))
 
-
-	                                elif msg.get("text") == "ریمو" and msg.get("author_object_guid") :
+                                        elif msg.get("text") == "ریمو" and msg.get("author_object_guid") :
 						
 						bot.sendMessage(target, "پسر جون دیگه این حرفو نگو", message_id=msg.get("message_id"))
 
-
-	                                 elif msg.get("text") == "رل" and msg.get("author_object_guid") :
+                                        elif msg.get("text") == "رل" and msg.get("author_object_guid") :
 						
 						bot.sendMessage(target, "not found rl", message_id=msg.get("message_id"))
 
-
-
-	                                 elif msg.get("text") == "میقولی؟" and msg.get("author_object_guid") :
-						
+                                        elif msg.get("text") == "میقولی؟" and msg.get("author_object_guid") :
+				 		
 						bot.sendMessage(target, "خخخ", message_id=msg.get("message_id"))
-
-
-
 
 
 	                                elif msg.get("text") == "میقولی" and msg.get("author_object_guid") :
@@ -319,7 +307,7 @@ while True:
 
 
 
-					elif msg.get("text").startswith("!add") :
+	                		elif msg.get("text").startswith("!add") :
 						bot.invite(target, [bot.getInfoByUsername(msg.get("text").split(" ")[1][1:])["data"]["chat"]["object_guid"]])
 						bot.sendMessage(target, "✅", message_id=msg.get("message_id"))
 
