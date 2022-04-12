@@ -442,6 +442,8 @@ Pro>  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
       |- [code rp      (6) ] - | - [anti filter (14) ] -|
       |                        |                        |
       |- [anti report  (7) ] - | - [exit script (15) ] -|
+      |-                                               -|
+      |-            [ robot on rubika (16) ]           -|
       ———————————————————————————————————————————————————
             
 
