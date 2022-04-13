@@ -419,26 +419,27 @@ print ("loading...")
 print ()
 time.sleep(1)
 print (Fore.BLUE + '')
-def telegram_info(sh):
-    html1 = requests.get(f'{sh}').text
-    html = str(html1) 
-    if str(html.status_code) == 200:
+ml = requests.get(f"{sh}")
+
+if ml.status_code == 200:
         print ()
         print ()
         time.sleep(0.5)
         print (f"{blue} username url found")
         print ()
         print ()
-    elif str(html.status_code) == 404:
+    elif ml.status_code == 404:
         print ()
         print (f"{blue}not found url ")
         print ()
-    elif str(html.status_code) == 302:
+    elif ml.status_code == 302:
         print ()
         print (f"{blue}not found url")
         print ()
     else:
         pass
+def telegram_info(sh):
+    html = requests.get(f'{sh}').text
     a = []
     for t in html.split('\n'):
         if ('<meta property="og:title" content="' in t ):
