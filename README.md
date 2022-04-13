@@ -58,3 +58,5 @@ ___filter messengers reporter___
 
 
 Hidden but mythical 
+
+<مسئولیت استفاده نادرست از آن بر عهده خودتان است>
