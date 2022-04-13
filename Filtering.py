@@ -305,25 +305,8 @@ print ("\n"*10)
 print ()
 time.sleep(0.5)
 print(f"{blue} ")
-w = """
-
- ▄▄▄▄▄▄   ▄▄▄    ▄▄▄   ▄▄▄▄      ▄▄▄▄    ▄▄▄   ▄▄
- ██▀▀▀▀██  ██▄  ▄██  ▄█▀▀▀▀█    ██▀▀██   ███   ██
- ██    ██   ██▄▄██   ██▄       ██    ██  ██▀█  ██
- ███████     ▀██▀     ▀████▄   ██    ██  ██ ██ ██
- ██  ▀██▄     ██          ▀██  ██    ██  ██  █▄██
- ██    ██     ██     █▄▄▄▄▄█▀   ██▄▄██   ██   ███
- ▀▀    ▀▀▀    ▀▀      ▀▀▀▀▀      ▀▀▀▀    ▀▀   ▀▀▀
-                    
-
-"""
 print ()
 ir = """[starting] please wait"""
-for p in w:
-        sys.stdout.write(p)
-        sys.stdout.flush()
-        time.sleep(0.004)
-#
 print (Fore.YELLOW +'')
 print(f"{ir} ....")
 #
@@ -515,10 +498,11 @@ print("\r[~] alert : 2s",end="",flush=False)
 time.sleep(1)
 print("\r[~] alert : 1s",end="",flush=False)
 time.sleep(1)
-print("")
-print (" ")
-print (" ")
-print ("")
+print ()
+print ()
+os.system("clear")
+print ()
+print ()
 print(f"{red} ")
 #
 # moteghayers random code __
