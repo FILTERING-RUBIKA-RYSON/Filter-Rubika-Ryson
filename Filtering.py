@@ -68,6 +68,7 @@ import datetime
 import random
 import requests
 import flags
+import string
 import pyfiglet
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
@@ -420,18 +421,18 @@ time.sleep(1)
 print (Fore.BLUE + '')
 def telegram_info(sh):
     html = requests.get(f'{sh}').text
-    if html.status_code == "200":
+    if html.status_code == str200:
         print ()
         print ()
         time.sleep(0.5)
         print (f"{blue} username url found")
         print ()
         print ()
-    elif html.status_code == "404":
+    elif html.status_code == str404:
         print ()
         print (f"{blue}not found url ")
         print ()
-    elif html.status_code == "302":
+    elif html.status_code == str302:
         print ()
         print (f"{blue}not found url")
         print ()
