@@ -8,6 +8,14 @@
 # storng reporter
 print("")
 print("\n"*80)
+print ("""
+____   __   __  ____     ___    _   _
+|  _ \  \ \ / / / ___|   / _ \  | \ | |
+| |_) |  \ V /  \___ \  | | | | |  \| |
+|  _ <    | |    ___) | | |_| | | |\  |
+|_| \_\   |_|   |____/   \___/  |_| \_|
+""")
+print ("\n"*3)
 import time
 import os
 soal = input("library installation (y/n) ⟩⟩– ")
