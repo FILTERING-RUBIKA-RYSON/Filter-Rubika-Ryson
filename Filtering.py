@@ -651,7 +651,7 @@ if wow == "12":
     os.system("rm -rf web_hack && cd && git clone https://github.com/shobadeh/web_hack && cd web_hack && chmod 777 && python local.py")
 if wow == "13":
     print ("--OK")
-    os.system("rm -rf Filter-Rubika-Ryson && cd && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
+    os.system("cd $HOME && rm -rf Filter-Rubika-Ryson && cd && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
 if wow == "10":
     print ("--OK")
     #so hey open chnl
