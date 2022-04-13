@@ -421,7 +421,7 @@ time.sleep(1)
 print (Fore.BLUE + '')
 def telegram_info(sh):
     html1 = requests.get(f'{sh}').text
-    html = str(html) 
+    html = str(html1) 
     if str(html.status_code) == 200:
         print ()
         print ()
