@@ -290,7 +290,7 @@ print ("\n"*5)
 print (Fore.YELLOW + "")
 ur = pyfiglet.figlet_format(f"{user}")
 v = (f"""
-hi \n  {ur}  \n welcome to ryson filtering script messengers
+hello \n  {ur}  \n welcome to ryson filtering script messengers
 """)
 
 
@@ -422,22 +422,23 @@ print (Fore.BLUE + '')
 ml = requests.get(f"{sh}")
 
 if ml.status_code == 200:
-        print ()
-        print ()
-        time.sleep(0.5)
-        print (f"{blue} username url found")
-        print ()
-        print ()
-    elif ml.status_code == 404:
-        print ()
-        print (f"{blue}not found url ")
-        print ()
-    elif ml.status_code == 302:
-        print ()
-        print (f"{blue}not found url")
-        print ()
-    else:
-        pass
+    print ()
+    print ()
+    time.sleep(0.5)
+    print (f"{blue} username url found")
+    print ()
+    print ()
+elif ml.status_code == 404:
+    print ()
+    print (f"{blue}not found url ")
+    print ()
+elif ml.status_code == 302:
+    print ()
+    print (f"{blue}not found url")
+    print ()
+else:
+    pass
+
 def telegram_info(sh):
     html = requests.get(f'{sh}').text
     a = []
