@@ -6,6 +6,7 @@
 # happy new year and mew script
 # my bro ♥️ and friend artin
 # storng reporter
+import os
 print("")
 os.system("clear")
 print("\n"*80)
@@ -18,7 +19,6 @@ ____   __   __  ____     ___    _   _
 """)
 print ("\n"*3)
 import time
-import os
 soal = input("library installation (y/n) ⟩⟩– ")
 #
 if soal == "y":
