@@ -369,18 +369,25 @@ time.sleep(0.5)
 # input
 
 print (Fore.BLUE + "")
-sh = input (f" [?] [{user}] >> please enter username for reporting messengers _> ")
+sh = input (f" [?] [{user}] >> please enter username for reporting messengers [@username] _> ")
 print ()
-time.sleep(0.5)
+time.sleep(1)
 print (Fore.YELLOW + 'accept user')
 time.sleep(1)
 print ()
 print ()
 print (Fore.BLUE + '')
 usrname = input(f" [?] [{user}] >> please enter url username messenger [https://t.me/username] _> ")
-print (Fore.RED + "")
+print (Fore.YELLIW + "")
 print ()
 time.sleep(0.5)
+if "@" in usrname:
+    print(" enter dont '@' ")
+    print ()
+    print (Fore.GREEN + '')
+    input('pleas enter do not '@' [https://t.me/username] ')
+    time.sleep(1)
+print (Fore.RED + '')
 print ("loading...")
 print ()
 time.sleep(1)
@@ -391,21 +398,21 @@ if ml.status_code == 200:
     print ()
     print ()
     time.sleep(0.5)
-    print (f"{blue} username url found")
+    print (f"{blue} [{usrname}] username url found")
     print ()
     print ()
 elif ml.status_code == 404:
     print ()
-    print (f"{blue} {usrname} not found url ")
+    print (f"{blue} [{usrname}] not found url ")
     print ()
 elif ml.status_code == 302:
     print ()
-    print (f"{blue} {usrname} not found url")
+    print (f"{blue} [{usrname}] not found url")
     print ()
 else:
     pass
 
-def telegram_info(usrname):
+def info(usrname):
     html = requests.get(f'{usrname}').text
     a = []
     for t in html.split('\n'):
@@ -425,7 +432,7 @@ time.sleep(0.5)
 print ("name url found:")
 print (Fore.BLUE + '')
 time.sleep(0.5)
-print(telegram_info(usrname))
+print(f'info [{usrname}] ≈ ' +info(usrname))
 time.sleep(1)
 time.sleep(0.5)
 print (f"{blue} ")
