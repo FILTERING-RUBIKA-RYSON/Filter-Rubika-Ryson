@@ -7,6 +7,7 @@
 # my bro ♥️ and friend artin
 # storng reporter
 print("")
+os.system("clear")
 print("\n"*80)
 print ("""
 ____   __   __  ____     ___    _   _
@@ -304,7 +305,7 @@ if py == "y":
     print ()
     print ()
     print (Fore.BLUE + '')
-    okay = "please enter url messenger >>_ "
+    okay = "please enter url messenger [https://rubika.ir] >>_ "
     print (okay)
     print (Fore.YELLOW + '')
     okey = input()
@@ -377,8 +378,8 @@ time.sleep(1)
 print ()
 print ()
 print (Fore.BLUE + '')
-usrname = input(f" [?] [{user}] >> please enter url username messenger [https://t.me/username] _> ")
-print (Fore.YELLIW + "")
+usrname = input(f" [?] [{user}] >> url username messenger \n [https://t.me/username] please enter _> ")
+print (Fore.YELLOW + "")
 print ()
 time.sleep(0.5)
 if "@" in usrname:
