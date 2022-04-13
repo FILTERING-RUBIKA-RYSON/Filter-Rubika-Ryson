@@ -410,7 +410,7 @@ print ("")
 time.sleep(0.5)
 # input
 print (Fore.BLUE + "")
-sh = input (f" [?] [{user}] >> please enter url that you want reporting messengers_> ")
+sh = input (f" [?] [{user}] >> please enter url for reporting messengers _> ")
 print (Fore.RED + "")
 print ()
 time.sleep(0.5)
@@ -420,6 +420,23 @@ time.sleep(1)
 print (Fore.BLUE + '')
 def telegram_info(sh):
     html = requests.get(f'{sh}').text
+    if html.status_code == 200:
+        print ()
+        print ()
+        time.sleep(0.5)
+        print (f"{blue} username url found")
+        print ()
+        print ()
+    elif rys.status_code == 404:
+        print ()
+        print (f"{blue}not found url ")
+        print ()
+    elif rys.status_code == 302:
+        print ()
+        print (f"{blue}not found url")
+        print ()
+    else:
+        pass
     a = []
     for t in html.split('\n'):
         if ('<meta property="og:title" content="' in t ):
@@ -432,14 +449,16 @@ def telegram_info(sh):
             a.append(t.replace('<div class="tgme_page_extra">','').replace('</div>', ''))
             break
     return a
-print (Fore.GREEN + '')
-print ("found url username")
+
+print (Fore.YELLOW + '')
+time.sleep(0.5)
+print ("name url found:")
 print (Fore.BLUE + '')
+time.sleep(0.5)
 print(telegram_info(sh))
 time.sleep(1)
 time.sleep(0.5)
 print (f"{blue} ")
-os.system("clear")
 wow = input(f"""
 
                  ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
@@ -617,7 +636,7 @@ if wow == "16":
     time.sleep(0.5)
     os.system("python bot.py")
 if wow == "14":
-    sir = input (Fore.YELLOW + "   username channel for anti report" + Fore.GREEN + " do not" + Fore.RED+" '@' , 'rubika.ir' _>> " )
+    sir = input (Fore.YELLOW + "   username channel rubika for anti report" + Fore.GREEN + " do not " + Fore.RED+" '@' , 'rubika.ir' _>> " )
     print ()
     rys = requests.get(f"https://rubika.ir/{sir}")
     if rys.status_code == 200:
