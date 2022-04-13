@@ -24,7 +24,7 @@ ___filter messengers reporter___
 
 # فیلم های آموزشی موجود در : t.me/antiWEAK
 
-Screenshots ---- ![Screenshot](https://raw.githubusercontent.com/FILTERING-RUBIKA-RYSON/Filter-Rubika-Ryson/main/Screenshot.png) You can visit the [collection of screenshots](https://github.com/filtering-rubika-ryson/Filter-Rubika-Ryson) Installation method ----
+Screenshots ---- ![Screenshot](https://raw.githubusercontent.com/FILTERING-RUBIKA-RYSON/Filter-Rubika-Ryson/main/Screenshot.png) you can visit the [screenshot code](https://raw.githubusercontent.com/FILTERING-RUBIKA-RYSON/Filter-Rubika-Ryson/main/Screenshots.jpg) Installation method ----
 
 ***Install the script:***
 
