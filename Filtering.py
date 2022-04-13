@@ -452,7 +452,7 @@ Pro>  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
 
 
 
-       [type numbers here] user - '{sh}' >>>_ """)
+       [type numbers here] user - >>>_ """)
 print ()
 print (Fore.YELLOW + '')
 time.sleep(0.5)
