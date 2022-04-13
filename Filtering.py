@@ -367,8 +367,17 @@ print ("")
 print ("")
 time.sleep(0.5)
 # input
+
 print (Fore.BLUE + "")
-sh = input (f" [?] [{user}] >> please enter url for reporting messengers _> ")
+sh = input (f" [?] [{user}] >> please enter username for reporting messengers _> ")
+print ()
+time.sleep(0.5)
+print (Fore.YELLOW + 'accept user')
+time.sleep(1)
+print ()
+print ()
+print (Fore.BLUE + '')
+usrname = input(f" [?] [{user}] >> please enter url username messenger [https://t.me/username] _> ")
 print (Fore.RED + "")
 print ()
 time.sleep(0.5)
@@ -376,7 +385,7 @@ print ("loading...")
 print ()
 time.sleep(1)
 print (Fore.BLUE + '')
-ml = requests.get(f"{sh}")
+ml = requests.get(f"{usrname}")
 
 if ml.status_code == 200:
     print ()
@@ -387,17 +396,17 @@ if ml.status_code == 200:
     print ()
 elif ml.status_code == 404:
     print ()
-    print (f"{blue}not found url ")
+    print (f"{blue} {usrname} not found url ")
     print ()
 elif ml.status_code == 302:
     print ()
-    print (f"{blue}not found url")
+    print (f"{blue} {usrname} not found url")
     print ()
 else:
     pass
 
-def telegram_info(sh):
-    html = requests.get(f'{sh}').text
+def telegram_info(usrname):
+    html = requests.get(f'{usrname}').text
     a = []
     for t in html.split('\n'):
         if ('<meta property="og:title" content="' in t ):
@@ -416,7 +425,7 @@ time.sleep(0.5)
 print ("name url found:")
 print (Fore.BLUE + '')
 time.sleep(0.5)
-print(telegram_info(sh))
+print(telegram_info(usrname))
 time.sleep(1)
 time.sleep(0.5)
 print (f"{blue} ")
@@ -452,7 +461,7 @@ Pro>  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
 
 
 
-       [type numbers here] user - >>>_ """)
+       [type numbers here] user - [{sh}] >>>_ """)
 print ()
 print (Fore.YELLOW + '')
 time.sleep(0.5)
