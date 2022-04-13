@@ -410,9 +410,32 @@ print ("")
 time.sleep(0.5)
 # input
 print (Fore.BLUE + "")
-sh = input (f" [?] [{user}] >> please enter username that you want reporting rubika _> ")
+sh = input (f" [?] [{user}] >> please enter url that you want reporting messengers_> ")
 print (Fore.RED + "")
+print ()
+time.sleep(0.5)
 print ("loading...")
+print ()
+time.sleep(1)
+print (Fore.BLUE + '')
+def telegram_info(sh):
+    html = requests.get(f'{sh}').text
+    a = []
+    for t in html.split('\n'):
+        if ('<meta property="og:title" content="' in t ):
+            a.append(t.replace('<meta property="og:title" content="','').replace('">', ''))
+        if ('                                   ' in t ):
+            a.append(t.replace('<meta property="og:image" content="','').replace('">', ''))
+        if ('<meta name="twitter:description" content="' in t ):
+            a.append(t.replace('<meta name="twitter:description" content="','').replace('">', ''))
+        if ('<div class="tgme_page_extra">' in t ):
+            a.append(t.replace('<div class="tgme_page_extra">','').replace('</div>', ''))
+            break
+    return a
+print (Fore.GREEN + '')
+print ("found url username")
+print (Fore.BLUE + '')
+print(telegram_info(sh))
 time.sleep(1)
 time.sleep(0.5)
 print (f"{blue} ")
