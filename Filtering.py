@@ -420,18 +420,18 @@ time.sleep(1)
 print (Fore.BLUE + '')
 def telegram_info(sh):
     html = requests.get(f'{sh}').text
-    if html.status_code == 200:
+    if html.status_code == "200":
         print ()
         print ()
         time.sleep(0.5)
         print (f"{blue} username url found")
         print ()
         print ()
-    elif rys.status_code == 404:
+    elif html.status_code == "404":
         print ()
         print (f"{blue}not found url ")
         print ()
-    elif rys.status_code == 302:
+    elif html.status_code == "302":
         print ()
         print (f"{blue}not found url")
         print ()
