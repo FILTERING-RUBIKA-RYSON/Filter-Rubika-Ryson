@@ -286,7 +286,7 @@ print ()
 user = input (f'{blue} [~] enter your identity majazi >>— ')
 #
 time.sleep(0.7)
-print ("\n"*5)
+print ()
 print (Fore.YELLOW + "")
 ur = pyfiglet.figlet_format(f"{user}")
 v = (f"""
@@ -303,12 +303,7 @@ print ()
 time.sleep(0.5)
 print ("\n"*10)
 print ()
-time.sleep(0.5)
-print(f"{blue} ")
-print ()
-ir = """[starting] please wait"""
-print (Fore.YELLOW +'')
-print(f"{ir} ....")
+
 #
 # :/
 #
@@ -320,17 +315,15 @@ print (f"running  {x}")
 print(Fore.GREEN +"")
 print ("")
 print ("")
-py = input(f""" [{user}] >> test server support messenger online or offline? (y/n)
+py = input(f""" [{user}] >> test server support messenger (y/n)
 
- please enter _ > """)
-# error in termux , But not in other terminals
-# time.sleep(0.5)
+please enter _ > """)
 
 if py == "y":
     print ()
     print ()
     print (Fore.BLUE + '')
-    okay = "please enter url messenger (https://x.xx) >>_ "
+    okay = "please enter url messenger >>_ "
     print (okay)
     print (Fore.YELLOW + '')
     okey = input()
