@@ -8,33 +8,6 @@
 # storng reporter
 print("")
 print("\n"*80)
-print("""
- ▄▄▄  ▄▄▄
- ███  ███
- ████████
- ██ ██ ██
- ██ ▀▀ ██
- ██    ██
- ▀▀    ▀▀""")
-print(" ")
-print("""
- ▄▄▄  ▄▄▄
- ███  ███
- ████████
- ██ ██ ██
- ██ ▀▀ ██
- ██    ██
- ▀▀    ▀▀""")
-print(" ")
-print("""
- ▄▄▄▄▄
- ██▀▀▀██
- ██    ██
- ██    ██
- ██    ██
- ██▄▄▄██
- ▀▀▀▀▀""")
-print ("\n"*3)
 import time
 import os
 soal = input("library installation (y/n) ⟩⟩– ")
