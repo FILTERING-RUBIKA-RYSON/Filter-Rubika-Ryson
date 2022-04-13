@@ -1,3 +1,6 @@
+___filter messengers reporter___
+*** report account, username***
+
 # کد سازی خودکار و نامحدود با الگوریتم و طرح های جدید 
 
 # بخش های Pro هم رایگان شدند
