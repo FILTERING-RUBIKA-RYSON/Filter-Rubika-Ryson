@@ -432,13 +432,13 @@ if rn == "y":
                 break
             return a
 
-               print (Fore.YELLOW + '')
-               time.sleep(0.5)
-               print ("name url found:")
-               print (Fore.BLUE + '')
-               time.sleep(0.5)
-               print (f"info [{usrname}] = \n") , print(info(usrname))
-               time.sleep(1)
+                print (Fore.YELLOW + '')
+                time.sleep(0.5)
+                print ("name url found:")
+                print (Fore.BLUE + '')
+                time.sleep(0.5)
+                print (f"info [{usrname}] = \n") , print(info(usrname))
+                time.sleep(1)
 
 if rn == "n":
     print ()
