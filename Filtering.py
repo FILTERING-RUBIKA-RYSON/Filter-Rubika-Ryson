@@ -417,7 +417,7 @@ if rn == "y":
         else:
             pass
 
-       def info(usrname):
+        def info(usrname):
             html = requests.get(f'{usrname}').text
             a = []
             for t in html.split('\n'):
