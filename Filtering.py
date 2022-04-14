@@ -429,8 +429,8 @@ if rn == "y":
                     a.append(t.replace('<meta name="twitter:description" content="','').replace('">', ''))
                 if ('<div class="tgme_page_extra">' in t ):
                     a.append(t.replace('<div class="tgme_page_extra">','').replace('</div>', ''))
-            break
-                return a
+                break
+            return a
 
                print (Fore.YELLOW + '')
                time.sleep(0.5)
