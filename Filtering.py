@@ -432,16 +432,16 @@ if rn == "y":
                 a.append(t.replace('<meta name="twitter:description" content="','').replace('">', ''))
             if ('<div class="tgme_page_extra">' in t ):
                 a.append(t.replace('<div class="tgme_page_extra">','').replace('</div>', ''))
-            break
+                break
         return a
 
-        print (Fore.YELLOW + '')
-        time.sleep(0.5)
-        print ("name url found:")
-        print (Fore.BLUE + '')
-        time.sleep(0.5)
-        print (f"info [{usrname}] = \n") , print(info(usrname))
-        time.sleep(1)
+    print (Fore.YELLOW + '')
+    time.sleep(0.5)
+    print ("name url found:")
+    print (Fore.BLUE + '')
+    time.sleep(0.5)
+    print (f"info [{usrname}] = \n") , print(info(usrname))
+    time.sleep(1)
 
 if rn == "n":
     print ()
