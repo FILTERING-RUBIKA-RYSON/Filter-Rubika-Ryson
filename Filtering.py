@@ -400,48 +400,48 @@ if rn == "y":
         print ("loading...")
         print ()
         time.sleep(1)
-     print (Fore.BLUE + '')
-     ml = requests.get(f"{usrname}")
+    print (Fore.BLUE + '')
+    ml = requests.get(f"{usrname}")
 
-     if ml.status_code == 200:
-         print ()
-         print ()
-         time.sleep(0.5)
-         print (f"{blue} [{usrname}] username url found")
-         print ()
-         print ()
-     elif ml.status_code == 404:
-         print ()
-         print (f"{blue} [{usrname}] not found url ")
-         print ()
-     elif ml.status_code == 302:
-         print ()
-         print (f"{blue} [{usrname}] not found url")
-         print ()
-     else:
-         pass
-     def info(usrname):
-         html = requests.get(f'{usrname}').text
-         a = []
-         for t in html.split('\n'):
-             if ('<meta property="og:title" content="' in t ):
-                 a.append(t.replace('<meta property="og:title" content="','').replace('">', ''))
-             if ('                                   ' in t ):
-                 a.append(t.replace('<meta property="og:image" content="','').replace('">', ''))
-             if ('<meta name="twitter:description" content="' in t ):
-                 a.append(t.replace('<meta name="twitter:description" content="','').replace('">', ''))
-             if ('<div class="tgme_page_extra">' in t ):
-                 a.append(t.replace('<div class="tgme_page_extra">','').replace('</div>', ''))
-             break
-         return a
+    if ml.status_code == 200:
+        print ()
+        print ()
+        time.sleep(0.5)
+        print (f"{blue} [{usrname}] username url found")
+        print ()
+        print ()
+    elif ml.status_code == 404:
+        print ()
+        print (f"{blue} [{usrname}] not found url ")
+        print ()
+    elif ml.status_code == 302:
+        print ()
+        print (f"{blue} [{usrname}] not found url")
+        print ()
+    else:
+        pass
+    def info(usrname):
+        html = requests.get(f'{usrname}').text
+        a = []
+        for t in html.split('\n'):
+            if ('<meta property="og:title" content="' in t ):
+                a.append(t.replace('<meta property="og:title" content="','').replace('">', ''))
+            if ('                                   ' in t ):
+                a.append(t.replace('<meta property="og:image" content="','').replace('">', ''))
+            if ('<meta name="twitter:description" content="' in t ):
+                a.append(t.replace('<meta name="twitter:description" content="','').replace('">', ''))
+            if ('<div class="tgme_page_extra">' in t ):
+                a.append(t.replace('<div class="tgme_page_extra">','').replace('</div>', ''))
+            break
+        return a
 
-         print (Fore.YELLOW + '')
-         time.sleep(0.5)
-         print ("name url found:")
-         print (Fore.BLUE + '')
-         time.sleep(0.5)
-         print (f"info [{usrname}] = \n") , print(info(usrname))
-         time.sleep(1)
+        print (Fore.YELLOW + '')
+        time.sleep(0.5)
+        print ("name url found:")
+        print (Fore.BLUE + '')
+        time.sleep(0.5)
+        print (f"info [{usrname}] = \n") , print(info(usrname))
+        time.sleep(1)
 
 if rn == "n":
     print ()
