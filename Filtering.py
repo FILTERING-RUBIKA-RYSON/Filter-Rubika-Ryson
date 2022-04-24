@@ -21,7 +21,7 @@ print ("\n"*3)
 import time
 soal = input("library installation (y/n) ⟩⟩– ")
 #
-if soal == "y":
+if soal == "y".lower():
     print ()
     print ("installing load..")
     print ()
@@ -41,7 +41,7 @@ if soal == "y":
     print ("loading")
     time.sleep(0.5)
 
-if soal == "n":
+if soal == "n".lower():
     print ()
 
 print ()
@@ -309,7 +309,7 @@ py = input(f""" [{user}] >> test server support messenger (y/n)
 
 please enter _ > """)
 
-if py == "y":
+if py == "y".lower():
     print ()
     print ()
     print (Fore.BLUE + '')
@@ -362,12 +362,12 @@ print ("")
 print ("")
 print ("")
 time.sleep(0.5)
-o = " [online server for report]"
+# o = " [online server for report]"
  #   
-for e in o:
-        sys.stdout.write(e)
-        sys.stdout.flush()
-        time.sleep(0.09)
+# for e in o:
+    #    sys.stdout.write(e)
+    #    sys.stdout.flush()
+     #   time.sleep(0.09)
 #
 #
 print(f"{blue} ")
@@ -391,7 +391,7 @@ print ()
 print ()
 print (Fore.GREEN + '')
 time.sleep(0.5)
-if rn == "y":
+if rn == "y".lower():
     usrname = input(f" [?] [{user}] >> url username messenger channel , group \n \n [https://t.me/username] please enter _> ")
     print (Fore.YELLOW + "")
     print ()
@@ -450,7 +450,7 @@ if rn == "y":
     print (f"info [{usrname}] = \n") , print(info(usrname))
     time.sleep(1)
 
-if rn == "n":
+if rn == "n".lower():
     print ()
 time.sleep(0.5)
 print (f"{blue} ")
@@ -481,6 +481,7 @@ Pro>  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
       |- [anti report  (7) ] - | - [exit script (15) ] -|
       |-                                               -|
       |-            [ robot on rubika (16) ]           -|
+      |-            [ spam suport bot (17) ]           -|
       ———————————————————————————————————————————————————
             
 
@@ -626,6 +627,15 @@ y = (f"{blue}tap (1) order code")
 z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
+if wow == "17":
+    print ()
+    os.system("cd")
+    os.system("rm -rf spambot")
+    os.system("git clone https://github.com/creatorLOR/spambot")
+    os.system("cd spambot")
+    os.system("chmod +x *")
+    os.system("python reporting.py")
+    print ()
 if wow == "16":
     print ()
     print ()
@@ -662,13 +672,38 @@ if wow == "4":
     print (f"{oh}")
 if wow == "8":
     print ("--OK")
-    os.system("rm -rf report-user && cd && git clone https://github.com/shobadeh/report-user && cd report-user && chmod 777 * && bash reporter.sh")
+    print ()
+    os.system("cd")
+    os.system("rm -rf report-user")
+    os.system("cd")
+    os.system("git clone https://github.com/shobadeh/report-user")
+    os.system("cd report-user")
+    os.system("chmod 777 *")
+    os.system("bash reporter.sh")
+    print ()
 if wow == "12":
+    print ()
     print ("--OK")
-    os.system("rm -rf web_hack && cd && git clone https://github.com/shobadeh/web_hack && cd web_hack && chmod 777 && python local.py")
+    os.system("cd")
+    os.system("rm -rf web_hack")
+    os.system("cd")
+    os.system("git clone https://github.com/shobadeh/web_hack")
+    os.system("cd web_hack")
+    os.system("chmod 777")
+    os.system("python local.py")
+    print ()
 if wow == "13":
+    print ()
     print ("--OK")
-    os.system("cd $HOME && rm -rf Filter-Rubika-Ryson && cd && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
+    print ()
+    os.system("cd $HOME")
+    os.system("rm -rf Filter-Rubika-Ryson")
+    os.system("cd")
+    os.system("git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson")
+    os.system("cd Filter-Rubika-Ryson")
+    os.system("chmod 777 *")
+    os.system("python Filtering.py")
+    print ()
 if wow == "10":
     print ("--OK")
     #so hey open chnl
@@ -676,7 +711,16 @@ if wow == "10":
 #
 #
 if wow == "9":
-    os.system("rm -rf Hack-Rubika && cd && rm -rf Hack-Rubika && git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika && cd Hack-Rubika && chmod 777 * && python rubika.py")
+    print ()
+    os.system("cd")
+    os.system("rm -rf Hack-Rubika")
+    os.sysyem("cd")
+    os.system("rm -rf Hack-Rubika")
+    os.system("git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika")
+    os.system("cd Hack-Rubika")
+    os.system("chmod 777 *")
+    os.system("python rubika.py")
+    print ()
 if wow == "11":
     os.system("python sms.py")
 if wow == "7":
@@ -819,14 +863,14 @@ mr = input("""
                  
                [?] type the option>>>_""")
 #
-if mr == "y":
+if mr == "y".lower():
         print ("ok")
         print()
         print ("wait")
         time.sleep(0.5)
         print (f"{msh}")
         os.system("cd && rm -rf Filter-Rubika-Ryson && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
-if mr == "u":
+if mr == "u".lower():
         print ("ok")
         print ()
         time.sleep(0.5)
@@ -834,7 +878,7 @@ if mr == "u":
         print ()
         time.sleep(0.5)
         os.system("python Filtering.py")
-if mr == "n":
+if mr == "n".lower():
         print ("the end")
         os.system("exit")
         sys.exit
