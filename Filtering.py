@@ -627,6 +627,7 @@ y = (f"{blue}tap (1) order code")
 z = (f"{blue}tap (5) order")
 print (Fore.YELLOW +"")
 #if s __
+# not upload file to github , download from reservoir my
 if wow == "17":
     print ()
     os.system("cd")
