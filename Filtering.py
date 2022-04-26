@@ -461,7 +461,7 @@ wow = input(f"""
                  ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
 
 
-                       >>> '{user}' <<<
+                       >>> '{green}{user}'{blue} <<<
 
        __________________________________________________
 Pro>  |- [super code   (0) ] - | - [reporter     (8) ] -|
@@ -487,7 +487,7 @@ Pro>  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
 
 
 
-       [type numbers here] user - [{sh}] >>>_ """)
+      {pink} [type numbers here] user - [{sh}] >>>_ """)
 print ()
 print (Fore.YELLOW + '')
 time.sleep(0.5)
@@ -845,7 +845,7 @@ time.sleep(0.5)
 print ()
 print ()
 print ()
-print ("'super' script reporter-filtering_" + f'%s%s`telesm` </2022>%s'% (fg('black'), bg('white'), attr('reset')))
+print ("'super' f/h algorithms script reporter-filtering_" + f'%s%s`telesm` </2022>%s'% (fg('black'), bg('white'), attr('reset')))
 print("")
 print("")
 print("")
