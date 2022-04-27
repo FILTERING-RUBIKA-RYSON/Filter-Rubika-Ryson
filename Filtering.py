@@ -781,15 +781,26 @@ cc = (random.choice(ls))
 print (cc)
 print(f"{blue} ")
 print ()
-print ("{blue}wait {red}start {green}sound..")
+music = input("{red}start {green}sound (y/n) ⟩⟩ ")
 print ()
 time.sleep(0.5)
-os.system("play khalvat.mp3 &> /dev/null")
-time.sleep(1)
-input ("{blue}plz enter {yellow}information{blue} maker ⟩⟩ ")
-#
+if music == "y".lower():
+    #ok
+    print ()
+    os.system("play khalvat.mp3 &> /dev/null")
+    print ("\n"*2)
+
+
 print (f"{red}")
+
+if music == "n".lower():
+    print ()
+    #ok
+
 time.sleep(1)
+
+print ("\n"*2)
+
 s = """
 
 
