@@ -34,6 +34,7 @@ if soal == "y".lower():
     os.system("pip install requests")
     os.system("pip install webbrowser")
     os.system("pip install flags")
+    os.system("pkg install sox")
     print ()
     print ("installed library ok")
     print ()
@@ -41,6 +42,8 @@ if soal == "y".lower():
     print ("loading")
     time.sleep(0.5)
 
+#
+os.system("pkg install sox")
 if soal == "n".lower():
     print ()
 
@@ -776,7 +779,9 @@ cc = (random.choice(ls))
 print (cc)
 print(f"{blue} ")
 print ()
-time.sleep(3)
+print ("please wait start sound..")
+print ()
+time.sleep(1)
 input ("plz enter information maker>>")
 #
 print (f"{red}")
