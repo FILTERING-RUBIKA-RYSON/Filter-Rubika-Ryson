@@ -781,7 +781,7 @@ cc = (random.choice(ls))
 print (cc)
 print(f"{blue} ")
 print ()
-music = input("{red}start {green}sound (y/n) ⟩⟩ ")
+music = input(f"{red}start {green}sound (y/n) ⟩⟩ ")
 print ()
 time.sleep(0.5)
 if music == "y".lower():
