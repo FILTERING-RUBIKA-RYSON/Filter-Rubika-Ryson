@@ -781,6 +781,8 @@ print(f"{blue} ")
 print ()
 print ("please wait start sound..")
 print ()
+time.sleep(0.5)
+os.system("play khalvat.mp3 &> /dev/null")
 time.sleep(1)
 input ("plz enter information maker>>")
 #
