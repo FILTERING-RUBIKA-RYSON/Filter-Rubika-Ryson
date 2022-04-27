@@ -783,27 +783,30 @@ cc = (random.choice(ls))
 print (cc)
 print(f"{blue} ")
 print ()
-time.sleep(2)
-
-music = input(f"{red}start {green}music (y/n) ⟩⟩ ")
+time.sleep(1)
 print ()
-time.sleep(0.5)
-if music == "y".lower():
-    #ok
-    print ()
-    print (f"{blue}start {green}music")
-    print ()
-    os.system("play khalvat.mp3 &> /dev/null")
-    print ("\n"*2)
+print (f"{blue}wait {red}start {green}music")
+print ()
+os.system("play khalvat.mp3 &> /dev/null")
+# music = input(f"{red}start {green}music (y/n) ⟩⟩ ")
+# print ()
+# time.sleep(0.5)
+#if music == "y".lower():
+ #   #ok
+#    print ()
+  #  print (f"{blue}start {green}music")
+  #  print ()
+ #   os.system("play khalvat.mp3 &> /dev/null")
+ #   print ("\n"*2)
 
 
 print (f"{red}")
 
-if music == "n".lower():
-    print ()
-    #ok
+#if music == "n".lower():
+ #   print ()
+   # #ok
 
-time.sleep(1)
+# time.sleep(0.5)
 
 print ("\n"*2)
 
