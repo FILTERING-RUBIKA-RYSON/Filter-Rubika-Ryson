@@ -781,11 +781,15 @@ cc = (random.choice(ls))
 print (cc)
 print(f"{blue} ")
 print ()
-music = input(f"{red}start {green}sound (y/n) ⟩⟩ ")
+time.sleep(2)
+
+music = input(f"{red}start {green}music (y/n) ⟩⟩ ")
 print ()
 time.sleep(0.5)
 if music == "y".lower():
     #ok
+    print ()
+    print (f"{blue}start {yellow}music")
     print ()
     os.system("play khalvat.mp3 &> /dev/null")
     print ("\n"*2)
