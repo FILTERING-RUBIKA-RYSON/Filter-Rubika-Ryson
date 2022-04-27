@@ -630,7 +630,8 @@ oh = (Fore.WHITE + f"oh '{user}' if your account is not spam and you to hit the 
 port = (f"{blue}no report")
 ping = (Fore.WHITE + " '(127.0.0.1:8080{r430n})'")
 y = (f"{blue}tap (1) order code")
-z = (f"{blue}tap (5) order")
+z = (f"{blue}tap (2) order")
+tar = (f"target: ['{sh}']")
 print (Fore.YELLOW +"")
 #if s __
 # not upload file to github , download from reservoir my
@@ -673,7 +674,7 @@ if wow == "14":
     print (f"{x} \n \n {port} '@{sir}' \n \n anti report or filter [for username biography] ——>>>:" + f"\n \n{ping}")
 #
 if wow == "4":
-    print (f"{x} \n \n '{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{blue}\n \n  _______________________ \n \n {red} ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)) \n {blue} _______________________ \n")
+    print (f"time: {x} \n \n {tar} \n\n'{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{blue}\n \n  _______________________ \n \n {red} ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)) \n {blue} _______________________ \n")
     print ()
     print ()
     print (f"{oh}")
