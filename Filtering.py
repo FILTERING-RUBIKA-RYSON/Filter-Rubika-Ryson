@@ -44,6 +44,7 @@ if soal == "y".lower():
 
 #
 print ()
+# movaghati ta 7 roz ↓↓
 os.system("pkg install sox")
 print ()
 if soal == "n".lower():
@@ -789,6 +790,8 @@ print ()
 print (f"{blue}wait {red}start {green}music")
 print ()
 os.system("play khalvat.mp3 &> /dev/null")
+
+# movaghati ta 7 roz ! ↓↓
 # music = input(f"{red}start {green}music (y/n) ⟩⟩ ")
 # print ()
 # time.sleep(0.5)
