@@ -461,33 +461,34 @@ time.sleep(0.5)
 print (f"{blue} ")
 wow = input(f"""
 
-                 ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
-                 ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
-                 ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
+           ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
+           ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
+           ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
 
 
-                       >>> '{green}{user}'{blue} <<<
+              >>> '{green}{user}'{blue} <<<
 
-       __________________________________________________
-Pro>  |- [super code   (0) ] - | - [reporter     (8) ] -|
-      |                        |                        |
-Pro>  |- [code channel (1) ] - | - [hack-rubk    (9) ] -|
-      |                        |                        |
-Pro>  |- [code group   (2) ] - | - [up chanl    (10) ] -|
-      |                        |                        |
-Pro>  |- [code account (3) ] - | - [sms bomb    (11) ] -|
-      |                        |                        |
-Pro>  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
-      |                        |                        |
-      |- [code pd      (5) ] - | - [update      (13) ] -|
-      |                        |                        |
-      |- [code rp      (6) ] - | - [anti filter (14) ] -|
-      |                        |                        |
-      |- [anti report  (7) ] - | - [exit script (15) ] -|
-      |-                                               -|
-      |-            [ robot on rubika (16) ]           -|
-      |-            [ spam suport bot (17) ]           -|
-      ———————————————————————————————————————————————————
+   __________________________________________________
+  |- [super code   (0) ] - | - [reporter     (8) ] -|
+  |                        |                        |
+  |- [code channel (1) ] - | - [hack-rubk    (9) ] -|
+  |                        |                        |
+  |- [code group   (2) ] - | - [up chanl    (10) ] -|
+  |                        |                        |
+  |- [code account (3) ] - | - [sms bomb    (11) ] -|
+  |                        |                        |
+  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
+  |                        |                        |
+  |- [code pd      (5) ] - | - [update      (13) ] -|
+  |                        |                        |
+  |- [code rp      (6) ] - | - [anti filter (14) ] -|
+  |                        |                        |
+  |- [anti report  (7) ] - | - [exit script (15) ] -|
+  |-                                               -|
+  |-            [ robot on rubika (16) ]           -|
+  |-                                               -|
+  |-            [ spam suport bot (17) ]           -|
+  ———————————————————————————————————————————————————
             
 
 
