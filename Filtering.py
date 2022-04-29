@@ -61,8 +61,7 @@ if soal == "y".lower():
 
 #
 print ()
-# movaghati ta 7 roz ↓↓
-os.system("pkg install sox")
+# movaghati
 print ()
 if soal == "n".lower():
     print ()
@@ -804,62 +803,62 @@ print(f"{blue} ")
 print ()
 time.sleep(1)
 print ()
-print (f"{blue}wait {red}start {green}music")
-print ()
-os.system("play khalvat.mp3 &> /dev/null")
+# print (f"{blue}wait {red}start {green}music")
+# print ()
+# os.system("play khalvat.mp3 &> /dev/null")
 
 # movaghati ta 7 roz ! ↓↓
-# music = input(f"{red}start {green}music (y/n) ⟩⟩ ")
-# print ()
-# time.sleep(0.5)
-#if music == "y".lower():
- #   #ok
-#    print ()
-  #  print (f"{blue}start {green}music")
-  #  print ()
- #   os.system("play khalvat.mp3 &> /dev/null")
- #   print ("\n"*2)
+music = input(f"{red}start {green}music (y/n) ⟩⟩ ")
+print ()
+time.sleep(0.5)
+if music == "y".lower():
+    #ok
+    print ()
+    print (f"{blue}start {green}music")
+    print ()
+    os.system("play khalvat.mp3 &> /dev/null")
+    print ("\n"*2)
 
 
-print (f"{green}")
+print (f"{blue}")
 
-#if music == "n".lower():
- #   print ()
-   # #ok
+if music == "n".lower():
+    print ()
+    #ok
 
-# time.sleep(0.5)
+time.sleep(0.5)
 
 print ("\n"*2)
 
-s = """
+s = (f"""
 
 
  _________________________________________________                
  |>>>-----------------------------------------<<<|
  |>>>-----------------------------------------<<<|
- |>>>         [INFO-MANUFACTURER]             <<<|
+ |>>>         {green}[INFO-MANUFACTURER]{blue}             <<<|
  |>>>—————————————————————————————————————————<<<|
- |>>>              [accounts]                 <<<|
+ |>>>              {red}[accounts]{blue}                 <<<|
  |>>>                                         <<<|
  |>>>     _______________________________     <<<|
  |>>>     |                             |     <<<|
- |>>>     |online: rubika.ir/PartyBaazi |     <<<|
- |>>>     |online: rubika.ir/antiMMD    |     <<<|
- |>>>     |online: t.me/creator_ryson   |     <<<|
- |>>>     |online: shad.ir/creator_ryson|     <<<|
- |>>>     |offline: rubika.ir/serverer  |     <<<|
- |>>>     |offline: rubika.ir/alerter   |     <<<|
- |>>>     |offline: rubika.ir/Spansor   |     <<<|
- |>>>     |offline: rubika.ir/updatte   |     <<<|
- |>>>     |channel: rubika.ir/caetorr   |     <<<|
- |>>>     |channel: t.me/uupdatte       |     <<<|
- |>>>     |channel: t.me/antiweak       |     <<<|
+ |>>>     |{pink}online{blue}: {green}rubika.ir/PartyBaazi{blue} |     <<<|
+ |>>>     |{pink}online{blue}: {green}rubika.ir/antiMMD{blue}    |     <<<|
+ |>>>     |{pink}online{blue}: {green}t.me/creator_ryson{blue}   |     <<<|
+ |>>>     |{pink}online{blue}: {green}shad.ir/creator_ryson{blue}|     <<<|
+ |>>>     |{red}offline{blue}: rubika.ir/serverer  |     <<<|
+ |>>>     |{red}offline{blue}: rubika.ir/alerter   |     <<<|
+ |>>>     |{red}offline{blue}: rubika.ir/Spansor   |     <<<|
+ |>>>     |{red}offline{blue}: rubika.ir/updatte   |     <<<|
+ |>>>     |{green}channel{blue}: rubika.ir/caetorr   |     <<<|
+ |>>>     |{green}channel{blue}: t.me/uupdatte       |     <<<|
+ |>>>     |{green}channel{blue}: t.me/antiweak       |     <<<|
  |>>>     |im:Instagram.com/hazrat_ryson|     <<<|
  |>>>     |_____________________________|     <<<|
  |>>>                                         <<<|
  |>>>-----------------------------------------<<<|
  |>>>-----------------------------------------<<<|
- |>>>              [githubs]                  <<<|
+ |>>>              {red}[githubs]{blue}                  <<<|
  |>>>                                         <<<|
  |>>>    __________________________________   <<<|
  |>>>    |                                 |  <<<|
@@ -869,11 +868,11 @@ s = """
  |>>>                                         <<<|
  |>>>-----------------------------------------<<<|
  |>>>-----------------------------------------<<<|  
- |>>>              [spcial]                   <<<|
+ |>>>              {red}[spcial]{blue}                   <<<|
  |>>>                                         <<<|
  |>>>  ___________________________________    <<<|
  |>>>  |                                 |    <<<|
- |>>>  |mmd ryson bozorg + mr shobadehgar|    <<<|
+ |>>>  |{pink}mmd ryson bozorg + mr shobadehgar{blue}|    <<<|
  |>>>  |         [creatar.blog.ir]       |    <<<|
  |>>>  |         [creater.blog.ir]       |    <<<|
  |>>>  |_________________________________|    <<<|
@@ -885,7 +884,7 @@ s = """
 
 
 
-"""
+""")
 for r in s:
     sys.stdout.write(r)
     sys.stdout.flush()
