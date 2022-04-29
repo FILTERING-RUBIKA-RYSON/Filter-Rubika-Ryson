@@ -22,6 +22,7 @@ import time
 soal = input("library installation (y/n) ⟩⟩– ")
 #
 if soal == "y".lower():
+    # install
     print ()
     os.system("apt update -y")
     print ()
@@ -35,10 +36,6 @@ if soal == "y".lower():
         import requests
     except:
         os.system("pip install requests")
-    try:
-        from bs4 import BeautifulSoup 
-    except:
-        os.system('pip install bs4')
     try:
         import pyfiglet
     except:
