@@ -6,6 +6,11 @@
 # happy new year and mew script
 # my bro ♥️ and friend artin
 # storng reporter
+# nokteh:! termux no need for time,os,sys 
+# nokteh:! Tip ubuntu needs time,os,sys
+#-----------------------------
+# M.D: they are all my friends
+#-----------------------------
 import os
 print("")
 os.system("clear")
