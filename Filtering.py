@@ -1,11 +1,11 @@
-# mmð řŷšŏň - @creator_ryson
 # py3
+# storng reporter
+# mmð řŷšŏň - @creator_ryson
 # termux , Linux , windows
 # coded by ryson mmd or mr shobadehgar - rapper - hip hopper
 # The copier of this script will be dealt with according to Iranian laws!
 # happy new year and mew script
-# my bro ♥️ and friend artin
-# storng reporter
+# plz installing : python - git - sox |requests,flags,pyfiglet,webbbrowser, datetime,colored,colorama!
 # nokteh:! termux no need for time,os,sys 
 # nokteh:! Tip ubuntu needs time,os,sys
 #-----------------------------
@@ -37,6 +37,10 @@ if soal == "y".lower():
         import colorama
     except:
         os.system("pip install colorama")
+    try:
+        import colored
+    except:
+        os.system("pip3 install colored")
     try:
         import requests
     except:
