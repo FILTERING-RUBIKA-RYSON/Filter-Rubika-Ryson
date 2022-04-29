@@ -58,8 +58,6 @@ if soal == "y".lower():
     print ("installed Librarys")
     print ()
     time.sleep(0.5)
-    print ("loading")
-    time.sleep(0.5)
 
 #
 print ()
@@ -481,43 +479,43 @@ time.sleep(0.5)
 print (f"{blue} ")
 wow = input(f"""
 
-           ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐
+          {green} ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐{blue}
            ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
-           ┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─
+           {green}┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─{blue}
 
 
               >>> '{green}{user}'{blue} <<<
 
    __________________________________________________
-  |- [super code   (0) ] - | - [reporter     (8) ] -|
+  |- [super code   {green}(0){blue} ] - | - [reporter     {green}(8){blue} ] -|
   |                        |                        |
-  |- [code channel (1) ] - | - [hack-rubk    (9) ] -|
+  |- [code channel {green}(1){blue} ] - | - [hack-rubk    {green}(9){blue} ] -|
   |                        |                        |
-  |- [code group   (2) ] - | - [up chanl    (10) ] -|
+  |- [code group   {green}(2){blue} ] - | - [up chanl    {green}(10){blue} ] -|
   |                        |                        |
-  |- [code account (3) ] - | - [sms bomb    (11) ] -|
+  |- [code account {green}(3){blue} ] - | - [sms bomb    {green}(11){blue} ] -|
   |                        |                        |
-  |- [storng code  (4) ] - | - [hack-web    (12) ] -|
+  |- [storng code  {green}(4){blue} ] - | - [hack-web    {green}(12){blue} ] -|
   |                        |                        |
-  |- [code pd      (5) ] - | - [update      (13) ] -|
+  |- [code pd      {green}(5){blue} ] - | - [update      {green}(13){blue} ] -|
   |                        |                        |
-  |- [code rp      (6) ] - | - [anti filter (14) ] -|
+  |- [code rp      {green}(6){blue} ] - | - [anti filter {green}(14){blue} ] -|
   |                        |                        |
-  |- [anti report  (7) ] - | - [exit script (15) ] -|
+  |- [anti report  {green}(7){blue} ] - | - [exit script {green}(15){blue} ] -|
   |-                                               -|
-  |-            [ robot on rubika (16) ]           -|
+  |-            [ robot on rubika {green}(16){blue} ]           -|
   |-                                               -|
-  |-            [ spam suport bot (17) ]           -|
+  |-            [ spam suport bot {green}(17){blue} ]           -|
   ———————————————————————————————————————————————————
             
 
 
 
-      {pink} [type numbers here] user - [{sh}] >>>_ """)
+      {pink} [type numbers here] user - {red}[{sh}]{pink} >>>_ """)
 print ()
 print (Fore.YELLOW + '')
 time.sleep(0.5)
-print("\r [new] = '<Pro>' price: $10 = ($0) -! ",end="",flush=False)
+print(f"\r [new] = '<Pro>' price: $10 = {red}($0) -! ",end="",flush=False)
 time.sleep(2.5)
 print("\r [*]                                         ",end="",flush=False)
 print ()
@@ -823,7 +821,7 @@ os.system("play khalvat.mp3 &> /dev/null")
  #   print ("\n"*2)
 
 
-print (f"{red}")
+print (f"{green}")
 
 #if music == "n".lower():
  #   print ()
@@ -836,7 +834,7 @@ print ("\n"*2)
 s = """
 
 
-                  
+ _________________________________________________                
  |>>>-----------------------------------------<<<|
  |>>>-----------------------------------------<<<|
  |>>>         [INFO-MANUFACTURER]             <<<|
@@ -845,11 +843,14 @@ s = """
  |>>>                                         <<<|
  |>>>     _______________________________     <<<|
  |>>>     |                             |     <<<|
- |>>>     |online: rubika.ir/serverer   |     <<<|
- |>>>     |online: rubika.ir/alerter    |     <<<|
- |>>>     |offline: rubika.ir/Spansor   |     <<<|
- |>>>     |online: shad.ir/creator_ryson|     <<<|
+ |>>>     |online: rubika.ir/PartyBaazi |     <<<|
+ |>>>     |online: rubika.ir/antiMMD    |     <<<|
  |>>>     |online: t.me/creator_ryson   |     <<<|
+ |>>>     |online: shad.ir/creator_ryson|     <<<|
+ |>>>     |offline: rubika.ir/serverer  |     <<<|
+ |>>>     |offline: rubika.ir/alerter   |     <<<|
+ |>>>     |offline: rubika.ir/Spansor   |     <<<|
+ |>>>     |offline: rubika.ir/updatte   |     <<<|
  |>>>     |channel: rubika.ir/caetorr   |     <<<|
  |>>>     |channel: t.me/uupdatte       |     <<<|
  |>>>     |channel: t.me/antiweak       |     <<<|
@@ -879,6 +880,7 @@ s = """
  |>>>                                         <<<|
  |>>>-----------------------------------------<<<|
  |>>>-----------------------------------------<<<|
+ —————————————————————————————————————————————————
 
 
 
