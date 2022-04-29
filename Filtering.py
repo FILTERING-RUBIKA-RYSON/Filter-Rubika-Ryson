@@ -23,20 +23,42 @@ soal = input("library installation (y/n) ⟩⟩– ")
 #
 if soal == "y".lower():
     print ()
-    print ("installing load..")
-    print ()
     os.system("apt update -y")
-    os.system("apt upgrade -y")
-    os.system("pip3 install colored")
-    os.system("pip install pyfiglet")
-    os.system("pip3 install colorama")
-    os.system("pip install datetime")
-    os.system("pip install requests")
-    os.system("pip install webbrowser")
-    os.system("pip install flags")
-    os.system("pkg install sox")
     print ()
-    print ("installed library ok")
+    os.system("apt upgrade -y")
+    print ()
+    try:
+        import colorama
+    except:
+        os.system("pip install colorama")
+    try:
+        import requests
+    except:
+        os.system("pip install requests")
+    try:
+        from bs4 import BeautifulSoup 
+    except:
+        os.system('pip install bs4')
+    try:
+        import pyfiglet
+    except:
+        os.system("pip install pyfiglet")
+    try:
+        import webbrowser
+    except:
+        os.system("pip install webbrowser")
+    try:
+        datetime   
+    except:
+        os.system("pip install datetime")
+    try:
+        import flags
+    except:
+        os.system("pip install flags")
+    print ()
+    os.system("pkg install sox")
+    print ("\n"*2)
+    print ("installed Librarys")
     print ()
     time.sleep(0.5)
     print ("loading")
