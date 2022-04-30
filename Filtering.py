@@ -63,9 +63,9 @@ if soal == "y".lower():
         os.system("pip install flags")
     print ()
     try:
-    os.system("pkg install sox")
+        os.system("pkg install sox")
     except:
-    print()
+        print()
     print ("\n"*2)
     print ("installed Librarys")
     print ()
