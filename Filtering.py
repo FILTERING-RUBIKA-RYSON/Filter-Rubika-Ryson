@@ -62,7 +62,10 @@ if soal == "y".lower():
     except:
         os.system("pip install flags")
     print ()
+    try:
     os.system("pkg install sox")
+    except:
+    print()
     print ("\n"*2)
     print ("installed Librarys")
     print ()
@@ -104,7 +107,12 @@ rang='\033[34m'
 print ()
 print ()
 #
-os.system("clear")
+
+try:
+    os.system("clear")
+except:
+    os.system("cls")
+
 print ("\n"*30)
 time.sleep(0.5)
 os.system("clear")
@@ -947,7 +955,7 @@ if mr == "n".lower():
         sys.exit
 
 #the end
-# my web ryson.ir
+# my web not found
 #_
 # منتظر آپدیت های بعدیه اسکریپت باشید!
 # ryson mmd bozorg
