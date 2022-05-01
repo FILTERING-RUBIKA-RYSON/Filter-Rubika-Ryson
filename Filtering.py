@@ -31,7 +31,7 @@ if soal == "y".lower():
     print ()
     try:
         os.system("apt update -y")
-        print ()
+         
     except:
         print ()
     try:
