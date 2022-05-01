@@ -29,10 +29,15 @@ soal = input("library installation (y/n) ⟩⟩– ")
 if soal == "y".lower():
     # install
     print ()
-    os.system("apt update -y")
-    print ()
-    os.system("apt upgrade -y")
-    print ()
+    try:
+        os.system("apt update -y")
+        print ()
+    except:
+        print ()
+    try:
+        os.system("apt upgrade -y")
+    except:
+        print ()
     try:
         import colorama
     except:
