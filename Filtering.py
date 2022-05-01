@@ -71,8 +71,10 @@ if soal == "y".lower():
         os.system("pkg install sox")
     except:
         print()
+
     print ("\n"*2)
-    print ("installed Librarys")
+    from colorama import Fore
+    print (Fore.RED + 'tip: ' + Fore.WHITE + "iŋšţăłłĕđ łĭbřăřŷŝ ~")
     print ()
     time.sleep(0.5)
 
@@ -114,9 +116,9 @@ print ()
 #
 
 try:
-    os.system("clear")
+    os.system("clear"), print ("linux start")
 except:
-    os.system("cls")
+    os.system("cls"), print ("cmd start")
 
 print ("\n"*30)
 time.sleep(0.5)
