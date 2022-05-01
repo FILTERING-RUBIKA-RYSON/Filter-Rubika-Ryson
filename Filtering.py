@@ -74,7 +74,8 @@ if soal == "y".lower():
 
     print ("\n"*2)
     from colorama import Fore
-    print (Fore.RED + 'tip: ' + Fore.WHITE + "iŋšţăłłĕđ łĭbřăřŷŝ ~")
+    time.sleep(0.5)
+    print (Fore.BLUE + 'tip: ' + Fore.WHITE + "iŋšţăłłĕđ łĭbřăřŷŝ ~")
     print ()
     time.sleep(0.5)
 
