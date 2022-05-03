@@ -104,12 +104,13 @@ import string
 import pyfiglet
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
-# colors
-red='\033[31m'
-green='\033[32m'
-blue='\033[36m'
-pink='\033[35m'
-rang='\033[34m'
+# rang ha 
+red = "\033[31m"
+green = "\033[32m"
+blue = "\033[36m"
+pink = "\033[35m"
+rang = "\033[34m"
+yellow = "\033[93m"
 #
 #
 print ()
@@ -320,7 +321,7 @@ version 4.1""")
 print ()
 print ()
 #
-user = input (f'{blue} [~] enter your identity majazi >>— ')
+user = input (f'{blue} [~] enter your identity {yellow}majazi >>— ')
 #
 time.sleep(0.7)
 print ()
