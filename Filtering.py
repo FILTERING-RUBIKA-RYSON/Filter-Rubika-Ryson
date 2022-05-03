@@ -126,9 +126,10 @@ print ("\n"*30)
 time.sleep(0.5)
 os.system("clear")
 print("\n"*60)
-print(f"{green} ")
+print(f'{green}')
 #
-print (Fore.WHITE + "")
+print (Fore.WHITE+'')
+
 print (" [~] štart code fìłŧêř ryson script")
 print ()
 #date
