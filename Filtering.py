@@ -104,14 +104,21 @@ import string
 import pyfiglet
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
-# rang ha 
-red = "\033[31m"
+# rang ha -----
+
 green = "\033[32m"
+
+red = "\033[31m"
+
 blue = "\033[36m"
+
 pink = "\033[35m"
-rang = "\033[34m"
+
 yellow = "\033[93m"
-#
+
+darkblue = "\033[34m"
+
+#-----
 #
 print ()
 print ()
@@ -130,17 +137,16 @@ print(f'{green}')
 #
 print (Fore.WHITE+'')
 
-print (" [~] štart code fìłŧêř ryson script")
+print ("{blue}[~]" + Fore.WHITE + ' štart code fìłŧêř ryson script')
 print ()
 #date
 x = (f'{green}') + str(datetime.datetime.now())
-#
-#
-#
-#
-print (" ")
-print (" ")
-print (" ")
+#-----------
+#----------
+#--------
+#------
+print ('\n'*3)
+
 print (Fore.GREEN + "")
 s = [""" 
 
@@ -322,7 +328,7 @@ version 4.1""")
 print ()
 print ()
 #
-user = input (f'{blue} [~] enter your identity {yellow}majazi >>— ')
+user = input (f'{blue} [~] enter your identity {yellow}majazi {blue}>>— {green}')
 #
 time.sleep(0.7)
 print ()
@@ -351,21 +357,18 @@ print(f"{pink} ")
 print ()
 print ()
 print (f"running  {x}")
-print(Fore.GREEN +"")
+print(Fore.GREEN +'')
 print ("")
 print ("")
-py = input(f""" [{user}] >> test server support messenger (y/n)
+py = input(f""" {yellow}[{user}] {green}>> test server support messenger {blue}(y/n)
 
-please enter _ > """)
+{green}please enter _ > {pink}""")
 
 if py == "y".lower():
     print ()
     print ()
     print (Fore.BLUE + '')
-    okay = "please enter url messenger [https://rubika.ir] >>_ "
-    print (okay)
-    print (Fore.YELLOW + '')
-    okey = input()
+    okay = input("please enter url messenger {yellow}[{green}https://rubika.ir{yellow}] {blue}>>_ {pink}")
     print (Fore.RED + '')
     print ()
     time.sleep(0.5)
@@ -395,11 +398,11 @@ if py == "y".lower():
     ms = requests.get(f"{okey}").text
     if ms == "":
         print()
-        print (f"support offline {x} -")
+        print (f"support offline {darkblue}{x} {red}-")
     if ms == ' ' or "" or " ":
         print("")
         print("")
-        print (f"support online {x} -")
+        print (f"support online {darkblue}{x} {red}-")
 if py == "n":
     print()
     print()
@@ -407,9 +410,8 @@ if py == "n":
 print ("")
 #
 print(Fore.GREEN +"")
-print ("")
-print ("")
-print ("")
+print ()
+print ()
 time.sleep(0.5)
 # o = " [online server for report]"
  #   
@@ -419,15 +421,13 @@ time.sleep(0.5)
      #   time.sleep(0.09)
 #
 #
-print(f"{blue} ")
-#
-print ("")
-print ("")
+print ()
+print ()
 time.sleep(0.5)
 # input
 
 print (Fore.BLUE + "")
-sh = input (f" [?] [{user}] >> please enter username for reporting messengers [@username] _> ")
+sh = input (f" {green}[?] {yellow}[{user}]{green} >> {darkblue}please enter username for reporting messengers {yellow}[@username] {darkblue}_> {pink}")
 print ()
 time.sleep(1)
 print (Fore.YELLOW + 'accept user')
@@ -435,21 +435,21 @@ time.sleep(1)
 print ()
 print ()
 print (Fore.BLUE + '')
-rn = input(" info url username messenger (y/n) >_ ")
+rn = input(f" info url username messenger {yellow}(y/n) {darkblue}>_ {pink}")
 print ()
 print ()
 print (Fore.GREEN + '')
 time.sleep(0.5)
 if rn == "y".lower():
-    usrname = input(f" [?] [{user}] >> url username messenger channel , group \n \n [https://t.me/username] please enter _> ")
+    usrname = input(f" {red}[?] {blue}[{user}]{red} >> {green}url username messenger channel , group \n \n {yellow}[https://t.me/username] {green}please enter {blue}_> {pink}")
     print (Fore.YELLOW + "")
     print ()
     time.sleep(0.5)
-    if "@" in usrname:
+    if '@' in usrname:
         print(" enter dont '@' ")
         print ()
         print (Fore.GREEN + '')
-        input('pleas enter do not '@' [https://t.me/username] ')
+        input(f'pleas enter do not {yellow}'@' {blue}[https://t.me/username] {pink}')
         time.sleep(1)
         print ()
         print (Fore.RED + '')
@@ -463,16 +463,16 @@ if rn == "y".lower():
         print ()
         print ()
         time.sleep(0.5)
-        print (f"{blue} [{usrname}] username url found")
+        print (f"{blue} [{usrname}] {darkblue}username url found")
         print ()
         print ()
     elif ml.status_code == 404:
         print ()
-        print (f"{blue} [{usrname}] not found url ")
+        print (f"{blue} [{usrname}] {darkblue}not found url ")
         print ()
     elif ml.status_code == 302:
         print ()
-        print (f"{blue} [{usrname}] not found url")
+        print (f"{blue} [{usrname}] {darkblue}not found url")
         print ()
     else:
         pass
@@ -537,11 +537,11 @@ wow = input(f"""
 
 
 
-      {pink} [type numbers here] user - {red}[{sh}]{pink} >>>_ """)
+      {pink} [type numbers here] user - {red}[{sh}]{pink} >>>_ {yellow}""")
 print ()
 print (Fore.YELLOW + '')
 time.sleep(0.5)
-print(f"\r [new] = '<Pro>' price: $10 = {red}($0) -! ",end="",flush=False)
+print(f"\r [new] = '<Pro>' price: $10 = {red}($0) {yellow}-! ",end="",flush=False)
 time.sleep(2.5)
 print("\r [*]                                         ",end="",flush=False)
 print ()
@@ -702,24 +702,24 @@ if wow == "14":
         print ()
         print ()
         time.sleep(0.5)
-        print (f"{blue}channel found @{sir} *")
+        print (f"{blue}channel found {yellow}@{sir} *")
         print ()
         print ()
     elif rys.status_code == 404:
         print ()
-        print (f"{blue}not found channel! @{sir}")
+        print (f"{blue}not found channel! {yellow}@{sir}")
         print ()
     elif rys.status_code == 302:
         print ()
-        print (f"{blue}not found channel! @{sir}")
+        print (f"{blue}not found channel! {yellow}@{sir}")
         print ()
     else:
         pass
     time.sleep(1)
-    print (f"{x} \n \n {port} '@{sir}' \n \n anti report or filter [for username biography] ——>>>:" + f"\n \n{ping}")
+    print (f"{yellow}{x} \n \n {pink}{port} {green}'@{sir}' \n \n {blue}anti report or filter [for username biography] ——>>>:" + f"\n \n{green}{ping}")
 #
 if wow == "4":
-    print (f"time: {x} \n \n {tar} \n\n'{y}' \n  \n '{user}' [code] (storng) ——>>>>: " + f"{blue}\n \n  _______________________ \n \n {red} ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)) \n {blue} _______________________ \n")
+    print (f"{yellow}time: {x} \n \n {blue}{tar} \n\n{green}'{y}' \n  \n {pink}'{user}' {green}[code] (storng) ——>>>>: " + f"{blue}\n \n  _______________________ \n \n {red} ((</*<<f<{pl8}<{pl4}<{pl5}<{pl6}<{pl1}<#<=>#>{pl1}>{pl2}>{pl3}>{pl4}>{pl7}>h>>*/>)) \n {blue} _______________________ \n")
     print ()
     print ()
     print (f"{oh}")
@@ -787,7 +787,7 @@ if wow == "6":
 if wow == "5":
     print (f"{oh}")
     print ()
-    print ("pls wait..")
+    print ("wait..")
     time.sleep(1)
     os.system("python pass.py")
 if wow == "15":
@@ -942,8 +942,9 @@ mr = input("""
                --restart script (u) --
                --exit the script (n) --
                  
-               [?] type the option>>>_""")
+               [?] type the option>>>_ {pink}""")
 #
+print (Fore.WHITE+'')
 if mr == "y".lower():
         print ("ok")
         print()
