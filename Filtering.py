@@ -12,10 +12,28 @@
 # M.D: they are all my friends
 #-----------------------------
 import os
-print("")
+print()
+
 os.system("clear")
+
+# rang ha -----
+
+green = "\033[32m"
+
+red = "\033[31m"
+
+blue = "\033[36m"
+
+pink = "\033[35m"
+
+yellow = "\033[93m"
+
+darkblue = "\033[34m"
+
+#-----
+
 print("\n"*80)
-print ("""
+print (f"""{blue}
 ____   __   __  ____     ___    _   _
 |  _ \  \ \ / / / ___|   / _ \  | \ | |
 | |_) |  \ V /  \___ \  | | | | |  \| |
@@ -24,7 +42,7 @@ ____   __   __  ____     ___    _   _
 """)
 print ("\n"*3)
 import time
-soal = input("library installation (y/n) ⟩⟩– ")
+soal = input(f"{green}library installation {yellow}(y/n){green} ⟩⟩– {pink}")
 #
 if soal == "y".lower():
     # install
@@ -104,21 +122,7 @@ import string
 import pyfiglet
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
-# rang ha -----
 
-green = "\033[32m"
-
-red = "\033[31m"
-
-blue = "\033[36m"
-
-pink = "\033[35m"
-
-yellow = "\033[93m"
-
-darkblue = "\033[34m"
-
-#-----
 #
 print ()
 print ()
@@ -137,7 +141,7 @@ print(f'{green}')
 #
 print (Fore.WHITE+'')
 
-print ("{blue}[~]" + Fore.WHITE + ' štart code fìłŧêř ryson script')
+print (f"{blue}[~]" + Fore.WHITE + ' štart code fìłŧêř ryson script')
 print ()
 #date
 x = (f'{green}') + str(datetime.datetime.now())
