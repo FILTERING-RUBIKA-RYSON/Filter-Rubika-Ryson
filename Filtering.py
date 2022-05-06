@@ -339,7 +339,7 @@ print ()
 print (Fore.YELLOW + "")
 ur = pyfiglet.figlet_format(f"{user}")
 v = (f"""
-hello \n  {ur}  \n welcome to ryson filtering script messengers
+hello \n  {blue}{ur}  \n {yellow}welcome to ryson filtering script messengers
 """)
 
 
@@ -434,7 +434,7 @@ print (Fore.BLUE + "")
 sh = input (f" {green}[?] {yellow}[{user}]{green} >> {darkblue}please enter username for reporting messengers {yellow}[@username] {darkblue}_> {pink}")
 print ()
 time.sleep(1)
-print (Fore.YELLOW + 'accept user')
+print (Fore.GREEN + 'accept user')
 time.sleep(1)
 print ()
 print ()
