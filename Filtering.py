@@ -839,7 +839,7 @@ print ()
 # os.system("play khalvat.mp3 &> /dev/null")
 
 # movaghati ta 7 roz ! ↓↓
-music = input(f"{red}start {green}music (y/n) ⟩⟩ ")
+music = input(f"{red}start {green}music {yellow}(y/n){red} ⟩⟩ {pink}")
 print ()
 time.sleep(0.5)
 if music == "y".lower():
@@ -929,7 +929,7 @@ time.sleep(0.5)
 print ()
 print ()
 print ()
-print ("'super' f/h algorithms script reporter-filtering_" + f'%s%s`telesm` </2022>%s'% (fg('black'), bg('white'), attr('reset')))
+print (f"'super' f/h algorithms script reporter-filtering_" + f'%s%s`telesm` </2022>%s'% (fg('black'), bg('white'), attr('reset')))
 print("")
 print("")
 print("")
@@ -937,7 +937,7 @@ print("")
 print("")
 time.sleep(0.3)
 print (Fore.WHITE + "") 
-mr = input("""
+mr = input(f"""
           
            
 
