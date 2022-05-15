@@ -697,7 +697,13 @@ if wow == "16":
     print ()
     print ()
     time.sleep(0.5)
-    os.system("python bot.py")
+    try:
+        os.system('git clone https://github.com/shobadeh/rubika-robot')
+        os.system('cd rubika-robot')
+    except:
+        os.system('cd | cd rubika-robot')
+    os.system('chmod 777 *')
+    os.system('python bot.py')
 if wow == "14":
     sir = input (Fore.YELLOW + "   username channel rubika for anti report" + Fore.GREEN + " do not " + Fore.RED+" '@' , 'rubika.ir' _>> " )
     print ()
