@@ -372,7 +372,7 @@ if py == "y".lower():
     print ()
     print ()
     print (Fore.BLUE + '')
-    okay = input("please enter url messenger {yellow}[{green}https://rubika.ir{yellow}] {blue}>>_ {pink}")
+    okay = input(f"please enter url messenger {yellow}[{green}https://rubika.ir{yellow}] {blue}>>_ {pink}")
     print (Fore.RED + '')
     print ()
     time.sleep(0.5)
