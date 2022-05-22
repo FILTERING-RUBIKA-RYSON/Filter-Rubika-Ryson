@@ -369,8 +369,8 @@ wow = input(f"""
   |                                                 |
   |- [spam suport {green}(17){blue} ] - | - [info url    {green}(19){blue} ] -|
   |                                                 |
-  |-          [ information manufacturer {green}(00){blue} ]                 -|
-  ———————————————————————————————————————————————————
+  |-         [information manufacturer {green}(00){blue} ]      -|
+   —————————————————————————————————————————————————————
             
 
 
@@ -754,7 +754,7 @@ if wow == "0":
          print ('\n\n'+f'{cc}')
          time.sleep(2)
          print ('\n\n')
-         os.system("filter.py")
+         os.system("python filter.py")
 #
 if wow == "1":
         print (f"time: {x} \n \n {tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (channel) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('green'), attr('reset')))
