@@ -336,7 +336,7 @@ time.sleep(0.5)
 print (f"{blue} ")
 try:
     os.system("clear")
-try:
+except:
     os.system('cls')
 wow = input(f"""
 
