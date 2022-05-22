@@ -846,6 +846,7 @@ time.sleep(1)
 # os.system("play khalvat.mp3 &> /dev/null")
 
 # movaghati ta 7 roz ! ↓↓
+time.sleep(2)
 music = input(f"{red}start {green}music {yellow}(y/n){red} ⟩⟩ {pink}")
 print ()
 time.sleep(0.5)
