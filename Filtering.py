@@ -768,43 +768,6 @@ if wow == "3":
         print ("")
         print ("")
         print (f"{oh}")
-print ()
-print ()
-print(f"{green}")
-print ("")
-ls = [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code" , "creating code server" ]
-cc = (random.choice(ls))
-print (cc)
-print(f"{blue} ")
-print ()
-time.sleep(1)
-print ()
-# print (f"{blue}wait {red}start {green}music")
-# print ()
-# os.system("play khalvat.mp3 &> /dev/null")
-
-# movaghati ta 7 roz ! ↓↓
-music = input(f"{red}start {green}music {yellow}(y/n){red} ⟩⟩ {pink}")
-print ()
-time.sleep(0.5)
-if music == "y".lower():
-    #ok
-    print ()
-    print (f"{blue}start {green}music")
-    print ()
-    os.system("play khalvat.mp3 &> /dev/null")
-    print ("\n"*2)
-
-
-print (f"{blue}")
-
-if music == "n".lower():
-    print ()
-    #ok
-
-time.sleep(0.5)
-
-print ("\n"*2)
 if wow == "00":
     s = (f"""
 
@@ -866,8 +829,46 @@ if wow == "00":
         sys.stdout.flush()
         time.sleep(0.002)
 #
-        print ()
-        time.sleep(0.6)
+    print ()
+    time.sleep(0.6)
+print ()
+print ()
+print(f"{green}")
+print ("")
+ls = [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code" , "creating code server" ]
+cc = (random.choice(ls))
+print (cc)
+print(f"{blue} ")
+print ()
+time.sleep(1)
+print ()
+# print (f"{blue}wait {red}start {green}music")
+# print ()
+# os.system("play khalvat.mp3 &> /dev/null")
+
+# movaghati ta 7 roz ! ↓↓
+music = input(f"{red}start {green}music {yellow}(y/n){red} ⟩⟩ {pink}")
+print ()
+time.sleep(0.5)
+if music == "y".lower():
+    #ok
+    print ()
+    print (f"{blue}start {green}music")
+    print ()
+    os.system("play khalvat.mp3 &> /dev/null")
+    print ("\n"*2)
+
+
+print (f"{blue}")
+
+if music == "n".lower():
+    print ()
+    #ok
+
+time.sleep(0.5)
+
+print ("\n"*2)
+
 
 print()
 time.sleep(0.5)
