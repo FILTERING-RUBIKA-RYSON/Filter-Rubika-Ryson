@@ -30,6 +30,8 @@ yellow = "\033[93m"
 
 darkblue = "\033[34m"
 
+white = "\033[00m"
+
 #-----
 
 print("\n"*80)
@@ -88,7 +90,6 @@ except:
 print ("\n"*2)
 from colorama import Fore
 time.sleep(0.5)
-print (Fore.BLUE + 'tip: ' + Fore.WHITE + "iŋšţăłłĕđ łĭbřăřŷŝ ~")
 print ()
 time.sleep(0.5)
 
@@ -515,6 +516,8 @@ y = (f"{blue}tap (1) order code")
 z = (f"{blue}tap (2) order")
 tar = (f"target: ['{sh}']")
 print (Fore.YELLOW +"")
+ls = [f"{green} [server code create]" , f'{green}server report code' , f"{green}create code server rubika" ,f'{green}create code server' , f"{green}loading server code create code" , f"{green}creating code server" ]
+cc = (random.choice(ls))
 #if s __
 # not upload file to github , download from reservoir my
 
@@ -748,18 +751,21 @@ if wow == "0":
          print ("")
          print ("")
          print (f"{oh}")
+         print ('\n\n'+f'{cc}')
 #
 if wow == "1":
         print (f"time: {x} \n \n {tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (channel) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
+        print ('\n\n'+f'{cc}')
 #
 if wow == "2":
         print (f"time: {x} \n \n{tar}\n\n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (group) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!))%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
+        print ('\n\n'+f'{cc}')
 #
 #
 #
@@ -768,6 +774,7 @@ if wow == "3":
         print ("")
         print ("")
         print (f"{oh}")
+        print ('\n\n'+f'{cc}')
 if wow == "00":
     s = (f"""
 
@@ -831,17 +838,9 @@ if wow == "00":
 #
     print ()
     time.sleep(0.6)
-print ()
-print ()
-print(f"{green}")
-print ("")
-ls = [" {server code create}" , 'server report code' , "create code server rubika" ,'create code server' , "loading server code create code" , "creating code server" ]
-cc = (random.choice(ls))
-print (cc)
-print(f"{blue} ")
+
 print ()
 time.sleep(1)
-print ()
 # print (f"{blue}wait {red}start {green}music")
 # print ()
 # os.system("play khalvat.mp3 &> /dev/null")
@@ -859,7 +858,7 @@ if music == "y".lower():
     print ("\n"*2)
 
 
-print (f"{blue}")
+
 
 if music == "n".lower():
     print ()
@@ -869,12 +868,7 @@ time.sleep(0.5)
 
 print ("\n"*2)
 
-
-print()
-time.sleep(0.5)
-print ('\n'*2)
 #print (f"'super' f/h algorithms script reporter-filtering_" + f'%s%s`telesm` </2022>%s'% (fg('black'), bg('white'), attr('reset')))
-time.sleep(0.3)
 print (Fore.WHITE + "") 
 mr = input(f"""
           
