@@ -298,8 +298,7 @@ time.sleep(0.7)
 print ()
 #print (Fore.YELLOW + "")
 #ur = pyfiglet.figlet_format(f"{user}")
-#v = (f"""
-hello \n  {blue}{ur}  \n {yellow}welcome to ryson filtering script messengers""")
+#v = (f"""hello \n  {blue}{ur}  \n {yellow}welcome to ryson filtering script messengers""")
 
 
 
