@@ -285,7 +285,7 @@ for i in banner:
     sys.stdout.write(i)
     sys.stdout.flush()
     time.sleep(0.007)
-print (Fore.BLUE + "")
+print (F'{darkblue}')
 time.sleep(0.5)
 print ("""
 version 5.0.1""")
@@ -296,14 +296,13 @@ user = input (f'{red}[root@terminal:~/ryson]{pink}# {blue}enter your identity {y
 #
 time.sleep(0.7)
 print ()
-print (Fore.YELLOW + "")
+#print (Fore.YELLOW + "")
 #ur = pyfiglet.figlet_format(f"{user}")
 #v = (f"""
-hello \n  {blue}{ur}  \n {yellow}welcome to ryson filtering script messengers
-""")
+hello \n  {blue}{ur}  \n {yellow}welcome to ryson filtering script messengers""")
 
 
-#
+
 for n in v:
     sys.stdout.write(n)
     sys.stdout.flush()
@@ -311,21 +310,9 @@ for n in v:
 print ()
 time.sleep(0.5)
 print ("\n"*10)
-print ()
+print ('\n'*3)
 
-#
-# :/
-#
-print ()
-print ()
-print ("")
-print ("")
 
-#
-print ("")
-#
-print ()
-print ()
 time.sleep(0.5)
 # o = " [online server for report]"
  #   
