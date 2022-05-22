@@ -42,67 +42,59 @@ ____   __   __  ____     ___    _   _
 """)
 print ("\n"*3)
 import time
-soal = input(f"{green}library installation {yellow}(y/n){green} ⟩⟩– {pink}")
-#
-if soal == "y".lower():
-    # install
-    print ()
-    try:
-        os.system("apt update -y")
+try:
+    os.system("apt update -y")
          
-    except:
-        print ()
-    try:
-        os.system("apt upgrade -y")
-    except:
-        print ()
-    try:
-        import colorama
-    except:
-        os.system("pip install colorama")
-    try:
-        import colored
-    except:
-        os.system("pip3 install colored")
-    try:
-        import requests
-    except:
-        os.system("pip install requests")
-    try:
-        import pyfiglet
-    except:
-        os.system("pip install pyfiglet")
-    try:
-        import webbrowser
-    except:
-        os.system("pip install webbrowser")
-    try:
-        datetime   
-    except:
-        os.system("pip install datetime")
-    try:
-        import flags
-    except:
-        os.system("pip install flags")
+except:
     print ()
-    try:
-        os.system("pkg install sox")
-    except:
-        print()
+try:
+    os.system("apt upgrade -y")
+except:
+    print ()
+try:
+    import colorama
+except:
+    os.system("pip install colorama")
+try:
+    import colored
+except:
+    os.system("pip3 install colored")
+try:
+    import requests
+except:
+    os.system("pip install requests")
+try:
+    import pyfiglet
+except:
+    os.system("pip install pyfiglet")
+try:
+    import webbrowser
+except:
+    os.system("pip install webbrowser")
+try:
+    import datetime   
+except:
+    os.system("pip install datetime")
+try:
+    import flags
+except:
+    os.system("pip install flags")
+print ()
+try:
+    os.system("pkg install sox")
+except:
+    print()
 
-    print ("\n"*2)
-    from colorama import Fore
-    time.sleep(0.5)
-    print (Fore.BLUE + 'tip: ' + Fore.WHITE + "iŋšţăłłĕđ łĭbřăřŷŝ ~")
-    print ()
-    time.sleep(0.5)
+print ("\n"*2)
+from colorama import Fore
+time.sleep(0.5)
+print (Fore.BLUE + 'tip: ' + Fore.WHITE + "iŋšţăłłĕđ łĭbřăřŷŝ ~")
+print ()
+time.sleep(0.5)
 
 #
 print ()
 # movaghati
-print ()
-if soal == "n".lower():
-    print ()
 
 print ()
 time.sleep(0.5)
@@ -139,9 +131,9 @@ os.system("clear")
 print("\n"*60)
 print(f'{green}')
 #
-print (Fore.WHITE+'')
+#print (Fore.WHITE+'')
 
-print (f"{blue}[~]" + Fore.WHITE + ' štart code fìłŧêř ryson script')
+#print (f"{blue}[~]" + Fore.WHITE + ' štart code fìłŧêř ryson script')
 print ()
 #date
 x = (f'{green}') + str(datetime.datetime.now())
@@ -217,22 +209,6 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
                      ########################
                       ##     ##   ##     ##
 """ , """
-:::::::::  :::::::::: :::::::::   ::::::::  ::::::::: ::::::::::: :::::::::: :::::::::  
-:+:    :+: :+:        :+:    :+: :+:    :+: :+:    :+:    :+:     :+:        :+:    :+: 
-+:+    +:+ +:+        +:+    +:+ +:+    +:+ +:+    +:+    +:+     +:+        +:+    +:+ 
-+#++:++#:  +#++:++#   +#++:++#+  +#+    +:+ +#++:++#:     +#+     +#++:++#   +#++:++#:  
-+#+    +#+ +#+        +#+        +#+    +#+ +#+    +#+    +#+     +#+        +#+    +#+ 
-#+#    #+# #+#        #+#        #+#    #+# #+#    #+#    #+#     #+#        #+#    #+# 
-###    ### ########## ###         ########  ###    ###    ###     ########## ###    ###
-""" , """
-                                             d8                    
-888-~\  e88~~8e  888-~88e   e88~-_  888-~\ _d88__  e88~~8e  888-~\ 
-888    d888  88b 888  888b d888   i 888     888   d888  88b 888    
-888    8888__888 888  8888 8888   | 888     888   8888__888 888    
-888    Y888    , 888  888P Y888   ' 888     888   Y888    , 888    
-888     "88___/  888-_88"   "88_-~  888     "88_/  "88___/  888    
-                 888                                               
-""" , """
  ______      _____   _____      ____     ______     ________    _____   ______    
 (   __ \    / ___/  (  __ \    / __ \   (   __ \   (___  ___)  / ___/  (   __ \   
  ) (__) )  ( (__     ) )_) )  / /  \ \   ) (__) )      ) )    ( (__     ) (__) )  
@@ -259,20 +235,11 @@ $R@i.~~ !     :   ~$$$$$B$$en:`
                                                                                  
 """ , """
 
-888888  88 88     888888 888888 8888Yb 88 88b 88  dP88b8 
-88__    88 88       88   88__   88__dP 88 88Yb88 dP   `8 
-8888    88 88  .o   88   8888   888Yb  88 88 Y88 Yb  888 
-88      88 88ood8   88   888888 88  Yb 88 88  Y8  YboodP 
-""" , """
-                                          **                 
-                ******                   /**                 
- ******  ***** /**///**  ******  ****** ******  *****  ******
-//**//* **///**/**  /** **////**//**//*///**/  **///**//**//*
- /** / /*******/****** /**   /** /** /   /**  /******* /** / 
- /**   /**//// /**///  /**   /** /**     /**  /**////  /**   
-/***   //******/**     //****** /***     //** //******/***   
-///     ////// //       //////  ///       //   ////// ///    
-""" , """
+888888  88 88     888888 888888 888888 88 88b 88  888888 
+88__    88 88       88   88__   88__88 88 888888 88   88 
+8888    88 88       88   8888   88888  88 88 888 88  888 
+88      88 88ood8   88   888888 88  88 88 88  88  88888 
+""", """
 _____________ ________ ______ __________  /______ ________
 __  ___/_  _ \___  __ \_  __ \__  ___/_  __/_  _ \__  ___/
 _  /    /  __/__  /_/ // /_/ /_  /    / /_  /  __/_  /    
@@ -286,14 +253,7 @@ _  /    /  __/__  /_/ // /_/ /_  /    / /_  /  __/_  /
 |_|  \___| .__/ \___/|_|   \__\___|_|   
          |_|                            
 
-""" , """
-.%%%%%..%%%%%%.%%%%%...%%%%..%%%%%..%%%%%%.%%%%%%.%%%%%..
-.%%..%%.%%.....%%..%%.%%..%%.%%..%%...%%...%%.....%%..%%.
-.%%%%%..%%%%...%%%%%..%%..%%.%%%%%....%%...%%%%...%%%%%..
-.%%..%%.%%.....%%.....%%..%%.%%..%%...%%...%%.....%%..%%.
-.%%..%%.%%%%%%.%%......%%%%..%%..%%...%%...%%%%%%.%%..%%.
-.........................................................
-""" , """
+""", """
 ########  ######## ########   #######  ########  ######## ######## ########  
 ##     ## ##       ##     ## ##     ## ##     ##    ##    ##       ##     ## 
 ##     ## ##       ##     ## ##     ## ##     ##    ##    ##       ##     ## 
@@ -332,13 +292,13 @@ version 5.0.1""")
 print ()
 print ()
 #
-user = input (f'{blue} [~] enter your identity {yellow}majazi {blue}>>— {green}')
+user = input (f'{red}[root@terminal:~/ryson]{pink}# {blue}enter your identity {yellow}majazi {blue}>>— {green}')
 #
 time.sleep(0.7)
 print ()
 print (Fore.YELLOW + "")
-ur = pyfiglet.figlet_format(f"{user}")
-v = (f"""
+#ur = pyfiglet.figlet_format(f"{user}")
+#v = (f"""
 hello \n  {blue}{ur}  \n {yellow}welcome to ryson filtering script messengers
 """)
 
@@ -356,64 +316,14 @@ print ()
 #
 # :/
 #
-time.sleep(2)
-print(f"{pink} ")
 print ()
 print ()
-print (f"running  {x}")
-print(Fore.GREEN +'')
 print ("")
 print ("")
-py = input(f""" {yellow}[{user}] {green}>> test server support messenger {blue}(y/n)
 
-{green}please enter _ > {pink}""")
-
-if py == "y".lower():
-    print ()
-    print ()
-    print (Fore.BLUE + '')
-    okay = input(f"please enter url messenger {yellow}[{green}https://rubika.ir{yellow}] {blue}>>_ {pink}")
-    print (Fore.RED + '')
-    print ()
-    time.sleep(0.5)
-    print("\r 'testing server'  ..",end="",flush=False) 
-    time.sleep(1)
-    print("\r 'testing server'  ...",end="",flush=False)
-    time.sleep(1) 
-    print("\r 'testing server'  ....",end="",flush=False) 
-    time.sleep(1)
-    print("\r 'testing server'  .....",end="",flush=False) 
-    time.sleep(1)
-    print("\r 'testing server'        ",end="",flush=False)
-    time.sleep(0.8)
-    print("\r 'testing server'  .",end="",flush=False)
-    time.sleep(0.9)
-    print("\r 'testing server'  .. ",end="",flush=False)
-    time.sleep(0.5)
-    print("\r 'testing server'  ...",end="",flush=False)
-    time.sleep(0.7)
-    print("\r 'testing server'  ....",end="",flush=False)
-    time.sleep(1)
-    print("\r 'testing server'  .....",end="",flush=False)
-    time.sleep(0.7)
-    print("\r 'create server'           ",end="",flush=False)
-    time.sleep(0.5)
-    print(Fore.YELLOW +"")
-    ms = requests.get(f"{okey}").text
-    if ms == "":
-        print()
-        print (f"support offline {darkblue}{x} {red}-")
-    if ms == ' ' or "" or " ":
-        print("")
-        print("")
-        print (f"support online {darkblue}{x} {red}-")
-if py == "n":
-    print()
-    print()
 #
 print ("")
 #
-print(Fore.GREEN +"")
 print ()
 print ()
 time.sleep(0.5)
@@ -430,88 +340,21 @@ print ()
 time.sleep(0.5)
 # input
 
-print (Fore.BLUE + "")
 sh = input (f" {green}[?] {yellow}[{user}]{green} >> {darkblue}please enter username for reporting messengers {yellow}[@username] {darkblue}_> {pink}")
 print ()
 time.sleep(1)
-print (Fore.GREEN + 'accept user')
+print (f'{green}accept user')
 time.sleep(1)
 print ()
 print ()
-print (Fore.BLUE + '')
-rn = input(f" info url username messenger {yellow}(y/n) {darkblue}>_ {pink}")
-print ()
-print ()
-print (Fore.GREEN + '')
-time.sleep(0.5)
-if rn == "y".lower():
-    usrname = input(f" {red}[?] {blue}[{user}]{red} >> {green}url username messenger channel , group \n \n {yellow}[https://t.me/username] {green}please enter {blue}_> {pink}")
-    print (Fore.YELLOW + "")
-    print ()
-    time.sleep(0.5)
-    if '@' in usrname:
-        print(" enter dont '@' ")
-        print ()
-        print (Fore.GREEN + '')
-        input(f'pleas enter do not {yellow}'@' {blue}[https://t.me/username] {pink}')
-        time.sleep(1)
-        print ()
-        print (Fore.RED + '')
-        print ("loading...")
-        print ()
-        time.sleep(1)
-    print (Fore.BLUE + '')
-    ml = requests.get(f"{usrname}")
 
-    if ml.status_code == 200:
-        print ()
-        print ()
-        time.sleep(0.5)
-        print (f"{blue} [{usrname}] {darkblue}username url found")
-        print ()
-        print ()
-    elif ml.status_code == 404:
-        print ()
-        print (f"{blue} [{usrname}] {darkblue}not found url ")
-        print ()
-    elif ml.status_code == 302:
-        print ()
-        print (f"{blue} [{usrname}] {darkblue}not found url")
-        print ()
-    else:
-        pass
-    def info(usrname):
-        html = requests.get(f'{usrname}').text
-        a = []
-        for t in html.split('\n'):
-            if ('<meta property="og:title" content="' in t ):
-                a.append(t.replace('<meta property="og:title" content="','').replace('">', ''))
-            if ('                                   ' in t ):
-                a.append(t.replace('<meta property="og:image" content="','').replace('">', ''))
-            if ('<meta name="twitter:description" content="' in t ):
-                a.append(t.replace('<meta name="twitter:description" content="','').replace('">', ''))
-            if ('<div class="tgme_page_extra">' in t ):
-                a.append(t.replace('<div class="tgme_page_extra">','').replace('</div>', ''))
-                break
-        return a
-
-    print (Fore.YELLOW + '')
-    time.sleep(0.5)
-    print ("name url found:")
-    print (Fore.BLUE + '')
-    time.sleep(0.5)
-    print (f"info [{usrname}] = \n") , print(info(usrname))
-    time.sleep(1)
-
-if rn == "n".lower():
-    print ()
 time.sleep(0.5)
 print (f"{blue} ")
 wow = input(f"""
 
-          {green} ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐{blue}
+          {darkblue} ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐{blue}
            ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
-           {green}┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─{blue}
+           {pink}┴└─└─┘┴  └─┘┴└─ ┴ └─┘┴└─{blue}
 
 
               >>> '{green}{user}'{blue} <<<
@@ -533,9 +376,9 @@ wow = input(f"""
   |                        |                        |
   |- [anti report  {green}(7){blue} ] - | - [exit script {green}(15){blue} ] -|
   |-                                               -|
-  |-            [ robot on rubika {green}(16){blue} ]           -|
+  |- [robot rubika {green}(16){blue}] - | - [test support {green}(18){blue}] -|
   |-                                               -|
-  |-            [ spam suport bot {green}(17){blue} ]           -|
+  |- [spam suport {green}(17){blue} ] - | - [info url    {green}(19){blue} ] -|
   ———————————————————————————————————————————————————
             
 
@@ -684,6 +527,117 @@ tar = (f"target: ['{sh}']")
 print (Fore.YELLOW +"")
 #if s __
 # not upload file to github , download from reservoir my
+py = input(f""" {yellow}[{user}] {green}>> test server support messenger {blue}(y/n)
+
+{green}please enter _ > {pink}""")
+
+rn = input(f" info url username messenger {yellow}(y/n) {darkblue}>_ {pink}")
+print ()
+print ()
+print (Fore.GREEN + '')
+time.sleep(0.5)
+#-------------
+if wow == "19":
+    usrname = input(f" {red}[?] {blue}[{user}]{red} >> {green}url username messenger channel , group \n \n {yellow}[https://t.me/username] {green}please enter {blue}_> {pink}")
+    print (Fore.YELLOW + "")
+    print ()
+    time.sleep(0.5)
+    if '@' in usrname:
+        print(" enter dont '@' ")
+        print ()
+        print (Fore.GREEN + '')
+        input(f'pleas enter do not {yellow}'@' {blue}[https://t.me/username] {pink}')
+        time.sleep(1)
+        print ()
+        print (Fore.RED + '')
+        print ("loading...")
+        print ()
+        time.sleep(1)
+    print (Fore.BLUE + '')
+    ml = requests.get(f"{usrname}")
+
+    if ml.status_code == 200:
+        print ()
+        print ()
+        time.sleep(0.5)
+        print (f"{blue} [{usrname}] {darkblue}username url found")
+        print ()
+        print ()
+    elif ml.status_code == 404:
+        print ()
+        print (f"{blue} [{usrname}] {darkblue}not found url ")
+        print ()
+    elif ml.status_code == 302:
+        print ()
+        print (f"{blue} [{usrname}] {darkblue}not found url")
+        print ()
+    else:
+        pass
+    def info(usrname):
+        html = requests.get(f'{usrname}').text
+        a = []
+        for t in html.split('\n'):
+            if ('<meta property="og:title" content="' in t ):
+                a.append(t.replace('<meta property="og:title" content="','').replace('">', ''))
+            if ('                                   ' in t ):
+                a.append(t.replace('<meta property="og:image" content="','').replace('">', ''))
+            if ('<meta name="twitter:description" content="' in t ):
+                a.append(t.replace('<meta name="twitter:description" content="','').replace('">', ''))
+            if ('<div class="tgme_page_extra">' in t ):
+                a.append(t.replace('<div class="tgme_page_extra">','').replace('</div>', ''))
+                break
+        return a
+
+    print (Fore.YELLOW + '')
+    time.sleep(0.5)
+    print ("name url found:")
+    print (Fore.BLUE + '')
+    time.sleep(0.5)
+    print (f"info [{usrname}] = \n") , print(info(usrname))
+    time.sleep(1)
+
+#---------------
+
+if wow == "18".lower():
+    print ()
+    print ()
+    print (Fore.BLUE + '')
+    okay = input(f"please enter url messenger {yellow}[{green}https://rubika.ir{yellow}] {blue}>>_ {pink}")
+    print (Fore.RED + '')
+    print ()
+    time.sleep(0.5)
+    print("\r 'testing server'  ..",end="",flush=False) 
+    time.sleep(1)
+    print("\r 'testing server'  ...",end="",flush=False)
+    time.sleep(1) 
+    print("\r 'testing server'  ....",end="",flush=False) 
+    time.sleep(1)
+    print("\r 'testing server'  .....",end="",flush=False) 
+    time.sleep(1)
+    print("\r 'testing server'        ",end="",flush=False)
+    time.sleep(0.8)
+    print("\r 'testing server'  .",end="",flush=False)
+    time.sleep(0.9)
+    print("\r 'testing server'  .. ",end="",flush=False)
+    time.sleep(0.5)
+    print("\r 'testing server'  ...",end="",flush=False)
+    time.sleep(0.7)
+    print("\r 'testing server'  ....",end="",flush=False)
+    time.sleep(1)
+    print("\r 'testing server'  .....",end="",flush=False)
+    time.sleep(0.7)
+    print("\r 'create server'           ",end="",flush=False)
+    time.sleep(0.5)
+    print(Fore.YELLOW +"")
+    ms = requests.get(f"{okey}").text
+    if ms == "":
+        print()
+        print (f"support offline {darkblue}{x} {red}-")
+    if ms == ' ' or "" or " ":
+        print("")
+        print("")
+        print (f"support online {darkblue}{x} {red}-")
+
 if wow == "17":
     print ()
     os.system("cd")
@@ -736,23 +690,23 @@ if wow == "4":
 if wow == "8":
     print ("--OK")
     print ()
-    os.system("cd")
-    os.system("rm -rf report-user")
-    os.system("cd")
-    os.system("git clone https://github.com/shobadeh/report-user")
-    os.system("cd report-user")
+    os.system("cd $HOME && ~")
+    try:
+        os.system("git clone https://github.com/shobadeh/report-user")
+    except:
+        os.system("cd report-user")
     os.system("chmod 777 *")
     os.system("bash reporter.sh")
     print ()
 if wow == "12":
     print ()
     print ("--OK")
-    os.system("cd")
-    os.system("rm -rf web_hack")
-    os.system("cd")
-    os.system("git clone https://github.com/shobadeh/web_hack")
-    os.system("cd web_hack")
-    os.system("chmod 777")
+    os.system("cd $HOME | ~")
+    try:
+        os.system("git clone https://github.com/shobadeh/web_hack")
+    except:
+        os.system("cd web_hack")
+    os.system("chmod 777 *")
     os.system("python local.py")
     print ()
 if wow == "13":
@@ -776,11 +730,10 @@ if wow == "10":
 if wow == "9":
     print ()
     os.system("cd")
-    os.system("rm -rf Hack-Rubika")
-    os.sysyem("cd")
-    os.system("rm -rf Hack-Rubika")
-    os.system("git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika")
-    os.system("cd Hack-Rubika")
+    try:
+        os.system("git clone https://github.com/Filtering-Rubika-Ryson/Hack-Rubika")
+    except:
+        os.system("cd Hack-Rubika")
     os.system("chmod 777 *")
     os.system("python rubika.py")
     print ()
@@ -866,8 +819,8 @@ if music == "n".lower():
 time.sleep(0.5)
 
 print ("\n"*2)
-
-s = (f"""
+if wow == "00":
+    s = (f"""
 
 
  _________________________________________________                
@@ -922,25 +875,18 @@ s = (f"""
 
 
 """)
-for r in s:
-    sys.stdout.write(r)
-    sys.stdout.flush()
-    time.sleep(0.002)
+    for r in s:
+        sys.stdout.write(r)
+        sys.stdout.flush()
+        time.sleep(0.002)
 #
-print ("")
-time.sleep(0.6)
-print(Fore.WHITE + '')
-print("")
+        print ()
+        time.sleep(0.6)
+
+print()
 time.sleep(0.5)
-print ()
-print ()
-print ()
-print (f"'super' f/h algorithms script reporter-filtering_" + f'%s%s`telesm` </2022>%s'% (fg('black'), bg('white'), attr('reset')))
-print("")
-print("")
-print("")
-print("")
-print("")
+print ('\n'*2)
+#print (f"'super' f/h algorithms script reporter-filtering_" + f'%s%s`telesm` </2022>%s'% (fg('black'), bg('white'), attr('reset')))
 time.sleep(0.3)
 print (Fore.WHITE + "") 
 mr = input(f"""
@@ -948,11 +894,11 @@ mr = input(f"""
            
 
 
-               --update script (y) --
-               --restart script (u) --
-               --exit the script (n) --
+               -update script (y) -
+               -restart script (u) -
+               -exit the script (n) -
                  
-               [?] type the option>>>_ {pink}""")
+               {white}[{user}]"""+f' type the option>>>_ {pink}')
 #
 print (Fore.WHITE+'')
 if mr == "y".lower():
