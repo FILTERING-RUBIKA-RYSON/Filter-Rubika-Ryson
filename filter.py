@@ -1,3 +1,31 @@
+green = '\033[32m'
+
+red = '\033[31m'
+
+blue = '\033[36m'
+
+pink = '\033[35m'
+
+yellow = '\033[93m'
+
+darkblue = '\033[34m'
+
+white = '\033[00m'
+#--------
+import webbrowser                                          
+import sys                                                 
+import colored                                             
+import colorama                                            
+import datetime
+import random
+import requests
+import flags
+import string
+import pyfiglet
+from colored import fg, bg, attr
+from colorama import Fore, Back, Style
+#--------
+
 wow = input(f"""
 
           {darkblue} ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐{blue}
