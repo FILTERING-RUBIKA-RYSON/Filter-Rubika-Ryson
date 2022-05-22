@@ -42,15 +42,15 @@ ____   __   __  ____     ___    _   _
 """)
 print ("\n"*3)
 import time
-try:
-    os.system("apt update -y")
+#try:
+    #os.system("apt update -y")
          
-except:
-    print ()
-try:
-    os.system("apt upgrade -y")
-except:
-    print ()
+#except:
+    #print ()
+#try:
+    #os.system("apt upgrade -y")
+#except:
+    #print ()
 try:
     import colorama
 except:
@@ -121,9 +121,9 @@ print ()
 #
 
 try:
-    os.system("clear"), print ("linux start")
+    os.system("clear")
 except:
-    os.system("cls"), print ("cmd start")
+    os.system("cls")
 
 print ("\n"*30)
 time.sleep(0.5)
@@ -292,7 +292,7 @@ version 5.0.1""")
 print ()
 print ()
 #
-user = input (f'{red}[root@terminal:~/ryson]{pink}# {blue}enter your identity {yellow}majazi {blue}>>— {green}')
+user = input (f'{red}[root@terminal:~/ryson] {blue}enter your identity {yellow}majazi {blue}>>— {green}')
 #
 time.sleep(0.7)
 print ()
@@ -302,14 +302,12 @@ print ()
 
 
 
-for n in v:
-    sys.stdout.write(n)
-    sys.stdout.flush()
-    time.sleep(0.001)
+#for n in v:
+   # sys.stdout.write(n)
+ #   sys.stdout.flush()
+   # time.sleep(0.001)
+
 print ()
-time.sleep(0.5)
-print ("\n"*10)
-print ('\n'*3)
 
 
 time.sleep(0.5)
