@@ -752,10 +752,8 @@ if wow == "0":
          print ("")
          print (f"{oh}")
          print ('\n\n'+f'{cc}')
-         time.sleep(2)
-         print ('\n\n')
-         os.system("python filter.py")
-#
+         time.sleep(0.3)
+
 if wow == "1":
         print (f"time: {x} \n \n {tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (channel) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('green'), attr('reset')))
         print ("")
