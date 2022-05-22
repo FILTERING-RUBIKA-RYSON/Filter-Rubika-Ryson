@@ -334,6 +334,10 @@ print ()
 
 time.sleep(0.5)
 print (f"{blue} ")
+try:
+    os.system("clear")
+try:
+    os.system('cls')
 wow = input(f"""
 
           {darkblue} ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐{blue}
@@ -511,11 +515,7 @@ tar = (f"target: ['{sh}']")
 print (Fore.YELLOW +"")
 #if s __
 # not upload file to github , download from reservoir my
-py = input(f""" {yellow}[{user}] {green}>> test server support messenger {blue}(y/n)
 
-{green}please enter _ > {pink}""")
-
-rn = input(f" info url username messenger {yellow}(y/n) {darkblue}>_ {pink}")
 print ()
 print ()
 print (Fore.GREEN + '')
