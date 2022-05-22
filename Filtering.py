@@ -369,7 +369,7 @@ wow = input(f"""
   |                                                 |
   |- [spam suport {green}(17){blue} ] - | - [info url    {green}(19){blue} ] -|
   |                                                 |
-  |-              [ information manufacturer {green}(00){blue} ]             -|
+  |-          [ information manufacturer {green}(00){blue} ]                 -|
   ———————————————————————————————————————————————————
             
 
