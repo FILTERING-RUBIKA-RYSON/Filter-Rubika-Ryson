@@ -363,10 +363,12 @@ wow = input(f"""
   |- [code rp      {green}(6){blue} ] - | - [anti filter {green}(14){blue} ] -|
   |                        |                        |
   |- [anti report  {green}(7){blue} ] - | - [exit script {green}(15){blue} ] -|
-  |-                                               -|
+  |                                                 |
   |- [robot rubika {green}(16){blue}] - | - [test support {green}(18){blue}] -|
-  |-                                               -|
+  |                                                 |
   |- [spam suport {green}(17){blue} ] - | - [info url    {green}(19){blue} ] -|
+  |                                                 |
+  |-              [ information manufacturer {green}(00){blue} ]             -|
   ———————————————————————————————————————————————————
             
 
@@ -613,7 +615,7 @@ if wow == "18".lower():
     print("\r 'create server'           ",end="",flush=False)
     time.sleep(0.5)
     print(Fore.YELLOW +"")
-    ms = requests.get(f"{okey}").text
+    ms = requests.get(f"{okay}").text
     if ms == "":
         print()
         print (f"support offline {darkblue}{x} {red}-")
