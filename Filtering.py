@@ -45,7 +45,7 @@ ____   __   __  ____     ___    _   _
 |  _ <    | |    ___) | | |_| | | |\  |
 |_| \_\   |_|   |____/   \___/  |_| \_|
 """)
-print ("\n"*3)
+print ("\n"*3), print (f'{yellow}')
 import time
 # ----- try ----
 try:
@@ -250,7 +250,7 @@ print ("""
 version 5.0.1""")
 print ()
 #----- whats your name
-user = input (f'{red}[root@terminal:~/ryson] {blue}enter your identity {yellow}majazi {blue}>>— {green}')
+user = input (f'{red}[ryson@terminal:~#] {blue}enter your identity {yellow}majazi {blue}──╼ ❯❯❯ {green}')
 #-------------
 time.sleep(1)
 print ("\n\n")
@@ -268,7 +268,7 @@ for n in v:
 print ('\n\n')
 time.sleep(1)
 #----- username target ------
-sh = input (f" {green}[?] {yellow}[{user}]{green} >> {darkblue}please enter username for reporting messengers {yellow}[@username] {darkblue}_> {pink}")
+sh = input (f" {green}[?] {yellow}[root@{user}:~#]{green} >> {darkblue}please enter username for reporting messengers {yellow}[@username] {darkblue}──╼ ❯❯❯ {pink}")
 #-------------------------
 print ()
 time.sleep(2)
@@ -325,14 +325,14 @@ wow = input(f"""
 
 
 
-      {pink} [type numbers here] user - {red}[{sh}]{pink} >>>_ {yellow}""")
+      {pink} [type numbers here] user - {red}[{sh}]{pink} ──╼ ❯❯❯ {yellow}""")
 #-------------
-print ()
+print ('\n\n')
 time.sleep(0.5)
 #----- price--
 print(f"{yellow}\r [new] = '<Pro>' price: $10 = {red}($0) {yellow}-! ",end="",flush=False)
 #--------
-time.sleep(2.5)
+time.sleep(2)
 #------- flags --------
 print("\r [*]                                         ",end="",flush=False)
 print ('\n\n')
@@ -539,7 +539,7 @@ if wow == "18".lower():
     print ()
     print ()
     print (Fore.BLUE + '')
-    okay = input(f"please enter url messenger {yellow}[{green}https://rubika.ir{yellow}] {blue}>>_ {pink}")
+    okay = input(f"please enter url messenger {yellow}[{green}https://rubika.ir{yellow}] {blue}──╼ ❯❯❯ {pink}")
     print (Fore.RED + '')
     print ()
     time.sleep(0.5)
@@ -790,7 +790,7 @@ time.sleep(1)
 
 # -------- for Android music ------
 time.sleep(2)
-music = input(f"{red}start {green}music {yellow}(y/n){red} ⟩⟩ {pink}")
+music = input(f"{red}start {green}music {yellow}(y/n){red}──╼ ❯❯❯ {pink}")
 print ()
 time.sleep(0.5)
 if music == "y".lower():
@@ -822,7 +822,7 @@ mr = input(f"""
                -restart script (u) -
                -exit the script (n) -
                  
-               {white}[{user}]"""+f' type the option>>>_ {pink}')
+               {white}[{user}]"""+Fore.WHITE+ F' type the option ──╼ ❯❯❯ {pink}')
 #
 print (Fore.WHITE+'')
 if mr == "y".lower():
