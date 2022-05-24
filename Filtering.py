@@ -11,12 +11,15 @@
 #-----------------------------
 # M.D: they are all my friends
 #-----------------------------
+#--- os library --
 import os
+#--------
 print()
-
+#-- clear ----
 os.system("clear")
+#-------
 
-# rang ha -----
+# --- colors -----
 
 green = "\033[32m"
 
@@ -32,7 +35,7 @@ darkblue = "\033[34m"
 
 white = "\033[00m"
 
-#-----
+#-----------
 
 print("\n"*80)
 print (f"""{blue}
@@ -44,15 +47,7 @@ ____   __   __  ____     ___    _   _
 """)
 print ("\n"*3)
 import time
-#try:
-    #os.system("apt update -y")
-         
-#except:
-    #print ()
-#try:
-    #os.system("apt upgrade -y")
-#except:
-    #print ()
+# ----- try ----
 try:
     import colorama
 except:
@@ -65,10 +60,10 @@ try:
     import requests
 except:
     os.system("pip install requests")
-try:
-    import pyfiglet
-except:
-    os.system("pip install pyfiglet")
+#try:
+    #import pyfiglet
+#except:
+    #os.system("pip install pyfiglet")
 try:
     import webbrowser
 except:
@@ -86,23 +81,14 @@ try:
     os.system("pkg install sox")
 except:
     print()
-
+#------------
 print ("\n"*2)
+#--- colorama ---
 from colorama import Fore
-time.sleep(0.5)
-print ()
-time.sleep(0.5)
+#--------
+time.sleep(1)
 
-#
-print ()
-# movaghati
-
-print ()
-time.sleep(0.5)
-
-#__ Library
-#
-#importing
+#--------Librarys--------
 import webbrowser                                               
 import sys                                                      
 import colored                                                  
@@ -115,34 +101,24 @@ import string
 import pyfiglet
 from colored import fg, bg, attr
 from colorama import Fore, Back, Style                          
-
-#
-print ()
-print ()
-#
-
+#-----------------
+#--- clear -----
 try:
     os.system("clear")
 except:
     os.system("cls")
+#--------
 
 print ("\n"*30)
+
 time.sleep(0.5)
 os.system("clear")
 print("\n"*60)
-print(f'{green}')
-#
-
-#print (f"{blue}[~]" + Fore.WHITE + ' štart code fìłŧêř ryson script')
-print ()
-#date
+# ------ time ; datetime --------
 x = (f'{green}') + str(datetime.datetime.now())
-#-----------
-#----------
-#--------
-#------
+#---------------------
 print ('\n'*3)
-
+#------ banners ---------
 s = [f""" 
 {green}
 
@@ -277,66 +253,60 @@ _  /    /  __/__  /_/ // /_/ /_  /    / /_  /  __/_  /
 #+#    #+# #+#        #+#        #+#    #+# #+#    #+#    #+#     #+#        #+#    #+# 
 ###    ### ########## ###         ########  ###    ###    ###     ########## ###    ### 
 """]
+#----------------
+# ----- random banners ------
 banner = (random.choice(s))
-#
-#
+#---------------
+
 print (F'{darkblue}')
 time.sleep(0.5)
 print ("""
 version 5.0.1""")
 print ()
-print ()
-#
+#----- whats your name
 user = input (f'{red}[root@terminal:~/ryson] {blue}enter your identity {yellow}majazi {blue}>>— {green}')
-#
-time.sleep(0.7)
+#-------------
+time.sleep(1)
 print ()
-#print (Fore.YELLOW + "")
+#----- name pyfiglet ----
 #ur = pyfiglet.figlet_format(f"{user}")
 #v = (f"""hello \n  {blue}{ur}  \n {yellow}welcome to ryson filtering script messengers""")
+#---------
 
-
-
+#----- for ------
 #for n in v:
    # sys.stdout.write(n)
  #   sys.stdout.flush()
    # time.sleep(0.001)
+#----------
 
-print ()
-
-
-time.sleep(0.5)
-# o = " [online server for report]"
- #   
-# for e in o:
-    #    sys.stdout.write(e)
-    #    sys.stdout.flush()
-     #   time.sleep(0.09)
-
-print ()
-print ()
-time.sleep(0.5)
-# input
-
+#----- username target ------
 sh = input (f" {green}[?] {yellow}[{user}]{green} >> {darkblue}please enter username for reporting messengers {yellow}[@username] {darkblue}_> {pink}")
+#-------------------------
 print ()
 time.sleep(1)
 print (f'{green}accept user')
 time.sleep(1)
 print ()
-print ()
 
 time.sleep(0.5)
+#---
 print (f"{green} ")
+#---
+#----- clear for -----
 try:
     os.system("clear")
 except:
     os.system('cls')
+#-----------
+#------ ring for banners ------
 for i in banner:
     sys.stdout.write(i)
     sys.stdout.flush()
     time.sleep(0.007)
+#-------------
 print ('\n'*2)
+#--------- panel main for method ----------
 wow = input(f"""
 
           {darkblue} ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐{blue}
@@ -374,35 +344,33 @@ wow = input(f"""
 
 
       {pink} [type numbers here] user - {red}[{sh}]{pink} >>>_ {yellow}""")
+#-------------
 print ()
-print (Fore.YELLOW + '')
 time.sleep(0.5)
-print(f"\r [new] = '<Pro>' price: $10 = {red}($0) {yellow}-! ",end="",flush=False)
+#----- price--
+print(f"{yellow}\r [new] = '<Pro>' price: $10 = {red}($0) {yellow}-! ",end="",flush=False)
+#--------
 time.sleep(2.5)
+#------- flags --------
 print("\r [*]                                         ",end="",flush=False)
-print ()
-print ()
-print (Fore.GREEN +"")
-print("\r[~] ălert > 5s",end="",flush=False) 
+print ('\n\n')
+print(f"\r{red}[~] {green}ălert {yellow}> {pink}5s",end="",flush=False) 
 time.sleep(1)
-print("\r[~] ălert >> 4s",end="",flush=False)
+print(f"\r{red}[~] {green}ălert {yellow}>> {pink}4s",end="",flush=False)
 time.sleep(1) 
-print("\r[~] ălert >>> 3s",end="",flush=False) 
+print(f"\r{red}[~] {green}ălert {yellow}>>> {pink}3s",end="",flush=False) 
 time.sleep(1)
-print("\r[~] ălert >>>> 2s",end="",flush=False) 
+print(f"\r{red}[~] {green}ălert {yellow}>>>> {pink}2s",end="",flush=False) 
 time.sleep(1)
-print("\r[~] ălert >>>>> 1s",end="",flush=False)
+print(f"\r{red}[~] {green}ălert {yellow}>>>>> {pink}1s",end="",flush=False)
+#------------
 time.sleep(0.5)
-print ()
-print ()
+print ('\n\n')
 os.system("clear")
 time.sleep(1)
-print ()
-print ()
+print ('\n')
 print(f"{red} ")
-#
-# moteghayers random code __
-#
+#----------- random for code -----
 md = (random.randint(1, 9))
 mmmd = (random.randint(1, 9))
 mmmd1 = (random.randint(1, 9))
@@ -474,7 +442,8 @@ pl5 = (random.choice(pi))
 pl6 = (random.choice(po))
 pl7 = (random.choice(pe))
 pl8 = (random.choice(pu))
-print (Fore.YELLOW + "")
+#-------------
+#---- banner for end -----
 msh = """
 
                        ###############
@@ -507,6 +476,8 @@ msh = """
                      ########################
                       ##     ##   ##     ##
 """
+#-------------
+#----- info code -------
 oh = (Fore.WHITE + f"oh '{user}' if your account is not spam and you to hit the code correctly, it will filter 70% !")
 port = (f"{blue}no report")
 ping = (Fore.WHITE + " '(127.0.0.1:8080{r430n})'")
@@ -516,14 +487,11 @@ tar = (f"target: ['{sh}']")
 print (Fore.YELLOW +"")
 ls = [f"{green} [server code create]" , f'{green}server report code' , f"{green}create code server rubika" ,f'{green}create code server' , f"{green}loading server code create code" , f"{green}creating code server" ]
 cc = (random.choice(ls))
-#if s __
-# not upload file to github , download from reservoir my
+#--------------
 
 print ()
-print ()
-print (Fore.GREEN + '')
 time.sleep(0.5)
-#-------------
+#------------------ if --------
 if wow == "19":
     usrname = input(f" {red}[?] {blue}[{user}]{red} >> {green}url username messenger channel , group \n \n {yellow}[https://t.me/username] {green}please enter {blue}_> {pink}")
     print (Fore.YELLOW + "")
@@ -712,8 +680,7 @@ if wow == "10":
     print ("--OK")
     #so hey open chnl
     webbrowser.open("https://rubika.ir/caetorr/")
-#
-#
+
 if wow == "9":
     print ()
     os.system("cd")
@@ -743,7 +710,7 @@ if wow == "5":
 if wow == "15":
     sys.exit
     os.system("exit")
-#    
+#----------   
 if wow == "0":
          print (f"time: {x} \n \n {tar} \n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (super) [code:] ~>>>>: " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('black'), attr('reset')))
          print ("")
@@ -758,16 +725,14 @@ if wow == "1":
         print ("")
         print (f"{oh}")
         print ('\n\n'+f'{cc}')
-#
+#---------
 if wow == "2":
         print (f"time: {x} \n \n{tar}\n\n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (group) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/!))%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
         print ("")
         print (f"{oh}")
         print ('\n\n'+f'{cc}')
-#
-#
-#
+#-------
 if wow == "3":
         print (f"time: {x} \n \n{tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (account) [code:] ~>>>> " + f'\n \n %s%s((/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/!))%s' % (fg('red'), bg('white'), attr('reset')))
         print ("")
@@ -834,17 +799,14 @@ if wow == "00":
         sys.stdout.write(r)
         sys.stdout.flush()
         time.sleep(0.002)
-#
+#-------------
     print ()
     time.sleep(0.6)
 
 print ()
 time.sleep(1)
-# print (f"{blue}wait {red}start {green}music")
-# print ()
-# os.system("play khalvat.mp3 &> /dev/null")
 
-# movaghati ta 7 roz ! ↓↓
+# -------- for Android music ------
 time.sleep(2)
 music = input(f"{red}start {green}music {yellow}(y/n){red} ⟩⟩ {pink}")
 print ()
@@ -868,7 +830,6 @@ time.sleep(0.5)
 
 print ("\n"*2)
 
-#print (f"'super' f/h algorithms script reporter-filtering_" + f'%s%s`telesm` </2022>%s'% (fg('black'), bg('white'), attr('reset')))
 print (Fore.WHITE + "") 
 mr = input(f"""
           
@@ -903,7 +864,4 @@ if mr == "n".lower():
         sys.exit
 
 #the end
-# my web not found
-#_
-# منتظر آپدیت های بعدیه اسکریپت باشید!
-# ryson mmd bozorg
+# mmd ryson
