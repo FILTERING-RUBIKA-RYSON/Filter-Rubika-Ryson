@@ -251,7 +251,7 @@ banner = (random.choice(s))
 #---------------
 
 time.sleep(0.5)
-print (F"{darkblue}\nversion 5.0.2 | %s%spower reporter %s" % (fg('blue'), bg('white'), attr('reset')))
+print (F"{darkblue}\nversion 5.0.2 | %s%spower reporter%s" % (fg('blue'), bg('white'), attr('reset')))
 print ()
 #----- whats your name
 user = input (f'{red}[ryson@terminal:~#] {blue}enter your identity {yellow}majazi {blue}──╼ ❯❯❯ {green}')
