@@ -21,7 +21,11 @@ try:
     from threading import Thread
 except:
     os.system("pip install threading")
-
+try:
+    from datetime import datetime
+except:
+    os.system("pip install datetime")
+from datetime import datetime
 from threading import Thread
 from time import sleep
 import requests
@@ -77,14 +81,14 @@ def rubika(phone):
     try:
         ruR = requests.post("https://messengerg2c4.iranlms.ir/", headers=ruH, json=ruD, proxies=proxy)
         if "OK" in ruR.text:
-            sleep(0.5)
-            print (f"{pink}[+]{blue}elimination filtered-{green}{te}\n")
+            sleep(1)
+            print (f"{pink}[+]{red} |SEND| {blue}elimination filtered-{green}{te}\n")
         else:
-            sleep(0.4)
-            print (f"{pink}[!] {blue}anti report-{green}{te}{blue}...\n")
+            sleep(1)
+            print (f"{pink}[!] {red}|SEND| {blue}anti report-{green}{te}{blue}...\n")
     except:
         sleep(0.5)
-        print (f"{pink}[!] {blue}anti report-{green}{te}{blue}...\n")
+        print (f"{pink}[!] {red}|SEND| {blue}anti report-{green}{te}{blue}...\n")
 
 def main():
     phone = str(input(f"""\n
