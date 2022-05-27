@@ -73,5 +73,8 @@ _____________________
 
 
 [mmd rysoŋ] or [ممد رایسون]
-
+_______________
+my account main:
+    T.me/creator_ryson
+_______________
 ___You are responsible for incorrect use of the script___
