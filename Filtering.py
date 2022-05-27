@@ -822,15 +822,17 @@ print ("\n"*2)
 
 print (Fore.WHITE + "") 
 mr = input(f"""
-          
-           
+         ____________________
+        |[T.me/creator_ryson]| > mmd rysoŋ
+         ————————————————————
 
-
-               -update script (y) -
-               -restart script (u) -
-               -exit the script (n) -
-                 
-               {white}[{user}]"""+Fore.WHITE+ F' type the option ──╼ ❯❯❯ {pink}')
+         _____________________
+         |update script  [y] |
+         |restart script [u] |
+         |exit  script   [n] |
+         ————————————————————— 
+ 
+        {white}[{user}]"""+Fore.WHITE+ F' type the option ──╼ ❯❯❯ {pink}')
 #
 print (Fore.WHITE+'')
 if mr == "y".lower():
