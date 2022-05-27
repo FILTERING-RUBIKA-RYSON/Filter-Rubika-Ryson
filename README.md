@@ -18,50 +18,54 @@ ___filter messengers reporter___
 
 
 ***نحو ریپورت کردن با کد:***
- در روبیکا تارگت رو بلاک کنید قبلش به تارگت یک سلام بکنید تا guid تارگت معلوم شود و یک مرتبه کد رو بزنید
+ در روبیکا به تارگت یک سلام بکنید تا guid تارگت معلوم شود و یک مرتبه کد رو بزنید
  در تلگرام تارگت رو از گروه یا گپ تلگرامی پیدا کنید و روی یک پیام اون کد رو بزنید قبلش بلاک کرده باشید
 
 # فیلم های آموزشی موجود در : t.me/antiWEAK
 
 Screenshots ---- ![Screenshot](https://raw.githubusercontent.com/FILTERING-RUBIKA-RYSON/Filter-Rubika-Ryson/main/Screenshot.png) you can visit the [screenshot code](https://raw.githubusercontent.com/FILTERING-RUBIKA-RYSON/Filter-Rubika-Ryson/main/Screenshots.jpg) Installation method ----
+___________________
+#Install the script: termux
 
-***Install the script:***
-
-`rm -rf Filter-Rubika-Ryson`
-
-
-
-`git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson`
-
-
-
-`cd Filter-Rubika-Ryson`
-
-
-`chmod  777 *`
-
-
-`python Filtering.py`
-
-# پیش نیاز ها
 `pkg install git -y`
 
 `pkg install python -y`
 
-`pip install colorama`
+`git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson`
 
-`pip install colored`
+`cd Filter-Rubika-Ryson`
 
+`chmod  777 *`
+
+`python Filtering.py`
+___________________
+___________________
+# installing the script: kali
+
+`sudo apt-get install python`
+
+`git clone https://github.com/filtering-rubika-ryson/Filter-Rubika-Ryson`
+
+`cd Filter-Rubika-Ryson`
+
+`python3 Filtering.py`
+_____________________
+_____________________
+
+***used libraries:***
+
+`pip install requests`
+`pip install webbrowser`
 `pip install datetime`
+`pip install colorama`
+`pip install colored`
+`pip install pyfiglet`
+`pip install flags`
+_____________________
 
 
 
-// نویسنده این اسکریپت رایسون ممد هستند
-// اکانت اصلی: t.me/creator_ryson
-// channel: t.me/uupdatte
-//rubika.ir/caetorr
 
-
-Hidden but mythical 
+[mmd rysoŋ]
 
 ___You are responsible for incorrect use of the script___
