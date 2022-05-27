@@ -34,7 +34,7 @@ proxy = {"https": "127.0.0.1.8000"}
 # /////////
 
 tm = requests.get("https://api.codebazan.ir/time-date/?td=all").text
-
+tim = (datetime.now())
 try:
     os.system("pkg install tor")
 except:
@@ -92,7 +92,7 @@ def rubika(phone):
 
 def main():
     phone = str(input(f"""\n
-{red}[ {blue}{tm} {red}]\n\n
+{red}[ {blue}{tim} {red}]\n\n
 {white}
 ~~~~~~~~~~~~~~~~~~~
 |||||||||||||||||||
