@@ -122,6 +122,8 @@ os.system("clear")
 print("\n"*60)
 # ------ time ; datetime --------
 x = (f'{green}') + str(datetime.datetime.now())
+# ------ date ------
+the = requests.get("https://api.codebazan.ir/time-date/?td=all").text
 #---------------------
 print ('\n'*3)
 #------ banners ---------
@@ -293,7 +295,9 @@ for i in banner:
 #-------------
 print ('\n'*2)
 #--------- panel main for method ----------
-wow = input(f"""
+wow = input(f"""\n
+{blue}[date]: {yellow}⟨⟨ {pink}{the} {yellow}⟩⟩
+
 
           {darkblue} ┬─┐┌─┐┌─┐┌─┐┬─┐┌┬┐┌─┐┬─┐{blue}
            ├┬┘├┤ ├─┘│ │├┬┘ │ ├┤ ├┬┘
