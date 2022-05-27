@@ -55,17 +55,23 @@ _____________________
 ***used libraries:***
 
 `pip install requests`
+
 `pip install webbrowser`
+
 `pip install datetime`
+
 `pip install colorama`
+
 `pip install colored`
+
 `pip install pyfiglet`
+
 `pip install flags`
 _____________________
 
 
 
 
-[mmd rysoŋ]
+[mmd rysoŋ] or [ممد رایسون]
 
 ___You are responsible for incorrect use of the script___
