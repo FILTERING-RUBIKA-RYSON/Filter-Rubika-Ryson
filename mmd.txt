@@ -1,9 +1,21 @@
-
-
+#--------------------------------------
+#---------------------------------------
 i am pEter Or mmd ryson
-#-------
+
 rubika.ir/antiMMD , rubika.ir/PartyBaazi
 rubika.ir/alerter , rubika.ir/serverer
 rubika.ir/updatte , rubika.ir/spansor
-#------
+
 t.me/creator_ryson
+#---------------------------------------
+#---------------------------------------
+#__________________________________
+
+(Modules required):
+    requests
+    colorama
+    colored
+    webbrowser
+    datetime
+    pyfiglet
+    
