@@ -37,6 +37,12 @@ white = "\033[00m"
 
 #-----------
 
+# mark
+mark = '\x1b[38;5;4m'
+mark1 = '\x1b[48;5;15m'
+mark2 = '\x1b[0m'
+#----
+
 print("\n"*80)
 print (f"""{blue}
 ____   __   __  ____     ___    _   _
@@ -244,9 +250,8 @@ _  /    /  __/__  /_/ // /_/ /_  /    / /_  /  __/_  /
 banner = (random.choice(s))
 #---------------
 
-print (F'{darkblue}')
 time.sleep(0.5)
-print ('\nversion 5.0.2 | %a%a power reporter %a')
+print (F"{darkblue}\nversion 5.0.2 | %s%spower reporter %s" % (fg('blue'), bg('white'), attr('reset')))
 print ()
 #----- whats your name
 user = input (f'{red}[ryson@terminal:~#] {blue}enter your identity {yellow}majazi {blue}──╼ ❯❯❯ {green}')
