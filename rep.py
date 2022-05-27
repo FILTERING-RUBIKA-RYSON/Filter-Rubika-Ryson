@@ -47,22 +47,22 @@ sleep(1)
 print(F'{blue}')
 print('\nF/H\n')
 sleep(1)
-m = f"""\n\n{darkblue}
-_____________________
-[power reset account]
-—————————————————————
+m = f"""\n\n
+{green}_____________________
+{darkblue}[power reset account]
+{green}—————————————————————
+{darkblue}
 ---------------------
-{yellow}⟨⟨ {blue}{tm} {yellow}⟩⟩
+{yellow}⟨⟨ {blue}{tm} {yellow}⟩⟩{darkblue}
 ---------------------\n
 {green}
 /////////////////////////////////////////
-//////////{blue}anti filter{green} /////////////
+//////////{blue}anti filter{green}///////////////////
 ///////////////////////////////////////
-/////////{blue}anti report{green} /////////////
+/////////{blue}anti report{green}//////////////////
 ||||||||||||||||||||||||||||||||||||||
 //////////////////////////////////////
-////{blue}main no filtering, anti report{green}
-/////////////////////////////////////////
+/////////////////////////////////////
 \n
 """
 for m in m:
@@ -87,7 +87,7 @@ def rubika(phone):
             sleep(1)
             print (f"{pink}[!] {red}|SEND| {blue}anti report-{green}{te}{blue}...\n")
     except:
-        sleep(0.5)
+        sleep(0.9)
         print (f"{pink}[!] {red}|SEND| {blue}anti report-{green}{te}{blue}...\n")
 
 def main():
