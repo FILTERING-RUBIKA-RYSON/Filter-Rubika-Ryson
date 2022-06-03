@@ -8,7 +8,7 @@
 # nokteh:! termux no need for time,os,sys 
 # nokteh:! Tip ubuntu needs time,os,sys
 #-----------------------------
-# M.D: they are all my friends
+# M.D: they are all my friends | from ashiyaneh on ir
 #-----------------------------
 #--- os library --
 import os
