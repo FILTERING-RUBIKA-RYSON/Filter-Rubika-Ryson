@@ -123,7 +123,10 @@ print("\n"*60)
 # ------ time ; datetime --------
 x = (f'{green}') + str(datetime.datetime.now())
 # ------ date ------
-the = requests.get("https://api.codebazan.ir/time-date/?td=all").text
+try:
+    the = requests.get("https://api.codebazan.ir/time-date/?td=all").text
+except:
+    the = (datetime.datetime.today())
 #---------------------
 print ('\n'*3)
 #------ banners ---------
@@ -328,6 +331,8 @@ wow = input(f"""\n
   |- [spam suport {green}(17){blue} ] - | - [info url    {green}(19){blue} ] -|
   |                                                 |
   |-         [information manufacturer {green}(00){blue} ]      -|
+ 
+  |-         [html source website {green}(20){blue}      ]      -|
    ——————————————————————————————————————————————————
             
 
@@ -542,6 +547,17 @@ if wow == "19":
     time.sleep(1)
 
 #---------------
+if wow == "20":
+    time.sleep(1)
+    source = input(f"\n{GREEN}[{x}] | {YELLOW}enter web site for source html {WHITE}⟩⟩{pink} ")
+    rq = requests.get(source).text
+    print(F"{YELLOW}source:\n\n")
+    time.sleep(1)
+    print(F'{RED}__________________________')
+    print(Fore.WHITE+'')
+    print(rq)
+    print(f'\n{RED}____________________________\n')
+
 
 if wow == "18".lower():
     print ()
@@ -851,7 +867,6 @@ if mr == "u".lower():
         time.sleep(0.5)
         os.system("python Filtering.py")
 if mr == "n".lower():
-        print ("the end")
         os.system("exit")
         sys.exit
 
