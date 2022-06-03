@@ -548,14 +548,14 @@ if wow == "19":
 #---------------
 if wow == "20":
     time.sleep(1)
-    source = input(f"\n{GREEN}[{x}] | {YELLOW}enter web site for source html {WHITE}⟩⟩{pink} ")
+    source = input(f"\n{green}[{x}] | {yellow}enter web site for source html {white}⟩⟩{pink} ")
     rq = requests.get(source).text
-    print(F"{YELLOW}source:\n\n")
+    print(F"{white}source:\n\n")
     time.sleep(1)
-    print(F'{RED}__________________________')
+    print(F'{red}__________________________')
     print(Fore.WHITE+'')
     print(f"{rq}" % (fg('black'), bg('white'), attr('reset')))
-    print(f'\n{RED}____________________________\n')
+    print(f'\n{red}____________________________\n')
 
 
 if wow == "18".lower():
