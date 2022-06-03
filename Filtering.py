@@ -1,5 +1,4 @@
-# py3
-# storng reporter
+# !/usr/bin/python3
 # mmð řŷšŏň - @creator_ryson
 # termux , Linux , windows
 # coded by ryson mmd or mr shobadehgar - rapper - hip hopper
