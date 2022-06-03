@@ -122,10 +122,10 @@ print("\n"*60)
 # ------ time ; datetime --------
 x = (f'{green}') + str(datetime.datetime.now())
 # ------ date ------
-try:
-    the = requests.get("https://api.codebazan.ir/time-date/?td=all").text
-except:
-    the = (datetime.datetime.today())
+#try:
+    #the = requests.get("https://api.codebazan.ir/time-date/?td=all").text
+#except:
+the = (datetime.datetime.today())
 #---------------------
 print ('\n'*3)
 #------ banners ---------
