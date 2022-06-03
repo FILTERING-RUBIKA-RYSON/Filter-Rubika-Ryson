@@ -557,8 +557,9 @@ if wow == "20":
     print(F"{white}\n\nsource{pink}:\n\n")
     time.sleep(1)
     print(F'{red}__________________________')
-    print(Fore.WHITE+'')
-    print(rq)
+    print(Fore.BLUE+'')
+    #print(Fore.WHITE+'')
+    print(mark1+rq)
     print(f'\n{red}____________________________\n')
 
 
