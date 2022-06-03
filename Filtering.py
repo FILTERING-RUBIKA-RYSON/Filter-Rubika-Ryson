@@ -15,7 +15,10 @@ import os
 #--------
 print()
 #-- clear ----
-os.system("clear")
+try:
+    os.system('clear')
+except:
+    os.system('cls')
 #-------
 
 # --- colors -----
