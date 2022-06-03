@@ -554,7 +554,7 @@ if wow == "20":
     time.sleep(1)
     print(F'{red}__________________________')
     print(Fore.WHITE+'')
-    print(f"%{rq}s" % (fg('black'), bg('white'), attr('reset')))
+    print(f"%s%s|{rq}|%s" % (fg('black'), bg('white'), attr('reset')))
     print(f'\n{red}____________________________\n')
 
 
