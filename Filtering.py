@@ -42,7 +42,7 @@ white = "\033[00m"
 # mark
 mark = '\x1b[38;5;4m' #blue
 mark1 = '\x1b[48;5;15m' # white for back ground
-mark2 = '\x1b[0m' #white
+mark2 = '\x1b[0m' #end ..
 #----
 
 print("\n"*80)
