@@ -300,6 +300,7 @@ for i in banner:
 #-------------
 print ('\n'*2)
 #--------- panel main for method ----------
+time.sleep(1)
 wow = input(f"""\n
 {blue}[date]: {yellow}⟨⟨ {pink}{the} {yellow}⟩⟩
 
