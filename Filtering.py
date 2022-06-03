@@ -553,11 +553,11 @@ if wow == "20":
     time.sleep(1)
     source = input(f"\n{green}[{x}] | {yellow}enter web site for source html {white}⟩⟩{pink} ")
     rq = requests.get(source).text
-    print(F"{white}source:\n\n")
+    print(F"{white}source{pink}:\n\n")
     time.sleep(1)
     print(F'{red}__________________________')
     print(Fore.WHITE+'')
-    print(f"%s%s|{rq}|%s" % (fg('black'), bg('white'), attr('reset')))
+    print(rq)
     print(f'\n{red}____________________________\n')
 
 
