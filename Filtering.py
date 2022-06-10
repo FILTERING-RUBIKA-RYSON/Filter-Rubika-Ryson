@@ -746,7 +746,7 @@ if wow == "0":
          time.sleep(1.5)
          with open('target.txt', 'w') as _target_:
              _target_.write (f'''target >> |{tar}|\ndate start >> |{x}|\n\ncode >> |{codereport1}|''')
-            print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
+             print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
 
          time.sleep(1)
          print (f"{oh}")
