@@ -666,7 +666,7 @@ if wow == "4":
         print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
 
     time.sleep(2)
-    print (f"{oh}")
+    print (f"\n\n[#] > {oh} <")
 if wow == "8":
     print ("--OK")
     print ()
@@ -749,11 +749,12 @@ if wow == "0":
              print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
 
          time.sleep(1)
-         print (f"{oh}")
+         print (f"\n\n[#] > {oh} <")
          print ('\n\n'+f'{cc}')
          time.sleep(0.3)
 
 if wow == "1":
+        x = (datetime.datetime.now())
         print (f"time: {x} \n \n {tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (channel) [code:] ~>>>> ")
         time.sleep(1)
         codereport2 = (f"\n \n %s%s'(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/)'%s" % (fg('red'), bg('green'), attr('reset')))
@@ -765,10 +766,11 @@ if wow == "1":
             print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
 
         time.sleep(1)
-        print (f"{oh}")
+        print (f"\n\n[#] > {oh} <")
         print ('\n\n'+f'{cc}')
 #---------
 if wow == "2":
+        x = (datetime.datetime.now())
         print (f"time: {x} \n \n{tar}\n\n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (group) [code:] ~>>>> ")
         time.sleep(1)
         codereport3 = (f"\n \n %s%s'(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/)'%s" % (fg('red'), bg('white'), attr('reset')))
@@ -780,10 +782,11 @@ if wow == "2":
             print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
 
         time.sleep(1)
-        print (f"{oh}")
+        print (f"\n\n[#] > {oh} <")
         print ('\n\n'+f'{cc}')
 #-------
 if wow == "3":
+        x = (datetime.datetime.now())
         print (f"time: {x} \n \n{tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (account) [code:] ~>>>> ")
         time.sleep(1)
         codereport4 = (f"\n \n %s%s'(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/)'%s" % (fg('red'), bg('white'), attr('reset')))
@@ -795,7 +798,7 @@ if wow == "3":
             print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
 
         time.sleep(1)
-        print (f"{oh}")
+        print (f"\n\n[#] > {oh} <")
         print ('\n\n'+f'{cc}')
 if wow == "00":
     s = (f"""
@@ -857,6 +860,13 @@ if wow == "00":
         sys.stdout.write(r)
         sys.stdout.flush()
         time.sleep(0.002)
+    time.sleep(1)
+    print ('\n\n')
+    with open('mmd-ryson.dat', 'w') as _target_:
+        _target_.write (f'{s}')
+        print (f"\033[20;37minformation mmd ryson <SAVE> in \033[00;00m{blue}[mmd-ryson.dat]")
+
+    time.sleep(2)
 #-------------
     print ()
     time.sleep(0.6)
