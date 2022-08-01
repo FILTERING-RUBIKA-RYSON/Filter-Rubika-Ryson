@@ -345,38 +345,6 @@ class run:
         pl6 : str = (choice(po))
         pl7 : str = (choice(pe))
         pl8 : str = (choice(pu))
-        msh = """
-
-                            ###############
-                            #################            #
-                        ######################         #
-                        #########################      #
-                        ############################
-                    ##############################
-                    ###############################
-                    ###############################
-                    ##############################
-                                    #    ########   #
-                        ##        ###        ####   ##
-                                            ###   ###
-                                            ####   ###
-                    ####          ##########   ####
-                    #######################   ####
-                        ####################   ####
-                        ##################  ####
-                            ############      ##
-                            ########        ###
-                            #########        #####
-                            ############      ######
-                        ########      #########
-                            #####       ########
-                            ###       #########
-                            ######    ############
-                            #######################
-                            #   #   ###  #   #   ##
-                            ########################
-                            ##     ##   ##     ##
-        """
         oh : str = (f"\033[20;37moh \033[36m'{user}'\033[20;37m if your account is not spam and you to hit the code correctly, it will filter 70% !")
         port : str = (f"{blue}no report")
         ping : str = ("\033[20:37m] '(127.0.0.1:8080{r430n})'")
@@ -941,11 +909,8 @@ class run:
                 {white}[{user}] \033[31m[?] \033[20;37mtype the option \033[31m──╼ ❯❯❯ {pink}""")
         if mr == "y".lower():
                 sleep(0.5)
-                print (f"{msh}")
                 system("cd && rm -rf Filter-Rubika-Ryson && git clone https://github.com/Filtering-Rubika-Ryson/Filter-Rubika-Ryson && cd Filter-Rubika-Ryson && chmod 777 * && python Filtering.py")
         elif mr == "u".lower():
-                sleep(0.5)
-                print (f"{msh}")
                 sleep(0.5)
                 system("python Filtering.py")
         else:
