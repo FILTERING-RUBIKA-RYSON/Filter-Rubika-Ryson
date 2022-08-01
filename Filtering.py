@@ -273,6 +273,8 @@ class run:
             except:
                 pass
             run.insert()
+        if wow == '15':
+            quit()
         if wow != '99':
             sleep(0.5)
             print(f"\n\n{yellow}\r [new] = '<Pro>' price: $10 = {red}($0) {yellow}-! ",end="",flush=False)
@@ -438,7 +440,7 @@ class run:
                     pass
                 run.insert()
             else:
-                pass
+                run.reset()
         if wow == "20":
             sleep(1)
             source : str  = input(f"\n{green}[{x}] | {yellow}enter web site for source html {white}⟩⟩{pink} ")
@@ -460,7 +462,7 @@ class run:
                     pass
                 run.insert()
             else:
-                pass
+                run.reset()
         if wow == "18".lower():
             x : str = datetime.now()
             okay : str = input(f"\n\033[36mplease enter url messenger {yellow}[{green}https://rubika.ir{yellow}] {blue}──╼ ❯❯❯ {pink}")
@@ -503,7 +505,7 @@ class run:
                     pass
                 run.insert()
             else:
-                pass
+                run.reset()
         if wow == "17":
             system("cd")
             system("rm -rf spambot")
@@ -547,7 +549,7 @@ class run:
                     pass
                 run.insert()
             else:
-                pass
+                run.reset()
         if wow == "4":
             x : str = (datetime.today())
             sleep(1)
@@ -579,7 +581,7 @@ class run:
                     pass
                 run.insert()
             else:
-                pass
+                run.reset()
         if wow == "8":
             system("cd $HOME && ~")
             try:
@@ -661,7 +663,7 @@ class run:
                         pass
                     run.insert()
                 else:
-                    pass
+                    run.reset()
         if wow == "1":
                 x : str = (datetime.now())
                 print (f"time: {x} \n \n {tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (channel) [code:] ~>>>> ")
@@ -690,7 +692,7 @@ class run:
                         pass
                     run.insert()
                 else:
-                    pass
+                    run.reset()
         if wow == "2":
                 x : str = (datetime.now())
                 print (f"time: {x} \n \n{tar}\n\n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (group) [code:] ~>>>> ")
@@ -719,7 +721,7 @@ class run:
                         pass
                     run.insert()
                 else:
-                    pass
+                    run.reset()
         if wow == "3":
                 x : str = (datetime.now())
                 print (f"time: {x} \n \n{tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (account) [code:] ~>>>> ")
@@ -748,7 +750,7 @@ class run:
                         pass
                     run.insert()
                 else:
-                    pass
+                    run.reset()
         if wow == '21':
             print('\n\033[31m[*] \033[36myour code for \033[31m\'filter\' \033[0m[%s] \033[36m:\n' % (user))
             try:
@@ -803,7 +805,7 @@ class run:
                     pass
                 run.insert()
             else:
-                pass
+                run.reset()
         if wow == '22':
             print('\n\033[31m[*] \033[36myour code for \033[31m\'filter\' \033[0m[%s] \033[36m:\n' % (user))
             inline : str = run.base64()
@@ -824,7 +826,7 @@ class run:
                     system('cls')
                 run.insert()
             else:
-                pass
+                run.reset()
         if wow == "00":
             s = (f"""
 
@@ -909,7 +911,8 @@ class run:
             except:
                 pass
             run.insert()
-        sleep(2)
+    def reset():
+        sleep(1)
         music : str  = input(f"\n\033[35m[?] {red}start {green}music {yellow}(y/n){red}──╼ ❯❯❯ {pink}")
         sleep(0.5)
         if music == "y".lower():
@@ -947,5 +950,6 @@ class run:
 if __name__ == '__main__':
     run.main()
     run.insert()
+    run.reset()
 else:
     raise TypeError('\n\033[31m[!] \033[35mthe support \033[31m-> \033[35mt.me/creator_ryson')
