@@ -120,7 +120,7 @@ class run:
         choices = [*"abcdefghijklmnopqrstvwxyz1234567890"]
         for i in range(14): codes += choice(choices)
         return codes
-    @staticmethod # dictattor for method function
+    @staticmethod # dr for method function
     def base64() -> str:
         codes = ""
         choices = [*"abcdefghijklmnopqrstvwxyz1234567890*&^%$#@==--_]{/|':;?,<>`~"]
