@@ -10,7 +10,7 @@ typeSystem : str = platform.platform()
 typeSys : str = platform.system()
 # .....
 try:
-    if 'linux' in typeSystem:
+    if 'linux' in typeSys:
         system('clear')
     else:
         system('cls')
@@ -106,6 +106,13 @@ while sh == '':
     print('\n\033[31m[!] \033[35mplease enter username target.\n')
     sh = input (f"{green}[?] {yellow}[root@{user}:~#]{green} >> {darkblue}please enter username for reporting messengers {yellow}[@username] {darkblue}──╼ ❯❯❯ {pink}").strip()
 sleep(2)
+try:
+    if 'Linux' in typeSys:
+        system("clear")
+    else:
+        system('cls')
+except:
+    pass
 print('\n')
 class run:
     def codes() -> str:
@@ -624,7 +631,7 @@ class run:
                 x : str = (datetime.today())
                 print (f"time: {x} \n \n {tar} \n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (super) [code:] ~>>>>: ")
                 sleep(1)
-                codereport1 = (f"\n \n %s%s'(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/)'%s" % (fg('red'), bg('black'), attr('reset')))
+                codereport1 : str = (f"\n \n %s%s'(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/)'%s" % (fg('red'), bg('black'), attr('reset')))
                 print (codereport1)
                 print ('\n\n')
                 sleep(1.5)
@@ -661,7 +668,7 @@ class run:
                 print ('\n\n')
                 sleep(1.5)
                 try:
-                    with open('target.txt', 'w') as _target_:
+                    with open('target.txt', 'w+') as _target_:
                         _target_.write (f'''target >> |{tar}|\ndate start >> |{x}|\n\ncode >> |{codereport}|''')
                         print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
                 except:
