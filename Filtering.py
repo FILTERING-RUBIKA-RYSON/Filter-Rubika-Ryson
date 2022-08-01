@@ -10,7 +10,7 @@ typeSystem : str = platform.platform()
 typeSys : str = platform.system()
 # .....
 try:
-    if 'linux' in typeSys:
+    if 'linux'.lower() in typeSys.lower():
         system('clear')
     else:
         system('cls')
