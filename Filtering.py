@@ -47,7 +47,7 @@ except:
     system("pip install pyfiglet")
     from pyfiglet import figlet_format
 try:
-    from webbrowser import open
+    from webbrowser import open as opn
 except:
     system("pip install webbrowser")
     from webbrowser import open
@@ -560,9 +560,12 @@ class run:
             sleep(0.5)
             print (f" \n {blue} _______________________ \n")
             sleep(1)
-            with open('target.txt', 'w') as _target_:
-                _target_.write (f'''target >> |{tar}|\ndate start >> |{x}|\n\ncode >> |{codereport}|''')
-                print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
+            try:
+                with open('target.txt', 'w') as _target_:
+                    _target_.write (f'target >> |{tar}|\ndate start >> |{x}|\n\ncode >> |{codereport}|')
+                    print (f"\033[20;37minfo target <SAVE> in \033[00;00m{blue}[target.txt]")
+            except:
+                pass
             sleep(2)
             print (f"\n\n[#] > {oh} <")
             test : str = input('\n\033[31m[?] \033[92m\'0\' \033[36mfor exit and \033[92m\'1\' \033[36mfor panel \033[31m_> \033[20;37m')
@@ -602,7 +605,7 @@ class run:
             system("chmod 777 *")
             system("python Filtering.py")
         if wow == "10":
-            open("https://rubika.ir/caetorr/")
+            opn("https://rubika.ir/caetorr/")
         if wow == "9":
             system("cd")
             try:
