@@ -825,6 +825,8 @@ class run:
                 else:
                     system('cls')
                 run.insert()
+            elif test == '1':
+                run.reset()
             else:
                 run.reset()
         if wow == "00":
