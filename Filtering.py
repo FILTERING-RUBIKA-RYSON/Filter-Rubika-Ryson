@@ -902,17 +902,18 @@ class run:
                     system('cls')
             except:
                 pass
-        else:
-            print('\n\033[31m[!] \033[35msorry! method not found\n')
-            sleep(1)
-            try:
-                if 'Linux' in typeSys or 'Mac' in typeSys:
-                    system('clear')
-                else:
-                    system('cls')
-            except:
-                pass
-            run.insert()
+        #else:
+            #print('\n\033[31m[!] \033[35msorry! method not found\n')
+            #sleep(1)
+            #try:
+                #if 'Linux' in typeSys or 'Mac' in typeSys:
+                    #system('clear')
+                #else:
+                    #system('cls')
+            #except:
+                #pass
+            #run.insert()
+    @staticmethod
     def reset():
         sleep(1)
         music : str  = input(f"\n\033[35m[?] {red}start {green}music {yellow}(y/n){red}──╼ ❯❯❯ {pink}")
