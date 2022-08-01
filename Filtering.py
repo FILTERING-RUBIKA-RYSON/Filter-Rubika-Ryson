@@ -431,7 +431,7 @@ class run:
                 run.insert()
             else:
                 run.reset()
-        if wow == "18".lower():
+        if wow == "18":
             x : str = datetime.now()
             okay : str = input(f"\n\033[36mplease enter url messenger {yellow}[{green}https://rubika.ir{yellow}] {blue}──╼ ❯❯❯ {pink}")
             sleep(0.5)
@@ -575,7 +575,19 @@ class run:
             system("chmod 777 *")
             system("python Filtering.py")
         if wow == "10":
+            print('\n\033[31m[*] \033[36mjoin to https://rubika.ir/caetor ...\n')
             opn("https://rubika.ir/caetorr/")
+            test : str = input('\n\033[31m[?] \033[92m\'0\' \033[36mfor exit and \033[92m\'1\' \033[36mfor panel \033[31m_> \033[20;37m')
+            if test == '1':
+                if 'Linux' in typeSys:
+                    system('clear')
+                else:
+                    system('cls')
+                run.insert()
+            elif test == '1':
+                run.reset()
+            else:
+                run.reset()
         if wow == "9":
             system("cd")
             try:
