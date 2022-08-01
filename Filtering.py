@@ -50,7 +50,7 @@ try:
     from webbrowser import open as opn
 except:
     system("pip install webbrowser")
-    from webbrowser import open
+    from webbrowser import open as opn
 try:
     from datetime import datetime
 except:
