@@ -551,19 +551,21 @@ class run:
             else:
                 run.reset()
         if wow == "8":
-            system("cd $HOME && ~")
+            system("cd ~")
             try:
-                system("git clone https://github.com/shobadeh/report-user")
+                system("git clone https://github.com/mester-root/rubika-reporter")
             except:
-                system("cd report-user")
+                pass
+            system('cd rubika-reporter')
             system("chmod 777 *")
-            system("bash reporter.sh")
+            system("python rubika-reporter.py")
         if wow == "12":
             system("cd $HOME | ~")
             try:
                 system("git clone https://github.com/shobadeh/web_hack")
             except:
-                system("cd web_hack")
+                pass
+            system('cd web_hack')
             system("chmod 777 *")
             system("python local.py")
         if wow == "13":
