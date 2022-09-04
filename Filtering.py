@@ -1,72 +1,41 @@
 #!/bin/python
-# mmð řŷšŏň - @creator_ryson
-from os import system
-import sys, string
-from time import sleep, time
-from random import choice, randint
-import marshal, hashlib, base64, platform
-# for type system
-typeSystem : str = platform.platform()
-typeSys : str = platform.system()
-# .....
+from os import system; import sys, string; from time import sleep, time; from random import choice, randint; import marshal, hashlib, base64, platform
+typeSystem, typeSys = platform.platform(), platform.system()
 try:
-    if 'linux'.lower() in typeSys.lower():
-        system('clear')
-    else:
-        system('cls')
-except:
-    pass
-# the colors
-green = "\033[32m"
-red = "\033[31m"
-blue = "\033[36m"
-pink = "\033[35m"
-yellow = "\033[93m"
-darkblue = "\033[34m"
-white = "\033[00m"
-mark = '\x1b[38;5;4m'
-mark1 = '\x1b[48;5;15m'
-mark2 = '\x1b[0m'
-# ....................
-try:
-    from colored import fg, bg, attr # bg for background and attr for reset color !
+    if 'linux'.lower() in typeSys.lower(): system('clear')
+    else: system('cls')
+except: pass
+green, red, blue, pink, yellow, darkblue, white = "\033[32m", "\033[31m", "\033[36m", "\033[35m", "\033[93m", "\033[34m", "\033[00m"; mark, mark1, mark2 = ''
+try: from colored import fg, bg, attr # bg for background and attr for reset color !
 except ModuleNotFoundError:
     system('pip3 install colored')
     from colored import fg, bg, attr
-except ImportError:
-    system('pip3 install colored')
-    from colored import fg, bg, attr
-try:
-    from requests import post, get
-except:
+try: from requests import post, get
+except ModuleNotFoundError:
     system("pip3 install requests")
     from requests import post, get
 try:
     from pyfiglet import figlet_format
-except:
+except ModuleNotFoundError:
     system("pip install pyfiglet")
     from pyfiglet import figlet_format
 try:
     from webbrowser import open as opn
-except:
+except ModuleNotFoundError:
     system("pip install webbrowser")
     from webbrowser import open as opn
 try:
     from datetime import datetime
-except:
+except ModuleNotFoundError:
     system("pip install datetime")
     from datetime import datetime
 try:
-    system("apt-get install sox")
-except:
-    pass
+    if 'linux' in typeSys.lower(): system("apt-get install sox")
+except: pass
 try:
-    if 'Linux' in typeSys:
-        system("clear")
-    else:
-        system('cls')
-except:
-    pass
+    if 'Linux' in typeSys: system("clear")
+    else: system('cls')
+except: pass
 if 'Windows'.lower() in typeSys.lower():
     print('\n\n\n\n\n\033[31m[*] \033[92mScript is for Linux. if for Windows is not strong !\n')
     sleep(1)
@@ -83,18 +52,14 @@ try:
         system('date')
     else:
         system('cls')
-except:
-    pass
+except: pass
 if 'Windows' in typeSys or 'Mac' in typeSys:
     date : str = get('https://messengerg2c37.iranlms.ir/')
     print('\n\033[92m'+date.headers['date'])
     sleep(1)
 else:
     pass
-sleep(0.5)
-print ("\n"*60)
-global user
-global sh
+sleep(0.5); print ("\n"*60)
 print (F"{darkblue}\nversion 5.0.2 | %s%spower reporter%s" % (fg('blue'), bg('white'), attr('reset')))
 user = input (f'{red}\n[ryson@terminal:~#] {blue}enter your identity {yellow}majazi {blue}──╼ ❯❯❯ {green}').strip()
 while user == '':
@@ -107,12 +72,9 @@ while sh == '':
     sh = input (f"{green}[?] {yellow}[root@{user}:~#]{green} >> {darkblue}please enter username for reporting messengers {yellow}[@username] {darkblue}──╼ ❯❯❯ {pink}").strip()
 sleep(2)
 try:
-    if 'Linux' in typeSys:
-        system("clear")
-    else:
-        system('cls')
-except:
-    pass
+    if 'Linux' in typeSys: system("clear")
+    else: system('cls')
+except: pass
 print('\n')
 class run:
     def codes() -> str:
