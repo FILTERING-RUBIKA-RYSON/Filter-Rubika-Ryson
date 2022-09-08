@@ -5,7 +5,7 @@ try:
     if 'linux'.lower() in typeSys.lower(): system('clear')
     else: system('cls')
 except: pass
-green, red, blue, pink, yellow, darkblue, white = "\033[32m", "\033[31m", "\033[36m", "\033[35m", "\033[93m", "\033[34m", "\033[00m"; mark, mark1, mark2 = ''
+green, red, blue, pink, yellow, darkblue, white = "\033[32m", "\033[31m", "\033[36m", "\033[35m", "\033[93m", "\033[34m", "\033[00m"; mark, mark1, mark2 = '', '', ''
 try: from colored import fg, bg, attr # bg for background and attr for reset color !
 except ModuleNotFoundError:
     system('pip3 install colored')
@@ -14,18 +14,15 @@ try: from requests import post, get
 except ModuleNotFoundError:
     system("pip3 install requests")
     from requests import post, get
-try:
-    from pyfiglet import figlet_format
+try: from pyfiglet import figlet_format
 except ModuleNotFoundError:
     system("pip install pyfiglet")
     from pyfiglet import figlet_format
-try:
-    from webbrowser import open as opn
+try: from webbrowser import open as opn
 except ModuleNotFoundError:
     system("pip install webbrowser")
     from webbrowser import open as opn
-try:
-    from datetime import datetime
+try: from datetime import datetime
 except ModuleNotFoundError:
     system("pip install datetime")
     from datetime import datetime
@@ -172,16 +169,11 @@ class run:
         """]
         banner = (choice(s))
         try:
-            if 'Linux' in typeSys:
-                system('date')
-            else:
-                system('cls')
+            if 'Linux' in typeSys: system('date')
+            else: system('cls')
         except:
             pass
-        for i in banner:
-            print(i, flush=True, end='')
-            sleep(0.007)
-        sleep(1)
+        [(print(i, flush=True, end=''), sleep(0.007)), for i in banner]; sleep(1)
     def insert():
         wow : str = input(f"""\n\n
                      {yellow}[ {pink}{the} {yellow}]
@@ -262,59 +254,11 @@ class run:
             pass
         if wow != '99':
             sleep(1)
-        mmd1 : str = (randint(1, 9))
-        mmd2 : str = (randint(1, 9))
-        mmd3 : str = (randint(1, 9))
-        mmd4 : str = (randint(1, 9))
-        mmd5 : str = (randint(1, 9))
-        mmd6 : str = (randint(1, 9))
-        mmd7 : str = (randint(1, 9))
-        mmd8 : str = (randint(1, 9))
-        mmd9 : str = (randint(1, 9))
-        mmd10 : str = (randint(1, 9))
-        mmd11 : str = (randint(1, 9))
-        mmd12 : str = (randint(1, 9))
-        mmd13 : str = (randint(1, 9))
-        mmd14 : str = (randint(1, 9))
-        mmd15 : str = (randint(1, 9))
-        mmd16 : str = (randint(1, 9))
-        mmd17 : str = (randint(1, 9))
-        mmd18 : str = (randint(1, 9))
-        mmd19 : str = (randint(1, 9))
-        mmd20 : str = (randint(1, 9))
-        mmd21 : str = (randint(1, 9))
-        mmd22 : str = (randint(1, 9))
-        mmd23 : str = (randint(1, 9))
-        mmd24 : str = (randint(1, 9))
-        h : list = ["/y//d/f/","/f//d/","/d//f/h/","/f//a/y/","/e////f.h/","/f/h.u//"]
-        h2 : list = ["/f////g.h/","/g//d/","/f/h.g//","/r//g/h"]
-        h3 : str = ("h")
-        hh : str = (choice(h))
-        hh2 : str = (choice(h2))
-        hh3 : str  = (choice(h3))
-        lf : list = ["g","d"]
-        lf1 : str = (choice(lf))
-        pl : list = ["f","¥","€","$","£","¢","&"]
-        po : list = ["f","¥","€","$","£","¢","&"]
-        pi : list = ["f","¥","€","$","£","¢","&"]
-        pu : list = ["f","¥","€","$","£","¢","&","ß","ę","€","$","£","¢","&","₹","₱","†"]
-        pe : list = ["ß","ę","€","$","£","¢","&","₹","₱","†"]
-        pl1 : str = (choice(pl))
-        pl2 : str = (choice(pl))
-        pl3 : str = (choice(pl))
-        pl4 : str = (choice(pl))
-        pl5 : str = (choice(pi))
-        pl6 : str = (choice(po))
-        pl7 : str = (choice(pe))
-        pl8 : str = (choice(pu))
-        oh : str = (f"\033[20;37moh \033[36m'{user}'\033[20;37m if your account is not spam and you to hit the code correctly, it will filter 70% !")
-        port : str = (f"{blue}no report")
-        ping : str = ("\033[20:37m] '(127.0.0.1:8080{r430n})'")
-        y : str = (f"{blue}tap \033[31m[1] \033[36morder code")
-        z : str = (f"{blue}tap \033[31m[2]\033[36m order")
-        tar : str  = (f"\033[31mtarget: \033[0m['{sh}']")
-        ls : list = [f"{green} [server code create]" , f'{green}server report code' , f"{green}create code server rubika" ,f'{green}create code server' , f"{green}loading server code create code" , f"{green}creating code server" ]
-        cc : str = (choice(ls))
+        h, h2, h3 = ["/y//d/f/","/f//d/","/d//f/h/","/f//a/y/","/e////f.h/","/f/h.u//"], ["/f////g.h/","/g//d/","/f/h.g//","/r//g/h"], 'h'
+        hh, hh2, hh3, lf = (choice(h)), (choice(h2)), (choice(h3)), ["g","d"]; lf1 : str = (choice(lf))
+        pl, pu, pe = ["f","¥","€","$","£","¢","&"], ["f","¥","€","$","£","¢","&","ß","ę","€","$","£","¢","&","₹","₱","†"], ["ß","ę","€","$","£","¢","&","₹","₱","†"]
+        pl1, pl2, pl3, pl4, pl5, pl6, pl7, pl8 = (choice(pl)), (choice(pl)), (choice(pl)), (choice(pl)), (choice(pl)), (choice(pe)), (choice(pu))
+        oh : str = (f"\033[20;37moh \033[36m'{user}'\033[20;37m if your account is not spam and you to hit the code correctly, it will filter 70% !"); port : str = (f"{blue}no report"); ping : str = ("\033[20:37m] '(127.0.0.1:8080{r430n})'"); y : str = (f"{blue}tap \033[31m[1] \033[36morder code"); z : str = (f"{blue}tap \033[31m[2]\033[36m order"); tar : str  = (f"\033[31mtarget: \033[0m['{sh}']"); ls : list = [f"{green} [server code create]" , f'{green}server report code' , f"{green}create code server rubika" ,f'{green}create code server' , f"{green}loading server code create code" , f"{green}creating code server" ]; cc : str = (choice(ls))
         sleep(0.5)
         if wow == '99':
             run.insert()
@@ -580,7 +524,7 @@ class run:
                 x : str = (datetime.today())
                 print (f"time: {x} \n \n {tar} \n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (super) [code:] ~>>>>: ")
                 sleep(1)
-                codereport1 : str = (f"\n \n %s%s'(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/)'%s" % (fg('red'), bg('black'), attr('reset')))
+                codereport1 : str = (f"\n \n %s%s(/{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}{hh}{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}/)%s" % (fg('red'), bg('black'), attr('reset')))
                 print (codereport1)
                 print ('\n\n')
                 sleep(1.5)
@@ -612,7 +556,7 @@ class run:
                 x : str = (datetime.now())
                 print (f"time: {x} \n \n {tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (channel) [code:] ~>>>> ")
                 sleep(1)
-                codereport2 = (f"\n \n %s%s'(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/)'%s" % (fg('red'), bg('green'), attr('reset')))
+                codereport2 = (f"\n \n %s%s(/{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}{hh}{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}/)%s" % (fg('red'), bg('green'), attr('reset')))
                 print (codereport2)
                 print ('\n\n')
                 sleep(1.5)
@@ -641,7 +585,7 @@ class run:
                 x : str = (datetime.now())
                 print (f"time: {x} \n \n{tar}\n\n '{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (group) [code:] ~>>>> ")
                 sleep(1)
-                codereport3 = (f"\n \n %s%s'(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh2}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}.{mmd21}.{mmd22}.{mmd23}.{mmd24}/)'%s" % (fg('red'), bg('white'), attr('reset')))
+                codereport3 = (f"\n \n %s%s'(/{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}{hh2}{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}/)'%s" % (fg('red'), bg('white'), attr('reset')))
                 print (codereport3)
                 print ("\n\n")
                 sleep(1.5)
@@ -670,7 +614,7 @@ class run:
                 x : str = (datetime.now())
                 print (f"time: {x} \n \n{tar}\n\n'{z}' \n  \n '{user}' [{sh}] Fìĺŧĕř (account) [code:] ~>>>> ")
                 sleep(1)
-                codereport4 = (f"\n \n %s%s'(/{mmd1}.{mmd2}.{mmd3}.{mmd4}{hh}{mmd5}.{mmd6}.{mmd7}.{mmd8}.{mmd9}.{mmd10}.{mmd11}.{mmd12}.{mmd13}.{mmd14}.{mmd15}.{mmd16}.{mmd17}.{mmd18}.{mmd19}.{mmd20}/)'%s" % (fg('red'), bg('white'), attr('reset')))
+                codereport4 = (f"\n \n %s%s(/{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}{hh}{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}.{randint(1, 9)}/)%s" % (fg('red'), bg('white'), attr('reset')))
                 print (codereport4)
                 print ('\n\n')
                 sleep(1.5)
